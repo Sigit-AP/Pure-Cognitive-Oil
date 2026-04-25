@@ -5,7 +5,7 @@
 ## Part 1: The Principle of Cognitive Economy
 
 ```
-Cognitive load is a finite, highly constrained resource—both for human engineers and for AI inference limits. The APEX engines run hot and consume massive computational and reasoning bandwidth. Applying a Level 5 Deep Thinking protocol to a Level 1 trivial problem is not being "thorough"—it is inefficient, wasteful, and actively harmful to the velocity of the project.
+Cognitive load is a finite, highly constrained resource—both for human engineers and for AI inference limits. The APEX engines run hot and consume massive computational and reasoning bandwidth. Applying a Level 5 Deterministic Cognitive Infrastructure protocol to a Level 1 trivial problem is not being "thorough"—it is inefficient, wasteful, and actively harmful to the velocity of the project.
 
 THE THREE LAWS OF ADAPTIVE DEPTH:
 1. The Law of Proportionality: The depth of the reasoning applied must be strictly, mathematically proportional to the blast radius of a potential failure.

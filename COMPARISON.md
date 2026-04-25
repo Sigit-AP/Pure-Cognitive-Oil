@@ -65,7 +65,7 @@ Not better checklists. Better THINKING.
 ## File Architecture v1
 
 ```
-deep-thinking-10x/
+Deterministic-Cognitive-Infrastructure/
 ├── SKILL.md                         (Operational OS — boot instructions)
 ├── COMPARISON.md                    (This file)
 └── references/

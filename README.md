@@ -1,4 +1,4 @@
-# APEX Cognitive Framework (Deep-Thinking-10x)
+# APEX Cognitive Framework (Deterministic-Cognitive-Infrastructure)
 
 [![Cognitive Engine](https://img.shields.io/badge/Architecture-APEX_v1-blue.svg)](#) 
 [![Subsystems](https://img.shields.io/badge/Subsystems-28-orange.svg)](#) 
@@ -14,7 +14,7 @@ APEX transforms standard, probabilistic AI agents into deterministic, adversaria
 
 ## 🧠 The Global Architecture Model (The "Brain" Protocol)
 
-APEX (`deep-thinking-10x`) acts as the centralized **Brain**. It does not execute physical commands (like compiling code or fetching URLs) itself. Instead, it dictates *how* and *when* the agent's physical plugins and skills should be used.
+APEX (`Deterministic-Cognitive-Infrastructure`) acts as the centralized **Brain**. It does not execute physical commands (like compiling code or fetching URLs) itself. Instead, it dictates *how* and *when* the agent's physical plugins and skills should be used.
 
 ### The Ecosystem Flow
 When a User submits **Task A**, the ecosystem executes a strict, multi-pass deterministic loop:
@@ -44,7 +44,7 @@ When a User submits **Task A**, the ecosystem executes a strict, multi-pass dete
 The APEX repository is strictly divided into hierarchical layers. **All files are engineered for extreme depth (>10KB minimum).**
 
 ```text
-deep-thinking-10x/
+Deterministic-Cognitive-Infrastructure/
 ├── SKILL.md                          # The Master Orchestrator (50KB+)
 ├── README.md                         # This architecture guide
 │
@@ -92,12 +92,12 @@ deep-thinking-10x/
 To deploy APEX as the central brain in your agent ecosystem:
 
 ### 1. Claude Code / OpenClaw (Native Hooking)
-- Mount `deep-thinking-10x` as your primary global skill directory.
+- Mount `Deterministic-Cognitive-Infrastructure` as your primary global skill directory.
 - Map `SKILL.md` to trigger on all generic intents (`think`, `plan`, `architect`, `solve`).
-- **Orchestration Rule:** Enforce a system prompt wrapper: *"You are an APEX-driven agent. Before calling any file-edit or shell-execution tool, you MUST consult the corresponding workflow in `deep-thinking-10x/references/workflows/` to establish your strategy."*
+- **Orchestration Rule:** Enforce a system prompt wrapper: *"You are an APEX-driven agent. Before calling any file-edit or shell-execution tool, you MUST consult the corresponding workflow in `Deterministic-Cognitive-Infrastructure/references/workflows/` to establish your strategy."*
 
 ### 2. Cursor / IDEs (.cursorrules)
-- Copy the `deep-thinking-10x` folder into your `.cursor/` directory.
+- Copy the `Deterministic-Cognitive-Infrastructure` folder into your `.cursor/` directory.
 - Update your global `.cursorrules` to point to `SKILL.md`.
 - When using Cursor's "Composer" or multi-file edits, the AI will now automatically pass its generation logic through the APEX Anti-Patterns and Mental Models before writing text to your editor.
 

@@ -1,6 +1,6 @@
 # APEX Workflow Index — v1
 
-> **"A cognitive framework is only as powerful as its execution paths. The APEX Cognitive Engines dictate *how* to think deeply about a problem. The Workflows dictate *what* explicit physical actions to take to solve it. Without workflows, deep thinking degrades into useless, paralyzing philosophy. Without deep thinking, workflows degrade into mindless, bureaucratic checklist-following. You must marry the Engine to the Workflow."**
+> **"A cognitive framework is only as powerful as its execution paths. The APEX Cognitive Engines dictate *how* to think deeply about a problem. The Workflows dictate *what* explicit physical actions to take to solve it. Without workflows, Deterministic Cognitive Infrastructure degrades into useless, paralyzing philosophy. Without Deterministic Cognitive Infrastructure, workflows degrade into mindless, bureaucratic checklist-following. You must marry the Engine to the Workflow."**
 
 ## The Architecture of Execution
 

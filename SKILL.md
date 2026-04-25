@@ -1,5 +1,5 @@
 ---
-name: deep-thinking-10x
+name: Deterministic-Cognitive-Infrastructure
 version: "1.0"
 description: "APEX Cognitive Operating System v1 — Not a checklist. An operational reasoning engine. 28 subsystems across 6 layers, non-linear 10-phase pipeline with parallel tracks and feedback loops, 155+ mental models, 155+ anti-patterns, 20 Iron Laws, unified gate system, hallucination defense, adversarial reasoning, causal inference, Bayesian uncertainty, first-principles engine, cognitive synthesis, meta-learning, and real-time adaptation. Activates for ANY task requiring deep cognition."
 ---
