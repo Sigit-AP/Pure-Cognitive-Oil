@@ -1,4 +1,4 @@
-# Failure Pattern Database — APEX v1
+# Failure Pattern Database — Deterministic-Cognitive-Infrastructure
 
 > **"Those who do not study the specific failure modes of their discipline are doomed to repeat them. A professional does not just learn from their own mistakes; they study the graveyard of previous projects to learn the contours of systemic failure."**
 
@@ -21,7 +21,7 @@ PATTERN C2: PREMATURE ABSTRACTION (The Astronaut Architecture)
 │  ├─ Anticipating requirements ("We might need to support Oracle DB in the future" — you won't).
 │  └─ Code is extremely DRY (Don't Repeat Yourself) but completely unreadable because logic is fragmented across 15 files.
 ├─ Root Cause: Over-application of DRY principles. Optimizing for "elegance" over readability.
-├─ Why it fails: The wrong abstraction is 10x more expensive to maintain and dismantle than duplicated code.
+├─ Why it fails: The wrong abstraction is higher-scale more expensive to maintain and dismantle than duplicated code.
 └─ Prevention: The Rule of Three (WET - Write Everything Twice). Wait until a pattern appears exactly three times before extracting it into a shared abstraction.
 
 PATTERN C3: CHESTERTON'S FENCE VIOLATION

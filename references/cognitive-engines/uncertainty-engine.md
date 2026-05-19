@@ -1,4 +1,4 @@
-# Bayesian Uncertainty Engine — APEX v1
+# Bayesian Uncertainty Engine — Deterministic-Cognitive-Infrastructure
 
 > **"Certainty is an illusion of the uninformed. The master engineer operates entirely in probabilities. The goal of software architecture is not to eliminate uncertainty—which is mathematically and physically impossible—but to quantify it, bound it, and make optimal decisions within it. Engineering is the art of making the right trade-off under incomplete information."**
 

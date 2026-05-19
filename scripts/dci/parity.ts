@@ -41,11 +41,11 @@ const passed = gates.filter(g => g.status).length;
 const report = {
   schemaVersion: "1.0.0",
   generatedAt: new Date().toISOString(),
-  purpose: "Superpowers-style parity audit for DCI without marketplace/plugin packaging",
+  purpose: "DCI readiness audit for portable plugin packaging",
   score: Math.round((passed / gates.length) * 100),
   status: passed === gates.length ? "pass" : "fail",
   gates: gates.map(g => ({ ...g, status: g.status ? "pass" : "fail" })),
-  superpowersLikeCoverage: {
+  coreCapabilitiesCoverage: {
     bootstrap: exists("scripts/dci/bootstrap.ts") && exists("hooks/session-start"),
     modularSkills: filesUnder("skills").filter(f => f.endsWith("SKILL.md")),
     hooks: filesUnder("hooks"),

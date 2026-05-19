@@ -1,4 +1,4 @@
-# Intelligent Search Strategy — APEX v1
+# Intelligent Search Strategy — Deterministic-Cognitive-Infrastructure
 
 > **"The quality of your answer is bounded by the quality of your search. Garbage in, garbage out."**
 

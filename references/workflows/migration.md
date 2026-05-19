@@ -1,4 +1,4 @@
-# Database Migration Workflow — APEX v1
+# Database Migration Workflow — Deterministic-Cognitive-Infrastructure
 
 > **"Data has massive, unrelenting gravity. Code is cheap, ephemeral, and easy to change; data is expensive, dangerous, and slow to change. A botched code deployment can be rolled back in 30 seconds. A botched massive database migration will ruin your company's quarter. Do not treat database migrations like code deployments. They belong to a completely different class of system physics."**
 
@@ -96,7 +96,7 @@ THE DANGER OF `sync` OR `push`:
 ├─ If you rename a field in code, the ORM might issue a `DROP COLUMN` and `ADD COLUMN`, instantly destroying all your user data.
 └─ Never let an ORM write destructive SQL without human review.
 
-THE APEX APPROACH TO ORMS:
+THE Deterministic-Cognitive-Infrastructure APPROACH TO ORMS:
 ├─ Use the ORM to generate the *initial draft* of the SQL migration file.
 ├─ An engineer MUST manually read the generated SQL file.
 ├─ The engineer MUST manually edit the SQL file to ensure it uses `CONCURRENTLY`, batching, and safe defaults.
@@ -132,10 +132,10 @@ Before running ANY migration against a production database, the Database Adminis
 6. [ ] Has this exact migration script been run against a full staging database containing a similar volume of data to verify execution time?
 ```
 
-## Part 8: APEX Execution Protocol for Migrations
+## Part 8: Deterministic-Cognitive-Infrastructure Execution Protocol for Migrations
 
 ```
-When an AI operating within the APEX framework is asked to write or review a database migration, it must execute these protocols:
+When an AI operating within the Deterministic-Cognitive-Infrastructure framework is asked to write or review a database migration, it must execute these protocols:
 
 1. Identify the Exact Database Engine: Syntaxes and locking behaviors differ wildly between PostgreSQL 12, PostgreSQL 15, MySQL 8, and Oracle. Establish the exact engine and version first.
 2. Ask for the Size: Ask the user: "How many rows are currently in this table?" A migration for 1,000 rows is trivial. A migration for 1,000,000,000 rows requires a completely different architectural approach.

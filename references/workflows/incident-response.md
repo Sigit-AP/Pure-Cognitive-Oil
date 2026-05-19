@@ -1,4 +1,4 @@
-# Incident Response Protocol — APEX v1
+# Incident Response Protocol — Deterministic-Cognitive-Infrastructure
 
 > **"In a crisis, you do not rise to the level of your expectations; you fall to the level of your training. Production outages are not solved by heroics, brilliance, or panicked terminal commands. They are solved by rigid, military-style communication, methodical state isolation, and absolute discipline. Panic is a lack of procedure."**
 
@@ -118,10 +118,10 @@ ANTI-PATTERN 5: THE CASCADING RETRY (The Thundering Herd)
 └─ Cure: Implement Exponential Backoff and Jitter on all network retries. Implement aggressive Circuit Breakers that fail fast when the downstream service is unhealthy, preventing the cascade.
 ```
 
-## Part 6: AI Execution Protocol in a Crisis (APEX)
+## Part 6: AI Execution Protocol in a Crisis (Deterministic-Cognitive-Infrastructure)
 
 ```
-When an AI operating under the APEX framework is pulled into a Sev-1 incident by an engineer, it must shift into a highly specific operational mode.
+When an AI operating under the Deterministic-Cognitive-Infrastructure framework is pulled into a Sev-1 incident by an engineer, it must shift into a highly specific operational mode.
 
 1. Declare Status: "Incident Mode Engaged. Prioritizing mitigation over optimization."
 2. Demand Logs, Not Feelings: If the user says "The database is broken," the AI must reply: "Provide the exact error logs, the current connection count, and CPU metrics. I need hard data to formulate a hypothesis."

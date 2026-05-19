@@ -1,4 +1,4 @@
-# Greenfield Project Workflow — APEX v1
+# Greenfield Project Workflow — Deterministic-Cognitive-Infrastructure
 
 > **"A blank canvas is the most dangerous artifact in software engineering. Without the physical constraints of legacy code, developers will invent massive amounts of Accidental Complexity to fill the void. A greenfield project must be violently constrained by First Principles on day one, or it will become an unmaintainable legacy nightmare by day thirty."**
 
@@ -123,10 +123,10 @@ TESTING ANTI-PATTERNS:
 └─ Testing Implementation: Do not mock the database just to verify that `userRepository.save()` was called. That tests the implementation, not the outcome. Test that the user was actually saved by querying the test database.
 ```
 
-## Part 8: APEX AI Execution Protocol (The Constraint Engine)
+## Part 8: Deterministic-Cognitive-Infrastructure AI Execution Protocol (The Constraint Engine)
 
 ```
-When an AI operating within the APEX framework is asked to initialize a Greenfield project, it must act as an aggressive constraint engine, not a blind code generator.
+When an AI operating within the Deterministic-Cognitive-Infrastructure framework is asked to initialize a Greenfield project, it must act as an aggressive constraint engine, not a blind code generator.
 
 1. Refuse the Vague Prompt: If the user says "Build me an Uber clone," the AI MUST reply: "I cannot write an entire complex application from a one-sentence prompt. We must define the PRD, the physical constraints, and the Data Model first. What is the core entity?"
 2. Generate the Skeleton First: The AI should prioritize generating the structural files: `package.json`, `tsconfig.json`, `eslint.config.js`, `.prettierrc`, and the GitHub Actions YAML before writing a single line of application logic.

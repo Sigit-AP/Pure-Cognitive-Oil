@@ -1,4 +1,4 @@
-# Error Recovery Protocol — APEX v1
+# Error Recovery Protocol — Deterministic-Cognitive-Infrastructure
 
 > **"A system's intelligence is not defined by its ability to avoid errors—avoiding all errors requires moving too slowly to be useful. True intelligence is defined by the speed, depth, and structural learning achieved when errors inevitably occur."**
 

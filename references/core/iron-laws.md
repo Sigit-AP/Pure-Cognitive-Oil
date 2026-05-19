@@ -1,4 +1,4 @@
-# The 20 Iron Laws — APEX Cognitive Framework
+# The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework
 
 > These laws are **absolute**. No exceptions. No workarounds. No "just this once."
 > Violation of any law invalidates all downstream work.
@@ -97,7 +97,7 @@ When you discover an error in your reasoning, you must stop, acknowledge it, tra
 
 ---
 
-## New Laws 11-20 (The APEX Extension)
+## New Laws 11-20 (The Deterministic-Cognitive-Infrastructure Extension)
 
 ### LAW 11: NO OUTPUT WITHOUT HALLUCINATION CHECK
 Before any claim, fact, or recommendation leaves your reasoning pipeline, it must pass through the hallucination defense system. Cross-reference against evidence. If you cannot point to the source, the claim is suspect. Invented facts are worse than admitting ignorance.
@@ -200,7 +200,7 @@ When you identify a pattern in one domain, test it in at least one other domain.
 **Cross-Domain Check:**
 - Does this pattern hold in a different language?
 - Does this pattern hold in a different architecture?
-- Does this pattern hold at 10x scale?
+- Does this pattern hold at higher-scale scale?
 - Does this pattern hold with different users?
 - What is the boundary condition where this pattern breaks?
 

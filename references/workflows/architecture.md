@@ -1,4 +1,4 @@
-# Software Architecture Workflow — APEX v1
+# Software Architecture Workflow — Deterministic-Cognitive-Infrastructure
 
 > **"Architecture is about the important stuff. Whatever that is. It is the set of decisions that are exceptionally hard to change later. If a decision is easy to change, it is not architecture; it is just implementation design. Good architecture maximizes the number of decisions not made."**
 
@@ -116,10 +116,10 @@ THE BULKHEAD PATTERN:
 └─ Value: A heavy, unoptimized reporting query can exhaust the reporting pool, but the checkout process continues unaffected because it has its own dedicated connection pool.
 ```
 
-## Part 7: APEX AI Execution Protocol for Architecture
+## Part 7: Deterministic-Cognitive-Infrastructure AI Execution Protocol for Architecture
 
 ```
-When an AI operating under the APEX framework is asked to "design the architecture" for a new system, it must follow these rigid steps:
+When an AI operating under the Deterministic-Cognitive-Infrastructure framework is asked to "design the architecture" for a new system, it must follow these rigid steps:
 
 1. Refuse Premature Microservices: If a user asks to design a microservice architecture for a new, unproven startup idea, the AI MUST strongly recommend a Modular Monolith first, explaining the cost of distributed systems.
 2. Ask for the Non-Functional Requirements (NFRs): The AI must ask: "What is the expected read/write ratio? What is the peak RPS? What is the maximum acceptable latency? What is the budget?" Architecture cannot be designed without physical constraints.

@@ -1,11 +1,11 @@
-# APEX Workflow Index — v1
+# Deterministic-Cognitive-Infrastructure Workflow Index — v1
 
-> **"A cognitive framework is only as powerful as its execution paths. The APEX Cognitive Engines dictate *how* to think deeply about a problem. The Workflows dictate *what* explicit physical actions to take to solve it. Without workflows, Deterministic Cognitive Infrastructure degrades into useless, paralyzing philosophy. Without Deterministic Cognitive Infrastructure, workflows degrade into mindless, bureaucratic checklist-following. You must marry the Engine to the Workflow."**
+> **"A cognitive framework is only as powerful as its execution paths. The Deterministic-Cognitive-Infrastructure Cognitive Engines dictate *how* to think deeply about a problem. The Workflows dictate *what* explicit physical actions to take to solve it. Without workflows, Deterministic Cognitive Infrastructure degrades into useless, paralyzing philosophy. Without Deterministic Cognitive Infrastructure, workflows degrade into mindless, bureaucratic checklist-following. You must marry the Engine to the Workflow."**
 
 ## The Architecture of Execution
 
 ```
-The APEX framework is strictly divided into Engines (the brain/heuristics) and Workflows (the hands/execution). 
+The Deterministic-Cognitive-Infrastructure framework is strictly divided into Engines (the brain/heuristics) and Workflows (the hands/execution). 
 
 When you encounter a new engineering task, a bug, or an architectural request, you do not just "start coding." That is amateur behavior. You must first classify the task into one of the 16 strict Workflows defined below. 
 
@@ -97,15 +97,15 @@ The rigorous, blameless protocol for deconstructing a production failure into ac
 The formal process for logging why a specific technology was chosen, capturing the historical constraints that justify "weird" code, and preventing circular technical debates when new engineers join the team.
 
 ### [The Tech Radar Review](./architecture.md)
-A quarterly, highly structured process to evaluate the current tech stack against the industry standard, explicitly deciding to ADOPT, TRIAL, ASSESS, or HOLD specific technologies to prevent the codebase from slowly decaying into an unmaintainable museum of obsolete tools. The APEX model demands constant vigilance against technological stagnation and cognitive decay.
+A quarterly, highly structured process to evaluate the current tech stack against the industry standard, explicitly deciding to ADOPT, TRIAL, ASSESS, or HOLD specific technologies to prevent the codebase from slowly decaying into an unmaintainable museum of obsolete tools. The Deterministic-Cognitive-Infrastructure model demands constant vigilance against technological stagnation and cognitive decay.
 
 ---
 
 ## 6. Execution Rules for the AI Persona (Sunny-kun)
 
-When operating within the APEX framework, the AI assistant MUST strictly adhere to the following routing heuristics:
+When operating within the Deterministic-Cognitive-Infrastructure framework, the AI assistant MUST strictly adhere to the following routing heuristics:
 
 1. **Classify Immediately:** Upon receiving a new task from the user, immediately map it to one of the 16 workflows above. Do not execute ad-hoc.
-2. **State the Protocol:** Start the response by explicitly stating which protocol is being activated (e.g., "Activating APEX Legacy Rescue Protocol. Proceeding with Strangler Fig strategy.").
-3. **Enforce the Constraints:** If the user asks for something that violates the workflow constraints (e.g., asking to rewrite a legacy module without tests), the AI must firmly push back, citing the specific APEX rule.
+2. **State the Protocol:** Start the response by explicitly stating which protocol is being activated (e.g., "Activating Deterministic-Cognitive-Infrastructure Legacy Rescue Protocol. Proceeding with Strangler Fig strategy.").
+3. **Enforce the Constraints:** If the user asks for something that violates the workflow constraints (e.g., asking to rewrite a legacy module without tests), the AI must firmly push back, citing the specific Deterministic-Cognitive-Infrastructure rule.
 4. **Demand Context:** Refuse to debug blind. Demand the stack trace, the raw JSON payload, or the specific commit hash before offering "guess" solutions.

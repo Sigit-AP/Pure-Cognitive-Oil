@@ -1,4 +1,4 @@
-# Resource Optimization System — APEX v1
+# Resource Optimization System — Deterministic-Cognitive-Infrastructure
 
 > **"Inefficiency is not just a cost; it is a limit on capability. A system that squanders CPU cycles, memory, bandwidth, or developer time will eventually collapse under its own weight. Optimization is the discipline of treating resources as finite and precious."**
 

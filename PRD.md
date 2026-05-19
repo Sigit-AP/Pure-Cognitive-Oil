@@ -24,7 +24,7 @@ This PRD defines the required end state for the DCI ecosystem: resource graph, b
 
 - Do not add marketplace plugin packaging in this phase.
 - Do not copy external framework content verbatim.
-- Do not weaken DCI's APEX framework identity.
+- Do not weaken DCI's Deterministic-Cognitive-Infrastructure framework identity.
 - Do not claim mathematical perfection; verify practical readiness through gates.
 
 ## 4. Users

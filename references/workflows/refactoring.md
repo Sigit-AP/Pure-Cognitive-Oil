@@ -1,4 +1,4 @@
-# Refactoring Workflow — APEX v1
+# Refactoring Workflow — Deterministic-Cognitive-Infrastructure
 
 > **"Refactoring is a controlled, mathematical operation. It is not 'rewriting.' It is not 'cleaning up.' It is a strict series of behavior-preserving transformations. If the external behavior changes, even slightly, you are not refactoring; you are rewriting, and you have lost control of the system. Refactoring without tests is just changing code and praying."**
 
@@ -124,10 +124,10 @@ METRIC 3: DEPENDENCY COUPLING (Fan-In / Fan-Out)
 └─ Goal: Decrease Fan-Out by introducing Dependency Injection and Interfaces.
 ```
 
-## Part 6: AI Refactoring Protocol (APEX Execution)
+## Part 6: AI Refactoring Protocol (Deterministic-Cognitive-Infrastructure Execution)
 
 ```
-As an AI, your capacity to refactor is immense, but your capacity to break things is equally immense because you lack the physical context of the running application. Follow this APEX protocol.
+As an AI, your capacity to refactor is immense, but your capacity to break things is equally immense because you lack the physical context of the running application. Follow this Deterministic-Cognitive-Infrastructure protocol.
 
 1. Acknowledge the Hat: When asked to refactor, explicitly state: "Engaging Refactoring Protocol. I will not add new features or fix bugs in this pass. I will only alter structure to improve cleanliness."
 2. Request Tests: If the user provides code without tests, warn them: "Refactoring without tests is highly dangerous. I will provide the refactored code, but you must manually verify the behavior via regression testing."

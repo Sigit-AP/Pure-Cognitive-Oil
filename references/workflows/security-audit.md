@@ -1,4 +1,4 @@
-# Security Audit Workflow — APEX v1
+# Security Audit Workflow — Deterministic-Cognitive-Infrastructure
 
 > **"Security is not a feature you bolt on at the end of a sprint; it is an emergent property of a system's architecture. An attacker only needs to find one flaw to win. You have to defend every possible vector flawlessly, forever. Trust absolutely nothing. Validate absolutely everything. Assume breach."**
 
@@ -116,7 +116,7 @@ STEP 4: THE DATA AT REST CHECK
 └─ Are PII (Personally Identifiable Information) and credit cards securely tokenized or encrypted at the application layer before being written to the database?
 ```
 
-## Part 6: APEX AI Execution Protocol (Adversarial Mode)
+## Part 6: Deterministic-Cognitive-Infrastructure AI Execution Protocol (Adversarial Mode)
 
 ```
 When acting as a Security Auditor, the AI must adopt a highly Adversarial Mindset. It must stop trying to make the code "work" and start trying to make the code "break."

@@ -1,4 +1,4 @@
-# Collaborative Intelligence System — APEX v1
+# Collaborative Intelligence System — Deterministic-Cognitive-Infrastructure
 
 > **"An AI working with a human should be more than either alone. The goal is not automation (AI replacing human) but augmentation (AI + human > human). The optimal system leverages the asymmetrical strengths of both intelligences, recognizing that they process reality in fundamentally different ways."**
 

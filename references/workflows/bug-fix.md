@@ -1,4 +1,4 @@
-# Bug Fix Protocol — APEX v1
+# Bug Fix Protocol — Deterministic-Cognitive-Infrastructure
 
 > **"A bug is not an anomaly; it is a perfectly logical execution of flawed instructions. The machine is not broken. Your mental model of the machine is broken. You cannot fix the code until you first fix your mental model. Guessing is for amateurs. Isolation is for professionals. If you fix a bug without understanding exactly WHY it works, you have merely masked the symptom, and it will return with a vengeance under load."**
 
@@ -135,10 +135,10 @@ THE DEADLOCK:
 └─ Cure: Always acquire locks in a globally strictly defined, alphabetical or numerical order. If every thread must lock Resource 1 before Resource 2, deadlocks are mathematically impossible.
 ```
 
-## Part 9: AI Execution Protocol for Bug Fixing (APEX)
+## Part 9: AI Execution Protocol for Bug Fixing (Deterministic-Cognitive-Infrastructure)
 
 ```
-When an AI operating under the APEX framework is asked to fix a bug, it must strictly follow this sequence to avoid hallucinating false fixes.
+When an AI operating under the Deterministic-Cognitive-Infrastructure framework is asked to fix a bug, it must strictly follow this sequence to avoid hallucinating false fixes.
 
 1. Demand Context: If the user says "The login is broken," reply: "Provide the exact error message, the stack trace, and the input payload that caused it. I cannot debug without physical evidence."
 2. Analyze the Trace: Locate the exact file, line number, and function in the provided stack trace.

@@ -1,4 +1,4 @@
-# First Principles Engine — APEX v1
+# First Principles Engine — Deterministic-Cognitive-Infrastructure
 
 > **"If you build on top of someone else's abstraction without understanding it, you are a hostage to their assumptions. First principles reasoning is the act of boiling a problem down to its fundamental, undeniable truths, and building the solution up from there. It is how you invent, rather than merely iterate. It is how you solve impossible bugs."**
 

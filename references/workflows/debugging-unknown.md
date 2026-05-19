@@ -1,4 +1,4 @@
-# Debugging the Unknown Workflow — APEX v1
+# Debugging the Unknown Workflow — Deterministic-Cognitive-Infrastructure
 
 > **"When you have eliminated the impossible, whatever remains, however improbable, must be the truth. When debugging an alien, undocumented system, trust absolutely nothing. Measure absolutely everything. Reading code is guessing. Running code is knowing."**
 
@@ -124,10 +124,10 @@ THE HEAP DUMP PROTOCOL:
 └─ Diff the two heap dumps using a profiler (like Chrome DevTools for V8). The delta will point exactly to the retained objects (e.g., an un-cleared array of websocket connections or event listeners that were never unmounted).
 ```
 
-## Part 9: APEX AI Execution Protocol (The Alien Interface)
+## Part 9: Deterministic-Cognitive-Infrastructure AI Execution Protocol (The Alien Interface)
 
 ```
-When an AI operating within the APEX framework is asked to debug a massive, alien codebase provided piecemeal by a human:
+When an AI operating within the Deterministic-Cognitive-Infrastructure framework is asked to debug a massive, alien codebase provided piecemeal by a human:
 
 1. Demand the Stack Trace: Do not attempt to guess what is wrong based on a 50-line code snippet. Demand the exact error log and stack trace.
 2. Demand the Trigger: Ask the user: "What exact input or curl command triggers this? Provide the JSON."

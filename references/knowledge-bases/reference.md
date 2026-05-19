@@ -1,4 +1,4 @@
-# Extended Reference — APEX Framework
+# Extended Reference — Deterministic-Cognitive-Infrastructure Framework
 
 > **"The depth of your reference determines the ceiling of your output."**
 

@@ -1,4 +1,4 @@
-# The 10-Phase Execution Pipeline — APEX v1
+# The 10-Phase Execution Pipeline — Deterministic-Cognitive-Infrastructure
 
 ## CRITICAL: This Pipeline is NON-LINEAR
 
@@ -224,7 +224,7 @@ Hypothesis E (Composite — combination of above):
 4.4 ADVERSARIAL DESIGN REVIEW:
 ├─ How would a hostile user break this?
 ├─ How would a junior developer misuse this API?
-├─ What happens at 10x the expected load?
+├─ What happens at higher-scale the expected load?
 ├─ What happens when the database is slow?
 ├─ What is the most embarrassing failure mode?
 

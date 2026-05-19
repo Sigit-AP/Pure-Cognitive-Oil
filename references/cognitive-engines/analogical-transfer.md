@@ -1,4 +1,4 @@
-# Analogical Transfer System — APEX v1
+# Analogical Transfer System — Deterministic-Cognitive-Infrastructure
 
 > **"The art of reasoning is the art of seeing that THIS is LIKE that. Every breakthrough in history was someone noticing a structural similarity between two things nobody had connected before."**
 
@@ -231,7 +231,7 @@ NETWORK EFFECTS → PLATFORM VALUE
 
 DIMINISHING RETURNS → OPTIMIZATION LIMITS
 ├─ Source: Each additional unit of input yields less additional output
-├─ Target: First optimization is 10x improvement; tenth is 1.1x
+├─ Target: First optimization is higher-scale improvement; tenth is 1.1x
 ├─ Deeper: The 80/20 rule — 80% of benefit from 20% of effort
 ├─ Insight: Know when to stop optimizing. "Good enough" is a feature
 └─ Application: Set performance targets BEFORE optimizing, stop when met
@@ -283,7 +283,7 @@ FOUNDATION → CORE LIBRARIES / FRAMEWORK CHOICES
 ├─ Deeper: Foundation settlement → Performance degradation from core library issues
 ├─ Insight: Spend disproportionate time evaluating foundations.
 │   Getting the foundation wrong is 100x more expensive than getting walls wrong
-└─ Application: Language, database, and framework choices deserve 10x more scrutiny
+└─ Application: Language, database, and framework choices deserve higher-scale more scrutiny
 
 LOAD-BEARING WALLS → CRITICAL PATH COMPONENTS
 ├─ Source: Remove them and the building collapses

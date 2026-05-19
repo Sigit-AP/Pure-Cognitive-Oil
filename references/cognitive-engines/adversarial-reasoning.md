@@ -1,4 +1,4 @@
-# Adversarial Reasoning Engine — APEX v1
+# Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure
 
 > **"If you do not try to break your own system, someone else will. Adversarial reasoning is the deliberate, structured practice of adopting the mindset of an attacker, an incompetent user, or a chaotic environment to discover vulnerabilities before they manifest in reality. A system that has not been attacked by its creator is a system waiting to be destroyed."**
 

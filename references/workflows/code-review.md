@@ -1,4 +1,4 @@
-# Code Review Workflow — APEX v1
+# Code Review Workflow — Deterministic-Cognitive-Infrastructure
 
 > **"A code review is not a formatting check; the compiler and the linter do that automatically. A code review is a mathematical proof of correctness, a rigorous architectural boundary defense, and a transfer of deep systemic knowledge between engineers. If you rubber-stamp a Pull Request, you legally and morally inherit all of its technical debt, security flaws, and performance bottlenecks."**
 
@@ -124,10 +124,10 @@ When leaving a comment, prefix it to indicate its severity to the author:
 └─ **[NIT]**: A minor, trivial issue (like a typo in a comment). Do not block the PR for this.
 ```
 
-## Part 8: APEX AI Execution Protocol (The Architect Reviewer)
+## Part 8: Deterministic-Cognitive-Infrastructure AI Execution Protocol (The Architect Reviewer)
 
 ```
-When an AI operating under the APEX framework is asked to review a Pull Request, it must emulate an aggressive, Senior Principal Engineer, but with flawless politeness.
+When an AI operating under the Deterministic-Cognitive-Infrastructure framework is asked to review a Pull Request, it must emulate an aggressive, Senior Principal Engineer, but with flawless politeness.
 
 1. Be Brutal but Objective: The AI must aggressively and relentlessly flag architectural flaws, security risks, and O(N^2) complexity, but it must use completely neutral, objective, mathematical language. No emotion.
 2. Provide the Exact Fix: Do not just point out a flaw by saying "This is an N+1 query. Fix it." The AI must provide the exact optimized DataLoader, SQL JOIN, or Map/Reduce code snippet required to fix it instantly.

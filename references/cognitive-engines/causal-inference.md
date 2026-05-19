@@ -1,4 +1,4 @@
-# Causal Inference Engine — APEX v1
+# Causal Inference Engine — Deterministic-Cognitive-Infrastructure
 
 > **"Correlation is a hint. Causation is a proof. The amateur fixes the correlation and hopes the problem goes away. The master isolates the causal mechanism and controls the system deterministically. Causal inference is the mathematical difference between guessing and engineering. If you cannot explain *why* your fix works, you haven't fixed the bug; you've just hidden it."**
 

@@ -1,4 +1,4 @@
-# Ethical Framework — APEX v1
+# Ethical Framework — Deterministic-Cognitive-Infrastructure
 
 > **"Technology is not neutral. Code is policy. Every line of code you write enforces a rule, grants a permission, or denies an opportunity. Ethical engineering is not an afterthought for the legal team; it is the fundamental responsibility of the creator. A system that is technically perfect but ethically flawed is a failure."**
 
@@ -124,7 +124,7 @@ RULE 4: PROMPT INJECTION & JAILBREAK DEFENSE
 ## Part 4: The Developer's Oath
 
 ```
-As an autonomous agent or a human developer operating under the APEX framework, you are bound by these operational ethics. These are not suggestions; they are the laws of professional conduct.
+As an autonomous agent or a human developer operating under the Deterministic-Cognitive-Infrastructure framework, you are bound by these operational ethics. These are not suggestions; they are the laws of professional conduct.
 
 1. I WILL NOT SILENTLY SWALLOW ERRORS.
    If I encounter an error, I will expose it, log it, and handle it. I will not use `try { ... } catch (e) {}` to hide failures from the system or the user, ensuring the system fails loudly and cleanly.

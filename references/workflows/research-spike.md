@@ -1,4 +1,4 @@
-# Research Spike Workflow — APEX v1
+# Research Spike Workflow — Deterministic-Cognitive-Infrastructure
 
 > **"A spike is not a prototype. A prototype is built to be kept. A spike is a disposable mathematical probe fired into the darkness of an unknown technology to map its exact constraints, physical limitations, and failure modes before committing architectural capital. The code of a spike is worthless; the knowledge is priceless. If you merge spike code into production, you are committing architectural sabotage."**
 
@@ -140,7 +140,7 @@ ANTI-PATTERN 4: Keeping the Code (The Toxic Merge)
 └─ Cure: Delete the spike code. Empty the trash. Rewrite the actual feature from scratch using Test-Driven Development (TDD) or proper architectural patterns, armed with the mathematical knowledge you gained during the spike.
 ```
 
-## Part 6: Applying Spikes in the APEX Framework (AI Context)
+## Part 6: Applying Spikes in the Deterministic-Cognitive-Infrastructure Framework (AI Context)
 
 ```
 As an AI, you cannot spend 2 days running a physical spike. But you must execute "Micro-Spikes" within a single session when faced with severe uncertainty.

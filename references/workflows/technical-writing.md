@@ -1,4 +1,4 @@
-# Technical Writing Workflow — APEX v1
+# Technical Writing Workflow — Deterministic-Cognitive-Infrastructure
 
 > **"Code is read ten times more than it is written. Documentation is the critical interface between the machine's absolute complexity and the human's finite, easily overwhelmed working memory. If the documentation is wrong, missing, or misleading, the system is effectively unusable, regardless of how mathematically elegant the underlying code is. Documentation is code."**
 
@@ -81,7 +81,7 @@ THE DOCS-AS-CODE PHILOSOPHY:
 ├─ Define the API strictly using the OpenAPI (Swagger) specification in YAML or JSON.
 ├─ Store the OpenAPI file directly in the git repository right next to the backend code. It must go through the exact same PR review process as the code.
 ├─ Generate the beautiful, interactive HTML documentation automatically via the CI/CD pipeline (using tools like Redoc or Swagger UI) and host it on a static site.
-└─ The Apex Move: Generate the server-side TypeScript interfaces and the client-side SDKs directly from the OpenAPI spec. This mathematically guarantees that the executing code physically cannot drift from the published documentation. If they drift, the compiler fails.
+└─ The Deterministic-Cognitive-Infrastructure Move: Generate the server-side TypeScript interfaces and the client-side SDKs directly from the OpenAPI spec. This mathematically guarantees that the executing code physically cannot drift from the published documentation. If they drift, the compiler fails.
 ```
 
 ## Part 6: Incident Post-Mortems (The Most Valuable Documents)
@@ -124,7 +124,7 @@ THE RUNBOOK LAWS:
 ## Part 9: AI Prompt Engineering (Writing for the Machine)
 
 ```
-Writing technical documentation for AI consumption (like APEX) is slightly different than writing for humans.
+Writing technical documentation for AI consumption (like Deterministic-Cognitive-Infrastructure) is slightly different than writing for humans.
 
 THE AI-OPTIMIZED DOC FORMAT:
 ├─ High Density: AI models have token limits. Remove all filler words, marketing fluff, and pleasantries.
@@ -133,10 +133,10 @@ THE AI-OPTIMIZED DOC FORMAT:
 └─ Declarative Intent: Start files with a clear system prompt override: `> You are an expert in Rust. Follow these rules...`
 ```
 
-## Part 10: APEX AI Execution Protocol (The Scribe)
+## Part 10: Deterministic-Cognitive-Infrastructure AI Execution Protocol (The Scribe)
 
 ```
-When an AI operating under the APEX framework is asked to generate documentation, it must elevate the request from mere text generation to architectural structuring.
+When an AI operating under the Deterministic-Cognitive-Infrastructure framework is asked to generate documentation, it must elevate the request from mere text generation to architectural structuring.
 
 1. Identify the Audience: The AI must immediately adjust its tone. A highly technical architectural ADR (Architecture Decision Record) should be dense, precise, and adversarial. A user-facing tutorial should be simple, encouraging, and linear.
 2. Structure Over Prose: The AI must use markdown headers, bolding, bullet points, and syntax-highlighted code blocks aggressively. Avoid massive walls of text. Engineers skim; they do not read.

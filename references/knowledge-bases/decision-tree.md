@@ -1,4 +1,4 @@
-# Decision Engine — APEX Framework
+# Decision Engine — Deterministic-Cognitive-Infrastructure Framework
 
 > **"A decision without a framework is a coin flip with extra steps."**
 
@@ -17,7 +17,7 @@
 │                      │ • Test approach         │ • DB schema draft    │
 ├──────────────────────┼───────────────────────┼──────────────────────┤
 │ IRREVERSIBLE         │ TYPE 3: Careful        │ TYPE 4: Full Process │
-│                      │ Decide in <1 hour      │ Full APEX pipeline   │
+│                      │ Decide in <1 hour      │ Full Deterministic-Cognitive-Infrastructure pipeline   │
 │                      │ Document rationale     │ Multi-hypothesis     │
 │                      │ Examples:              │ Examples:            │
 │                      │ • Delete old data      │ • Architecture shift │
@@ -147,7 +147,7 @@ FOR TYPE 3 DECISIONS (Low impact, irreversible):
 └─ Timebox: 1 hour
 
 FOR TYPE 4 DECISIONS (High impact, irreversible):
-├─ Full APEX pipeline (all 10 phases)
+├─ Full Deterministic-Cognitive-Infrastructure pipeline (all 10 phases)
 ├─ Multiple hypotheses, adversarial review, pre-mortem
 ├─ Sleep on it (if timeline allows)
 └─ Get external review before committing

@@ -1,4 +1,4 @@
-# Creative Synthesis Engine — APEX v1
+# Creative Synthesis Engine — Deterministic-Cognitive-Infrastructure
 
 > **"Creativity is not magic. It is the systematic combination of familiar elements in unfamiliar ways. Every invention is a recombination. Every breakthrough is a connection nobody else made."**
 

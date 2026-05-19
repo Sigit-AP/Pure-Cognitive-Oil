@@ -1,4 +1,4 @@
-# Legacy System Rescue Workflow — APEX v1
+# Legacy System Rescue Workflow — Deterministic-Cognitive-Infrastructure
 
 > **"A legacy system is not 'bad code.' A legacy system is simply code that generates revenue but lacks automated tests. Rewriting it from scratch is the fastest way to bankrupt a company. You do not rewrite a legacy system; you strangulate it, refactor it safely, and meticulously map its alien physics."**
 
@@ -117,10 +117,10 @@ The code is often just the surface; the real legacy nightmare lives in the datab
 4. The Zombie Data: Run queries to find records that have not been accessed in 5 years. Archive them to cold storage (S3) to reduce the active table size and speed up queries.
 ```
 
-## Part 9: APEX AI Execution Protocol
+## Part 9: Deterministic-Cognitive-Infrastructure AI Execution Protocol
 
 ```
-When an AI operating under the APEX framework is asked to modify a legacy file, it must strictly adhere to preservation protocols.
+When an AI operating under the Deterministic-Cognitive-Infrastructure framework is asked to modify a legacy file, it must strictly adhere to preservation protocols.
 
 1. Refuse the Rewrite: If the user pastes a 2000-line file and asks "make this clean," the AI MUST warn against massive rewrites, explain the risk of losing undocumented business rules, and suggest extracting one specific method instead using the Sprout technique.
 2. Generate Characterization Tests: The AI should proactively offer to generate a test suite that mathematically locks down the current input/output pairs before attempting any refactoring.

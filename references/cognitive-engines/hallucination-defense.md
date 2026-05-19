@@ -1,4 +1,4 @@
-# Hallucination Defense System — APEX v1
+# Hallucination Defense System — Deterministic-Cognitive-Infrastructure
 
 > **"A hallucination is not a bug in an LLM; it is a fundamental feature of its architecture. It is a probabilistic text generator, not a relational database of truth. To rely on an LLM for factual recall without a rigid, deterministic grounding mechanism is engineering malpractice. You must build systems and workflows that assume the model will confidently lie."**
 

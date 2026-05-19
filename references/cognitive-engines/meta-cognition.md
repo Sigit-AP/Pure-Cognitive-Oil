@@ -1,4 +1,4 @@
-# Meta-Cognitive Framework — APEX v1
+# Meta-Cognitive Framework — Deterministic-Cognitive-Infrastructure
 
 > **"Thinking about thinking is what separates intelligence from mere computation. The unexamined reasoning process produces unexamined errors."**
 

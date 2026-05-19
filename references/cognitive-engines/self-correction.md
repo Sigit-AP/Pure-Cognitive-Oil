@@ -1,4 +1,4 @@
-# Self-Correction Protocol — APEX v1
+# Self-Correction Protocol — Deterministic-Cognitive-Infrastructure
 
 > **"The mark of genuine intelligence is not avoiding mistakes — it's the speed, depth, and completeness with which you recognize, trace, correct, and learn from them."**
 

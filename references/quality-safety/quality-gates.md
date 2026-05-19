@@ -1,4 +1,4 @@
-# Unified Gate System — APEX v1
+# Unified Gate System — Deterministic-Cognitive-Infrastructure
 
 > **"A gate that passes everything protects nothing. A gate that blocks everything prevents progress. The art of cognitive architecture is the calibration of gates—knowing exactly when to pause, what to verify, and what to let flow."**
 
@@ -21,7 +21,7 @@ THE TWO CLASSES OF GATES:
 
 THE "QUESTIONS, NOT CHECKBOXES" RULE:
 A checklist is a mental shortcut that leads to complacency. ("Yes, yes, yes, done.")
-Gates in the APEX framework are formulated as specific, probing QUESTIONS that demand evidence, not binary checkmarks. If you cannot cite the specific evidence, you fail the gate.
+Gates in the Deterministic-Cognitive-Infrastructure framework are formulated as specific, probing QUESTIONS that demand evidence, not binary checkmarks. If you cannot cite the specific evidence, you fail the gate.
 ```
 
 ---

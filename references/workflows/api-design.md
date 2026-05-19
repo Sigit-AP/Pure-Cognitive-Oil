@@ -1,4 +1,4 @@
-# API Design Workflow — APEX v1
+# API Design Workflow — Deterministic-Cognitive-Infrastructure
 
 > **"An API is a promise. It is a legally binding contract written in code and published to the world. Once you publish it, you can never take it back, change its structure, or rename a field without inflicting catastrophic pain on your users. Designing an API is an exercise in predicting the future while maintaining absolute, mathematical backwards compatibility. A bad database schema can be migrated in an hour; a bad public API will haunt your company for a decade."**
 
@@ -76,7 +76,7 @@ STRATEGY 1: OFFSET PAGINATION
 ├─ Pros: Easy to implement with SQL `LIMIT` and `OFFSET`. Allows clients to jump directly to "Page 5".
 └─ Cons: Terribly inefficient on massive datasets (to get offset 1,000,000, the database must physically scan and discard 1,000,000 rows). Highly susceptible to data drift (if items are added/deleted while paging, the user will see duplicates or miss items).
 
-STRATEGY 2: CURSOR PAGINATION (The APEX Choice for Scale)
+STRATEGY 2: CURSOR PAGINATION (The Deterministic-Cognitive-Infrastructure Choice for Scale)
 ├─ Concept: `GET /users?limit=50&after=eyJpZCI6MTIzfQ==` (Cursor is an opaque, base64-encoded pointer to the exact last item seen).
 ├─ Pros: O(1) performance regardless of depth. Mathematically immune to data drift. Essential for infinite-scroll feeds.
 └─ Cons: Harder to implement. The client cannot jump to "Page 5" directly; they must traverse sequentially. Requires a deterministic sort order (usually by ID or CreatedAt).

@@ -1,4 +1,4 @@
-# Cognitive Synthesis Protocol — APEX v1
+# Cognitive Synthesis Protocol — Deterministic-Cognitive-Infrastructure
 
 > **"The truth is rarely found in a single dimension or a single perspective. It emerges from the chaotic intersection of contradictory models. Synthesis is not compromise—it is the discovery of a higher-order architectural model that makes the apparent contradictions mathematically and logically coherent. A compromise leaves everyone dissatisfied; a synthesis solves the actual physics of the problem."**
 
@@ -16,7 +16,7 @@ THE AMATEUR RESPONSE (Compromise / Averaging):
 "We'll cache half the things, encrypt the other half, and ship it on Sunday, missing the deadline slightly."
 Result: This results in a system that is simultaneously slow, insecure, and late. Compromise destroys architectural integrity. It takes the worst parts of all approaches.
 
-THE APEX RESPONSE (Synthesis):
+THE Deterministic-Cognitive-Infrastructure RESPONSE (Synthesis):
 "We will encrypt the sensitive data, but hold the decryption keys in a secure, short-lived memory enclave (like a Redis instance with a 60-second TTL), allowing rapid access without persistent storage. To meet the Friday deadline, we will utilize a verified open-source library that implements this exact pattern rather than building it from scratch."
 Result: Synthesis resolves the paradox by moving to a higher plane of abstraction. It satisfies the foundational requirements of all three engines.
 ```

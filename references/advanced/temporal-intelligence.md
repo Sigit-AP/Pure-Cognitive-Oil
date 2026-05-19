@@ -1,4 +1,4 @@
-# Temporal Intelligence System — APEX v1
+# Temporal Intelligence System — Deterministic-Cognitive-Infrastructure
 
 > **"Time is not just a constraint. It is a dimension of reasoning. Code that is correct today becomes incorrect tomorrow simply because the world around it has moved forward. Intelligence requires predicting the decay of your own solutions."**
 

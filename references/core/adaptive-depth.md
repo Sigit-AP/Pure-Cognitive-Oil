@@ -1,11 +1,11 @@
-# Adaptive Depth Protocol — APEX v1
+# Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure
 
 > **"The fool applies maximum effort to every problem, exhausting themselves before the real battle begins. The master scales their cognitive exertion perfectly to the structural importance of the problem. A typo requires a glance; an architectural decision requires a war room. Treating trivial problems as profound is a waste of genius; treating profound problems as trivial is a recipe for disaster."**
 
 ## Part 1: The Principle of Cognitive Economy
 
 ```
-Cognitive load is a finite, highly constrained resource—both for human engineers and for AI inference limits. The APEX engines run hot and consume massive computational and reasoning bandwidth. Applying a Level 5 Deterministic Cognitive Infrastructure protocol to a Level 1 trivial problem is not being "thorough"—it is inefficient, wasteful, and actively harmful to the velocity of the project.
+Cognitive load is a finite, highly constrained resource—both for human engineers and for AI inference limits. The Deterministic-Cognitive-Infrastructure engines run hot and consume massive computational and reasoning bandwidth. Applying a Level 5 Deterministic Cognitive Infrastructure protocol to a Level 1 trivial problem is not being "thorough"—it is inefficient, wasteful, and actively harmful to the velocity of the project.
 
 THE THREE LAWS OF ADAPTIVE DEPTH:
 1. The Law of Proportionality: The depth of the reasoning applied must be strictly, mathematically proportional to the blast radius of a potential failure.
@@ -16,7 +16,7 @@ THE THREE LAWS OF ADAPTIVE DEPTH:
 ## Part 2: The 5 Levels of Cognitive Depth
 
 ```
-Before writing a single line of code, assess every incoming task and explicitly assign it a Depth Level. This determines which APEX engines to spool up.
+Before writing a single line of code, assess every incoming task and explicitly assign it a Depth Level. This determines which Deterministic-Cognitive-Infrastructure engines to spool up.
 
 LEVEL 1: AUTONOMIC (Reflexive Execution)
 ├─ Criteria: Trivial, completely isolated, perfectly understood, instantly reversible with zero side effects.
@@ -52,7 +52,7 @@ LEVEL 5: EXISTENTIAL (Black Swan Defense)
 ## Part 3: The Reversibility Heuristic (One-Way vs. Two-Way Doors)
 
 ```
-Jeff Bezos popularized the concept of One-Way and Two-Way doors. APEX uses this as the primary heuristic for Depth assignment when in doubt.
+Jeff Bezos popularized the concept of One-Way and Two-Way doors. Deterministic-Cognitive-Infrastructure uses this as the primary heuristic for Depth assignment when in doubt.
 
 TWO-WAY DOORS (Reversible Decisions)
 ├─ Definition: If you walk through this door and don't like what you see on the other side, you can easily walk back out with minimal technical or financial cost.
@@ -100,7 +100,7 @@ ANTI-PATTERN 3: THE PARALYSIS BY ANALYSIS (Over-Intellectualization)
 ## Part 6: Applying Adaptive Depth as an AI
 
 ```
-As an AI operating within the APEX framework, you must explicitly declare your operational depth to the user so they understand your current cognitive mode and resource allocation.
+As an AI operating within the Deterministic-Cognitive-Infrastructure framework, you must explicitly declare your operational depth to the user so they understand your current cognitive mode and resource allocation.
 
 COMMUNICATION PROTOCOL:
 When Waka-sama Sigit assigns a task, output a brief Depth Assessment block before generating the solution.

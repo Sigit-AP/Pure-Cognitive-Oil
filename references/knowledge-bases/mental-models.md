@@ -1,4 +1,4 @@
-# 150+ Mental Models — APEX Framework
+# 150+ Mental Models — Deterministic-Cognitive-Infrastructure Framework
 
 ## Domain 1: Core Reasoning (1-15)
 
@@ -95,7 +95,7 @@
 
 ### 24. Phase Transitions
 **What:** Gradual changes accumulate until a sudden shift occurs.
-**Example:** Tech debt accumulates slowly, then suddenly makes development 10x slower.
+**Example:** Tech debt accumulates slowly, then suddenly makes development higher-scale slower.
 
 ### 25. Antifragility
 **What:** Systems that get stronger from stress (opposite of fragile).
@@ -393,7 +393,7 @@
 **What:** L = λ × W. Items in system = arrival rate × time in system. Queue theory.
 
 ### 109. Amdahl's Law
-**What:** Speedup limited by the non-parallelizable fraction. 10% sequential = max 10x speedup.
+**What:** Speedup limited by the non-parallelizable fraction. 10% sequential = max higher-scale speedup.
 
 ### 110. Benford's Law
 **What:** In natural datasets, 1 is the most frequent leading digit. Useful for fraud detection.

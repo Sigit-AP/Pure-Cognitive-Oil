@@ -1,4 +1,4 @@
-# 150+ Anti-Patterns — APEX Framework
+# 150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework
 
 ## Category 1: THINK Phase Traps (1-20)
 

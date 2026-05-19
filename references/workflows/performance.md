@@ -1,4 +1,4 @@
-# Performance Optimization Workflow — APEX v1
+# Performance Optimization Workflow — Deterministic-Cognitive-Infrastructure
 
 > **"Premature optimization is the root of all evil. But delayed optimization is the root of all churn. You cannot optimize what you do not measure. Guessing where the system is slow is a guaranteed way to make the code unreadable without actually making it faster. Performance is a feature, and like any feature, it must be specified, measured, and mathematically proven."**
 
@@ -124,10 +124,10 @@ THE "THUNDERING HERD" PROBLEM:
 └─ Cure: Implement Cache Stampede protection (Promise caching, Mutex locks, or Probabilistic Early Expiration) so only ONE request hits the database while the other 999 wait for the cache to be repopulated.
 ```
 
-## Part 7: APEX AI Execution Protocol
+## Part 7: Deterministic-Cognitive-Infrastructure AI Execution Protocol
 
 ```
-When an AI within the APEX framework is asked to "optimize this code," it must follow strict guidelines to avoid generating false optimizations.
+When an AI within the Deterministic-Cognitive-Infrastructure framework is asked to "optimize this code," it must follow strict guidelines to avoid generating false optimizations.
 
 1. Demand Context: "What is the current metric, what is the bottleneck, and what is the target? I cannot optimize blindly."
 2. Analyze Big O: The AI must immediately identify the Big-O time and space complexity of the provided algorithm.

@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "name": "deterministic-cognitive-infrastructure",
   "displayName": "Deterministic-Cognitive-Infrastructure",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Portable cognitive infrastructure plugin for AI agent harnesses. Provides bootstrap context, skills, routing, validation, readiness gates, and six-axis cognition.",
   "entrypoints": {
     "cli": "bin/dci.mjs",

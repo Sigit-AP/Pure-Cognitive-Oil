@@ -1,4 +1,4 @@
-# New Feature Development Workflow — APEX v1
+# New Feature Development Workflow — Deterministic-Cognitive-Infrastructure
 
 > **"A new feature is a hypothesis. It is an assumption that building X will cause user behavior Y, which will generate revenue Z. Until verified, code is just liability. The goal of this workflow is not to 'write code fast.' The goal is to mathematically verify the business hypothesis using the absolute minimum amount of new physical code possible, and to deploy it without breaking the existing Citadel."**
 
@@ -68,7 +68,7 @@ THE VERTICAL SLICE PROTOCOL:
 ## Part 4: Phase 3 - Quality Gates (The Defense)
 
 ```
-Before the feature flag is turned on for real users, the code must pass the APEX Quality Gates.
+Before the feature flag is turned on for real users, the code must pass the Deterministic-Cognitive-Infrastructure Quality Gates.
 
 GATE 1: THE TEST PYRAMID ENFORCEMENT
 ├─ Unit Tests (70%): Test the pure Domain Logic (the rules defined in Phase 1) extensively. These must run in milliseconds and require no database.
@@ -137,10 +137,10 @@ To safely integrate new code without rewriting everything, you must find "Seams"
 - Network Seams: Using an API gateway to route specific endpoints to a new microservice while keeping the rest on the monolith.
 ```
 
-## Part 8: APEX Execution Protocol
+## Part 8: Deterministic-Cognitive-Infrastructure Execution Protocol
 
 ```
-When an APEX AI is tasked with building a new feature:
+When an Deterministic-Cognitive-Infrastructure AI is tasked with building a new feature:
 
 1. HALT AND VERIFY: Do not write implementation code immediately. First, output the exact Schema (Types/Interfaces) and ask the human to confirm it matches their mental model.
 2. THINK IN SLICES: Propose a Vertical Slice plan. "I will build the API route and the DB query first to prove the connection, then we will wire the React component."

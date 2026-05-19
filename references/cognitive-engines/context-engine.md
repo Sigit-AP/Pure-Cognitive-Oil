@@ -1,4 +1,4 @@
-# Context Awareness Engine — APEX v1
+# Context Awareness Engine — Deterministic-Cognitive-Infrastructure
 
 > **"Without context, every decision is a gamble. With deep context, even difficult decisions become clear. The quality of your context determines the quality of your work."**
 

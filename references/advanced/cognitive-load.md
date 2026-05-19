@@ -1,4 +1,4 @@
-# Cognitive Load Management — APEX v1
+# Cognitive Load Management — Deterministic-Cognitive-Infrastructure
 
 > **"Intelligence is bounded by working memory. If you fill your context window with noise, you have no room left for reasoning. Managing cognitive load is not a nice-to-have; it is the physical constraint on your capacity to think. The master engineer does not possess infinite memory; they possess superior strategies for not needing it."**
 

@@ -1,4 +1,4 @@
-# Verification & Validation System — APEX v1
+# Verification & Validation System — Deterministic-Cognitive-Infrastructure
 
 > **"Assume nothing. Trust nothing. If it is not proven by an explicit test or direct observation, it is a hallucination waiting to happen. The code does not care what you meant; it only cares what you wrote. Verification is the process of aligning reality with intention."**
 
