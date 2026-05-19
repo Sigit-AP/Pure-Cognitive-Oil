@@ -1,15 +1,15 @@
-# Product Requirements Document: DCI Superpowers-Level Cognitive Infrastructure
+# Product Requirements Document: Deterministic-Cognitive-Infrastructure Enhancement
 
 ## 1. Product Summary
 
-Deterministic Cognitive Infrastructure (DCI) must become a Superpowers-level cognitive operating framework while preserving DCI's own purpose: deterministic, deep, multi-axis cognition for advanced AI agents.
+Deterministic-Cognitive-Infrastructure (DCI) must become a stronger cognitive operating framework while preserving DCI's own purpose: deterministic, deep, multi-axis cognition for advanced AI agents.
 
-This PRD defines the required end state for a non-marketplace DCI ecosystem: resource graph, bootstrap, skills, hooks, tests, validation, audit reports, parity analysis, and 6-axis cognitive excellence.
+This PRD defines the required end state for the DCI ecosystem: resource graph, bootstrap, skills, hooks, tests, validation, audit reports, readiness analysis, and 6-axis cognitive excellence.
 
 ## 2. Goals
 
 1. Make every DCI file discoverable, routable, auditable, and usable.
-2. Match Superpowers' ecosystem pattern without copying marketplace packaging.
+2. Strengthen DCI's own ecosystem pattern without marketplace dependency.
 3. Improve six cognitive axes to the highest practical level:
    - thinking
    - reasoning
@@ -22,8 +22,8 @@ This PRD defines the required end state for a non-marketplace DCI ecosystem: res
 
 ## 3. Non-Goals
 
-- Do not add Claude Code marketplace plugin packaging in this phase.
-- Do not copy Superpowers content verbatim.
+- Do not add marketplace plugin packaging in this phase.
+- Do not copy external framework content verbatim.
 - Do not weaken DCI's APEX framework identity.
 - Do not claim mathematical perfection; verify practical readiness through gates.
 
@@ -33,15 +33,15 @@ This PRD defines the required end state for a non-marketplace DCI ecosystem: res
 - AI agents using DCI for reasoning and execution.
 - Future plugin/harness wrappers.
 
-## 5. Superpowers-Inspired Requirements
+## 5. DCI Ecosystem Requirements
 
-| Area | Superpowers Pattern | DCI Requirement |
+| Area | DCI Pattern | Requirement |
 |---|---|---|
-| Bootstrap | session-start hook injects usage skill | DCI hook injects DCI bootstrap/context |
+| Bootstrap | session-start context injection | DCI hook injects DCI bootstrap/context |
 | Skills | modular SKILL.md workflows | DCI modular skills for usage, routing, verification |
 | Tests | shell-based acceptance/eval tests | DCI tests for bootstrap, routing, validation, triggering |
-| Discipline | skill invocation before action | DCI route/context before action |
-| Quality | PR/eval/testing expectations | DCI strict validation + score gates |
+| Discipline | route/context before action | DCI route/context before action |
+| Quality | strict gates and evidence | DCI strict validation + score gates |
 | Portability | cross-harness files | DCI non-plugin hooks + JSON/text bootstrap |
 | Versioning | package metadata | DCI versioned package scripts |
 
@@ -116,9 +116,9 @@ Provide automated tests:
 - skill-triggering test,
 - parity/report test.
 
-### FR8: Parity Audit
+### FR8: Readiness Audit
 
-Generate a Superpowers-style parity report comparing ecosystem categories:
+Generate a DCI readiness report covering ecosystem categories:
 
 - skills,
 - hooks,
@@ -159,9 +159,9 @@ Minimum success:
 - parity gates: pass
 - TypeScript check: pass
 
-## 9. 10x Enhancement Criteria
+## 9. Enhancement Criteria
 
-DCI is considered 10x improved when it has:
+DCI is considered materially improved when it has:
 
 1. resource graph + sections + concepts,
 2. bootstrap injection,
@@ -179,9 +179,9 @@ DCI is considered 10x improved when it has:
 ### 2026-05-19
 
 - PRD created.
-- Baseline audit: Superpowers has broader ecosystem and plugin packaging; DCI already has stronger deep resource graph.
-- Required build items: parity audit script, report generation, parity test, stricter package workflow.
-- Implemented `scripts/dci/parity.ts` and `tests/dci/test-parity.sh`.
-- Updated `npm run dci:all` to include parity gate.
-- Validation evidence: 75 files indexed, 879 sections, 240 concepts, 6905 graph edges, audit score 100, parity score 100.
-- Review result: non-marketplace DCI ecosystem now meets PRD gates for Superpowers-style parity while preserving DCI identity.
+- Baseline audit: DCI has a strong deep resource graph and needs strict ecosystem readiness gates.
+- Required build items: readiness audit script, report generation, readiness test, stricter package workflow.
+- Implemented `scripts/dci/parity.ts` and `tests/dci/test-parity.sh` as DCI readiness gates.
+- Updated `npm run dci:all` to include readiness gate.
+- Validation evidence: 75 files indexed, 879 sections, 240 concepts, 6905 graph edges, audit score 100, readiness score 100.
+- Review result: DCI ecosystem now meets PRD readiness gates while preserving DCI identity.

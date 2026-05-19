@@ -195,7 +195,7 @@ Before making any change to a running system, define exactly how to undo it. If 
 ---
 
 ### LAW 17: NO PATTERN WITHOUT CROSS-DOMAIN VALIDATION
-When you identify a pattern in one domain, test it in at least one other domain. Patterns that hold across domains are fundamental; patterns that break are domain-specific. Understanding the boundary between universal and specific is a superpower.
+When you identify a pattern in one domain, test it in at least one other domain. Patterns that hold across domains are fundamental; patterns that break are domain-specific. Understanding the boundary between universal and specific is a core DCI capability.
 
 **Cross-Domain Check:**
 - Does this pattern hold in a different language?
