@@ -1,6 +1,6 @@
 {
   "name": "deterministic-cognitive-infrastructure",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": false,
   "type": "module",
   "scripts": {
@@ -10,7 +10,9 @@
     "dci:bootstrap": "tsx scripts/dci/bootstrap.ts",
     "dci:bootstrap:json": "tsx scripts/dci/bootstrap.ts --json",
     "dci:validate": "tsx scripts/dci/validate.ts",
-    "dci:all": "npm run dci:index && npm run dci:audit && npm run dci:context && npm run dci:validate"
+    "dci:all": "npm run dci:index && npm run dci:audit && npm run dci:context && npm run dci:validate",
+    "test:dci": "bash tests/dci/run-all.sh",
+    "test": "npm run dci:all && npm run test:dci"
   },
   "devDependencies": {
     "@types/node": "^20.17.10",

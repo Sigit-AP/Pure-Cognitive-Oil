@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
+cd "$ROOT"
+if command -v npx >/dev/null 2>&1; then
+  npx tsx scripts/dci/bootstrap.ts --json
+else
+  printf '{"additionalContext":"DCI bootstrap requires Node.js/npm/npx. Run npm install, then npm run dci:bootstrap."}\n'
+fi
