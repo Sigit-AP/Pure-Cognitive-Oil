@@ -6,4 +6,5 @@ bash tests/dci/test-bootstrap.sh
 bash tests/dci/test-routing.sh
 bash tests/dci/test-validation.sh
 bash tests/dci/test-skill-triggering.sh
+bash tests/dci/test-parity.sh
 echo "PASS: all DCI ecosystem tests"
