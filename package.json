@@ -4,10 +4,18 @@
   "description": "Portable cognitive infrastructure plugin for AI agent harnesses.",
   "private": false,
   "type": "module",
+  "main": ".opencode/plugins/dci.js",
   "bin": {
     "dci": "bin/dci.mjs"
   },
   "files": [
+    ".opencode/",
+    ".claude-plugin/",
+    ".codex-plugin/",
+    ".cursor-plugin/",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "GEMINI.md",
     "bin/",
     "hooks/",
     "references/",

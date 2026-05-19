@@ -6,8 +6,8 @@
   "description": "Portable cognitive infrastructure plugin for AI agent harnesses. Provides bootstrap context, skills, routing, validation, readiness gates, and six-axis cognition.",
   "entrypoints": {
     "cli": "bin/dci.mjs",
-    "bootstrapText": "npm run dci:bootstrap",
-    "bootstrapJson": "npm run dci:bootstrap:json",
+    "bootstrapText": "dci bootstrap",
+    "bootstrapJson": "dci bootstrap --json",
     "sessionStartHook": "hooks/session-start"
   },
   "skills": [
@@ -26,8 +26,7 @@
     "bootstrap": "dci bootstrap",
     "bootstrapJson": "dci bootstrap --json",
     "validate": "dci validate",
-    "readiness": "dci readiness",
-    "test": "dci test"
+    "readiness": "dci readiness"
   },
   "compatibility": {
     "node": ">=18.0.0",

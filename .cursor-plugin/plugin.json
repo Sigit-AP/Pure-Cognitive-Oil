@@ -1,0 +1,21 @@
+{
+  "name": "deterministic-cognitive-infrastructure",
+  "displayName": "Deterministic-Cognitive-Infrastructure",
+  "description": "Graph-connected cognitive infrastructure, routing, and verification gates for coding agents.",
+  "version": "1.6.0",
+  "author": {
+    "name": "Sigit-AP"
+  },
+  "homepage": "https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure",
+  "repository": "https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "reasoning",
+    "verification",
+    "workflows",
+    "agent-framework"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks-cursor.json"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "deterministic-cognitive-infrastructure",
+  "description": "Portable cognitive infrastructure for agent harnesses: graph-connected references, bootstrap context, routing, verification gates, and DCI skills.",
+  "version": "1.6.0",
+  "author": {
+    "name": "Sigit-AP"
+  },
+  "homepage": "https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure",
+  "repository": "https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "cognitive-infrastructure",
+    "reasoning",
+    "verification",
+    "agent-framework",
+    "workflow"
+  ]
+}
