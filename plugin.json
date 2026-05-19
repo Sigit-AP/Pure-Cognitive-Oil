@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0",
+  "name": "deterministic-cognitive-infrastructure",
+  "displayName": "Deterministic-Cognitive-Infrastructure",
+  "version": "1.5.0",
+  "description": "Portable cognitive infrastructure plugin for AI agent harnesses. Provides bootstrap context, skills, routing, validation, readiness gates, and six-axis cognition.",
+  "entrypoints": {
+    "cli": "bin/dci.mjs",
+    "bootstrapText": "npm run dci:bootstrap",
+    "bootstrapJson": "npm run dci:bootstrap:json",
+    "sessionStartHook": "hooks/session-start"
+  },
+  "skills": [
+    "SKILL.md",
+    "skills/using-dci/SKILL.md",
+    "skills/dci-routing/SKILL.md",
+    "skills/dci-verification/SKILL.md"
+  ],
+  "resources": {
+    "references": "references/",
+    "workflows": "references/workflows/",
+    "cognitiveEngines": "references/cognitive-engines/",
+    "qualitySafety": "references/quality-safety/"
+  },
+  "commands": {
+    "bootstrap": "dci bootstrap",
+    "bootstrapJson": "dci bootstrap --json",
+    "validate": "dci validate",
+    "readiness": "dci readiness",
+    "test": "dci test"
+  },
+  "compatibility": {
+    "node": ">=18.0.0",
+    "harnesses": [
+      "Hermes",
+      "Claude Code-compatible skill loaders",
+      "Cursor or IDE rule loaders",
+      "OpenAI/Codex-style CLI wrappers",
+      "AutoGen or custom multi-agent orchestrators",
+      "Any agent framework that can read files and inject bootstrap context"
+    ]
+  },
+  "install": {
+    "github": "git clone https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure.git && cd Deterministic-Cognitive-Infrastructure && npm install && npm test",
+    "npmGlobal": "npm install -g github:Sigit-AP/Deterministic-Cognitive-Infrastructure",
+    "download": "Download ZIP, extract, run npm install, then npm test."
+  }
+}

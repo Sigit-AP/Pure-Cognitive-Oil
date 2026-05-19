@@ -39,6 +39,8 @@ function kindFor(file: string): DciFileKind {
   if (r.startsWith("references/knowledge-bases/")) return "knowledge-base";
   if (r.startsWith("references/quality-safety/")) return "quality-safety";
   if (r.startsWith("references/workflows/")) return "workflow";
+  if (r.startsWith("bin/") || r.startsWith("hooks/") || r.startsWith("scripts/")) return "root";
+  if (r.startsWith("skills/")) return "root";
   return "unknown";
 }
 function headings(text: string): string[] { return text.split(/\r?\n/).filter(l => /^#{1,6}\s+/.test(l)).map(l => l.replace(/^#{1,6}\s+/, "").trim()); }
@@ -147,7 +149,7 @@ export function buildAgentRouting(m: DciManifest): AgentRouting {
 export function buildAudit(m: DciManifest): AuditReport {
   const expected=listFiles().map(rel); const indexed=new Set(m.files.map(f=>f.path)); const hashes=new Map<string,string[]>(); for(const f of m.files)(hashes.get(f.sha256)||hashes.set(f.sha256,[]).get(f.sha256)!).push(f.path);
   const axisCoverage=Object.fromEntries(AXES.map(a=>{ const files=m.coverage[a]; const sections=m.files.reduce((n,f)=>n+f.sections.filter(s=>s.axes.includes(a)).length,0); return [a,{files,sections,status:files>=5&&sections>=5?"pass":files>0?"weak":"fail"}]; })) as AuditReport["axisCoverage"];
-  const folderCoverage=Object.entries(m.folders).map(([folder,v])=>({folder,files:v.files,axes:v.axes.length,concepts:v.concepts.length,status:(v.files>0&&v.axes.length>0&&v.concepts.length>0?"pass":"fail") as "pass" | "fail"}));
+  const folderCoverage=Object.entries(m.folders).map(([folder,v])=>{ const infrastructureFolder = ["bin", "hooks", "scripts", "skills"].some(prefix => folder === prefix || folder.startsWith(`${prefix}/`)); const hasCoverage = v.files>0&&v.axes.length>0&&(v.concepts.length>0||infrastructureFolder); return {folder,files:v.files,axes:v.axes.length,concepts:v.concepts.length,status:(hasCoverage?"pass":"fail") as "pass" | "fail"}; });
   const qualityGates: AuditReport["qualityGates"]=[
     {gate:"all-files-indexed",status:expected.every(f=>indexed.has(f))?"pass":"fail",detail:`${indexed.size}/${expected.length} files indexed`},
     {gate:"all-md-sectioned",status:m.files.filter(f=>f.extension===".md").every(f=>f.sections.length>0)?"pass":"fail",detail:`${m.totals.sections} sections extracted`},
