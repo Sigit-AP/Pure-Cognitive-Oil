@@ -434,3 +434,18 @@ BEFORE SUBMITTING WORK:
 [ ] Have I verified against the original requirements?
 [ ] Would I stake my reputation on this being correct?
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Cognitive Load Management — Deterministic-Cognitive-Infrastructure](../advanced/cognitive-load.md)
+- [Collaborative Intelligence System — Deterministic-Cognitive-Infrastructure](../advanced/collaborative-intelligence.md)
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+
+<!-- DCI-RELATED-END -->

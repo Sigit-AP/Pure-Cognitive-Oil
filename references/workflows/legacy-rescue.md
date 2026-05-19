@@ -127,3 +127,18 @@ When an AI operating under the Deterministic-Cognitive-Infrastructure framework 
 3. Identify Seams: Point out hardcoded dependencies (`new Database()`) and suggest injecting them via constructor parameters to enable mock testing.
 4. Highlight Chesterton's Fence: If the AI sees a confusing, massive block of code, it should warn the user: "This block appears illogical, but it likely handles an edge case. Do not remove it without verifying its exact purpose in production logs."
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+
+<!-- DCI-RELATED-END -->

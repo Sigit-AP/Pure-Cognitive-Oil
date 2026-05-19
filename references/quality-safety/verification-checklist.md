@@ -154,3 +154,18 @@ GATE 4: PRODUCTION CANARY DEPLOYMENT (The Blast Radius Limiter)
 ├─ Checks: Compare error rates, latency, and business metrics (e.g., conversion rate) between the canary and the stable version.
 └─ Rule: If the canary shows a statistical degradation, automatically rollback. Do not wait for a human to notice.
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
+
+<!-- DCI-RELATED-END -->

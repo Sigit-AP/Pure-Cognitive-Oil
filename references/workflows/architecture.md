@@ -126,3 +126,18 @@ When an AI operating under the Deterministic-Cognitive-Infrastructure framework 
 3. Separate State from Logic: The AI must explicitly design the system so that the stateful components (Databases, Caches) are completely segregated from the stateless business logic components.
 4. Define the Interfaces: Before generating any implementation code, the AI must output the exact Interfaces (Ports) that define the boundaries between the layers.
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Emergent Complexity Engine — Deterministic-Cognitive-Infrastructure](../advanced/emergent-complexity.md)
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [The 10-Phase Execution Pipeline — Deterministic-Cognitive-Infrastructure](../core/pipeline-phases.md)
+- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+
+<!-- DCI-RELATED-END -->

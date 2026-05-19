@@ -142,3 +142,18 @@ When an AI operating within the Deterministic-Cognitive-Infrastructure framework
 3. Enforce Safe Defaults: Always output `CREATE INDEX CONCURRENTLY` for Postgres. Always use `IF NOT EXISTS`.
 4. Issue Explicit Warnings: "WARNING: Adding this foreign key constraint will require a full table scan and a brief lock. Ensure you do this during a low-traffic window and test it on staging."
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+
+<!-- DCI-RELATED-END -->

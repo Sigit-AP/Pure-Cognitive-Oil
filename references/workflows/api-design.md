@@ -143,3 +143,18 @@ Before writing a single line of backend logic, write the OpenAPI (Swagger) speci
 
 Use code generation tools (like `openapi-generator` or `tsoa`) to generate the server interfaces, the request validation middleware, and the client SDKs directly from the OpenAPI spec. This mathematically guarantees that the server implementation exactly matches the published documentation.
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Communication Optimization System — Deterministic-Cognitive-Infrastructure](../advanced/communication-optimization.md)
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+
+<!-- DCI-RELATED-END -->

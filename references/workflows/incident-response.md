@@ -129,3 +129,18 @@ When an AI operating under the Deterministic-Cognitive-Infrastructure framework 
 4. Warn of Destructive Actions: If the user proposes a dangerous action (e.g., `DROP TABLE`, `rm -rf`), the AI MUST explicitly warn of the consequences, demand a backup plan, and ask for final confirmation, acting as a synthetic Incident Commander. "WARNING: Dropping that table will permanently destroy user session data. Are you absolutely sure?"
 5. Maintain the Timeline: The AI should log the steps it suggests and the results the user feeds back, acting as an automated Scribe for the eventual post-mortem.
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+
+<!-- DCI-RELATED-END -->

@@ -115,3 +115,18 @@ Example Assessment 2 (High Depth):
 Assessment: Level 4 (Architectural). One-Way Door. High risk of catastrophic authentication lockout.
 Action: Engaging Uncertainty Engine and First Principles. Writing detailed cryptographic migration protocol and state machine before touching the database."
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [The 10-Phase Execution Pipeline — Deterministic-Cognitive-Infrastructure](../core/pipeline-phases.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
+
+<!-- DCI-RELATED-END -->

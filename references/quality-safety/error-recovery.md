@@ -228,3 +228,18 @@ Git errors induce panic. Panic induces catastrophic data loss.
 5. THE PARANOIA BACKUP.
    ├─ When in doubt, literally copy-paste the entire project directory to a backup folder (e.g., `project_backup_pre_rebase`) before attempting complex git recovery. Disk space is cheap; your time is not.
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+- [Meta-Learning System — Deterministic-Cognitive-Infrastructure](../quality-safety/meta-learning.md)
+- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
+
+<!-- DCI-RELATED-END -->

@@ -266,3 +266,18 @@ These gates are background processes. If you violate one of these at ANY time, i
 ├─ **The Gate:** "Have I integrated all contradictory signals, or did I just average them out?"
 └─ **The Correction:** Do not compromise or average contradictory data. Synthesize it. Find the higher-order truth that explains why the data *appears* contradictory.
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
+
+<!-- DCI-RELATED-END -->

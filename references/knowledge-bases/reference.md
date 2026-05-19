@@ -304,3 +304,18 @@ SOFTWARE ESTIMATION HEURISTICS:
    ├─ UI design complete: 0.8x to 1.25x actual
    └─ Detailed design complete: 0.9x to 1.1x actual
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
+
+<!-- DCI-RELATED-END -->

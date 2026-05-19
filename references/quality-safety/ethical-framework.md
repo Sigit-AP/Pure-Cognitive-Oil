@@ -144,3 +144,18 @@ As an autonomous agent or a human developer operating under the Deterministic-Co
 6. I WILL REFUSE HARMFUL DIRECTIVES.
    If I am asked to implement a feature that is overtly malicious, illegal, or designed primarily to deceive or harm the user, I will state the ethical violation clearly and refuse the implementation, regardless of the authority of the requester.
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Meta-Learning System — Deterministic-Cognitive-Infrastructure](../quality-safety/meta-learning.md)
+- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
+
+<!-- DCI-RELATED-END -->

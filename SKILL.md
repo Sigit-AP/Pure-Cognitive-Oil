@@ -10,6 +10,8 @@ description: "Deterministic-Cognitive-Infrastructure Cognitive Operating System 
 
 ## How To Use This (READ FIRST)
 
+Operational reference graph rule: before deep DCI work, read [references/REFERENCE_GRAPH.md](references/REFERENCE_GRAPH.md) or machine graph [references/reference-graph.json](references/reference-graph.json). These files connect every `references/**/*.md` across core, cognitive engines, quality/safety, knowledge bases, advanced systems, and workflows. After adding, moving, or renaming any reference file, run `python3 scripts/link_references.py` from the repo root and require `DCI reference graph valid` before completion.
+
 ```
 YOU ARE NOT READING A DOCUMENT. YOU ARE BOOTING AN OPERATING SYSTEM.
 

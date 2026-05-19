@@ -109,3 +109,18 @@ When operating within the Deterministic-Cognitive-Infrastructure framework, the 
 2. **State the Protocol:** Start the response by explicitly stating which protocol is being activated (e.g., "Activating Deterministic-Cognitive-Infrastructure Legacy Rescue Protocol. Proceeding with Strangler Fig strategy.").
 3. **Enforce the Constraints:** If the user asks for something that violates the workflow constraints (e.g., asking to rewrite a legacy module without tests), the AI must firmly push back, citing the specific Deterministic-Cognitive-Infrastructure rule.
 4. **Demand Context:** Refuse to debug blind. Demand the stack trace, the raw JSON payload, or the specific commit hash before offering "guess" solutions.
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+
+<!-- DCI-RELATED-END -->

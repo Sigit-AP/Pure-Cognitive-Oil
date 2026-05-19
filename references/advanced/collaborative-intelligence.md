@@ -258,3 +258,18 @@ WHEN THE HUMAN SCOPE-CREEPS:
 3. Enforce boundary: "We are currently halfway through fixing the [Current Task]."
 4. Propose order: "Should we finish [Current Task] first to ensure it's stable, or pause it and switch entirely to [New Feature]?"
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Cognitive Load Management — Deterministic-Cognitive-Infrastructure](../advanced/cognitive-load.md)
+- [Communication Optimization System — Deterministic-Cognitive-Infrastructure](../advanced/communication-optimization.md)
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
+
+<!-- DCI-RELATED-END -->

@@ -134,3 +134,18 @@ When an AI operating within the Deterministic-Cognitive-Infrastructure framework
 3. Guide the Human Tracer: Do not hallucinate fixes in code you cannot fully see. Provide the human user with exact `console.log` or debugger statements to physically insert into their local code, and ask them to report back the output. You are directing the human to act as your physical probe.
 4. Declare Ignorance: If the context is missing, the AI MUST explicitly say: "I do not have enough context to mathematically guarantee a fix. Based on the snippet, my hypothesis is X, but you MUST log the value of `variable_Y` at line 42 to prove it before applying my patch."
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Self-Correction Protocol — Deterministic-Cognitive-Infrastructure](../cognitive-engines/self-correction.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+
+<!-- DCI-RELATED-END -->

@@ -171,3 +171,18 @@ OPTIMIZATION 3: RENDERING PERFORMANCE (Frames Per Second)
 ├─ Solution 2: Move heavy computation to Web Workers (background threads).
 └─ Solution 3: Use CSS transforms (`transform: translate`) for animation instead of altering layout properties (`margin`, `top`), as transforms are GPU-accelerated.
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Cognitive Load Management — Deterministic-Cognitive-Infrastructure](../advanced/cognitive-load.md)
+- [Collaborative Intelligence System — Deterministic-Cognitive-Infrastructure](../advanced/collaborative-intelligence.md)
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
+
+<!-- DCI-RELATED-END -->

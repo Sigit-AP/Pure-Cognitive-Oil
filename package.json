@@ -12,6 +12,7 @@
     "hooks/",
     "references/",
     "scripts/dci/",
+    "scripts/link_references.py",
     "skills/",
     "SKILL.md",
     "README.md",

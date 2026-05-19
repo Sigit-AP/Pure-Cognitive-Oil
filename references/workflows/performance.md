@@ -134,3 +134,18 @@ When an AI within the Deterministic-Cognitive-Infrastructure framework is asked 
 3. Target the DB First: If the code contains ORM or SQL queries, the AI MUST review those first before looking at loop optimizations. Look for N+1 queries or missing JOINs.
 4. Explain the Trade-off: Every optimization has a cost (usually increased code complexity or memory usage). The AI must explicitly state this cost. "By caching this result in a Map, we reduce CPU time from O(N) to O(1), but we increase memory consumption significantly. Ensure the Map is cleared or bounded."
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Cognitive Load Management — Deterministic-Cognitive-Infrastructure](../advanced/cognitive-load.md)
+- [Resource Optimization System — Deterministic-Cognitive-Infrastructure](../advanced/resource-optimization.md)
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+
+<!-- DCI-RELATED-END -->

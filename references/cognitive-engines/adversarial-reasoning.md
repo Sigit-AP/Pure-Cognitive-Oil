@@ -133,3 +133,18 @@ COGNITIVE ATTACK 4: THE SUNK COST DEFENSE
 ├─ Vulnerability: You realize your architecture is fundamentally vulnerable, but you've already spent 3 days building it, so you try to patch it with duct tape instead of tearing it down.
 └─ Defense: Recognize that patches over flawed architecture create multiplicative tech debt. The 3 days are gone. Do not waste the next 3 weeks trying to maintain a broken foundation. Revert.
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Cognitive Load Management — Deterministic-Cognitive-Infrastructure](../advanced/cognitive-load.md)
+- [Collaborative Intelligence System — Deterministic-Cognitive-Infrastructure](../advanced/collaborative-intelligence.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Causal Inference Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/causal-inference.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+
+<!-- DCI-RELATED-END -->

@@ -135,3 +135,18 @@ When an AI operating under the Deterministic-Cognitive-Infrastructure framework 
 4. Prioritize System Physics: The AI must strictly prioritize identifying IDOR, SQLi, XSS, and Database Locks over minor stylistic suggestions.
 5. Summarize Risk: The AI must begin the review with a "Risk Assessment Score" (Low, Medium, Critical) based on the files touched (e.g., modifying `auth.ts` is automatically Critical Risk).
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Hallucination Defense System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/hallucination-defense.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+
+<!-- DCI-RELATED-END -->

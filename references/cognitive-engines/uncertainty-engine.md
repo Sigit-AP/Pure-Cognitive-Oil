@@ -138,3 +138,18 @@ ESTIMATION PROTOCOL:
 3. Identify the multiplier: "The range is wide because I do not know if the legacy auth API supports OAuth2. If it does, it's 3 days. If it doesn't, it's 8 days."
 4. Propose a spike: "Give me 4 hours to write a throwaway prototype to test the auth API. After that, I can narrow the estimate to 3-4 days."
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Cognitive Load Management — Deterministic-Cognitive-Infrastructure](../advanced/cognitive-load.md)
+- [Collaborative Intelligence System — Deterministic-Cognitive-Infrastructure](../advanced/collaborative-intelligence.md)
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Meta-Cognitive Framework — Deterministic-Cognitive-Infrastructure](../cognitive-engines/meta-cognition.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+
+<!-- DCI-RELATED-END -->

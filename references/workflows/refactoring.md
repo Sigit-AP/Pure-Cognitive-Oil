@@ -134,3 +134,18 @@ As an AI, your capacity to refactor is immense, but your capacity to break thing
 3. Explain the "Why": Do not just output the new code. State exactly which Code Smell you identified, and which formal Refactoring Pattern you applied. (e.g., "I replaced the nested conditionals with Guard Clauses to flatten the logic").
 4. One Step at a Time: If the user pastes a 1000-line file and asks for a refactor, do NOT rewrite the whole file. Pick the biggest bottleneck, refactor that one specific piece, explain it, and return it. Small, verifiable steps.
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+
+<!-- DCI-RELATED-END -->

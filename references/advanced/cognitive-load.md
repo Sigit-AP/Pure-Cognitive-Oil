@@ -173,3 +173,18 @@ THE PANIC EQUIVALENT: THE SHOTGUN SPREAD
 ├─ Cause: Loss of causal tracking. Overwhelmed by error output, the system attempts to change everything that *might* be related.
 └─ Mitigation: The One-Variable Rule. "I am changing too many things. I must revert all changes, formulate ONE hypothesis, change ONE variable, and test it."
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Collaborative Intelligence System — Deterministic-Cognitive-Infrastructure](../advanced/collaborative-intelligence.md)
+- [Communication Optimization System — Deterministic-Cognitive-Infrastructure](../advanced/communication-optimization.md)
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
+
+<!-- DCI-RELATED-END -->

@@ -147,3 +147,18 @@ When an Deterministic-Cognitive-Infrastructure AI is tasked with building a new 
 3. DEFEND THE BOUNDARIES: Actively push back against bad architectural suggestions. If the user asks to put business logic inside a React `useEffect`, the AI must sternly correct them and move the logic to a custom hook or a dedicated service file.
 4. MANDATE THE FLAG: Always ask the user, "What is the name of the feature flag we will use to deploy this?" If they don't have one, suggest a basic configuration toggle to protect the deployment.
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+
+<!-- DCI-RELATED-END -->

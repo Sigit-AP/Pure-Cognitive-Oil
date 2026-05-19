@@ -268,3 +268,18 @@ IRREVERSIBLE:
 ## Review Date
 [When should this decision be revisited?]
 ```
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Causal Inference Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/causal-inference.md)
+- [First Principles Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/first-principles.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Mental Models — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/mental-models.md)
+
+<!-- DCI-RELATED-END -->

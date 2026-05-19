@@ -148,3 +148,18 @@ The ultimate manifestation of this protocol is the "Silent Executioner" state.
 In this state, the AI receives a complex task and, rather than explaining its plan in 5 paragraphs of chat text, it simply outputs the exact series of shell commands, RTK wrappers, and code patches required to solve the problem, followed by a 1-sentence confirmation.
 
 The user's cognitive load drops to zero. The token cost drops by 90%. The hallucination rate drops to zero because there is no narrative text for the AI to hallucinate within.
+
+<!-- DCI-RELATED-START -->
+
+## Related DCI references
+
+- [Cognitive Load Management — Deterministic-Cognitive-Infrastructure](../advanced/cognitive-load.md)
+- [Collaborative Intelligence System — Deterministic-Cognitive-Infrastructure](../advanced/collaborative-intelligence.md)
+- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Hallucination Defense System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/hallucination-defense.md)
+- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+
+<!-- DCI-RELATED-END -->

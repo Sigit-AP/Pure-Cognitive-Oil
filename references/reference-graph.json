@@ -1,0 +1,3337 @@
+{
+  "nodes": {
+    "advanced/cognitive-load.md": {
+      "title": "Cognitive Load Management — Deterministic-Cognitive-Infrastructure",
+      "category": "advanced"
+    },
+    "advanced/collaborative-intelligence.md": {
+      "title": "Collaborative Intelligence System — Deterministic-Cognitive-Infrastructure",
+      "category": "advanced"
+    },
+    "advanced/communication-optimization.md": {
+      "title": "Communication Optimization System — Deterministic-Cognitive-Infrastructure",
+      "category": "advanced"
+    },
+    "advanced/emergent-complexity.md": {
+      "title": "Emergent Complexity Engine — Deterministic-Cognitive-Infrastructure",
+      "category": "advanced"
+    },
+    "advanced/failure-patterns.md": {
+      "title": "Failure Pattern Database — Deterministic-Cognitive-Infrastructure",
+      "category": "advanced"
+    },
+    "advanced/resource-optimization.md": {
+      "title": "Resource Optimization System — Deterministic-Cognitive-Infrastructure",
+      "category": "advanced"
+    },
+    "advanced/temporal-intelligence.md": {
+      "title": "Temporal Intelligence System — Deterministic-Cognitive-Infrastructure",
+      "category": "advanced"
+    },
+    "cognitive-engines/adversarial-reasoning.md": {
+      "title": "Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure",
+      "category": "cognitive-engines"
+    },
+    "cognitive-engines/analogical-transfer.md": {
+      "title": "Analogical Transfer System — Deterministic-Cognitive-Infrastructure",
+      "category": "cognitive-engines"
+    },
+    "cognitive-engines/causal-inference.md": {
+      "title": "Causal Inference Engine — Deterministic-Cognitive-Infrastructure",
+      "category": "cognitive-engines"
+    },
+    "cognitive-engines/cognitive-synthesis.md": {
+      "title": "Cognitive Synthesis Protocol — Deterministic-Cognitive-Infrastructure",
+      "category": "cognitive-engines"
+    },
+    "cognitive-engines/context-engine.md": {
+      "title": "Context Awareness Engine — Deterministic-Cognitive-Infrastructure",
+      "category": "cognitive-engines"
+    },
+    "cognitive-engines/creative-synthesis.md": {
+      "title": "Creative Synthesis Engine — Deterministic-Cognitive-Infrastructure",
+      "category": "cognitive-engines"
+    },
+    "cognitive-engines/first-principles.md": {
+      "title": "First Principles Engine — Deterministic-Cognitive-Infrastructure",
+      "category": "cognitive-engines"
+    },
+    "cognitive-engines/hallucination-defense.md": {
+      "title": "Hallucination Defense System — Deterministic-Cognitive-Infrastructure",
+      "category": "cognitive-engines"
+    },
+    "cognitive-engines/meta-cognition.md": {
+      "title": "Meta-Cognitive Framework — Deterministic-Cognitive-Infrastructure",
+      "category": "cognitive-engines"
+    },
+    "cognitive-engines/search-strategy.md": {
+      "title": "Intelligent Search Strategy — Deterministic-Cognitive-Infrastructure",
+      "category": "cognitive-engines"
+    },
+    "cognitive-engines/self-correction.md": {
+      "title": "Self-Correction Protocol — Deterministic-Cognitive-Infrastructure",
+      "category": "cognitive-engines"
+    },
+    "cognitive-engines/uncertainty-engine.md": {
+      "title": "Bayesian Uncertainty Engine — Deterministic-Cognitive-Infrastructure",
+      "category": "cognitive-engines"
+    },
+    "cognitive-engines/zero-hallucination.md": {
+      "title": "🦾✨ DRAFT: Deterministic-Cognitive-Infrastructure - Context Integrity & Zero-Hallucination Protocol",
+      "category": "cognitive-engines"
+    },
+    "core/adaptive-depth.md": {
+      "title": "Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure",
+      "category": "core"
+    },
+    "core/iron-laws.md": {
+      "title": "The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework",
+      "category": "core"
+    },
+    "core/pipeline-phases.md": {
+      "title": "The 10-Phase Execution Pipeline — Deterministic-Cognitive-Infrastructure",
+      "category": "core"
+    },
+    "knowledge-bases/anti-patterns.md": {
+      "title": "150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework",
+      "category": "knowledge-bases"
+    },
+    "knowledge-bases/decision-tree.md": {
+      "title": "Decision Engine — Deterministic-Cognitive-Infrastructure Framework",
+      "category": "knowledge-bases"
+    },
+    "knowledge-bases/mental-models.md": {
+      "title": "150+ Mental Models — Deterministic-Cognitive-Infrastructure Framework",
+      "category": "knowledge-bases"
+    },
+    "knowledge-bases/reference.md": {
+      "title": "Extended Reference — Deterministic-Cognitive-Infrastructure Framework",
+      "category": "knowledge-bases"
+    },
+    "quality-safety/error-recovery.md": {
+      "title": "Error Recovery Protocol — Deterministic-Cognitive-Infrastructure",
+      "category": "quality-safety"
+    },
+    "quality-safety/ethical-framework.md": {
+      "title": "Ethical Framework — Deterministic-Cognitive-Infrastructure",
+      "category": "quality-safety"
+    },
+    "quality-safety/meta-learning.md": {
+      "title": "Meta-Learning System — Deterministic-Cognitive-Infrastructure",
+      "category": "quality-safety"
+    },
+    "quality-safety/quality-gates.md": {
+      "title": "Unified Gate System — Deterministic-Cognitive-Infrastructure",
+      "category": "quality-safety"
+    },
+    "quality-safety/verification-checklist.md": {
+      "title": "Verification & Validation System — Deterministic-Cognitive-Infrastructure",
+      "category": "quality-safety"
+    },
+    "workflows/api-design.md": {
+      "title": "API Design Workflow — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/architecture.md": {
+      "title": "Software Architecture Workflow — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/bug-fix.md": {
+      "title": "Bug Fix Protocol — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/code-review.md": {
+      "title": "Code Review Workflow — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/debugging-unknown.md": {
+      "title": "Debugging the Unknown Workflow — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/greenfield.md": {
+      "title": "Greenfield Project Workflow — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/incident-response.md": {
+      "title": "Incident Response Protocol — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/legacy-rescue.md": {
+      "title": "Legacy System Rescue Workflow — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/migration.md": {
+      "title": "Database Migration Workflow — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/new-feature.md": {
+      "title": "New Feature Development Workflow — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/performance.md": {
+      "title": "Performance Optimization Workflow — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/refactoring.md": {
+      "title": "Refactoring Workflow — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/research-spike.md": {
+      "title": "Research Spike Workflow — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/security-audit.md": {
+      "title": "Security Audit Workflow — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/technical-writing.md": {
+      "title": "Technical Writing Workflow — Deterministic-Cognitive-Infrastructure",
+      "category": "workflows"
+    },
+    "workflows/workflow-index.md": {
+      "title": "Deterministic-Cognitive-Infrastructure Workflow Index — v1",
+      "category": "workflows"
+    }
+  },
+  "edges": {
+    "advanced/cognitive-load.md": [
+      "advanced/collaborative-intelligence.md",
+      "advanced/communication-optimization.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "advanced/collaborative-intelligence.md": [
+      "advanced/cognitive-load.md",
+      "advanced/communication-optimization.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "advanced/communication-optimization.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "advanced/emergent-complexity.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "advanced/failure-patterns.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "advanced/resource-optimization.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "advanced/temporal-intelligence.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "cognitive-engines/adversarial-reasoning.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/analogical-transfer.md",
+      "cognitive-engines/causal-inference.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "cognitive-engines/analogical-transfer.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/causal-inference.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "cognitive-engines/causal-inference.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "cognitive-engines/cognitive-synthesis.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "cognitive-engines/context-engine.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "cognitive-engines/creative-synthesis.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "cognitive-engines/first-principles.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "cognitive-engines/hallucination-defense.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "cognitive-engines/zero-hallucination.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md"
+    ],
+    "cognitive-engines/meta-cognition.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "cognitive-engines/search-strategy.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "cognitive-engines/self-correction.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "cognitive-engines/uncertainty-engine.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "cognitive-engines/meta-cognition.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md"
+    ],
+    "cognitive-engines/zero-hallucination.md": [
+      "advanced/cognitive-load.md",
+      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "cognitive-engines/hallucination-defense.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md"
+    ],
+    "core/adaptive-depth.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/iron-laws.md",
+      "core/pipeline-phases.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "core/iron-laws.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/pipeline-phases.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "core/pipeline-phases.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "knowledge-bases/anti-patterns.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/decision-tree.md",
+      "knowledge-bases/mental-models.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "knowledge-bases/decision-tree.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "cognitive-engines/causal-inference.md",
+      "cognitive-engines/first-principles.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/mental-models.md"
+    ],
+    "knowledge-bases/mental-models.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "knowledge-bases/reference.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "quality-safety/error-recovery.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/ethical-framework.md",
+      "quality-safety/meta-learning.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "quality-safety/ethical-framework.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/meta-learning.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "quality-safety/meta-learning.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "quality-safety/quality-gates.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "quality-safety/verification-checklist.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "workflows/api-design.md": [
+      "advanced/communication-optimization.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md"
+    ],
+    "workflows/architecture.md": [
+      "advanced/emergent-complexity.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "core/pipeline-phases.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md"
+    ],
+    "workflows/bug-fix.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "workflows/code-review.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "cognitive-engines/hallucination-defense.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md"
+    ],
+    "workflows/debugging-unknown.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "cognitive-engines/self-correction.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md"
+    ],
+    "workflows/greenfield.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "workflows/incident-response.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "workflows/legacy-rescue.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "workflows/migration.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "workflows/new-feature.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "workflows/performance.md": [
+      "advanced/cognitive-load.md",
+      "advanced/resource-optimization.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md"
+    ],
+    "workflows/refactoring.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "workflows/research-spike.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "workflows/security-audit.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "workflows/technical-writing.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ],
+    "workflows/workflow-index.md": [
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "core/adaptive-depth.md",
+      "core/iron-laws.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md"
+    ]
+  },
+  "relations": [
+    {
+      "from": "advanced/cognitive-load.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/cognitive-load.md",
+      "to": "advanced/communication-optimization.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/cognitive-load.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/cognitive-load.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/cognitive-load.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/cognitive-load.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/cognitive-load.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/cognitive-load.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/collaborative-intelligence.md",
+      "to": "advanced/communication-optimization.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/collaborative-intelligence.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/collaborative-intelligence.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/collaborative-intelligence.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/collaborative-intelligence.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/collaborative-intelligence.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/collaborative-intelligence.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/communication-optimization.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/communication-optimization.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/communication-optimization.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/communication-optimization.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/communication-optimization.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/communication-optimization.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/communication-optimization.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/communication-optimization.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/emergent-complexity.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/emergent-complexity.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/emergent-complexity.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/emergent-complexity.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/emergent-complexity.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/emergent-complexity.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/emergent-complexity.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/emergent-complexity.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/failure-patterns.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/failure-patterns.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/failure-patterns.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/failure-patterns.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/failure-patterns.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/failure-patterns.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/failure-patterns.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/failure-patterns.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/resource-optimization.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/resource-optimization.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/resource-optimization.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/resource-optimization.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/resource-optimization.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/resource-optimization.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/resource-optimization.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/resource-optimization.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/temporal-intelligence.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/temporal-intelligence.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/temporal-intelligence.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/temporal-intelligence.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/temporal-intelligence.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/temporal-intelligence.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/temporal-intelligence.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/temporal-intelligence.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/adversarial-reasoning.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/adversarial-reasoning.md",
+      "to": "cognitive-engines/causal-inference.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/adversarial-reasoning.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/adversarial-reasoning.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/adversarial-reasoning.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/adversarial-reasoning.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/adversarial-reasoning.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/adversarial-reasoning.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/analogical-transfer.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/analogical-transfer.md",
+      "to": "cognitive-engines/causal-inference.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/analogical-transfer.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/analogical-transfer.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/analogical-transfer.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/analogical-transfer.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/analogical-transfer.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/analogical-transfer.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/causal-inference.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/causal-inference.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/causal-inference.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/causal-inference.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/causal-inference.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/causal-inference.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/causal-inference.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/causal-inference.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/cognitive-synthesis.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/cognitive-synthesis.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/cognitive-synthesis.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/cognitive-synthesis.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/cognitive-synthesis.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/cognitive-synthesis.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/cognitive-synthesis.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/cognitive-synthesis.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/context-engine.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/context-engine.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/context-engine.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/context-engine.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/context-engine.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/context-engine.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/context-engine.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/context-engine.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/creative-synthesis.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/creative-synthesis.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/creative-synthesis.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/creative-synthesis.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/creative-synthesis.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/creative-synthesis.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/creative-synthesis.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/creative-synthesis.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/first-principles.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/first-principles.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/first-principles.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/first-principles.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/first-principles.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/first-principles.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/first-principles.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/first-principles.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/hallucination-defense.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/hallucination-defense.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/hallucination-defense.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/hallucination-defense.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/hallucination-defense.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/hallucination-defense.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/hallucination-defense.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/hallucination-defense.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/hallucination-defense.md",
+      "to": "cognitive-engines/zero-hallucination.md",
+      "type": "semantic-trigger",
+      "trigger": "hallucination",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "cognitive-engines/hallucination-defense.md",
+      "to": "quality-safety/verification-checklist.md",
+      "type": "semantic-trigger",
+      "trigger": "hallucination",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "cognitive-engines/meta-cognition.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/meta-cognition.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/meta-cognition.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/meta-cognition.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/meta-cognition.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/meta-cognition.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/meta-cognition.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/meta-cognition.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/search-strategy.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/search-strategy.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/search-strategy.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/search-strategy.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/search-strategy.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/search-strategy.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/search-strategy.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/search-strategy.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/self-correction.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/self-correction.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/self-correction.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/self-correction.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/self-correction.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/self-correction.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/self-correction.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/self-correction.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/uncertainty-engine.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/uncertainty-engine.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/uncertainty-engine.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/uncertainty-engine.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/uncertainty-engine.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/uncertainty-engine.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/uncertainty-engine.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/uncertainty-engine.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/uncertainty-engine.md",
+      "to": "cognitive-engines/meta-cognition.md",
+      "type": "semantic-trigger",
+      "trigger": "uncertainty",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "cognitive-engines/uncertainty-engine.md",
+      "to": "quality-safety/verification-checklist.md",
+      "type": "semantic-trigger",
+      "trigger": "uncertainty",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "cognitive-engines/zero-hallucination.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/zero-hallucination.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/zero-hallucination.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/zero-hallucination.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/zero-hallucination.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/zero-hallucination.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/zero-hallucination.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/zero-hallucination.md",
+      "to": "advanced/collaborative-intelligence.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/zero-hallucination.md",
+      "to": "cognitive-engines/hallucination-defense.md",
+      "type": "semantic-trigger",
+      "trigger": "hallucination",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "cognitive-engines/zero-hallucination.md",
+      "to": "quality-safety/verification-checklist.md",
+      "type": "semantic-trigger",
+      "trigger": "hallucination",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "core/adaptive-depth.md",
+      "to": "core/iron-laws.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "core/adaptive-depth.md",
+      "to": "core/pipeline-phases.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "core/adaptive-depth.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "core/adaptive-depth.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "core/adaptive-depth.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect core with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "core/adaptive-depth.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect core with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "core/adaptive-depth.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect core with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "core/adaptive-depth.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect core with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "core/iron-laws.md",
+      "to": "core/adaptive-depth.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "core/iron-laws.md",
+      "to": "core/pipeline-phases.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "core/iron-laws.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "core/iron-laws.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "core/iron-laws.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect core with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "core/iron-laws.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect core with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "core/iron-laws.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect core with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "core/iron-laws.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect core with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "core/pipeline-phases.md",
+      "to": "core/adaptive-depth.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "core/pipeline-phases.md",
+      "to": "core/iron-laws.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "core/pipeline-phases.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "core/pipeline-phases.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "core/pipeline-phases.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect core with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "core/pipeline-phases.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect core with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "core/pipeline-phases.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect core with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "core/pipeline-phases.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect core with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/anti-patterns.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "knowledge-bases/anti-patterns.md",
+      "to": "knowledge-bases/mental-models.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "knowledge-bases/anti-patterns.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/anti-patterns.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/anti-patterns.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/anti-patterns.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/anti-patterns.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/anti-patterns.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/decision-tree.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "knowledge-bases/decision-tree.md",
+      "to": "knowledge-bases/mental-models.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "knowledge-bases/decision-tree.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/decision-tree.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/decision-tree.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/decision-tree.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/decision-tree.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/decision-tree.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/decision-tree.md",
+      "to": "cognitive-engines/causal-inference.md",
+      "type": "semantic-trigger",
+      "trigger": "decision",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "knowledge-bases/decision-tree.md",
+      "to": "cognitive-engines/first-principles.md",
+      "type": "semantic-trigger",
+      "trigger": "decision",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "knowledge-bases/mental-models.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "knowledge-bases/mental-models.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "knowledge-bases/mental-models.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/mental-models.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/mental-models.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/mental-models.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/mental-models.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/mental-models.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/reference.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "knowledge-bases/reference.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "knowledge-bases/reference.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/reference.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/reference.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/reference.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/reference.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/reference.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/error-recovery.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "quality-safety/error-recovery.md",
+      "to": "quality-safety/meta-learning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "quality-safety/error-recovery.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/error-recovery.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/error-recovery.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/error-recovery.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/error-recovery.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/error-recovery.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/ethical-framework.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "quality-safety/ethical-framework.md",
+      "to": "quality-safety/meta-learning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "quality-safety/ethical-framework.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/ethical-framework.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/ethical-framework.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/ethical-framework.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/meta-learning.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "quality-safety/meta-learning.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "quality-safety/meta-learning.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/meta-learning.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/meta-learning.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/meta-learning.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/meta-learning.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/meta-learning.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/quality-gates.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "quality-safety/quality-gates.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "quality-safety/quality-gates.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/quality-gates.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/quality-gates.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/quality-gates.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/quality-gates.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/quality-gates.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/verification-checklist.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "quality-safety/verification-checklist.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "quality-safety/verification-checklist.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/verification-checklist.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/verification-checklist.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/verification-checklist.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/verification-checklist.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/verification-checklist.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "workflows/bug-fix.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "advanced/communication-optimization.md",
+      "type": "semantic-trigger",
+      "trigger": "api",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "quality-safety/quality-gates.md",
+      "type": "semantic-trigger",
+      "trigger": "api",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/architecture.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/architecture.md",
+      "to": "workflows/bug-fix.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/architecture.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/architecture.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/architecture.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/architecture.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/architecture.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/architecture.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/architecture.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/architecture.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/architecture.md",
+      "to": "core/pipeline-phases.md",
+      "type": "semantic-trigger",
+      "trigger": "architecture",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/architecture.md",
+      "to": "advanced/emergent-complexity.md",
+      "type": "semantic-trigger",
+      "trigger": "architecture",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/bug-fix.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/bug-fix.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/bug-fix.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/bug-fix.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/bug-fix.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/bug-fix.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/bug-fix.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/bug-fix.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/bug-fix.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/bug-fix.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/code-review.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/code-review.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/code-review.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/code-review.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/code-review.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/code-review.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/code-review.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/code-review.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/code-review.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/code-review.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/code-review.md",
+      "to": "quality-safety/verification-checklist.md",
+      "type": "semantic-trigger",
+      "trigger": "review",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/code-review.md",
+      "to": "cognitive-engines/hallucination-defense.md",
+      "type": "semantic-trigger",
+      "trigger": "review",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/debugging-unknown.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/debugging-unknown.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/debugging-unknown.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/debugging-unknown.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/debugging-unknown.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/debugging-unknown.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/debugging-unknown.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/debugging-unknown.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/debugging-unknown.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/debugging-unknown.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/debugging-unknown.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "semantic-trigger",
+      "trigger": "debug",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/debugging-unknown.md",
+      "to": "cognitive-engines/self-correction.md",
+      "type": "semantic-trigger",
+      "trigger": "debug",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/greenfield.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/greenfield.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/greenfield.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/greenfield.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/greenfield.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/greenfield.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/greenfield.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/greenfield.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/greenfield.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/greenfield.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/incident-response.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/incident-response.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/incident-response.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/incident-response.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/incident-response.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/incident-response.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/incident-response.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/incident-response.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/incident-response.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/incident-response.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/legacy-rescue.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/legacy-rescue.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/legacy-rescue.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/legacy-rescue.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/legacy-rescue.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/legacy-rescue.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/legacy-rescue.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/legacy-rescue.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/legacy-rescue.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/legacy-rescue.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/migration.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/migration.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/migration.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/migration.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/migration.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/migration.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/migration.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/migration.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/migration.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/migration.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/migration.md",
+      "to": "workflows/legacy-rescue.md",
+      "type": "semantic-trigger",
+      "trigger": "migration",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/migration.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "semantic-trigger",
+      "trigger": "migration",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/new-feature.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/new-feature.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/new-feature.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/new-feature.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/new-feature.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/new-feature.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/new-feature.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/new-feature.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/new-feature.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/new-feature.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/performance.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/performance.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/performance.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/performance.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/performance.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/performance.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/performance.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/performance.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/performance.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/performance.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/performance.md",
+      "to": "advanced/resource-optimization.md",
+      "type": "semantic-trigger",
+      "trigger": "performance",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/performance.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "semantic-trigger",
+      "trigger": "performance",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/refactoring.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/refactoring.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/refactoring.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/refactoring.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/refactoring.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/refactoring.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/refactoring.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/refactoring.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/refactoring.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/refactoring.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/research-spike.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/research-spike.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/research-spike.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/research-spike.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/research-spike.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/research-spike.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/research-spike.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/research-spike.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/research-spike.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/research-spike.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/security-audit.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/security-audit.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/security-audit.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/security-audit.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/security-audit.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/security-audit.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/security-audit.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/security-audit.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/security-audit.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/security-audit.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/security-audit.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "semantic-trigger",
+      "trigger": "security",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/security-audit.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "semantic-trigger",
+      "trigger": "security",
+      "purpose": "activate related engine/workflow from shared concept"
+    },
+    {
+      "from": "workflows/technical-writing.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/technical-writing.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/technical-writing.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/technical-writing.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/technical-writing.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/technical-writing.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/technical-writing.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/technical-writing.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/technical-writing.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/technical-writing.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/workflow-index.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/workflow-index.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/workflow-index.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/workflow-index.md",
+      "to": "core/iron-laws.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/workflow-index.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/workflow-index.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/workflow-index.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/workflow-index.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/workflow-index.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/workflow-index.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    }
+  ],
+  "runtime_contract": {
+    "agent_entry": "SKILL.md",
+    "human_index": "references/REFERENCE_GRAPH.md",
+    "machine_graph": "references/reference-graph.json",
+    "regenerator": "scripts/link_references.py",
+    "rule": "Load graph first, choose relevant nodes, traverse cross-layer edges, then verify with quality-safety nodes."
+  }
+}
