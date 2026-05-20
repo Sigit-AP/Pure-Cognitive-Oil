@@ -34,6 +34,8 @@ Usage:
   dci context              Generate DCI context pack
   dci validate             Run DCI validation
   dci readiness            Run DCI readiness gate
+  dci references [cmd]     Run executable reference runtime (route/search/context/folders)
+  dci runtime-audit        Audit runtime scripts for duplication/spam/slop
   dci test                 Run full DCI test suite
   dci install-hermes DIR   Copy DCI skills into a Hermes skills directory
 
@@ -68,6 +70,13 @@ switch (command) {
   case "readiness":
   case "parity":
     runTs("scripts/dci/parity.ts", rest);
+    break;
+  case "references":
+  case "reference-runtime":
+    run("node", ["references/runtime/dci-reference-runtime.mjs", ...rest], { cwd: root });
+    break;
+  case "runtime-audit":
+    run("node", ["scripts/dci/runtime-audit.mjs", ...rest], { cwd: root });
     break;
   case "test":
     run("npm", ["test"], { cwd: root });

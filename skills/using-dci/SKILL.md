@@ -17,31 +17,35 @@ This is not optional for planning, coding, debugging, auditing, research, archit
 
 ## Mandatory Startup
 
-Load or generate current DCI context:
+Use executable runtime first:
 
 ```bash
-npm run dci:all
-npm run dci:bootstrap
+node references/runtime/dci-reference-runtime.mjs route "<task>" --limit 8 --depth 1
+node references/runtime/dci-reference-runtime.mjs context "<task>" --limit 8 --depth 1
 ```
 
-Then use:
+Folder-specific runtimes exist for targeted loading:
 
-```text
-.dci/cache/context-pack.json
-.dci/cache/resource-map.json
-.dci/cache/agent-routing.json
-.dci/cache/audit-report.json
+```bash
+node references/core/runtime.mjs route "<task>"
+node references/cognitive-engines/runtime.mjs route "<task>"
+node references/quality-safety/runtime.mjs route "<task>"
+node references/knowledge-bases/runtime.mjs route "<task>"
+node references/advanced/runtime.mjs route "<task>"
+node references/workflows/runtime.mjs route "<task>"
 ```
+
+Generated `.dci/cache/*.json` files are compatibility artifacts only. Do not route from JSON when the executable runtime is available.
 
 ## Rule
 
 Before acting:
 
 1. Identify task type.
-2. Choose route from `agent-routing.json`.
-3. Load startup files.
-4. Load required route files.
-5. Expand via prerequisites, concepts, and graph neighbors.
+2. Run the reference runtime route for the task.
+3. Load startup files returned by the route.
+4. Load required route files and folder runtime outputs.
+5. Expand via prerequisites, concepts, sections, and graph neighbors.
 6. Execute with the DCI phase pipeline.
 7. Verify through quality/safety gates.
 
@@ -50,8 +54,8 @@ Before acting:
 | Thought | Reality |
 |---|---|
 | "This is simple" | Simple tasks still need skill check. |
-| "I remember the framework" | Generated maps change; read current cache. |
-| "I can answer first" | DCI route check comes before output. |
+| "I remember the framework" | Runtime graph changes; run current route. |
+| "I can answer first" | DCI runtime route check comes before output. |
 | "I'll inspect later" | Context selection is the first step. |
 | "One file is enough" | DCI is graph-based; expand by neighbors and dependencies. |
 

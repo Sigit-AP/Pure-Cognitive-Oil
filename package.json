@@ -46,6 +46,9 @@
     "dci:validate": "tsx scripts/dci/validate.ts",
     "dci:parity": "tsx scripts/dci/parity.ts",
     "dci:readiness": "tsx scripts/dci/parity.ts",
+    "dci:references": "node references/runtime/dci-reference-runtime.mjs",
+    "dci:runtime-audit": "node scripts/dci/runtime-audit.mjs",
+    "dci:references:core": "node references/core/runtime.mjs",
     "dci:all": "npm run dci:index && npm run dci:audit && npm run dci:context && npm run dci:validate && npm run dci:readiness",
     "test:dci": "bash tests/dci/run-all.sh",
     "test": "npm run dci:all && npm run test:dci"

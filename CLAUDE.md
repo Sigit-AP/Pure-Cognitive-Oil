@@ -2,7 +2,7 @@
 
 ## Boot Rule
 
-Load `SKILL.md` first. For deep work, load `references/REFERENCE_GRAPH.md` or `references/reference-graph.json` and route through the graph before acting.
+Load `SKILL.md` first. For deep work, load `references/REFERENCE_GRAPH.md` or `references/reference-graph.mjs`, then run `node references/runtime/dci-reference-runtime.mjs route "<task>"` before acting.
 
 ## Reference Change Rule
 
@@ -14,4 +14,4 @@ python3 scripts/link_references.py
 
 ## Completion Rule
 
-Only report completion after validation evidence exists. Do not create placeholder scripts or commands.
+Only report completion after validation evidence exists. Do not create empty/demo scripts or fake commands.

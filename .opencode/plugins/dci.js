@@ -8,7 +8,7 @@
 import path from 'path';
 import fs from 'fs';
 import os from 'os';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -28,18 +28,40 @@ const normalizePath = (p, homeDir) => {
 };
 
 let bootstrapCache = undefined;
+let runtimeCache = undefined;
+
+async function loadRuntimeSummary(repoRoot) {
+  if (runtimeCache !== undefined) return runtimeCache;
+  const runtimePath = path.join(repoRoot, 'references', 'runtime', 'dci-reference-runtime.mjs');
+  if (!fs.existsSync(runtimePath)) {
+    runtimeCache = '';
+    return runtimeCache;
+  }
+  try {
+    const runtime = await import(pathToFileURL(runtimePath).href);
+    const plan = runtime.routeReferences('professional task verification reasoning workflow', { limit: 8, depth: 1 });
+    const folders = Object.entries(plan.runtime.folders || {})
+      .map(([name, meta]) => `- ${name}: files=${meta.files.length}; script=references/${meta.script}`)
+      .join('\n');
+    const selected = plan.files.slice(0, 10).map((item) => `- references/${item.node.path} (${item.reason})`).join('\n');
+    runtimeCache = `\n\n**DCI Executable Reference Runtime Loaded:**\n- script: references/runtime/dci-reference-runtime.mjs\n- graph: references/reference-graph.mjs\n- files: ${plan.runtime.totals.files}\n- sections: ${plan.runtime.totals.sections}\n- edges: ${plan.runtime.totals.edges}\n\nFolder runtimes:\n${folders}\n\nStartup route:\n${selected}\n\nRuntime commands:\n- dci references route \"<task>\"\n- dci references context \"<task>\" --limit 8 --depth 1`;
+    return runtimeCache;
+  } catch (err) {
+    runtimeCache = `\n\n**DCI Executable Reference Runtime:** failed to import; run node references/runtime/dci-reference-runtime.mjs route \"<task>\". Error: ${err instanceof Error ? err.message : String(err)}`;
+    return runtimeCache;
+  }
+}
 
 export const DCIPlugin = async () => {
   const homeDir = os.homedir();
   const repoRoot = path.resolve(__dirname, '../..');
   const skillsDir = path.join(repoRoot, 'skills');
   const skillPath = path.join(repoRoot, 'SKILL.md');
-  const graphPath = path.join(repoRoot, 'references', 'reference-graph.json');
   const envConfigDir = normalizePath(process.env.OPENCODE_CONFIG_DIR, homeDir);
   const configDir = envConfigDir || path.join(homeDir, '.config/opencode');
   void configDir;
 
-  const getBootstrapContent = () => {
+  const getBootstrapContent = async () => {
     if (bootstrapCache !== undefined) return bootstrapCache;
     if (!fs.existsSync(skillPath)) {
       bootstrapCache = null;
@@ -48,16 +70,7 @@ export const DCIPlugin = async () => {
 
     const fullContent = fs.readFileSync(skillPath, 'utf8');
     const { content } = extractAndStripFrontmatter(fullContent);
-    let graphSummary = '';
-
-    if (fs.existsSync(graphPath)) {
-      try {
-        const graph = JSON.parse(fs.readFileSync(graphPath, 'utf8'));
-        graphSummary = `\n\n**DCI Runtime Graph Loaded:**\n- nodes: ${Object.keys(graph.nodes || {}).length}\n- edges: ${Object.values(graph.edges || {}).reduce((n, v) => n + v.length, 0)}\n- relations: ${(graph.relations || []).length}\n- contract: ${(graph.runtime_contract && graph.runtime_contract.rule) || 'Load graph first, traverse cross-layer edges, verify with quality-safety.'}`;
-      } catch {
-        graphSummary = '\n\n**DCI Runtime Graph:** present but unreadable; use references/REFERENCE_GRAPH.md.';
-      }
-    }
+    const graphSummary = await loadRuntimeSummary(repoRoot);
 
     const toolMapping = `**Tool Mapping for OpenCode:**
 When DCI references tools you do not have, substitute OpenCode equivalents:
@@ -91,7 +104,7 @@ ${toolMapping}
     },
 
     'experimental.chat.messages.transform': async (_input, output) => {
-      const bootstrap = getBootstrapContent();
+      const bootstrap = await getBootstrapContent();
       if (!bootstrap || !output.messages.length) return;
       const firstUser = output.messages.find((m) => m.info.role === 'user');
       if (!firstUser || !firstUser.parts.length) return;

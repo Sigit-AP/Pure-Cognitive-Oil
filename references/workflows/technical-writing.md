@@ -116,7 +116,7 @@ A Runbook is a specific type of How-To guide designed to be read at 3:00 AM by a
 
 THE RUNBOOK LAWS:
 ├─ No Context: Do not explain the philosophical history of how the system works. Just give the literal commands.
-├─ Copy-Paste Ready: Every bash command must be executable directly from the clipboard. No `<insert_id_here>` placeholders if possible; use pre-set environment variables.
+├─ Copy-Paste Ready: Every bash command must be executable directly from the clipboard. Avoid `<insert_id_here>` stand-ins when possible; use pre-set environment variables.
 ├─ The Rollback: Every Runbook must have an explicit "How to revert this specific action" section immediately following the action, in case the mitigation makes things worse.
 └─ Ownership: A Runbook must state exactly which team owns the service, and provide the exact escalation phone number for the on-call engineer.
 ```

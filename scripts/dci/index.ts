@@ -7,7 +7,7 @@ import { AXES } from "./schema.js";
 const ROOT = process.cwd();
 const OUT_DIR = path.join(ROOT, ".dci", "cache");
 const IGNORE_DIRS = new Set([".git", "node_modules", ".dci", "dist"]);
-const TEXT_EXT = new Set([".md", ".txt", ".json", ".yaml", ".yml", ".ts", ".js", ".sh", ".cmd"]);
+const TEXT_EXT = new Set([".md", ".txt", ".json", ".mjs", ".yaml", ".yml", ".ts", ".js", ".sh", ".cmd"]);
 const STOP = new Set("the and for with that this from into your you are can will must not but atau yang dan dari untuk dalam agar pada semua file folder model agent agen repo system using used use when then than every each more less their there where have has been into over under across without with within through should would could into karena untuk dengan semua setiap dari dalam yang pada agar lebih atau bukan jika maka saat ini itu adalah sebagai secara tidak sudah bisa hanya akan dan nya saya kamu model ai repo file folder".split(/\s+/));
 const AXIS_TERMS: Record<CognitiveAxis, string[]> = {
   thinking: ["thinking", "cognitive", "mental", "first principles", "synthesis", "depth", "complexity", "abstraction"],

@@ -1,6 +1,6 @@
 # DCI Reference Graph
 
-Machine-readable graph: [`reference-graph.json`](reference-graph.json).
+Executable graph: [`reference-graph.mjs`](reference-graph.mjs). Runtime loader: [`runtime/dci-reference-runtime.mjs`](runtime/dci-reference-runtime.mjs).
 
 ## advanced
 

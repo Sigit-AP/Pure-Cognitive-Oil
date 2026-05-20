@@ -304,9 +304,35 @@ The agent should verify:
 - next steps are clear;
 - quality gates are satisfied.
 
+## Executable Reference Runtime
+
+The `references/` tree is not only prose. It includes executable scripts that scan, connect, route, and package the Markdown references at runtime:
+
+```bash
+node references/runtime/dci-reference-runtime.mjs folders
+node references/runtime/dci-reference-runtime.mjs route "debug hallucination verification"
+node references/runtime/dci-reference-runtime.mjs context "security audit" --limit 8 --depth 1
+npm run dci:runtime-audit
+
+dci references route "architecture performance"
+```
+
+Each major reference folder has a runtime adapter:
+
+```text
+references/core/runtime.mjs
+references/cognitive-engines/runtime.mjs
+references/quality-safety/runtime.mjs
+references/knowledge-bases/runtime.mjs
+references/advanced/runtime.mjs
+references/workflows/runtime.mjs
+```
+
+`references/reference-graph.mjs` is the executable machine graph. The old `references/reference-graph.json` file is removed; runtime scripts replace it.
+
 ## Generated Artifacts
 
-Running DCI commands creates cache files under `.dci/cache/`:
+Running DCI commands creates compatibility cache files under `.dci/cache/`:
 
 ```text
 manifest.json          # Indexed files, sections, concepts, graph edges
@@ -317,7 +343,7 @@ context-pack.json      # Summarized context pack for agents
 parity-report.json     # Readiness gate report
 ```
 
-The cache is generated output and is ignored by git.
+The cache is generated output and is ignored by git. The executable reference runtime can also operate directly from `references/**/*.md` without reading cache JSON.
 
 ## Validation Gates
 

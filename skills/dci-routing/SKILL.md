@@ -5,26 +5,23 @@ description: Use when deciding which DCI files, sections, concepts, or workflows
 
 ## Procedure
 
-1. Run or trust fresh generated cache:
+1. Run the executable reference runtime:
    ```bash
-   npm run dci:all
+   node references/runtime/dci-reference-runtime.mjs route "<task>" --limit 8 --depth 1
    ```
-2. Read `.dci/cache/agent-routing.json`.
-3. Select route by task intent:
-   - `need-thinking`
-   - `need-reasoning`
-   - `need-agentic`
-   - `need-knowledge`
-   - `need-reliability`
-   - `need-intelligence`
-   - `any-professional-task`
-4. Load route `requiredFiles` first.
-5. Expand with:
-   - `resource-map.prerequisites[file]`
-   - `resource-map.neighbors[file]`
-   - `resource-map.byConcept[term]`
-   - `resource-map.byCapability[capability]`
-6. Use section IDs from `manifest.files[].sections[]` for targeted context.
+2. For deeper context, generate an embedded context block:
+   ```bash
+   node references/runtime/dci-reference-runtime.mjs context "<task>" --limit 8 --depth 1
+   ```
+3. If the task is subsystem-specific, use that folder runtime:
+   ```bash
+   node references/workflows/runtime.mjs route "<task>"
+   node references/quality-safety/runtime.mjs route "<task>"
+   node references/cognitive-engines/runtime.mjs route "<task>"
+   ```
+4. Load selected startup files first.
+5. Expand with runtime neighbors, concepts, axes, and section IDs.
+6. Use `.dci/cache/*.json` only as compatibility output when a harness cannot import/run the executable runtime.
 
 ## Routing Discipline
 
