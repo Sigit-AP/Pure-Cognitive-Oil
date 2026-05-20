@@ -17,9 +17,16 @@ This is not optional for planning, coding, debugging, auditing, research, archit
 
 ## Mandatory Startup
 
-Use executable runtime first:
+DCI starts with an AMT-native boot contract, not blind copying:
+
+1. **Amati** — detect task intent, risk, uncertainty, and applicable cognitive resources.
+2. **Tiru** — reuse the proven first-use discipline: boot context first, route before action, avoid duplicate injection.
+3. **Modifikasi** — make it DCI-specific: executable graph routing, evidence gates, full-read coverage, and runtime audit.
+
+Use zero-dependency bootstrap and executable runtime first:
 
 ```bash
+node scripts/dci/bootstrap.mjs --json
 node references/runtime/dci-reference-runtime.mjs route "<task>" --limit 8 --depth 1
 node references/runtime/dci-reference-runtime.mjs context "<task>" --limit 8 --depth 1
 ```

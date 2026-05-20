@@ -63,7 +63,9 @@ Deterministic-Cognitive-Infrastructure/
 │   └── dci.mjs                      # Cross-harness CLI entrypoint
 ├── hooks/
 │   ├── session-start                # JSON bootstrap hook
-│   └── run-dci-hook.cmd             # Windows hook wrapper
+│   ├── run-hook.cmd                 # Cross-platform hook wrapper
+│   ├── hooks.json                   # Claude-style SessionStart hook manifest
+│   └── hooks-cursor.json            # Cursor-style sessionStart hook manifest
 ├── skills/
 │   ├── using-dci/                   # Usage discipline
 │   ├── dci-routing/                 # Route/resource selection
@@ -72,7 +74,7 @@ Deterministic-Cognitive-Infrastructure/
 │   ├── index.ts                     # Resource graph/index builder
 │   ├── audit.ts                     # Audit report command
 │   ├── context.ts                   # Context pack generator
-│   ├── bootstrap.ts                 # Text/JSON bootstrap generator
+│   ├── bootstrap.mjs                # Zero-dependency text/JSON boot contract generator
 │   ├── validate.ts                  # Validation gates
 │   ├── parity.ts                    # Readiness gate implementation
 │   ├── schema.ts                    # Typed DCI schema

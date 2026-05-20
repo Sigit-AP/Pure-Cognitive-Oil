@@ -28,10 +28,10 @@ const routing = buildAgentRouting(manifest);
 const gates = [
   { gate: "core-skill", status: exists("SKILL.md"), detail: "root SKILL.md exists" },
   { gate: "prd", status: exists("PRD.md"), detail: "PRD.md exists" },
-  { gate: "hooks", status: exists("hooks/session-start") && exists("hooks/run-dci-hook.cmd"), detail: `${filesUnder("hooks").length} hook files` },
+  { gate: "hooks", status: exists("hooks/session-start") && exists("hooks/run-hook.cmd") && exists("hooks/hooks.json") && exists("hooks/hooks-cursor.json"), detail: `${filesUnder("hooks").length} hook files` },
   { gate: "skills", status: filesUnder("skills").filter(f => f.endsWith("SKILL.md")).length >= 3, detail: `${filesUnder("skills").filter(f => f.endsWith("SKILL.md")).length} skill files` },
   { gate: "tests", status: filesUnder("tests/dci").length >= 6, detail: `${filesUnder("tests/dci").length} DCI test files` },
-  { gate: "bootstrap", status: exists("scripts/dci/bootstrap.ts"), detail: "bootstrap script exists" },
+  { gate: "bootstrap", status: exists("scripts/dci/bootstrap.mjs") && exists("hooks/hooks.json") && exists("hooks/hooks-cursor.json") && exists("hooks/run-hook.cmd"), detail: "zero-dependency bootstrap and cross-platform hooks exist" },
   { gate: "validation", status: exists("scripts/dci/validate.ts") && audit.status === "pass" && audit.readinessScore === 100, detail: `audit=${audit.status} score=${audit.readinessScore}` },
   { gate: "routing", status: routing.routes.length >= 7 && resourceMap.professionalLoadPlans.all.length > 0, detail: `${routing.routes.length} routes` },
   { gate: "resource-graph", status: manifest.totals.sections > 100 && manifest.totals.concepts >= 100 && manifest.totals.edges > 1000, detail: `${manifest.totals.sections} sections, ${manifest.totals.concepts} concepts, ${manifest.totals.edges} edges` },
@@ -46,7 +46,7 @@ const report = {
   status: passed === gates.length ? "pass" : "fail",
   gates: gates.map(g => ({ ...g, status: g.status ? "pass" : "fail" })),
   coreCapabilitiesCoverage: {
-    bootstrap: exists("scripts/dci/bootstrap.ts") && exists("hooks/session-start"),
+    bootstrap: exists("scripts/dci/bootstrap.mjs") && exists("hooks/session-start") && exists("hooks/run-hook.cmd"),
     modularSkills: filesUnder("skills").filter(f => f.endsWith("SKILL.md")),
     hooks: filesUnder("hooks"),
     tests: filesUnder("tests/dci"),

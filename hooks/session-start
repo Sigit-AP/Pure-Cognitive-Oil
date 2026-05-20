@@ -3,8 +3,9 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 cd "$ROOT"
-if command -v npx >/dev/null 2>&1; then
-  npx tsx scripts/dci/bootstrap.ts --json
+
+if command -v node >/dev/null 2>&1; then
+  node scripts/dci/bootstrap.mjs --json
 else
-  printf '{"additionalContext":"DCI bootstrap requires Node.js/npm/npx. Run npm install, then npm run dci:bootstrap."}\n'
+  printf '{"additionalContext":"DCI bootstrap requires Node.js >=18. Install Node, then run dci bootstrap --json."}\n'
 fi

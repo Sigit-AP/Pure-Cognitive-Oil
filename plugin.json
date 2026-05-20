@@ -8,7 +8,9 @@
     "cli": "bin/dci.mjs",
     "bootstrapText": "dci bootstrap",
     "bootstrapJson": "dci bootstrap --json",
-    "sessionStartHook": "hooks/session-start"
+    "sessionStartHook": "hooks/session-start",
+    "claudeHooks": "hooks/hooks.json",
+    "cursorHooks": "hooks/hooks-cursor.json"
   },
   "skills": [
     "SKILL.md",

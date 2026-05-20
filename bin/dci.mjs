@@ -53,7 +53,7 @@ switch (command) {
     printHelp();
     break;
   case "bootstrap":
-    runTs("scripts/dci/bootstrap.ts", rest);
+    run("node", ["scripts/dci/bootstrap.mjs", ...rest], { cwd: root });
     break;
   case "index":
     runTs("scripts/dci/index.ts", rest);

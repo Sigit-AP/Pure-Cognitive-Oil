@@ -153,6 +153,30 @@ for (const script of expectedRuntimeScripts) {
   else fail(`folder-output-budget:${script}`, `${out.length} chars exceeds 4000`);
 }
 
+try {
+  const boot = JSON.parse(run(["scripts/dci/bootstrap.mjs", "--json"]));
+  const ctx = boot.additionalContext || boot.additional_context || boot.hookSpecificOutput?.additionalContext || "";
+  if (ctx.includes("DCI_BOOT_CONTRACT") && ctx.includes("AMT-derived but DCI-native") && ctx.includes("references/runtime/dci-reference-runtime.mjs")) pass("first-use-boot-contract", `${ctx.length} chars`);
+  else fail("first-use-boot-contract", "bootstrap context missing DCI boot contract, AMT marker, or runtime command");
+} catch (err) {
+  fail("first-use-boot-contract", err instanceof Error ? err.message : String(err));
+}
+
+const sessionHook = exists("hooks/session-start") ? fs.readFileSync(path.join(root, "hooks/session-start"), "utf8") : "";
+if (exists("scripts/dci/bootstrap.mjs") && !exists("scripts/dci/bootstrap.ts") && !/npx\s+tsx|bootstrap\.ts/.test(sessionHook)) pass("zero-dependency-bootstrap", "session hook uses node bootstrap.mjs without npx/tsx");
+else fail("zero-dependency-bootstrap", "bootstrap still depends on tsx/npx or stale bootstrap.ts exists");
+
+try {
+  const claudeHooks = JSON.parse(fs.readFileSync(path.join(root, "hooks/hooks.json"), "utf8"));
+  const cursorHooks = JSON.parse(fs.readFileSync(path.join(root, "hooks/hooks-cursor.json"), "utf8"));
+  const claudeCommand = claudeHooks.hooks?.SessionStart?.[0]?.hooks?.[0]?.command || "";
+  const cursorCommand = cursorHooks.hooks?.sessionStart?.[0]?.command || "";
+  if (claudeCommand.includes("run-hook.cmd") && cursorCommand.includes("run-hook.cmd") && exists("hooks/run-hook.cmd")) pass("cross-platform-hook-manifests", "Claude and Cursor hooks point at run-hook.cmd");
+  else fail("cross-platform-hook-manifests", "hook manifests do not point at run-hook.cmd");
+} catch (err) {
+  fail("cross-platform-hook-manifests", err instanceof Error ? err.message : String(err));
+}
+
 const runtimeJsonRefs = contentSearch("reference-graph\\.json").filter((file) => file.endsWith(".mjs") || file.endsWith(".js") || file.endsWith(".ts"));
 const allowedJsonRefFiles = new Set(["scripts/dci/runtime-audit.mjs", "scripts/link_references.py"]);
 const unexpectedRuntimeJsonRefs = runtimeJsonRefs.filter((file) => !allowedJsonRefFiles.has(file));

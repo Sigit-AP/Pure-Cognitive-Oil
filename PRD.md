@@ -104,7 +104,9 @@ Each skill must include frontmatter and action discipline.
 Provide non-plugin hooks:
 
 - `hooks/session-start`
-- `hooks/run-dci-hook.cmd`
+- `hooks/run-hook.cmd`
+- `hooks/hooks.json`
+- `hooks/hooks-cursor.json`
 
 ### FR7: Tests and Evals
 

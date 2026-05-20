@@ -10,7 +10,7 @@ Run:
 ```bash
 npm run dci:all
 npm exec tsc -- --noEmit
-npx tsx scripts/dci/bootstrap.ts --json >/tmp/dci-bootstrap.json
+node scripts/dci/bootstrap.mjs --json >/tmp/dci-bootstrap.json
 python -m json.tool /tmp/dci-bootstrap.json >/dev/null
 ```
 

@@ -81,16 +81,21 @@ When DCI references tools you do not have, substitute OpenCode equivalents:
 
 Use DCI by loading graph context first, selecting relevant nodes, traversing cross-layer relations, and verifying through quality-safety gates.`;
 
-    bootstrapCache = `<EXTREMELY_IMPORTANT>
+    bootstrapCache = `<DCI_BOOT_CONTRACT>
 You have Deterministic-Cognitive-Infrastructure.
 
 **IMPORTANT: DCI bootstrap is already loaded. Do not reload it redundantly. Operate through the DCI graph and verification gates.**
+
+Boot mode: AMT-derived but DCI-native.
+- Amati: identify task intent, risk, uncertainty, and relevant resources.
+- Tiru: keep the proven discipline of boot context, skill routing, and duplicate-injection guards.
+- Modifikasi: use DCI's executable graph, runtime audit, full-read coverage, and quality/safety gates instead of copying another framework.
 
 ${content}
 ${graphSummary}
 
 ${toolMapping}
-</EXTREMELY_IMPORTANT>`;
+</DCI_BOOT_CONTRACT>`;
 
     return bootstrapCache;
   };

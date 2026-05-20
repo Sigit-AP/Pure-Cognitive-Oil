@@ -15,5 +15,7 @@
     "verification",
     "agent-framework",
     "workflow"
-  ]
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
 }
