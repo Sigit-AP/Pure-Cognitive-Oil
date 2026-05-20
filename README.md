@@ -343,7 +343,7 @@ context-pack.json      # Summarized context pack for agents
 parity-report.json     # Readiness gate report
 ```
 
-The cache is generated output and is ignored by git. The executable reference runtime can also operate directly from `references/**/*.md` without reading cache JSON.
+The cache is generated output and is ignored by git. The executable reference runtime can also operate directly from `references/**/*.md` without reading cache JSON. `npm run dci:runtime-audit` additionally reads every reference Markdown file in full and writes `.dci/cache/reference-full-read-report.json` with per-file hashes, section counts, graph coverage, runtime coverage, and inbound/outbound edge status.
 
 ## Validation Gates
 
