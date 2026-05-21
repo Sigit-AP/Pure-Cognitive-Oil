@@ -136,6 +136,7 @@ Completion requires:
 
 - `npm test` pass,
 - `npm exec tsc -- --noEmit` pass,
+- lifecycle certificate pass with sustained ratio >= 2,
 - audit score 100,
 - all gates pass,
 - parity readiness pass.
@@ -159,6 +160,7 @@ Minimum success:
 - route coverage: 7/7
 - ecosystem tests: pass
 - parity gates: pass
+- lifecycle certificate: pass with sustained ratio >= 2
 - TypeScript check: pass
 
 ## 9. Enhancement Criteria
@@ -172,9 +174,10 @@ DCI is considered materially improved when it has:
 5. tests/evals,
 6. strict validation,
 7. parity audit,
-8. generated reports,
-9. package scripts,
-10. repeatable one-command validation.
+8. lifecycle certificate for first-use, mid-use, runtime, and final-use,
+9. generated reports,
+10. package scripts,
+11. repeatable one-command validation.
 
 ## 10. Review Log
 
@@ -187,3 +190,10 @@ DCI is considered materially improved when it has:
 - Updated `npm run dci:all` to include readiness gate.
 - Validation evidence: 75 files indexed, 879 sections, 240 concepts, 6905 graph edges, audit score 100, readiness score 100.
 - Review result: DCI ecosystem now meets PRD readiness gates while preserving DCI identity.
+
+### 2026-05-21
+
+- Added executable sustained lifecycle certificate through `scripts/dci/lifecycle.mjs`.
+- Added `dci lifecycle` CLI command, package script, validation integration, and `tests/dci/test-lifecycle.sh`.
+- Lifecycle certificate gates first-use boot, mid-use drift resistance, runtime graph strength, and final-use audit hygiene.
+- Target evidence: `sustainedLifecycleRatio >= 2`; current design measures four active phases against one bootstrap-only baseline without claiming universal perfection.

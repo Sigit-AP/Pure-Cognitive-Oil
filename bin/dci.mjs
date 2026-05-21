@@ -35,6 +35,7 @@ Usage:
   dci validate             Run DCI validation
   dci readiness            Run DCI readiness gate
   dci references [cmd]     Run executable reference runtime (route/search/context/folders)
+  dci lifecycle            Generate sustained lifecycle certificate
   dci lifecycle [phase]    Print start/checkpoint/finish lifecycle protocol
   dci healthcheck          Verify DCI first-use/runtime/finish infrastructure
   dci scorecard            Compare DCI infrastructure coverage against Superpowers baseline

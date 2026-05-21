@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import { buildAudit, buildManifest, buildResourceMap, buildAgentRouting } from "./index.js";
 
 const root = process.cwd();
@@ -24,6 +25,9 @@ const manifest = buildManifest();
 const audit = buildAudit(manifest);
 const resourceMap = buildResourceMap(manifest);
 const routing = buildAgentRouting(manifest);
+execFileSync(process.execPath, ["scripts/dci/lifecycle.mjs", "--json"], { cwd: root, stdio: ["ignore", "ignore", "inherit"] });
+const lifecyclePath = path.join(outDir, "lifecycle-certificate.json");
+const lifecycle = fs.existsSync(lifecyclePath) ? JSON.parse(fs.readFileSync(lifecyclePath, "utf8")) : null;
 
 const gates = [
   { gate: "core-skill", status: exists("SKILL.md"), detail: "root SKILL.md exists" },
@@ -36,6 +40,7 @@ const gates = [
   { gate: "routing", status: routing.routes.length >= 7 && resourceMap.professionalLoadPlans.all.length > 0, detail: `${routing.routes.length} routes` },
   { gate: "resource-graph", status: manifest.totals.sections > 100 && manifest.totals.concepts >= 100 && manifest.totals.edges > 1000, detail: `${manifest.totals.sections} sections, ${manifest.totals.concepts} concepts, ${manifest.totals.edges} edges` },
   { gate: "six-axis", status: Object.values(audit.axisCoverage).every(v => v.status === "pass"), detail: JSON.stringify(audit.axisCoverage) },
+  { gate: "sustained-lifecycle", status: lifecycle?.status === "pass" && lifecycle?.score === 100 && lifecycle?.target?.sustainedLifecycleRatio >= 2, detail: `status=${lifecycle?.status || "missing"} score=${lifecycle?.score ?? "n/a"} ratio=${lifecycle?.target?.sustainedLifecycleRatio ?? "n/a"}` },
 ];
 const passed = gates.filter(g => g.status).length;
 const report = {
@@ -51,7 +56,7 @@ const report = {
     hooks: filesUnder("hooks"),
     tests: filesUnder("tests/dci"),
     packageScripts: JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8")).scripts,
-    generatedReports: ["manifest.json", "resource-map.json", "agent-routing.json", "context-pack.json", "audit-report.json", "parity-report.json"],
+    generatedReports: ["manifest.json", "resource-map.json", "agent-routing.json", "context-pack.json", "audit-report.json", "lifecycle-certificate.json", "parity-report.json"],
   },
   nonGoals: ["Claude Code marketplace packaging", "third-party marketplace manifests"],
 };

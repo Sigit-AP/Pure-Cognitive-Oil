@@ -230,12 +230,13 @@ dci context              # Generate context pack
 dci validate             # Run validation gates
 dci readiness            # Run readiness gate
 dci references route     # Route a task through the executable reference runtime
+dci lifecycle            # Generate sustained lifecycle certificate
 dci lifecycle start      # Print first-use lifecycle protocol
 dci lifecycle checkpoint # Print mid-use runtime checkpoint protocol
 dci lifecycle finish     # Print final verification protocol
 dci healthcheck          # Verify first-use/runtime/finish infrastructure
 dci scorecard            # Validate the 2x infrastructure coverage claim
-dci runtime-audit        # Audit runtime/full-read coverage
+dci runtime-audit        # Audit runtime scripts and full reference coverage
 dci test                 # Run full test suite
 dci install-hermes DIR   # Copy DCI skills into a Hermes skills directory
 ```
@@ -293,6 +294,25 @@ Coordinator: accepts completion only after validation gates pass.
 
 DCI uses a strict operating contract.
 
+### Sustained Lifecycle Certificate
+
+DCI includes an executable lifecycle gate so activation is not a short-lived bootstrap effect. Run:
+
+```bash
+dci lifecycle
+```
+
+The command writes `.dci/cache/lifecycle-certificate.json` and must pass four phases:
+
+| Phase | What it proves |
+|---|---|
+| `first-use` | boot contract, startup route, mandatory references, and runtime certificate are loaded before action |
+| `mid-use` | self-correction, hallucination defense, quality gates, verification, and drift context remain active during work |
+| `runtime` | executable graph, folder runtimes, section index, edge index, and search API are live |
+| `final-use` | audit, validation, lifecycle certificate, test wiring, cache hygiene, and legacy JSON removal are enforced before completion |
+
+A passing certificate reports `sustainedLifecycleRatio >= 2`; current target is four measured phases against a one-shot startup baseline. This is an evidence boundary, not a claim of universal perfection.
+
 ### Before Acting
 
 The agent should establish:
@@ -338,6 +358,7 @@ node references/runtime/dci-reference-runtime.mjs folders
 node references/runtime/dci-reference-runtime.mjs route "debug hallucination verification"
 node references/runtime/dci-reference-runtime.mjs context "security audit" --limit 8 --depth 1
 npm run dci:runtime-audit
+dci lifecycle
 
 dci references route "architecture performance"
 ```
@@ -365,6 +386,7 @@ resource-map.json      # Axis/kind/workflow/concept/capability maps
 agent-routing.json     # Route triggers and required files
 audit-report.json      # Coverage and readiness report
 context-pack.json      # Summarized context pack for agents
+lifecycle-certificate.json # Sustained first/mid/runtime/final-use certificate
 parity-report.json     # Readiness gate report
 ```
 
@@ -376,6 +398,7 @@ A valid DCI installation must pass:
 
 ```bash
 npm test
+dci lifecycle
 dci validate
 dci readiness
 ```
@@ -384,6 +407,7 @@ Expected result:
 
 ```text
 PASS: all DCI ecosystem tests
+DCI lifecycle pass
 DCI validation pass
 DCI readiness pass
 ```
@@ -399,7 +423,8 @@ Validation checks include:
 - quality/safety routing;
 - bootstrap generation;
 - skill triggering;
-- readiness scoring.
+- readiness scoring;
+- sustained lifecycle certification across first-use, mid-use, runtime, and final-use gates.
 
 ## Operating Modes
 
@@ -456,6 +481,7 @@ npm install
 npm run dci:index
 npm run dci:audit
 npm run dci:context
+npm run dci:lifecycle
 npm run dci:validate
 npm run dci:readiness
 npm test

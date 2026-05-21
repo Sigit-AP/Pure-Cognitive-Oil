@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import { buildAudit, buildManifest, buildResourceMap, buildAgentRouting } from "./index.js";
 
 const root = process.cwd();
@@ -25,6 +26,19 @@ for (const file of manifest.files) {
 const routeNames = new Set(routing.routes.map(r => r.trigger));
 for (const name of ["need-thinking", "need-reasoning", "need-agentic", "need-knowledge", "need-reliability", "need-intelligence", "any-professional-task"]) if (!routeNames.has(name)) errors.push(`missing route: ${name}`);
 for (const [axis, plan] of Object.entries(resourceMap.professionalLoadPlans)) if (!plan.length) errors.push(`empty professional load plan: ${axis}`);
+execFileSync(process.execPath, ["scripts/dci/lifecycle.mjs", "--json"], { cwd: root, stdio: ["ignore", "ignore", "inherit"] });
+const lifecycleReportPath = path.join(root, ".dci", "cache", "lifecycle-certificate.json");
+if (!fs.existsSync(lifecycleReportPath)) errors.push("missing lifecycle certificate: run npm run dci:lifecycle");
+else {
+  const lifecycle = JSON.parse(fs.readFileSync(lifecycleReportPath, "utf8"));
+  if (lifecycle.status !== "pass") errors.push(`lifecycle not pass: ${lifecycle.status}`);
+  if ((lifecycle.score ?? 0) !== 100) errors.push(`lifecycle score is not 100: ${lifecycle.score}`);
+  if ((lifecycle.target?.sustainedLifecycleRatio ?? 0) < 2) errors.push(`lifecycle sustained ratio below 2: ${lifecycle.target?.sustainedLifecycleRatio}`);
+  for (const phase of ["first-use", "mid-use", "runtime", "final-use"]) {
+    const found = lifecycle.phases?.find((item: { name: string; status: string }) => item.name === phase);
+    if (!found || found.status !== "pass") errors.push(`lifecycle phase not pass: ${phase}`);
+  }
+}
 
 if (errors.length) {
   console.error("DCI validation failed:");
