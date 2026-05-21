@@ -162,6 +162,14 @@ try {
   fail("first-use-boot-contract", err instanceof Error ? err.message : String(err));
 }
 
+try {
+  const scorecard = JSON.parse(run(["scripts/dci/scorecard.mjs", "--json"]));
+  if (scorecard.claim?.valid && scorecard.claim?.ratio >= 2) pass("scorecard-2x-coverage", `ratio=${scorecard.claim.ratio}x, passed=${scorecard.dci.passed}/${scorecard.dci.total}`);
+  else fail("scorecard-2x-coverage", `invalid scorecard: ${JSON.stringify(scorecard.claim || {})}`);
+} catch (err) {
+  fail("scorecard-2x-coverage", err instanceof Error ? err.message : String(err));
+}
+
 const sessionHook = exists("hooks/session-start") ? fs.readFileSync(path.join(root, "hooks/session-start"), "utf8") : "";
 if (exists("scripts/dci/bootstrap.mjs") && !exists("scripts/dci/bootstrap.ts") && !/npx\s+tsx|bootstrap\.ts/.test(sessionHook)) pass("zero-dependency-bootstrap", "session hook uses node bootstrap.mjs without npx/tsx");
 else fail("zero-dependency-bootstrap", "bootstrap still depends on tsx/npx or stale bootstrap.ts exists");

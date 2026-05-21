@@ -35,6 +35,9 @@ Usage:
   dci validate             Run DCI validation
   dci readiness            Run DCI readiness gate
   dci references [cmd]     Run executable reference runtime (route/search/context/folders)
+  dci lifecycle [phase]    Print start/checkpoint/finish lifecycle protocol
+  dci healthcheck          Verify DCI first-use/runtime/finish infrastructure
+  dci scorecard            Compare DCI infrastructure coverage against Superpowers baseline
   dci runtime-audit        Audit runtime scripts for duplication/spam/slop
   dci test                 Run full DCI test suite
   dci install-hermes DIR   Copy DCI skills into a Hermes skills directory
@@ -74,6 +77,15 @@ switch (command) {
   case "references":
   case "reference-runtime":
     run("node", ["references/runtime/dci-reference-runtime.mjs", ...rest], { cwd: root });
+    break;
+  case "lifecycle":
+    run("node", ["scripts/dci/lifecycle.mjs", ...rest], { cwd: root });
+    break;
+  case "healthcheck":
+    run("node", ["scripts/dci/healthcheck.mjs", ...rest], { cwd: root });
+    break;
+  case "scorecard":
+    run("node", ["scripts/dci/scorecard.mjs", ...rest], { cwd: root });
     break;
   case "runtime-audit":
     run("node", ["scripts/dci/runtime-audit.mjs", ...rest], { cwd: root });

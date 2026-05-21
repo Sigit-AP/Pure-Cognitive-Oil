@@ -77,6 +77,10 @@ Deterministic-Cognitive-Infrastructure/
 │   ├── bootstrap.mjs                # Zero-dependency text/JSON boot contract generator
 │   ├── validate.ts                  # Validation gates
 │   ├── parity.ts                    # Readiness gate implementation
+│   ├── runtime-audit.mjs            # Runtime/full-read audit gate
+│   ├── healthcheck.mjs              # First-use/runtime/finish healthcheck
+│   ├── lifecycle.mjs                # Start/checkpoint/finish protocol
+│   ├── scorecard.mjs                # 2x infrastructure coverage scorecard
 │   ├── schema.ts                    # Typed DCI schema
 │   └── install-hermes.mjs           # Hermes skill installer
 ├── tests/dci/                       # Acceptance and readiness tests
@@ -225,9 +229,28 @@ dci audit                # Run audit report
 dci context              # Generate context pack
 dci validate             # Run validation gates
 dci readiness            # Run readiness gate
+dci references route     # Route a task through the executable reference runtime
+dci lifecycle start      # Print first-use lifecycle protocol
+dci lifecycle checkpoint # Print mid-use runtime checkpoint protocol
+dci lifecycle finish     # Print final verification protocol
+dci healthcheck          # Verify first-use/runtime/finish infrastructure
+dci scorecard            # Validate the 2x infrastructure coverage claim
+dci runtime-audit        # Audit runtime/full-read coverage
 dci test                 # Run full test suite
 dci install-hermes DIR   # Copy DCI skills into a Hermes skills directory
 ```
+
+## 2x Infrastructure Scorecard
+
+DCI validates the user's target with a repository scorecard, not a vague quality claim:
+
+```bash
+npm run dci:healthcheck
+npm run dci:scorecard
+npm run dci:runtime-audit
+```
+
+The valid claim boundary is: DCI has at least 2x audited infrastructure coverage against the inspected Superpowers baseline across first-use, runtime, and finish stages. The scorecard does not claim every future answer is universally 2x better.
 
 ## Harness Integration
 

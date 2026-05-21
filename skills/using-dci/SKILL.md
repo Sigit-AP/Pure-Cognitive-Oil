@@ -71,6 +71,8 @@ Before acting:
 Do not finish until:
 
 - `npm run dci:validate` passes,
+- `npm run dci:healthcheck` passes for infrastructure changes,
+- `npm run dci:scorecard` passes before any 2x infrastructure claim,
 - evidence exists for all claims,
 - quality/safety resources were considered,
 - the selected route and loaded resources are known.
