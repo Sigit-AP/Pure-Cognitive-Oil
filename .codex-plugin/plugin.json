@@ -18,6 +18,13 @@
     "cognitive-infrastructure"
   ],
   "skills": "./skills/",
+  "commands": {
+    "bootstrap": "dci bootstrap --json",
+    "route": "dci references route \"<task>\"",
+    "capsule": "dci references capsule \"<task>\"",
+    "context": "dci references context \"<task>\" --limit 8 --depth 1",
+    "agenticAuto": "dci agentic-auto \"<task>\""
+  },
   "interface": {
     "displayName": "Deterministic-Cognitive-Infrastructure",
     "shortDescription": "Graph-connected cognitive routing and verification for agents",
@@ -31,7 +38,8 @@
     ],
     "defaultPrompt": [
       "Use DCI to reason through this task.",
-      "Apply DCI verification gates to this project."
+      "Apply DCI verification gates to this project.",
+      "Run dci agentic-auto \"<task>\" before complex autonomous implementation."
     ],
     "websiteURL": "https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure",
     "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",

@@ -17,5 +17,12 @@
     "agent-framework"
   ],
   "skills": "./skills/",
-  "hooks": "./hooks/hooks-cursor.json"
+  "hooks": "./hooks/hooks-cursor.json",
+  "commands": {
+    "bootstrap": "dci bootstrap --json",
+    "route": "dci references route \"<task>\"",
+    "capsule": "dci references capsule \"<task>\"",
+    "context": "dci references context \"<task>\" --limit 8 --depth 1",
+    "agenticAuto": "dci agentic-auto \"<task>\""
+  }
 }
