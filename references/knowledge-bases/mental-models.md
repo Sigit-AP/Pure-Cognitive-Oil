@@ -1,5 +1,58 @@
 # 150+ Mental Models — Deterministic-Cognitive-Infrastructure Framework
 
+
+<!-- DCI-DOC-STANDARD-START -->
+
+## Overview
+
+This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+
+## Document Profile
+
+- **Title:** 150+ Mental Models — Deterministic-Cognitive-Infrastructure Framework
+- **Path:** `references/knowledge-bases/mental-models.md`
+- **Folder:** `knowledge-bases`
+- **Document type:** Knowledge base reference
+- **Primary audience:** Agents and maintainers needing reusable heuristics, patterns, and decision support.
+- **Purpose:** Convert general knowledge into structured models, traps, decisions, and reusable checks.
+- **Standard used:** Reference documentation with decision-support and checklist structure.
+
+## When to Use
+
+Use during planning, trade-off analysis, pattern recognition, and review.
+
+## Inputs
+
+Problem class, observed symptoms, constraints, options, anti-patterns, and domain assumptions.
+
+## Expected Outputs
+
+Selected model, recommended path, known traps, and review questions.
+
+## Reading Protocol
+
+1. Start with the overview and document profile.
+2. Identify the trigger condition or task class that makes this reference relevant.
+3. Apply the procedure, rules, models, or checklist in order.
+4. Cross-check related DCI references before finalizing a high-risk decision.
+5. Preserve evidence for every completion, correctness, or safety claim.
+
+## Professional Checklist
+
+- [ ] Model or pattern is named.
+- [ ] Use case is clear.
+- [ ] Anti-patterns or traps are stated.
+- [ ] Decision aid is actionable.
+
+## Maintenance Notes
+
+- Keep headings descriptive and stable so runtime section extraction remains reliable.
+- Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
+- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Update related references and runtime graph metadata when changing conceptual relationships.
+
+<!-- DCI-DOC-STANDARD-END -->
+
 ## Domain 1: Core Reasoning (1-15)
 
 ### 1. First Principles

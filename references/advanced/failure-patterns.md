@@ -2,6 +2,59 @@
 
 > **"Those who do not study the specific failure modes of their discipline are doomed to repeat them. A professional does not just learn from their own mistakes; they study the graveyard of previous projects to learn the contours of systemic failure."**
 
+
+<!-- DCI-DOC-STANDARD-START -->
+
+## Overview
+
+This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+
+## Document Profile
+
+- **Title:** Failure Pattern Database — Deterministic-Cognitive-Infrastructure
+- **Path:** `references/advanced/failure-patterns.md`
+- **Folder:** `advanced`
+- **Document type:** Advanced operating system reference
+- **Primary audience:** Agents handling complex, ambiguous, multi-agent, high-context, or optimization-heavy tasks.
+- **Purpose:** Provide higher-order controls for collaboration, complexity, resource use, timing, and adaptation.
+- **Standard used:** Operational excellence playbook plus systems-thinking reference structure.
+
+## When to Use
+
+Use when ordinary task execution is insufficient due to scale, ambiguity, coordination, or risk.
+
+## Inputs
+
+Task complexity, context load, constraints, collaborators, failure patterns, and optimization goals.
+
+## Expected Outputs
+
+Operating strategy, coordination model, risk controls, and optimization priorities.
+
+## Reading Protocol
+
+1. Start with the overview and document profile.
+2. Identify the trigger condition or task class that makes this reference relevant.
+3. Apply the procedure, rules, models, or checklist in order.
+4. Cross-check related DCI references before finalizing a high-risk decision.
+5. Preserve evidence for every completion, correctness, or safety claim.
+
+## Professional Checklist
+
+- [ ] Complexity driver is identified.
+- [ ] Operating strategy is explicit.
+- [ ] Coordination/risk boundary is defined.
+- [ ] Optimization target is measurable.
+
+## Maintenance Notes
+
+- Keep headings descriptive and stable so runtime section extraction remains reliable.
+- Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
+- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Update related references and runtime graph metadata when changing conceptual relationships.
+
+<!-- DCI-DOC-STANDARD-END -->
+
 ## Part 1: Cognitive Failure Patterns
 
 ```

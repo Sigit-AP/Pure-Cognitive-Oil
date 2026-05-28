@@ -2,6 +2,59 @@
 
 > **"Certainty is an illusion of the uninformed. The master engineer operates entirely in probabilities. The goal of software architecture is not to eliminate uncertainty—which is mathematically and physically impossible—but to quantify it, bound it, and make optimal decisions within it. Engineering is the art of making the right trade-off under incomplete information."**
 
+
+<!-- DCI-DOC-STANDARD-START -->
+
+## Overview
+
+This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+
+## Document Profile
+
+- **Title:** Bayesian Uncertainty Engine — Deterministic-Cognitive-Infrastructure
+- **Path:** `references/cognitive-engines/uncertainty-engine.md`
+- **Folder:** `cognitive-engines`
+- **Document type:** Reasoning engine reference
+- **Primary audience:** Agents performing analysis, debugging, design, review, research, or synthesis.
+- **Purpose:** Provide a reusable reasoning method with triggers, procedure, safeguards, and outputs.
+- **Standard used:** Diataxis-inspired reference/how-to structure with decision-record rigor.
+
+## When to Use
+
+Use when the task requires disciplined inference, uncertainty handling, or specialized cognition.
+
+## Inputs
+
+Question, context, evidence, assumptions, candidate explanations, and validation signals.
+
+## Expected Outputs
+
+Reasoned conclusions, ranked hypotheses, decision criteria, and verification steps.
+
+## Reading Protocol
+
+1. Start with the overview and document profile.
+2. Identify the trigger condition or task class that makes this reference relevant.
+3. Apply the procedure, rules, models, or checklist in order.
+4. Cross-check related DCI references before finalizing a high-risk decision.
+5. Preserve evidence for every completion, correctness, or safety claim.
+
+## Professional Checklist
+
+- [ ] Trigger condition is present.
+- [ ] Inputs and assumptions are explicit.
+- [ ] Reasoning path is inspectable.
+- [ ] Validation or falsification step is defined.
+
+## Maintenance Notes
+
+- Keep headings descriptive and stable so runtime section extraction remains reliable.
+- Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
+- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Update related references and runtime graph metadata when changing conceptual relationships.
+
+<!-- DCI-DOC-STANDARD-END -->
+
 ## Part 1: The Bayesian Mindset
 
 ```

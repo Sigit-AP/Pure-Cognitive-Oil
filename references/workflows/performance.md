@@ -2,6 +2,59 @@
 
 > **"Premature optimization is the root of all evil. But delayed optimization is the root of all churn. You cannot optimize what you do not measure. Guessing where the system is slow is a guaranteed way to make the code unreadable without actually making it faster. Performance is a feature, and like any feature, it must be specified, measured, and mathematically proven."**
 
+
+<!-- DCI-DOC-STANDARD-START -->
+
+## Overview
+
+This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+
+## Document Profile
+
+- **Title:** Performance Optimization Workflow — Deterministic-Cognitive-Infrastructure
+- **Path:** `references/workflows/performance.md`
+- **Folder:** `workflows`
+- **Document type:** Workflow runbook
+- **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
+- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
+
+## When to Use
+
+Use when a user request matches the workflow domain or when routing selects this file.
+
+## Inputs
+
+Task scope, repo context, affected files, constraints, tests, risks, and acceptance criteria.
+
+## Expected Outputs
+
+Plan, implementation path, validation evidence, rollback notes, and final report.
+
+## Reading Protocol
+
+1. Start with the overview and document profile.
+2. Identify the trigger condition or task class that makes this reference relevant.
+3. Apply the procedure, rules, models, or checklist in order.
+4. Cross-check related DCI references before finalizing a high-risk decision.
+5. Preserve evidence for every completion, correctness, or safety claim.
+
+## Professional Checklist
+
+- [ ] Entry condition is clear.
+- [ ] Procedure is ordered.
+- [ ] Verification command or evidence is defined.
+- [ ] Final handoff/reporting criteria are explicit.
+
+## Maintenance Notes
+
+- Keep headings descriptive and stable so runtime section extraction remains reliable.
+- Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
+- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Update related references and runtime graph metadata when changing conceptual relationships.
+
+<!-- DCI-DOC-STANDARD-END -->
+
 ## Part 1: The Epistemology of Speed
 
 ```

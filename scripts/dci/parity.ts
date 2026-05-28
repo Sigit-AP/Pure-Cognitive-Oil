@@ -31,7 +31,7 @@ const lifecycle = fs.existsSync(lifecyclePath) ? JSON.parse(fs.readFileSync(life
 
 const gates = [
   { gate: "core-skill", status: exists("SKILL.md"), detail: "root SKILL.md exists" },
-  { gate: "prd", status: exists("PRD.md"), detail: "PRD.md exists" },
+  { gate: "project-docs", status: exists("README.md") && exists("PLUGIN.md"), detail: "README.md and PLUGIN.md exist" },
   { gate: "hooks", status: exists("hooks/session-start") && exists("hooks/run-hook.cmd") && exists("hooks/hooks.json") && exists("hooks/hooks-cursor.json"), detail: `${filesUnder("hooks").length} hook files` },
   { gate: "skills", status: filesUnder("skills").filter(f => f.endsWith("SKILL.md")).length >= 3, detail: `${filesUnder("skills").filter(f => f.endsWith("SKILL.md")).length} skill files` },
   { gate: "tests", status: filesUnder("tests/dci").length >= 6, detail: `${filesUnder("tests/dci").length} DCI test files` },

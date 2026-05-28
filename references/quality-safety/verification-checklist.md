@@ -2,6 +2,59 @@
 
 > **"Assume nothing. Trust nothing. If it is not proven by an explicit test or direct observation, it is a hallucination waiting to happen. The code does not care what you meant; it only cares what you wrote. Verification is the process of aligning reality with intention."**
 
+
+<!-- DCI-DOC-STANDARD-START -->
+
+## Overview
+
+This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+
+## Document Profile
+
+- **Title:** Verification & Validation System — Deterministic-Cognitive-Infrastructure
+- **Path:** `references/quality-safety/verification-checklist.md`
+- **Folder:** `quality-safety`
+- **Document type:** Quality and safety control
+- **Primary audience:** Agents, reviewers, release owners, and human supervisors.
+- **Purpose:** Define gates that prevent hallucination, unsafe actions, weak evidence, and incomplete work.
+- **Standard used:** Quality management checklist plus incident-control runbook structure.
+
+## When to Use
+
+Use before claiming completion, publishing outputs, changing critical systems, or escalating risk.
+
+## Inputs
+
+Claims, evidence, test results, risk class, assumptions, and rollback conditions.
+
+## Expected Outputs
+
+Pass/fail decisions, required repairs, residual risks, and completion evidence.
+
+## Reading Protocol
+
+1. Start with the overview and document profile.
+2. Identify the trigger condition or task class that makes this reference relevant.
+3. Apply the procedure, rules, models, or checklist in order.
+4. Cross-check related DCI references before finalizing a high-risk decision.
+5. Preserve evidence for every completion, correctness, or safety claim.
+
+## Professional Checklist
+
+- [ ] Gate criteria are objective.
+- [ ] Failure response is stated.
+- [ ] Evidence requirement is clear.
+- [ ] Residual risk is documented.
+
+## Maintenance Notes
+
+- Keep headings descriptive and stable so runtime section extraction remains reliable.
+- Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
+- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Update related references and runtime graph metadata when changing conceptual relationships.
+
+<!-- DCI-DOC-STANDARD-END -->
+
 ## Part 1: The 5-Layer Verification Matrix
 
 ```

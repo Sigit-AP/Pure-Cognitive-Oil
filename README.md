@@ -60,7 +60,6 @@ For serious work, DCI expects the agent to:
 ├── SKILL.md
 ├── README.md
 ├── PLUGIN.md
-├── PRD.md
 ├── package.json
 ├── plugin.json
 ├── bin/dci.mjs

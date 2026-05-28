@@ -1,5 +1,58 @@
 # The 10-Phase Execution Pipeline — Deterministic-Cognitive-Infrastructure
 
+
+<!-- DCI-DOC-STANDARD-START -->
+
+## Overview
+
+This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+
+## Document Profile
+
+- **Title:** The 10-Phase Execution Pipeline — Deterministic-Cognitive-Infrastructure
+- **Path:** `references/core/pipeline-phases.md`
+- **Folder:** `core`
+- **Document type:** Core operating doctrine
+- **Primary audience:** Agents, reviewers, maintainers, and automation harnesses.
+- **Purpose:** Define non-negotiable operating rules, execution phases, and depth controls.
+- **Standard used:** Policy documentation plus operational runbook structure.
+
+## When to Use
+
+Use before planning, implementation, verification, or high-risk decisions.
+
+## Inputs
+
+Task request, risk level, system context, evidence, constraints, and failure signals.
+
+## Expected Outputs
+
+A disciplined execution mode, explicit gates, and evidence-backed completion criteria.
+
+## Reading Protocol
+
+1. Start with the overview and document profile.
+2. Identify the trigger condition or task class that makes this reference relevant.
+3. Apply the procedure, rules, models, or checklist in order.
+4. Cross-check related DCI references before finalizing a high-risk decision.
+5. Preserve evidence for every completion, correctness, or safety claim.
+
+## Professional Checklist
+
+- [ ] Task is classified before action.
+- [ ] Depth level is explicit.
+- [ ] Phase gates are followed.
+- [ ] Claims are backed by evidence.
+
+## Maintenance Notes
+
+- Keep headings descriptive and stable so runtime section extraction remains reliable.
+- Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
+- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Update related references and runtime graph metadata when changing conceptual relationships.
+
+<!-- DCI-DOC-STANDARD-END -->
+
 ## CRITICAL: This Pipeline is NON-LINEAR
 
 ```

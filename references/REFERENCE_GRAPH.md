@@ -1,5 +1,58 @@
 # DCI Reference Graph
 
+
+<!-- DCI-DOC-STANDARD-START -->
+
+## Overview
+
+This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+
+## Document Profile
+
+- **Title:** DCI Reference Graph
+- **Path:** `references/REFERENCE_GRAPH.md`
+- **Folder:** `.`
+- **Document type:** Reference map
+- **Primary audience:** Agent runtimes, maintainers, and documentation readers.
+- **Purpose:** Describe the executable relationship graph between DCI references.
+- **Standard used:** Architecture decision record style plus documentation information architecture.
+
+## When to Use
+
+Use when navigating the reference corpus or checking graph connectivity.
+
+## Inputs
+
+Reference titles, file paths, graph neighbors, and runtime-generated links.
+
+## Expected Outputs
+
+A readable map of reference relationships and traversal targets.
+
+## Reading Protocol
+
+1. Start with the overview and document profile.
+2. Identify the trigger condition or task class that makes this reference relevant.
+3. Apply the procedure, rules, models, or checklist in order.
+4. Cross-check related DCI references before finalizing a high-risk decision.
+5. Preserve evidence for every completion, correctness, or safety claim.
+
+## Professional Checklist
+
+- [ ] Graph source and runtime loader are identified.
+- [ ] Links resolve to existing reference files.
+- [ ] Relationships are useful for routing, not decorative.
+- [ ] Generated content remains reproducible.
+
+## Maintenance Notes
+
+- Keep headings descriptive and stable so runtime section extraction remains reliable.
+- Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
+- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Update related references and runtime graph metadata when changing conceptual relationships.
+
+<!-- DCI-DOC-STANDARD-END -->
+
 Executable graph: [`reference-graph.mjs`](reference-graph.mjs). Runtime loader: [`runtime/dci-reference-runtime.mjs`](runtime/dci-reference-runtime.mjs).
 
 ## advanced
