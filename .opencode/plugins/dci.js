@@ -44,7 +44,7 @@ async function loadRuntimeSummary(repoRoot) {
       .map(([name, meta]) => `- ${name}: files=${meta.files.length}; script=references/${meta.script}`)
       .join('\n');
     const selected = plan.files.slice(0, 10).map((item) => `- references/${item.node.path} (${item.reason})`).join('\n');
-    runtimeCache = `\n\n**DCI Executable Reference Runtime Loaded:**\n- script: references/runtime/dci-reference-runtime.mjs\n- graph: references/reference-graph.mjs\n- files: ${plan.runtime.totals.files}\n- sections: ${plan.runtime.totals.sections}\n- edges: ${plan.runtime.totals.edges}\n\nFolder runtimes:\n${folders}\n\nStartup route:\n${selected}\n\nRuntime commands:\n- dci references route \"<task>\"\n- dci references context \"<task>\" --limit 8 --depth 1`;
+    runtimeCache = `\n\n**DCI Executable Reference Runtime Loaded:**\n- script: references/runtime/dci-reference-runtime.mjs\n- graph: references/reference-graph.mjs\n- files: ${plan.runtime.totals.files}\n- sections: ${plan.runtime.totals.sections}\n- edges: ${plan.runtime.totals.edges}\n\nFolder runtimes:\n${folders}\n\nStartup route:\n${selected}\n\nRuntime commands:\n- dci references route \"<task>\"\n- dci references capsule \"<task>\"\n- dci references context \"<task>\" --limit 8 --depth 1\n- dci agentic-auto \"<task>\"`;
     return runtimeCache;
   } catch (err) {
     runtimeCache = `\n\n**DCI Executable Reference Runtime:** failed to import; run node references/runtime/dci-reference-runtime.mjs route \"<task>\". Error: ${err instanceof Error ? err.message : String(err)}`;

@@ -10,7 +10,7 @@ r=json.load(open('.dci/cache/runtime-audit-report.json'))
 assert r['status']=='pass', r
 assert not r['failures'], r['failures']
 full=r['referenceFullRead']
-assert full['files']==48, full['files']
+assert full['files']>=49, full['files']
 assert full['totalChars']>600000, full['totalChars']
 assert all(item['status']=='pass' for item in full['items'])
 print('runtime audit checks', len(r['checks']), 'full-read files', full['files'])

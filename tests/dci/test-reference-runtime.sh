@@ -18,4 +18,9 @@ node references/runtime/dci-reference-runtime.mjs context "security audit" --lim
 grep -q '<DCI_REFERENCE_RUNTIME_CONTEXT>' /tmp/dci-reference-context.log || fail "missing context block"
 grep -q '<DCI_REFERENCE path=' /tmp/dci-reference-context.log || fail "missing embedded reference content"
 
+node references/runtime/dci-reference-runtime.mjs capsule "full depth resource optimization" --limit 8 --depth 2 >/tmp/dci-reference-capsule.log
+grep -q 'DCI Professional Capsule' /tmp/dci-reference-capsule.log || fail "missing professional capsule header"
+grep -q 'Full-depth load ladder' /tmp/dci-reference-capsule.log || fail "missing full-depth load ladder"
+grep -q 'references/advanced/resource-optimization.md' /tmp/dci-reference-capsule.log || fail "capsule did not preserve resource optimization source path"
+
 pass reference-runtime

@@ -2,6 +2,10 @@
 // Executable DCI reference graph. JSON has been replaced by this runtime module.
 const graph = {
   "nodes": {
+    "advanced/agentic-auto-runtime.md": {
+      "title": "Agentic Auto Runtime — Deterministic-Cognitive-Infrastructure",
+      "category": "advanced"
+    },
     "advanced/cognitive-load.md": {
       "title": "Cognitive Load Management — Deterministic-Cognitive-Infrastructure",
       "category": "advanced"
@@ -196,9 +200,19 @@ const graph = {
     }
   },
   "edges": {
-    "advanced/cognitive-load.md": [
+    "advanced/agentic-auto-runtime.md": [
+      "advanced/cognitive-load.md",
       "advanced/collaborative-intelligence.md",
-      "advanced/communication-optimization.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/api-design.md",
+      "workflows/architecture.md"
+    ],
+    "advanced/cognitive-load.md": [
+      "advanced/agentic-auto-runtime.md",
+      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "quality-safety/error-recovery.md",
@@ -207,8 +221,8 @@ const graph = {
       "workflows/architecture.md"
     ],
     "advanced/collaborative-intelligence.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/communication-optimization.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "quality-safety/error-recovery.md",
@@ -217,8 +231,8 @@ const graph = {
       "workflows/architecture.md"
     ],
     "advanced/communication-optimization.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "quality-safety/error-recovery.md",
@@ -227,8 +241,8 @@ const graph = {
       "workflows/architecture.md"
     ],
     "advanced/emergent-complexity.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "quality-safety/error-recovery.md",
@@ -237,8 +251,8 @@ const graph = {
       "workflows/architecture.md"
     ],
     "advanced/failure-patterns.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "quality-safety/error-recovery.md",
@@ -247,8 +261,8 @@ const graph = {
       "workflows/architecture.md"
     ],
     "advanced/resource-optimization.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "quality-safety/error-recovery.md",
@@ -257,8 +271,8 @@ const graph = {
       "workflows/architecture.md"
     ],
     "advanced/temporal-intelligence.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "quality-safety/error-recovery.md",
@@ -267,8 +281,8 @@ const graph = {
       "workflows/architecture.md"
     ],
     "cognitive-engines/adversarial-reasoning.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/analogical-transfer.md",
       "cognitive-engines/causal-inference.md",
       "core/adaptive-depth.md",
@@ -277,8 +291,8 @@ const graph = {
       "quality-safety/ethical-framework.md"
     ],
     "cognitive-engines/analogical-transfer.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/causal-inference.md",
       "core/adaptive-depth.md",
@@ -287,8 +301,8 @@ const graph = {
       "quality-safety/ethical-framework.md"
     ],
     "cognitive-engines/causal-inference.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "core/adaptive-depth.md",
@@ -297,8 +311,8 @@ const graph = {
       "quality-safety/ethical-framework.md"
     ],
     "cognitive-engines/cognitive-synthesis.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "core/adaptive-depth.md",
@@ -307,8 +321,8 @@ const graph = {
       "quality-safety/ethical-framework.md"
     ],
     "cognitive-engines/context-engine.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "core/adaptive-depth.md",
@@ -317,8 +331,8 @@ const graph = {
       "quality-safety/ethical-framework.md"
     ],
     "cognitive-engines/creative-synthesis.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "core/adaptive-depth.md",
@@ -327,8 +341,8 @@ const graph = {
       "quality-safety/ethical-framework.md"
     ],
     "cognitive-engines/first-principles.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "core/adaptive-depth.md",
@@ -337,8 +351,8 @@ const graph = {
       "quality-safety/ethical-framework.md"
     ],
     "cognitive-engines/hallucination-defense.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "cognitive-engines/zero-hallucination.md",
@@ -347,8 +361,8 @@ const graph = {
       "quality-safety/error-recovery.md"
     ],
     "cognitive-engines/meta-cognition.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "core/adaptive-depth.md",
@@ -357,8 +371,8 @@ const graph = {
       "quality-safety/ethical-framework.md"
     ],
     "cognitive-engines/search-strategy.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "core/adaptive-depth.md",
@@ -367,8 +381,8 @@ const graph = {
       "quality-safety/ethical-framework.md"
     ],
     "cognitive-engines/self-correction.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "core/adaptive-depth.md",
@@ -377,8 +391,8 @@ const graph = {
       "quality-safety/ethical-framework.md"
     ],
     "cognitive-engines/uncertainty-engine.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "cognitive-engines/meta-cognition.md",
@@ -387,8 +401,8 @@ const graph = {
       "quality-safety/error-recovery.md"
     ],
     "cognitive-engines/zero-hallucination.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
       "cognitive-engines/hallucination-defense.md",
@@ -679,14 +693,62 @@ const graph = {
   },
   "relations": [
     {
-      "from": "advanced/cognitive-load.md",
+      "from": "advanced/agentic-auto-runtime.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/agentic-auto-runtime.md",
       "to": "advanced/collaborative-intelligence.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
+      "from": "advanced/agentic-auto-runtime.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/agentic-auto-runtime.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/agentic-auto-runtime.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/agentic-auto-runtime.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/agentic-auto-runtime.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/agentic-auto-runtime.md",
+      "to": "workflows/architecture.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
       "from": "advanced/cognitive-load.md",
-      "to": "advanced/communication-optimization.md",
+      "to": "advanced/agentic-auto-runtime.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/cognitive-load.md",
+      "to": "advanced/collaborative-intelligence.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
@@ -728,13 +790,13 @@ const graph = {
     },
     {
       "from": "advanced/collaborative-intelligence.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "advanced/collaborative-intelligence.md",
-      "to": "advanced/communication-optimization.md",
+      "to": "advanced/cognitive-load.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
@@ -776,13 +838,13 @@ const graph = {
     },
     {
       "from": "advanced/communication-optimization.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "advanced/communication-optimization.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
@@ -824,13 +886,13 @@ const graph = {
     },
     {
       "from": "advanced/emergent-complexity.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "advanced/emergent-complexity.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
@@ -872,13 +934,13 @@ const graph = {
     },
     {
       "from": "advanced/failure-patterns.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "advanced/failure-patterns.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
@@ -920,13 +982,13 @@ const graph = {
     },
     {
       "from": "advanced/resource-optimization.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "advanced/resource-optimization.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
@@ -968,13 +1030,13 @@ const graph = {
     },
     {
       "from": "advanced/temporal-intelligence.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "advanced/temporal-intelligence.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
@@ -1052,13 +1114,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/adversarial-reasoning.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/adversarial-reasoning.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1100,13 +1162,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/analogical-transfer.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/analogical-transfer.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1148,13 +1210,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/causal-inference.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/causal-inference.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1196,13 +1258,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/cognitive-synthesis.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/cognitive-synthesis.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1244,13 +1306,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/context-engine.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/context-engine.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1292,13 +1354,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/creative-synthesis.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/creative-synthesis.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1340,13 +1402,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/first-principles.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/first-principles.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1388,13 +1450,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/hallucination-defense.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/hallucination-defense.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1450,13 +1512,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/meta-cognition.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/meta-cognition.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1498,13 +1560,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/search-strategy.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/search-strategy.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1546,13 +1608,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/self-correction.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/self-correction.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1594,13 +1656,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/uncertainty-engine.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/uncertainty-engine.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1656,13 +1718,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/zero-hallucination.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/zero-hallucination.md",
-      "to": "advanced/collaborative-intelligence.md",
+      "to": "advanced/cognitive-load.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },

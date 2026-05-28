@@ -27,6 +27,9 @@
   "commands": {
     "bootstrap": "dci bootstrap",
     "bootstrapJson": "dci bootstrap --json",
+    "route": "dci references route \"<task>\"",
+    "capsule": "dci references capsule \"<task>\"",
+    "agenticAuto": "dci agentic-auto \"<task>\"",
     "validate": "dci validate",
     "readiness": "dci readiness"
   },

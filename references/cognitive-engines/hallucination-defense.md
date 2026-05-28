@@ -146,8 +146,8 @@ If hallucination rates are high, do not ask the AI to "try harder." It cannot. Y
 
 ## Related DCI references
 
+- [Agentic Auto Runtime — Deterministic-Cognitive-Infrastructure](../advanced/agentic-auto-runtime.md)
 - [Cognitive Load Management — Deterministic-Cognitive-Infrastructure](../advanced/cognitive-load.md)
-- [Collaborative Intelligence System — Deterministic-Cognitive-Infrastructure](../advanced/collaborative-intelligence.md)
 - [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
 - [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
 - [🦾✨ DRAFT: Deterministic-Cognitive-Infrastructure - Context Integrity & Zero-Hallucination Protocol](../cognitive-engines/zero-hallucination.md)

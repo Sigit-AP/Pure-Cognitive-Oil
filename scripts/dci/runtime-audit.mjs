@@ -129,8 +129,8 @@ if (executableGraph && referenceRuntime) {
   }
   const failing = fullReadReport.filter((item) => item.status !== "pass");
   const totalChars = fullReadReport.reduce((sum, item) => sum + item.fullReadChars, 0);
-  if (mdFiles.length === 48) pass("reference-full-read-count", `${mdFiles.length} markdown files read fully, ${totalChars} chars`);
-  else fail("reference-full-read-count", `expected 48 markdown files, read ${mdFiles.length}`);
+  if (mdFiles.length >= 49) pass("reference-full-read-count", `${mdFiles.length} markdown files read fully, ${totalChars} chars`);
+  else fail("reference-full-read-count", `expected at least 49 markdown files, read ${mdFiles.length}`);
   if (failing.length === 0) pass("reference-full-read-coverage", "every references/**/*.md has graph node, runtime node, folder runtime, inbound/outbound edges, headings, and related block");
   else fail("reference-full-read-coverage", failing.map((item) => item.path).join(", "));
   if (referenceRuntime.nodes.length === mdFiles.length) pass("runtime-node-count", `${referenceRuntime.nodes.length} runtime nodes match markdown files`);

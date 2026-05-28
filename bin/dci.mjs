@@ -34,7 +34,8 @@ Usage:
   dci context              Generate DCI context pack
   dci validate             Run DCI validation
   dci readiness            Run DCI readiness gate
-  dci references [cmd]     Run executable reference runtime (route/search/context/folders)
+  dci references [cmd]     Run executable reference runtime (route/search/context/capsule/folders)
+  dci agentic-auto TASK    Print adaptive DCI route-plan-build-audit runtime plan
   dci lifecycle            Generate sustained lifecycle certificate
   dci lifecycle [phase]    Print start/checkpoint/finish lifecycle protocol
   dci healthcheck          Verify DCI first-use/runtime/finish infrastructure
@@ -78,6 +79,9 @@ switch (command) {
   case "references":
   case "reference-runtime":
     run("node", ["references/runtime/dci-reference-runtime.mjs", ...rest], { cwd: root });
+    break;
+  case "agentic-auto":
+    run("node", ["scripts/dci/agentic-auto.mjs", ...rest], { cwd: root });
     break;
   case "lifecycle":
     run("node", ["scripts/dci/lifecycle.mjs", ...rest], { cwd: root });

@@ -1,198 +1,10 @@
 # Deterministic-Cognitive-Infrastructure
 
-Deterministic-Cognitive-Infrastructure (DCI) is a portable cognitive framework for AI agent harnesses. It gives an agent a structured operating layer for deep thinking, rigorous reasoning, agentic execution, contextual knowledge use, reliability, and higher-order intelligence.
+Deterministic-Cognitive-Infrastructure (DCI) is a portable cognitive framework for AI agent harnesses. It gives agents a repeatable operating layer for task routing, context loading, planning, execution, verification, and final audit.
 
-DCI is not a single prompt. It is a repository of coordinated skills, references, workflows, routing maps, verification gates, bootstrap context, and plugin-style integration surfaces that can be loaded by any compatible agent runtime.
+DCI is not a single prompt and not a replacement for tools. It is a set of skills, references, runtime scripts, hooks, and validation gates that tells an agent when and how to think before it acts.
 
-## Purpose
-
-Modern AI agents often fail in predictable ways:
-
-- they answer before understanding the real task;
-- they make confident claims without evidence;
-- they skip verification;
-- they act without a rollback path;
-- they overfit to the immediate prompt and ignore system-level consequences;
-- they produce plausible text instead of operationally safe outcomes.
-
-DCI addresses those failures by turning cognition into an explicit infrastructure layer. It provides deterministic routing, resource selection, workflow discipline, quality gates, and evidence-bound finalization.
-
-## Core Idea
-
-DCI separates an agent's work into two layers:
-
-1. **Cognitive infrastructure** — how the agent thinks, routes, reasons, validates, and decides.
-2. **Execution tools** — how the agent edits files, runs commands, searches, calls APIs, or interacts with external systems.
-
-DCI does not replace tools. It governs when and how tools should be used.
-
-The framework forces this loop:
-
-```text
-Understand → Route → Load Context → Plan → Execute → Verify → Audit → Finalize
-```
-
-No serious task should move directly from prompt to answer without passing through the appropriate DCI resources.
-
-## Six Cognitive Axes
-
-Every meaningful DCI file maps to one or more cognitive axes.
-
-| Axis | Role |
-|---|---|
-| Thinking | Problem framing, decomposition, depth control, trade-off analysis |
-| Reasoning | Evidence, inference, causal logic, adversarial checks, uncertainty |
-| Agentic | Planning, tool use, execution loops, fallback handling, progress control |
-| Knowledge | Mental models, anti-patterns, domain references, contextual retrieval |
-| Reliability | Verification, quality gates, hallucination defense, recovery protocols |
-| Intelligence | Synthesis, abstraction, adaptation, creativity, meta-cognition |
-
-These axes are used by the resource index, routing system, context pack, validation scripts, and generated load plans.
-
-## Repository Architecture
-
-```text
-Deterministic-Cognitive-Infrastructure/
-├── SKILL.md                         # Master framework skill
-├── README.md                        # Main operating guide
-├── PLUGIN.md                        # Portable plugin integration guide
-├── PRD.md                           # Product requirements and readiness gates
-├── plugin.json                      # Generic plugin manifest
-├── package.json                     # CLI/package metadata
-├── bin/
-│   └── dci.mjs                      # Cross-harness CLI entrypoint
-├── hooks/
-│   ├── session-start                # JSON bootstrap hook
-│   ├── run-hook.cmd                 # Cross-platform hook wrapper
-│   ├── hooks.json                   # Claude-style SessionStart hook manifest
-│   └── hooks-cursor.json            # Cursor-style sessionStart hook manifest
-├── skills/
-│   ├── using-dci/                   # Usage discipline
-│   ├── dci-routing/                 # Route/resource selection
-│   └── dci-verification/            # Final validation discipline
-├── scripts/dci/
-│   ├── index.ts                     # Resource graph/index builder
-│   ├── audit.ts                     # Audit report command
-│   ├── context.ts                   # Context pack generator
-│   ├── bootstrap.mjs                # Zero-dependency text/JSON boot contract generator
-│   ├── validate.ts                  # Validation gates
-│   ├── parity.ts                    # Readiness gate implementation
-│   ├── runtime-audit.mjs            # Runtime/full-read audit gate
-│   ├── healthcheck.mjs              # First-use/runtime/finish healthcheck
-│   ├── lifecycle.mjs                # Start/checkpoint/finish protocol
-│   ├── scorecard.mjs                # 2x infrastructure coverage scorecard
-│   ├── schema.ts                    # Typed DCI schema
-│   └── install-hermes.mjs           # Hermes skill installer
-├── tests/dci/                       # Acceptance and readiness tests
-└── references/
-    ├── core/                        # Core laws, pipeline, depth control
-    ├── cognitive-engines/           # Reasoning and synthesis engines
-    ├── workflows/                   # Operational workflows
-    ├── knowledge-bases/             # Mental models, anti-patterns, decisions
-    ├── quality-safety/              # Gates, recovery, ethics, verification
-    └── advanced/                    # Meta-level optimization and adaptation
-```
-
-## Core Resources
-
-### `SKILL.md`
-
-The master skill defines how the framework should be activated. It establishes the operating mindset, the six-layer structure, the route-before-action discipline, and the requirement that evidence and verification come before completion claims.
-
-### `references/core/`
-
-Core files define the invariant operating rules:
-
-- iron laws for safe and disciplined execution;
-- pipeline phases for moving from understanding to verified outcome;
-- adaptive depth controls for matching effort to task complexity.
-
-### `references/cognitive-engines/`
-
-Cognitive engines provide specialized reasoning modules:
-
-- causal inference;
-- first-principles analysis;
-- adversarial reasoning;
-- hallucination defense;
-- uncertainty modeling;
-- context awareness;
-- search strategy;
-- analogical transfer;
-- creative synthesis;
-- self-correction;
-- meta-cognition.
-
-### `references/workflows/`
-
-Workflows translate cognition into action. They cover operational task classes such as:
-
-- architecture;
-- bug fixing;
-- code review;
-- security audit;
-- incident response;
-- migration;
-- refactoring;
-- performance optimization;
-- research spikes;
-- technical writing;
-- greenfield development;
-- legacy rescue.
-
-### `references/quality-safety/`
-
-Quality and safety files define the immune system of the framework:
-
-- quality gates;
-- verification checklist;
-- error recovery;
-- ethical framework;
-- meta-learning.
-
-### `references/knowledge-bases/`
-
-Knowledge bases provide reusable cognitive substrate:
-
-- mental models;
-- anti-patterns;
-- decision trees;
-- extended reference material.
-
-### `references/advanced/`
-
-Advanced resources cover cross-cutting concerns:
-
-- communication optimization;
-- resource optimization;
-- cognitive load;
-- temporal intelligence;
-- collaborative intelligence;
-- emergent complexity;
-- failure patterns.
-
-## Plugin Model
-
-DCI is packaged as a portable plugin-style framework.
-
-It provides:
-
-- `plugin.json` for generic plugin discovery;
-- `bin/dci.mjs` as the CLI entrypoint;
-- `dci bootstrap --json` for session context injection;
-- `hooks/session-start` for hook-based loaders;
-- `skills/` for skill-aware runtimes;
-- validation and readiness commands for installation checks.
-
-A compatible harness only needs one of these capabilities:
-
-- read local files;
-- run a CLI command;
-- inject bootstrap context into a session;
-- load `SKILL.md`-style skill files;
-- call validation scripts before activation.
-
-## Installation From GitHub
+## Quick Start
 
 ```bash
 git clone https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure.git
@@ -201,295 +13,187 @@ npm install
 npm test
 ```
 
-## Installation as CLI Package
+Use the CLI:
 
 ```bash
-npm install -g github:Sigit-AP/Deterministic-Cognitive-Infrastructure
+npm link
 dci help
 dci bootstrap --json
+dci references route "debug a failing test"
+dci references capsule "debug a failing test"
+dci agentic-auto "ship a verified feature safely"
+dci validate
+dci readiness
 ```
 
-## Installation From Downloaded ZIP
+## Operating Loop
+
+```text
+Understand → Route → Load Context → Plan → Execute → Verify → Audit → Finalize
+```
+
+For serious work, DCI expects the agent to:
+
+1. identify the real task and risk level;
+2. route the task through the reference runtime;
+3. load the relevant skill/reference/workflow files;
+4. execute with evidence, assumptions, and recovery paths visible;
+5. run validation before claiming completion.
+
+## What DCI Provides
+
+| Area | Purpose |
+|---|---|
+| `SKILL.md` | Master boot discipline for using DCI. |
+| `skills/` | Small runtime skills: using DCI, routing, verification. |
+| `references/` | Core laws, cognitive engines, workflows, knowledge bases, quality gates, advanced systems. |
+| `references/runtime/dci-reference-runtime.mjs` | Executable router/search/context builder over the reference corpus. |
+| `bin/dci.mjs` | CLI entrypoint. |
+| `hooks/` | Session-start hook assets for compatible harnesses. |
+| `scripts/dci/` | Indexing, audit, context, lifecycle, validation, readiness, scorecard, healthcheck. |
+| `tests/dci/` | Acceptance and regression tests. |
+
+## Repository Layout
+
+```text
+.
+├── SKILL.md
+├── README.md
+├── PLUGIN.md
+├── PRD.md
+├── package.json
+├── plugin.json
+├── bin/dci.mjs
+├── hooks/
+├── skills/
+├── scripts/dci/
+├── tests/dci/
+├── docs/
+└── references/
+    ├── core/
+    ├── cognitive-engines/
+    ├── workflows/
+    ├── knowledge-bases/
+    ├── quality-safety/
+    ├── advanced/
+    └── runtime/
+```
+
+## Cognitive Axes
+
+DCI resources are organized around six axes:
+
+| Axis | Focus |
+|---|---|
+| Thinking | framing, decomposition, depth control |
+| Reasoning | evidence, inference, uncertainty, adversarial checks |
+| Agentic | planning, tool use, execution loops, fallback handling |
+| Knowledge | references, mental models, anti-patterns, decisions |
+| Reliability | verification, quality gates, hallucination defense, recovery |
+| Intelligence | synthesis, adaptation, creativity, meta-cognition |
+
+## Main Commands
+
+| Command | Use |
+|---|---|
+| `dci help` | Show CLI help. |
+| `dci bootstrap --json` | Emit session bootstrap context for harness injection. |
+| `dci references route "<task>"` | Select relevant DCI references for a task. |
+| `dci references capsule "<task>"` | Build a full-depth professional map that preserves graph coverage while avoiding repeated prose dumps. |
+| `dci references context "<task>"` | Build a bounded context pack from selected references. |
+| `dci agentic-auto "<task>"` | Generate a full autonomous DCI contract: interview, route, plan, delegate/parallelize, build, audit, repair, optimize, and finalize. |
+| `dci index` | Generate manifest/resource-map cache. |
+| `dci audit` | Generate repository audit report. |
+| `dci context` | Generate context pack cache. |
+| `dci lifecycle` | Check first-use, mid-use, runtime, and final-use lifecycle gates. |
+| `dci healthcheck` | Check hook/runtime/readiness infrastructure. |
+| `dci scorecard` | Validate audited coverage claims. |
+| `dci runtime-audit` | Verify runtime scripts and reference coverage. |
+| `dci validate` | Run DCI validation gates. |
+| `dci readiness` | Run readiness/parity gate. |
+| `dci test` | Run full DCI test suite. |
+| `dci install-hermes DIR` | Copy DCI skills into a Hermes skills directory. |
+
+## Agentic Auto Runtime
+
+`dci agentic-auto "<task>"` turns a raw user request into an executable autonomous work contract. It is designed for agent harnesses that need a deterministic plan before touching tools or files.
+
+The command emits:
+
+- task classification, risk level, and assumptions;
+- interview questions for missing requirements;
+- routed DCI references and graph neighbors;
+- execution phases from understanding to finalization;
+- delegation and parallelization candidates;
+- verification commands and evidence requirements;
+- repair, self-correction, and optimization loops;
+- a final response contract for completion reporting.
+
+Example:
 
 ```bash
-npm install
-npm test
-npm link
-dci bootstrap --json
+dci agentic-auto "debug failing checkout tests and ship the fix"
 ```
 
-## CLI Commands
+Use it when the request is complex, risky, ambiguous, multi-file, or likely to need planning, testing, and audit. For simple lookups, use `dci references route` or `dci bootstrap --json` instead.
 
-```bash
-dci help                 # Show CLI help
-dci bootstrap            # Print text bootstrap context
-dci bootstrap --json     # Print JSON context for hooks/harnesses
-dci index                # Generate resource map and manifest
-dci audit                # Run audit report
-dci context              # Generate context pack
-dci validate             # Run validation gates
-dci readiness            # Run readiness gate
-dci references route     # Route a task through the executable reference runtime
-dci lifecycle            # Generate sustained lifecycle certificate
-dci lifecycle start      # Print first-use lifecycle protocol
-dci lifecycle checkpoint # Print mid-use runtime checkpoint protocol
-dci lifecycle finish     # Print final verification protocol
-dci healthcheck          # Verify first-use/runtime/finish infrastructure
-dci scorecard            # Validate the 2x infrastructure coverage claim
-dci runtime-audit        # Audit runtime scripts and full reference coverage
-dci test                 # Run full test suite
-dci install-hermes DIR   # Copy DCI skills into a Hermes skills directory
-```
+## Claude and OpenCode Integration
 
-## 2x Infrastructure Scorecard
+The repository includes plugin surfaces for harnesses that support slash commands or command plugins:
 
-DCI validates the user's target with a repository scorecard, not a vague quality claim:
+- Claude plugin command: `/DCI-agentic-auto <task>`
+- OpenCode plugin command: `DCI-agentic-auto <task>`
+- Generic CLI command: `dci agentic-auto "<task>"`
 
-```bash
-npm run dci:healthcheck
-npm run dci:scorecard
-npm run dci:runtime-audit
-```
-
-The valid claim boundary is: DCI has at least 2x audited infrastructure coverage against the inspected Superpowers baseline across first-use, runtime, and finish stages. The scorecard does not claim every future answer is universally 2x better.
+All three paths route to the same DCI agentic-auto contract so behavior stays consistent across harnesses.
 
 ## Harness Integration
 
-### Generic Agent Runtime
+Generic runtime:
 
-1. Clone or install the repository.
-2. Run `dci bootstrap --json`.
-3. Inject `additionalContext` into the agent session.
-4. Load `SKILL.md` and relevant `skills/*/SKILL.md` files.
-5. Use `dci validate` and `dci readiness` as preflight checks.
+```bash
+dci bootstrap --json
+```
 
-### Hermes
+Then inject the returned context into the agent session and load `SKILL.md` plus relevant files from `skills/` and `references/`.
+
+Hermes:
 
 ```bash
 dci install-hermes ~/.hermes/skills/dci
 ```
 
-Then configure the runtime to load the copied skills.
+OpenCode, Claude/Codex/Cursor-style hooks, and custom harnesses should use `plugin.json`, `hooks/`, `.opencode/`, or the CLI depending on what the host supports. See `PLUGIN.md` for integration details.
 
-### Cursor or IDE Agents
+## Validation
 
-Add a rule similar to:
-
-```text
-For complex planning, coding, debugging, review, verification, or research tasks, load Deterministic-Cognitive-Infrastructure/SKILL.md first. Route the task through the relevant files in references/workflows, references/cognitive-engines, and references/quality-safety before acting.
-```
-
-### Custom Multi-Agent Systems
-
-Use DCI as the cognitive controller:
-
-```text
-Planner Agent: loads DCI bootstrap and creates the execution plan.
-Worker Agent: executes tool actions according to the plan.
-Reviewer Agent: loads DCI verification and quality-safety resources.
-Coordinator: accepts completion only after validation gates pass.
-```
-
-## Runtime Discipline
-
-DCI uses a strict operating contract.
-
-### Sustained Lifecycle Certificate
-
-DCI includes an executable lifecycle gate so activation is not a short-lived bootstrap effect. Run:
-
-```bash
-dci lifecycle
-```
-
-The command writes `.dci/cache/lifecycle-certificate.json` and must pass four phases:
-
-| Phase | What it proves |
-|---|---|
-| `first-use` | boot contract, startup route, mandatory references, and runtime certificate are loaded before action |
-| `mid-use` | self-correction, hallucination defense, quality gates, verification, and drift context remain active during work |
-| `runtime` | executable graph, folder runtimes, section index, edge index, and search API are live |
-| `final-use` | audit, validation, lifecycle certificate, test wiring, cache hygiene, and legacy JSON removal are enforced before completion |
-
-A passing certificate reports `sustainedLifecycleRatio >= 2`; current target is four measured phases against a one-shot startup baseline. This is an evidence boundary, not a claim of universal perfection.
-
-### Before Acting
-
-The agent should establish:
-
-- actual user intent;
-- task category;
-- risk level;
-- relevant workflow;
-- required cognitive engines;
-- required evidence;
-- validation path;
-- stop condition.
-
-### During Execution
-
-The agent should maintain:
-
-- explicit assumptions;
-- evidence references;
-- tool-output grounding;
-- rollback or recovery options;
-- progress state;
-- uncertainty classification.
-
-### Before Final Answer
-
-The agent should verify:
-
-- the requested artifact exists;
-- claims are evidence-bound;
-- commands/tests were actually run if claimed;
-- failures are disclosed;
-- limitations are stated;
-- next steps are clear;
-- quality gates are satisfied.
-
-## Executable Reference Runtime
-
-The `references/` tree is not only prose. It includes executable scripts that scan, connect, route, and package the Markdown references at runtime:
-
-```bash
-node references/runtime/dci-reference-runtime.mjs folders
-node references/runtime/dci-reference-runtime.mjs route "debug hallucination verification"
-node references/runtime/dci-reference-runtime.mjs context "security audit" --limit 8 --depth 1
-npm run dci:runtime-audit
-dci lifecycle
-
-dci references route "architecture performance"
-```
-
-Each major reference folder has a runtime adapter:
-
-```text
-references/core/runtime.mjs
-references/cognitive-engines/runtime.mjs
-references/quality-safety/runtime.mjs
-references/knowledge-bases/runtime.mjs
-references/advanced/runtime.mjs
-references/workflows/runtime.mjs
-```
-
-`references/reference-graph.mjs` is the executable machine graph. The old `references/reference-graph.json` file is removed; runtime scripts replace it.
-
-## Generated Artifacts
-
-Running DCI commands creates compatibility cache files under `.dci/cache/`:
-
-```text
-manifest.json          # Indexed files, sections, concepts, graph edges
-resource-map.json      # Axis/kind/workflow/concept/capability maps
-agent-routing.json     # Route triggers and required files
-audit-report.json      # Coverage and readiness report
-context-pack.json      # Summarized context pack for agents
-lifecycle-certificate.json # Sustained first/mid/runtime/final-use certificate
-parity-report.json     # Readiness gate report
-```
-
-The cache is generated output and is ignored by git. The executable reference runtime can also operate directly from `references/**/*.md` without reading cache JSON. `npm run dci:runtime-audit` additionally reads every reference Markdown file in full and writes `.dci/cache/reference-full-read-report.json` with per-file hashes, section counts, graph coverage, runtime coverage, and inbound/outbound edge status.
-
-## Validation Gates
-
-A valid DCI installation must pass:
+A healthy checkout should pass:
 
 ```bash
 npm test
-dci lifecycle
 dci validate
 dci readiness
+dci lifecycle
+dci healthcheck
+dci scorecard
+dci runtime-audit
 ```
 
-Expected result:
+Generated outputs are written under `.dci/cache/` and are ignored by git. They are rebuildable artifacts, not source files.
 
-```text
-PASS: all DCI ecosystem tests
-DCI lifecycle pass
-DCI validation pass
-DCI readiness pass
-```
+## Claims and Limits
 
-Validation checks include:
+DCI improves agent discipline by making routing, context loading, validation, and completion gates explicit. It does not guarantee perfect answers, replace human review, or remove the need for domain expertise.
 
-- full file indexing;
-- markdown section extraction;
-- concept graph creation;
-- six-axis coverage;
-- professional load plans;
-- workflow routing;
-- quality/safety routing;
-- bootstrap generation;
-- skill triggering;
-- readiness scoring;
-- sustained lifecycle certification across first-use, mid-use, runtime, and final-use gates.
+The scorecard validates DCI infrastructure coverage against the inspected baseline files. It is an evidence boundary for this repository, not a universal claim that every future answer is automatically better.
 
-## Operating Modes
+## Development Notes
 
-DCI can be used at different depths.
-
-| Mode | Use When | Behavior |
-|---|---|---|
-| Direct | Simple low-risk questions | Short answer, minimal context loading |
-| Analytical | Ambiguous or strategic problems | Decomposition, assumptions, trade-offs |
-| Engineering | Code, architecture, migration, debugging | Workflow routing, tests, rollback planning |
-| Adversarial | Security, review, risk, reliability | Attack assumptions, search for failure modes |
-| Agentic | Multi-step execution | Plan, act, verify, iterate, stop on criteria |
-| Research | Current or uncertain information | Source discipline and uncertainty disclosure |
-
-## Completion States
-
-DCI discourages vague completion claims. Work should end in one of these states:
-
-```text
-Complete              All stated criteria satisfied.
-Complete with limits  Result delivered, known uncertainty remains.
-Partial               Some work done, blocker remains.
-Blocked               Cannot proceed without input/tool/permission/data.
-Failed                Attempted and failed; recovery path required.
-Refused               Unsafe or disallowed request; safe alternative provided.
-```
-
-## Design Principles
-
-1. **Route before action** — choose the relevant workflow and context before tool use.
-2. **Evidence before claim** — no strong claim without a source, file, log, or derivation.
-3. **Verification before completion** — do not claim done without validation.
-4. **Depth should match risk** — trivial tasks should not trigger full heavy processing.
-5. **Failure must be visible** — tool errors, partial results, and uncertainty must not be hidden.
-6. **Context must be explicit** — load the relevant resources instead of relying on memory.
-7. **The framework is portable** — DCI should work across harnesses through files, CLI, hooks, and JSON context.
-
-## What DCI Is Not
-
-DCI is not:
-
-- a marketplace-specific package;
-- a replacement for shell, browser, editor, or API tools;
-- a guarantee of perfect answers;
-- a reason to skip human review in high-risk domains;
-- a static prompt that works without context loading and validation.
-
-DCI is an operating framework for making agent cognition more structured, inspectable, testable, and transferable.
-
-## Development
-
-```bash
-npm install
-npm run dci:index
-npm run dci:audit
-npm run dci:context
-npm run dci:lifecycle
-npm run dci:validate
-npm run dci:readiness
-npm test
-```
-
-## Versioning
-
-The package version in `package.json` represents the portable plugin package version. Readiness is determined by validation gates, not by version number alone.
+- Node.js `>=18` is required.
+- `package-lock.json` is tracked for reproducible installs.
+- `node_modules/`, `.dci/cache/`, `dist/`, `.env`, and `.DS_Store` are ignored.
+- Keep runtime behavior executable; do not add decorative or fake scripts.
+- After changing references, preserve graph behavior and rerun validation.
 
 ## License
 

@@ -39,6 +39,7 @@ function readText(p) { return fs.readFileSync(p, "utf8"); }
 function relRef(full) { return path.relative(REFS, full).replaceAll(path.sep, "/"); }
 function slug(s) { return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 96); }
 function uniq(xs) { return [...new Set(xs.filter(Boolean))]; }
+function estimateTokens(text) { return Math.ceil((text || "").length / 4); }
 function category(rel) { const parts = rel.split("/"); return parts.length > 1 ? parts[0] : "."; }
 function stripRelated(text) {
   const s = text.indexOf(RELATED_START);
@@ -317,6 +318,58 @@ export function buildContext(query = "", options = {}) {
   if (out.length > maxChars) out = `${out.slice(0, maxChars)}\n<!-- truncated by --max-chars -->\n</DCI_REFERENCE_RUNTIME_CONTEXT>`;
   return out;
 }
+export function buildCapsule(query = "", options = {}) {
+  const plan = routeReferences(query, { limit: 14, depth: 2, maxSelected: 24, ...options });
+  const files = plan.files;
+  const byFolder = new Map();
+  for (const item of files) {
+    const arr = byFolder.get(item.node.folder) || [];
+    arr.push(item);
+    byFolder.set(item.node.folder, arr);
+  }
+  const axes = uniq(files.flatMap(item => item.node.axes));
+  const concepts = uniq(files.flatMap(item => item.node.keywords.slice(0, 6))).slice(0, 36);
+  const fullChars = files.reduce((sum, item) => sum + item.node.text.length, 0);
+  const lines = [];
+  lines.push("# DCI Professional Capsule");
+  lines.push(`query: ${query || "<none>"}`);
+  lines.push(`coverage: ${files.length}/${plan.runtime.totals.files} selected files; ${plan.runtime.totals.sections} indexed sections; ${plan.runtime.totals.edges} graph edges`);
+  lines.push(`compression: full selected source ~= ${estimateTokens("x".repeat(fullChars))} tokens; capsule preserves addressable paths/sections instead of dumping prose`);
+  lines.push(`axes active: ${axes.join(", ")}`);
+  lines.push(`concept frontier: ${concepts.join(", ")}`);
+  lines.push("");
+  lines.push("## Operating contract");
+  lines.push("- Do not simplify DCI into a lite checklist. Keep full graph semantics active: startup core, routed specialists, neighbors, gates, lifecycle, and verification.");
+  lines.push("- Spend tokens on decisions, evidence, contradictions, and deltas. Do not dump unchanged reference prose unless a gate requires exact wording.");
+  lines.push("- Load by need: path -> heading/section -> exact excerpt. Escalate to full file only when the section summary cannot answer the gate.");
+  lines.push("- Maintain phase state explicitly: SENSE, THINK, EXPLORE, HYPOTHESIZE, DESIGN, PLAN, BUILD, VERIFY, REFLECT, EVOLVE. Loop when evidence contradicts the current model.");
+  lines.push("");
+  lines.push("## Full-depth load ladder");
+  lines.push("1. Kernel: bootstrap JSON + mandatory startup references + lifecycle start/checkpoint/finish.");
+  lines.push("2. Route: select by task intent, axes, workflow, concepts, dependencies, graph neighbors, and sections.");
+  lines.push("3. Capsule: keep this professional map in context instead of all prose; preserve source paths for exact reload.");
+  lines.push("4. Section drilldown: read only referenced headings/line ranges for active gate decisions.");
+  lines.push("5. Full-file escalation: load whole reference only for ambiguous, high-risk, contradictory, or failing-gate cases.");
+  lines.push("6. Audit: validate, healthcheck, scorecard/runtime-audit when infrastructure or completion claims are made.");
+  lines.push("");
+  lines.push("## Selected reference map");
+  for (const [folder, items] of byFolder) {
+    lines.push(`### ${folder}`);
+    for (const item of items.slice(0, 8)) {
+      const n = item.node;
+      const heads = n.sections.slice(0, 5).map(s => `${s.title} L${s.startLine}-${s.endLine}`).join("; ");
+      lines.push(`- references/${n.path} | ${item.reason} | axes=${n.axes.join(",")} | sections=${heads}`);
+    }
+  }
+  lines.push("");
+  lines.push("## Gate checklist for this task");
+  lines.push("- G11 source every factual claim to file/tool output/path/line or mark as assumption.");
+  lines.push("- G12 adversarially challenge the selected route and the proposed optimization.");
+  lines.push("- G14 quantify confidence from evidence, not tone.");
+  lines.push("- Resource gate: prove the optimization preserves coverage while reducing repeated prose/token load.");
+  lines.push("- Completion gate: run the repo validation commands required by DCI verification before claiming done.");
+  return lines.join("\n");
+}
 export function searchReferences(query = "", options = {}) {
   return routeReferences(query, { ...options, depth: 0 }).files.map(item => ({
     path: `references/${item.node.path}`,
@@ -336,7 +389,7 @@ export function buildFolderContext(folder, query = "", options = {}) {
   return buildContext(query || folder, { ...options, folder });
 }
 export function runCli(argv = process.argv.slice(2)) {
-  const commandSet = new Set(["route", "context", "search", "folders", "node"]);
+  const commandSet = new Set(["route", "context", "capsule", "search", "folders", "node"]);
   const command = commandSet.has(argv[0]) ? argv[0] : "route";
   const raw = command === argv[0] ? argv.slice(1) : argv;
   const { opts, rest } = parseArgs(raw);
@@ -356,6 +409,7 @@ export function runCli(argv = process.argv.slice(2)) {
     return;
   }
   if (command === "context") console.log(buildContext(query, opts));
+  else if (command === "capsule") console.log(buildCapsule(query, opts));
   else if (command === "search") {
     for (const row of searchReferences(query, opts)) console.log(`${row.path}\t${row.score}\t${row.title}\t${row.reason}`);
   } else console.log(renderRoute(routeReferences(query, opts)));

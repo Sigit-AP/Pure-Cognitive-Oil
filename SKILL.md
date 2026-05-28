@@ -10,6 +10,20 @@ description: "Deterministic-Cognitive-Infrastructure Cognitive Operating System 
 
 ## How To Use This (READ FIRST)
 
+1. **Route-first, capsule-second.** Run the executable route to select the full graph neighborhood, then use `capsule` when the agent needs professional depth without dumping every selected reference into the active prompt:
+
+   ```bash
+   dci references route "<task>" --limit 12 --depth 2
+   dci references capsule "<task>" --limit 12 --depth 2
+   dci agentic-auto "<task>"
+   dci references context "<task>" --limit 12 --depth 2 --max-files 6 --max-chars 16000
+   ```
+   `dci agentic-auto` is the full autonomous DCI operating contract for the current task: command-scoped interview, route, plan, delegate/parallelize, build, audit, repair, optimize, and finalize. Use it when the user asks for end-to-end autonomous DCI execution or when task complexity makes selection, risk, context, and verification strategy non-trivial.
+
+   `capsule` is not DCI Lite. It keeps the full-depth operating contract, selected file paths, section line ranges, axes, concepts, graph coverage, and escalation ladder in context. It saves tokens by replacing repeated prose dumps with an addressable professional map; exact source text remains one command away through `context`, `node`, or direct file reads.
+
+2. **Drill down by gate.** For normal deep work, keep the capsule active and load exact sections only when a gate requires wording, contradiction resolution, or high-risk evidence. Escalate to full files for ambiguous, critical, or failed-gate cases.
+
 Operational boot rule: DCI uses AMT (Amati–Tiru–Modifikasi) without cloning another framework. First use loads a zero-dependency boot contract (`node scripts/dci/bootstrap.mjs --json`), then routes through the executable graph with `node references/runtime/dci-reference-runtime.mjs route "<task>"` or `dci references route "<task>"`. Sustained use runs beyond boot: `dci lifecycle` verifies first-use boot, mid-use drift resistance, runtime graph strength, and final-use audit hygiene through `.dci/cache/lifecycle-certificate.json`; `dci lifecycle checkpoint "<task>"` keeps mid-use drift checks active; finish claims run through `npm run dci:healthcheck`, `npm run dci:runtime-audit`, and `npm run dci:scorecard`. These scripts connect every `references/**/*.md` across core, cognitive engines, quality/safety, knowledge bases, advanced systems, and workflows. The old `references/reference-graph.json` file is replaced by script runtime. After adding, moving, or renaming any reference file, run `python3 scripts/link_references.py` from the repo root and require `DCI reference graph valid` before completion.
 
 ```
