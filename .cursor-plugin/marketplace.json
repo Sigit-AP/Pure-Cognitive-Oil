@@ -1,0 +1,25 @@
+{
+  "name": "dci-marketplace",
+  "owner": {
+    "name": "Sigit-AP"
+  },
+  "metadata": {
+    "description": "Deterministic-Cognitive-Infrastructure plugin for Cursor: rules, skills, routing, and verification gates. Official listing requires Cursor manual review."
+  },
+  "plugins": [
+    {
+      "name": "deterministic-cognitive-infrastructure",
+      "source": ".",
+      "description": "Graph-connected cognitive infrastructure and verification gates for AI coding agents.",
+      "version": "1.6.1",
+      "category": "Coding",
+      "tags": [
+        "ai-agent",
+        "reasoning",
+        "verification",
+        "skills"
+      ]
+    }
+  ],
+  "version": "1.6.1"
+}

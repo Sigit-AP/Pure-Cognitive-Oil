@@ -12,6 +12,7 @@ DCI is a portable plugin-style cognitive infrastructure package for AI agent har
 - Bootstrap context in text or JSON.
 - Resource indexing, routing, validation, and readiness gates.
 - Cross-harness installation paths.
+- Official submission readiness notes in `docs/official-plugin-submission.md`.
 
 ## Install From GitHub
 
@@ -83,12 +84,21 @@ Then configure Hermes or the host agent to load the copied skills.
 
 ## Cursor / IDE Integration
 
-1. Clone or download this repo.
-2. Add this to your IDE agent rules:
+DCI ships Cursor-ready plugin metadata and project guidance:
 
-```text
-Before complex planning, coding, debugging, audit, or verification tasks, load Deterministic-Cognitive-Infrastructure/SKILL.md and relevant files from references/. Use dci bootstrap --json as session context when possible.
-```
+- `.cursor-plugin/plugin.json` — Cursor plugin manifest.
+- `.cursor-plugin/marketplace.json` — multi-plugin repository manifest for Cursor review.
+- `.cursor/rules/dci.mdc` — focused project rule for when to activate DCI.
+- `.cursor/skills/` — Cursor skill mirrors for DCI usage, routing, and verification.
+
+Local use:
+
+1. Clone or download this repo.
+2. Import or open the repository in Cursor.
+3. Verify rules and skills in Cursor Settings.
+4. For marketplace review, submit the GitHub repository at `https://cursor.com/marketplace/publish`.
+
+Do not claim Cursor official status until the marketplace review is approved and the listing appears in Cursor Marketplace.
 
 ## Custom Agent Integration
 

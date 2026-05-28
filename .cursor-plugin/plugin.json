@@ -2,7 +2,7 @@
   "name": "deterministic-cognitive-infrastructure",
   "displayName": "Deterministic-Cognitive-Infrastructure",
   "description": "Graph-connected cognitive infrastructure, routing, and verification gates for coding agents.",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "author": {
     "name": "Sigit-AP"
   },

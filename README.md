@@ -136,15 +136,22 @@ dci agentic-auto "debug failing checkout tests and ship the fix"
 
 Use it when the request is complex, risky, ambiguous, multi-file, or likely to need planning, testing, and audit. For simple lookups, use `dci references route` or `dci bootstrap --json` instead.
 
-## Claude and OpenCode Integration
+## Claude Code, Codex, Cursor, and OpenCode Integration
 
-The repository includes plugin surfaces for harnesses that support slash commands or command plugins:
+The repository includes plugin surfaces for harnesses that support plugins, skills, slash commands, rules, or command plugins:
 
-- Claude plugin command: `/DCI-agentic-auto <task>`
+- Claude Code plugin manifest: `.claude-plugin/plugin.json`
+- Claude Code command: `/DCI-agentic-auto <task>`
+- Codex plugin manifest: `.codex-plugin/plugin.json`
+- Codex repo marketplace manifest: `.agents/plugins/marketplace.json`
+- Cursor plugin manifest: `.cursor-plugin/plugin.json`
+- Cursor marketplace manifest: `.cursor-plugin/marketplace.json`
+- Cursor rule/skill mirrors: `.cursor/rules/` and `.cursor/skills/`
+- OpenCode plugin module: `.opencode/plugins/dci.js`
 - OpenCode plugin command: `DCI-agentic-auto <task>`
 - Generic CLI command: `dci agentic-auto "<task>"`
 
-All three paths route to the same DCI agentic-auto contract so behavior stays consistent across harnesses.
+All paths route to the same DCI agentic-auto contract so behavior stays consistent across harnesses. Marketplace approval is platform-specific; see `docs/official-plugin-submission.md` for verified submission paths and manual approval gates.
 
 ## Harness Integration
 
