@@ -55,6 +55,19 @@ Operating strategy, coordination model, risk controls, and optimization prioriti
 
 <!-- DCI-DOC-STANDARD-END -->
 
+## Runnable Tooling
+
+Use the folder-local toolkit for fast operational extraction:
+
+```bash
+node references/advanced/tools/advanced-toolkit.mjs list
+node references/advanced/tools/advanced-toolkit.mjs brief "<task>"
+node references/advanced/tools/advanced-toolkit.mjs gate "<task>"
+```
+
+Keep executable logic in `tools/`; keep this markdown as the operational reference and command map. Long scripts belong in versioned files, not embedded inside reference prose.
+
+
 ## Part 1: The Resource Hierarchy (What to Optimize)
 
 ```
@@ -229,13 +242,13 @@ OPTIMIZATION 3: RENDERING PERFORMANCE (Frames Per Second)
 
 ## Related DCI references
 
+- [Advanced Reference Index](../advanced/INDEX.md)
 - [Agentic Auto Runtime — Deterministic-Cognitive-Infrastructure](../advanced/agentic-auto-runtime.md)
-- [Cognitive Load Management — Deterministic-Cognitive-Infrastructure](../advanced/cognitive-load.md)
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
 - [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
-- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
 - [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
-- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+- [Workflows Reference Index](../workflows/INDEX.md)
 - [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
-- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
 
 <!-- DCI-RELATED-END -->

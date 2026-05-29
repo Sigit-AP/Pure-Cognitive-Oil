@@ -2,6 +2,10 @@
 // Executable DCI reference graph. JSON has been replaced by this runtime module.
 const graph = {
   "nodes": {
+    "advanced/INDEX.md": {
+      "title": "Advanced Reference Index",
+      "category": "advanced"
+    },
     "advanced/agentic-auto-runtime.md": {
       "title": "Agentic Auto Runtime — Deterministic-Cognitive-Infrastructure",
       "category": "advanced"
@@ -33,6 +37,10 @@ const graph = {
     "advanced/temporal-intelligence.md": {
       "title": "Temporal Intelligence System — Deterministic-Cognitive-Infrastructure",
       "category": "advanced"
+    },
+    "cognitive-engines/INDEX.md": {
+      "title": "Cognitive Engines Reference Index",
+      "category": "cognitive-engines"
     },
     "cognitive-engines/adversarial-reasoning.md": {
       "title": "Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure",
@@ -86,6 +94,10 @@ const graph = {
       "title": "🦾✨ DRAFT: Deterministic-Cognitive-Infrastructure - Context Integrity & Zero-Hallucination Protocol",
       "category": "cognitive-engines"
     },
+    "core/INDEX.md": {
+      "title": "Core Reference Index",
+      "category": "core"
+    },
     "core/adaptive-depth.md": {
       "title": "Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure",
       "category": "core"
@@ -97,6 +109,10 @@ const graph = {
     "core/pipeline-phases.md": {
       "title": "The 10-Phase Execution Pipeline — Deterministic-Cognitive-Infrastructure",
       "category": "core"
+    },
+    "knowledge-bases/INDEX.md": {
+      "title": "Knowledge Bases Reference Index",
+      "category": "knowledge-bases"
     },
     "knowledge-bases/anti-patterns.md": {
       "title": "150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework",
@@ -113,6 +129,10 @@ const graph = {
     "knowledge-bases/reference.md": {
       "title": "Extended Reference — Deterministic-Cognitive-Infrastructure Framework",
       "category": "knowledge-bases"
+    },
+    "quality-safety/INDEX.md": {
+      "title": "Quality Safety Reference Index",
+      "category": "quality-safety"
     },
     "quality-safety/error-recovery.md": {
       "title": "Error Recovery Protocol — Deterministic-Cognitive-Infrastructure",
@@ -133,6 +153,10 @@ const graph = {
     "quality-safety/verification-checklist.md": {
       "title": "Verification & Validation System — Deterministic-Cognitive-Infrastructure",
       "category": "quality-safety"
+    },
+    "workflows/INDEX.md": {
+      "title": "Workflows Reference Index",
+      "category": "workflows"
     },
     "workflows/api-design.md": {
       "title": "API Design Workflow — Deterministic-Cognitive-Infrastructure",
@@ -200,499 +224,613 @@ const graph = {
     }
   },
   "edges": {
-    "advanced/agentic-auto-runtime.md": [
+    "advanced/INDEX.md": [
+      "advanced/agentic-auto-runtime.md",
       "advanced/cognitive-load.md",
-      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
+    ],
+    "advanced/agentic-auto-runtime.md": [
+      "advanced/INDEX.md",
+      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md",
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "advanced/cognitive-load.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/collaborative-intelligence.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "advanced/collaborative-intelligence.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "advanced/communication-optimization.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "advanced/emergent-complexity.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "advanced/failure-patterns.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "advanced/resource-optimization.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "advanced/temporal-intelligence.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md",
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
+    ],
+    "cognitive-engines/INDEX.md": [
+      "advanced/INDEX.md",
+      "advanced/agentic-auto-runtime.md",
       "cognitive-engines/adversarial-reasoning.md",
       "cognitive-engines/analogical-transfer.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "core/INDEX.md",
+      "core/adaptive-depth.md",
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "cognitive-engines/adversarial-reasoning.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/analogical-transfer.md",
-      "cognitive-engines/causal-inference.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "cognitive-engines/analogical-transfer.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/causal-inference.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "cognitive-engines/causal-inference.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "cognitive-engines/cognitive-synthesis.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "cognitive-engines/context-engine.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "cognitive-engines/creative-synthesis.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "cognitive-engines/first-principles.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "cognitive-engines/hallucination-defense.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
       "cognitive-engines/zero-hallucination.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "quality-safety/error-recovery.md"
+      "quality-safety/INDEX.md"
     ],
     "cognitive-engines/meta-cognition.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "cognitive-engines/search-strategy.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "cognitive-engines/self-correction.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "cognitive-engines/uncertainty-engine.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
       "cognitive-engines/meta-cognition.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "quality-safety/error-recovery.md"
+      "quality-safety/INDEX.md"
     ],
     "cognitive-engines/zero-hallucination.md": [
+      "advanced/INDEX.md",
       "advanced/agentic-auto-runtime.md",
-      "advanced/cognitive-load.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
       "cognitive-engines/hallucination-defense.md",
+      "core/INDEX.md",
+      "core/adaptive-depth.md",
+      "quality-safety/INDEX.md"
+    ],
+    "core/INDEX.md": [
+      "cognitive-engines/INDEX.md",
+      "cognitive-engines/adversarial-reasoning.md",
       "core/adaptive-depth.md",
       "core/iron-laws.md",
-      "quality-safety/error-recovery.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md",
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "core/adaptive-depth.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/iron-laws.md",
-      "core/pipeline-phases.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "core/iron-laws.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/pipeline-phases.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "core/pipeline-phases.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
+    ],
+    "knowledge-bases/INDEX.md": [
+      "cognitive-engines/INDEX.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "core/INDEX.md",
+      "core/adaptive-depth.md",
+      "knowledge-bases/anti-patterns.md",
+      "knowledge-bases/decision-tree.md",
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "knowledge-bases/anti-patterns.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/decision-tree.md",
-      "knowledge-bases/mental-models.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "knowledge-bases/decision-tree.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
       "cognitive-engines/causal-inference.md",
       "cognitive-engines/first-principles.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/mental-models.md"
+      "knowledge-bases/INDEX.md",
+      "knowledge-bases/anti-patterns.md"
     ],
     "knowledge-bases/mental-models.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "knowledge-bases/reference.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
+    ],
+    "quality-safety/INDEX.md": [
+      "cognitive-engines/INDEX.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "core/INDEX.md",
+      "core/adaptive-depth.md",
+      "quality-safety/error-recovery.md",
+      "quality-safety/ethical-framework.md",
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "quality-safety/error-recovery.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "quality-safety/INDEX.md",
       "quality-safety/ethical-framework.md",
-      "quality-safety/meta-learning.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "quality-safety/ethical-framework.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/meta-learning.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "quality-safety/meta-learning.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "quality-safety/quality-gates.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
     ],
     "quality-safety/verification-checklist.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "quality-safety/INDEX.md",
       "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md",
-      "workflows/api-design.md",
-      "workflows/architecture.md"
+      "workflows/INDEX.md",
+      "workflows/api-design.md"
+    ],
+    "workflows/INDEX.md": [
+      "cognitive-engines/INDEX.md",
+      "cognitive-engines/adversarial-reasoning.md",
+      "core/INDEX.md",
+      "core/adaptive-depth.md",
+      "knowledge-bases/INDEX.md",
+      "knowledge-bases/anti-patterns.md",
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "workflows/api-design.md": [
       "advanced/communication-optimization.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md"
+      "quality-safety/INDEX.md"
     ],
     "workflows/architecture.md": [
       "advanced/emergent-complexity.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
       "core/pipeline-phases.md",
-      "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md"
+      "knowledge-bases/INDEX.md",
+      "knowledge-bases/anti-patterns.md"
     ],
     "workflows/bug-fix.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "workflows/code-review.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
       "cognitive-engines/hallucination-defense.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md"
+      "quality-safety/INDEX.md"
     ],
     "workflows/debugging-unknown.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
       "cognitive-engines/self-correction.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md"
+      "quality-safety/INDEX.md"
     ],
     "workflows/greenfield.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "workflows/incident-response.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "workflows/legacy-rescue.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "workflows/migration.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "workflows/new-feature.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "workflows/performance.md": [
       "advanced/cognitive-load.md",
       "advanced/resource-optimization.md",
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
-      "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md"
+      "knowledge-bases/INDEX.md",
+      "knowledge-bases/anti-patterns.md"
     ],
     "workflows/refactoring.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "workflows/research-spike.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "workflows/security-audit.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "workflows/technical-writing.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ],
     "workflows/workflow-index.md": [
+      "cognitive-engines/INDEX.md",
       "cognitive-engines/adversarial-reasoning.md",
-      "cognitive-engines/analogical-transfer.md",
+      "core/INDEX.md",
       "core/adaptive-depth.md",
-      "core/iron-laws.md",
+      "knowledge-bases/INDEX.md",
       "knowledge-bases/anti-patterns.md",
-      "knowledge-bases/decision-tree.md",
-      "quality-safety/error-recovery.md",
-      "quality-safety/ethical-framework.md"
+      "quality-safety/INDEX.md",
+      "quality-safety/error-recovery.md"
     ]
   },
   "relations": [
     {
+      "from": "advanced/INDEX.md",
+      "to": "advanced/agentic-auto-runtime.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/INDEX.md",
+      "to": "advanced/cognitive-load.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "advanced/INDEX.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/INDEX.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/INDEX.md",
+      "to": "quality-safety/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/INDEX.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/INDEX.md",
+      "to": "workflows/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/INDEX.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/agentic-auto-runtime.md",
+      "to": "advanced/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
       "from": "advanced/agentic-auto-runtime.md",
       "to": "advanced/cognitive-load.md",
       "type": "same-folder-peer",
@@ -700,9 +838,9 @@ const graph = {
     },
     {
       "from": "advanced/agentic-auto-runtime.md",
-      "to": "advanced/collaborative-intelligence.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "advanced/agentic-auto-runtime.md",
@@ -712,9 +850,9 @@ const graph = {
     },
     {
       "from": "advanced/agentic-auto-runtime.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
     },
     {
       "from": "advanced/agentic-auto-runtime.md",
@@ -724,9 +862,9 @@ const graph = {
     },
     {
       "from": "advanced/agentic-auto-runtime.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
       "from": "advanced/agentic-auto-runtime.md",
@@ -735,10 +873,10 @@ const graph = {
       "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
-      "from": "advanced/agentic-auto-runtime.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect advanced with workflows for multi-layer reasoning"
+      "from": "advanced/cognitive-load.md",
+      "to": "advanced/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "advanced/cognitive-load.md",
@@ -748,21 +886,21 @@ const graph = {
     },
     {
       "from": "advanced/cognitive-load.md",
-      "to": "advanced/collaborative-intelligence.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
-    },
-    {
-      "from": "advanced/cognitive-load.md",
-      "to": "cognitive-engines/adversarial-reasoning.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "advanced/cognitive-load.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
       "type": "cross-layer",
       "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/cognitive-load.md",
+      "to": "quality-safety/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
     },
     {
       "from": "advanced/cognitive-load.md",
@@ -772,21 +910,21 @@ const graph = {
     },
     {
       "from": "advanced/cognitive-load.md",
-      "to": "quality-safety/ethical-framework.md",
-      "type": "cross-layer",
-      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
-    },
-    {
-      "from": "advanced/cognitive-load.md",
-      "to": "workflows/api-design.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
       "from": "advanced/cognitive-load.md",
-      "to": "workflows/architecture.md",
+      "to": "workflows/api-design.md",
       "type": "cross-layer",
       "purpose": "connect advanced with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "advanced/collaborative-intelligence.md",
+      "to": "advanced/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "advanced/collaborative-intelligence.md",
@@ -796,9 +934,9 @@ const graph = {
     },
     {
       "from": "advanced/collaborative-intelligence.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "advanced/collaborative-intelligence.md",
@@ -808,9 +946,9 @@ const graph = {
     },
     {
       "from": "advanced/collaborative-intelligence.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
     },
     {
       "from": "advanced/collaborative-intelligence.md",
@@ -820,9 +958,9 @@ const graph = {
     },
     {
       "from": "advanced/collaborative-intelligence.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
       "from": "advanced/collaborative-intelligence.md",
@@ -831,10 +969,10 @@ const graph = {
       "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
-      "from": "advanced/collaborative-intelligence.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect advanced with workflows for multi-layer reasoning"
+      "from": "advanced/communication-optimization.md",
+      "to": "advanced/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "advanced/communication-optimization.md",
@@ -844,9 +982,9 @@ const graph = {
     },
     {
       "from": "advanced/communication-optimization.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "advanced/communication-optimization.md",
@@ -856,9 +994,9 @@ const graph = {
     },
     {
       "from": "advanced/communication-optimization.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
     },
     {
       "from": "advanced/communication-optimization.md",
@@ -868,9 +1006,9 @@ const graph = {
     },
     {
       "from": "advanced/communication-optimization.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
       "from": "advanced/communication-optimization.md",
@@ -879,10 +1017,10 @@ const graph = {
       "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
-      "from": "advanced/communication-optimization.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect advanced with workflows for multi-layer reasoning"
+      "from": "advanced/emergent-complexity.md",
+      "to": "advanced/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "advanced/emergent-complexity.md",
@@ -892,9 +1030,9 @@ const graph = {
     },
     {
       "from": "advanced/emergent-complexity.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "advanced/emergent-complexity.md",
@@ -904,9 +1042,9 @@ const graph = {
     },
     {
       "from": "advanced/emergent-complexity.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
     },
     {
       "from": "advanced/emergent-complexity.md",
@@ -916,9 +1054,9 @@ const graph = {
     },
     {
       "from": "advanced/emergent-complexity.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
       "from": "advanced/emergent-complexity.md",
@@ -927,10 +1065,10 @@ const graph = {
       "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
-      "from": "advanced/emergent-complexity.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect advanced with workflows for multi-layer reasoning"
+      "from": "advanced/failure-patterns.md",
+      "to": "advanced/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "advanced/failure-patterns.md",
@@ -940,9 +1078,9 @@ const graph = {
     },
     {
       "from": "advanced/failure-patterns.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "advanced/failure-patterns.md",
@@ -952,9 +1090,9 @@ const graph = {
     },
     {
       "from": "advanced/failure-patterns.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
     },
     {
       "from": "advanced/failure-patterns.md",
@@ -964,9 +1102,9 @@ const graph = {
     },
     {
       "from": "advanced/failure-patterns.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
       "from": "advanced/failure-patterns.md",
@@ -975,10 +1113,10 @@ const graph = {
       "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
-      "from": "advanced/failure-patterns.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect advanced with workflows for multi-layer reasoning"
+      "from": "advanced/resource-optimization.md",
+      "to": "advanced/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "advanced/resource-optimization.md",
@@ -988,9 +1126,9 @@ const graph = {
     },
     {
       "from": "advanced/resource-optimization.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "advanced/resource-optimization.md",
@@ -1000,9 +1138,9 @@ const graph = {
     },
     {
       "from": "advanced/resource-optimization.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
     },
     {
       "from": "advanced/resource-optimization.md",
@@ -1012,9 +1150,9 @@ const graph = {
     },
     {
       "from": "advanced/resource-optimization.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
       "from": "advanced/resource-optimization.md",
@@ -1023,10 +1161,10 @@ const graph = {
       "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
-      "from": "advanced/resource-optimization.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect advanced with workflows for multi-layer reasoning"
+      "from": "advanced/temporal-intelligence.md",
+      "to": "advanced/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "advanced/temporal-intelligence.md",
@@ -1036,9 +1174,9 @@ const graph = {
     },
     {
       "from": "advanced/temporal-intelligence.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "advanced/temporal-intelligence.md",
@@ -1048,9 +1186,9 @@ const graph = {
     },
     {
       "from": "advanced/temporal-intelligence.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
     },
     {
       "from": "advanced/temporal-intelligence.md",
@@ -1060,9 +1198,9 @@ const graph = {
     },
     {
       "from": "advanced/temporal-intelligence.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with quality-safety for multi-layer reasoning"
+      "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
       "from": "advanced/temporal-intelligence.md",
@@ -1071,10 +1209,58 @@ const graph = {
       "purpose": "connect advanced with workflows for multi-layer reasoning"
     },
     {
-      "from": "advanced/temporal-intelligence.md",
-      "to": "workflows/architecture.md",
+      "from": "cognitive-engines/INDEX.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/INDEX.md",
+      "to": "cognitive-engines/analogical-transfer.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/INDEX.md",
+      "to": "core/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect advanced with workflows for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/INDEX.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/INDEX.md",
+      "to": "quality-safety/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/INDEX.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/INDEX.md",
+      "to": "advanced/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/INDEX.md",
+      "to": "advanced/agentic-auto-runtime.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/adversarial-reasoning.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "cognitive-engines/adversarial-reasoning.md",
@@ -1084,21 +1270,21 @@ const graph = {
     },
     {
       "from": "cognitive-engines/adversarial-reasoning.md",
-      "to": "cognitive-engines/causal-inference.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
-    },
-    {
-      "from": "cognitive-engines/adversarial-reasoning.md",
-      "to": "core/adaptive-depth.md",
+      "to": "core/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with core for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/adversarial-reasoning.md",
-      "to": "core/iron-laws.md",
+      "to": "core/adaptive-depth.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/adversarial-reasoning.md",
+      "to": "quality-safety/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/adversarial-reasoning.md",
@@ -1108,21 +1294,21 @@ const graph = {
     },
     {
       "from": "cognitive-engines/adversarial-reasoning.md",
-      "to": "quality-safety/ethical-framework.md",
-      "type": "cross-layer",
-      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
-    },
-    {
-      "from": "cognitive-engines/adversarial-reasoning.md",
-      "to": "advanced/agentic-auto-runtime.md",
+      "to": "advanced/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/adversarial-reasoning.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+    },
+    {
+      "from": "cognitive-engines/analogical-transfer.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "cognitive-engines/analogical-transfer.md",
@@ -1132,9 +1318,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/analogical-transfer.md",
-      "to": "cognitive-engines/causal-inference.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/analogical-transfer.md",
@@ -1144,9 +1330,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/analogical-transfer.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/analogical-transfer.md",
@@ -1156,9 +1342,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/analogical-transfer.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "advanced/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/analogical-transfer.md",
@@ -1167,10 +1353,10 @@ const graph = {
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
-      "from": "cognitive-engines/analogical-transfer.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "cross-layer",
-      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+      "from": "cognitive-engines/causal-inference.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "cognitive-engines/causal-inference.md",
@@ -1180,9 +1366,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/causal-inference.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/causal-inference.md",
@@ -1192,9 +1378,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/causal-inference.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/causal-inference.md",
@@ -1204,9 +1390,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/causal-inference.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "advanced/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/causal-inference.md",
@@ -1215,10 +1401,10 @@ const graph = {
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
-      "from": "cognitive-engines/causal-inference.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "cross-layer",
-      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+      "from": "cognitive-engines/cognitive-synthesis.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "cognitive-engines/cognitive-synthesis.md",
@@ -1228,9 +1414,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/cognitive-synthesis.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/cognitive-synthesis.md",
@@ -1240,9 +1426,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/cognitive-synthesis.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/cognitive-synthesis.md",
@@ -1252,9 +1438,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/cognitive-synthesis.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "advanced/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/cognitive-synthesis.md",
@@ -1263,10 +1449,10 @@ const graph = {
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
-      "from": "cognitive-engines/cognitive-synthesis.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "cross-layer",
-      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+      "from": "cognitive-engines/context-engine.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "cognitive-engines/context-engine.md",
@@ -1276,9 +1462,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/context-engine.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/context-engine.md",
@@ -1288,9 +1474,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/context-engine.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/context-engine.md",
@@ -1300,9 +1486,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/context-engine.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "advanced/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/context-engine.md",
@@ -1311,10 +1497,10 @@ const graph = {
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
-      "from": "cognitive-engines/context-engine.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "cross-layer",
-      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+      "from": "cognitive-engines/creative-synthesis.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "cognitive-engines/creative-synthesis.md",
@@ -1324,9 +1510,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/creative-synthesis.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/creative-synthesis.md",
@@ -1336,9 +1522,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/creative-synthesis.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/creative-synthesis.md",
@@ -1348,9 +1534,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/creative-synthesis.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "advanced/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/creative-synthesis.md",
@@ -1359,10 +1545,10 @@ const graph = {
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
-      "from": "cognitive-engines/creative-synthesis.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "cross-layer",
-      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+      "from": "cognitive-engines/first-principles.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "cognitive-engines/first-principles.md",
@@ -1372,9 +1558,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/first-principles.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/first-principles.md",
@@ -1384,9 +1570,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/first-principles.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/first-principles.md",
@@ -1396,9 +1582,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/first-principles.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "advanced/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/first-principles.md",
@@ -1407,10 +1593,10 @@ const graph = {
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
-      "from": "cognitive-engines/first-principles.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "cross-layer",
-      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+      "from": "cognitive-engines/hallucination-defense.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "cognitive-engines/hallucination-defense.md",
@@ -1420,9 +1606,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/hallucination-defense.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/hallucination-defense.md",
@@ -1432,9 +1618,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/hallucination-defense.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/hallucination-defense.md",
@@ -1444,19 +1630,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/hallucination-defense.md",
-      "to": "quality-safety/ethical-framework.md",
-      "type": "cross-layer",
-      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
-    },
-    {
-      "from": "cognitive-engines/hallucination-defense.md",
-      "to": "advanced/agentic-auto-runtime.md",
+      "to": "advanced/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/hallucination-defense.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1476,15 +1656,21 @@ const graph = {
     },
     {
       "from": "cognitive-engines/meta-cognition.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/meta-cognition.md",
       "to": "cognitive-engines/adversarial-reasoning.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "cognitive-engines/meta-cognition.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/meta-cognition.md",
@@ -1494,9 +1680,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/meta-cognition.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/meta-cognition.md",
@@ -1506,9 +1692,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/meta-cognition.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "advanced/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/meta-cognition.md",
@@ -1517,10 +1703,10 @@ const graph = {
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
-      "from": "cognitive-engines/meta-cognition.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "cross-layer",
-      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+      "from": "cognitive-engines/search-strategy.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "cognitive-engines/search-strategy.md",
@@ -1530,9 +1716,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/search-strategy.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/search-strategy.md",
@@ -1542,9 +1728,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/search-strategy.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/search-strategy.md",
@@ -1554,9 +1740,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/search-strategy.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "advanced/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/search-strategy.md",
@@ -1565,10 +1751,10 @@ const graph = {
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
-      "from": "cognitive-engines/search-strategy.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "cross-layer",
-      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+      "from": "cognitive-engines/self-correction.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "cognitive-engines/self-correction.md",
@@ -1578,9 +1764,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/self-correction.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/self-correction.md",
@@ -1590,9 +1776,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/self-correction.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/self-correction.md",
@@ -1602,9 +1788,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/self-correction.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "advanced/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/self-correction.md",
@@ -1613,10 +1799,10 @@ const graph = {
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
-      "from": "cognitive-engines/self-correction.md",
-      "to": "advanced/cognitive-load.md",
-      "type": "cross-layer",
-      "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
+      "from": "cognitive-engines/uncertainty-engine.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "cognitive-engines/uncertainty-engine.md",
@@ -1626,9 +1812,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/uncertainty-engine.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/uncertainty-engine.md",
@@ -1638,9 +1824,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/uncertainty-engine.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/uncertainty-engine.md",
@@ -1650,19 +1836,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/uncertainty-engine.md",
-      "to": "quality-safety/ethical-framework.md",
-      "type": "cross-layer",
-      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
-    },
-    {
-      "from": "cognitive-engines/uncertainty-engine.md",
-      "to": "advanced/agentic-auto-runtime.md",
+      "to": "advanced/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/uncertainty-engine.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1682,15 +1862,21 @@ const graph = {
     },
     {
       "from": "cognitive-engines/zero-hallucination.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "cognitive-engines/zero-hallucination.md",
       "to": "cognitive-engines/adversarial-reasoning.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "cognitive-engines/zero-hallucination.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/zero-hallucination.md",
@@ -1700,9 +1886,9 @@ const graph = {
     },
     {
       "from": "cognitive-engines/zero-hallucination.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect cognitive-engines with core for multi-layer reasoning"
+      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/zero-hallucination.md",
@@ -1712,19 +1898,13 @@ const graph = {
     },
     {
       "from": "cognitive-engines/zero-hallucination.md",
-      "to": "quality-safety/ethical-framework.md",
-      "type": "cross-layer",
-      "purpose": "connect cognitive-engines with quality-safety for multi-layer reasoning"
-    },
-    {
-      "from": "cognitive-engines/zero-hallucination.md",
-      "to": "advanced/agentic-auto-runtime.md",
+      "to": "advanced/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
     {
       "from": "cognitive-engines/zero-hallucination.md",
-      "to": "advanced/cognitive-load.md",
+      "to": "advanced/agentic-auto-runtime.md",
       "type": "cross-layer",
       "purpose": "connect cognitive-engines with advanced for multi-layer reasoning"
     },
@@ -1743,6 +1923,60 @@ const graph = {
       "purpose": "activate related engine/workflow from shared concept"
     },
     {
+      "from": "core/INDEX.md",
+      "to": "core/adaptive-depth.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "core/INDEX.md",
+      "to": "core/iron-laws.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "core/INDEX.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "core/INDEX.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "core/INDEX.md",
+      "to": "quality-safety/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect core with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "core/INDEX.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect core with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "core/INDEX.md",
+      "to": "workflows/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect core with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "core/INDEX.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect core with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "core/adaptive-depth.md",
+      "to": "core/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
       "from": "core/adaptive-depth.md",
       "to": "core/iron-laws.md",
       "type": "same-folder-peer",
@@ -1750,9 +1984,9 @@ const graph = {
     },
     {
       "from": "core/adaptive-depth.md",
-      "to": "core/pipeline-phases.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "core/adaptive-depth.md",
@@ -1762,9 +1996,9 @@ const graph = {
     },
     {
       "from": "core/adaptive-depth.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect core with quality-safety for multi-layer reasoning"
     },
     {
       "from": "core/adaptive-depth.md",
@@ -1774,9 +2008,9 @@ const graph = {
     },
     {
       "from": "core/adaptive-depth.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect core with quality-safety for multi-layer reasoning"
+      "purpose": "connect core with workflows for multi-layer reasoning"
     },
     {
       "from": "core/adaptive-depth.md",
@@ -1785,10 +2019,10 @@ const graph = {
       "purpose": "connect core with workflows for multi-layer reasoning"
     },
     {
-      "from": "core/adaptive-depth.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect core with workflows for multi-layer reasoning"
+      "from": "core/iron-laws.md",
+      "to": "core/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "core/iron-laws.md",
@@ -1798,9 +2032,9 @@ const graph = {
     },
     {
       "from": "core/iron-laws.md",
-      "to": "core/pipeline-phases.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "core/iron-laws.md",
@@ -1810,9 +2044,9 @@ const graph = {
     },
     {
       "from": "core/iron-laws.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect core with quality-safety for multi-layer reasoning"
     },
     {
       "from": "core/iron-laws.md",
@@ -1822,9 +2056,9 @@ const graph = {
     },
     {
       "from": "core/iron-laws.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect core with quality-safety for multi-layer reasoning"
+      "purpose": "connect core with workflows for multi-layer reasoning"
     },
     {
       "from": "core/iron-laws.md",
@@ -1833,10 +2067,10 @@ const graph = {
       "purpose": "connect core with workflows for multi-layer reasoning"
     },
     {
-      "from": "core/iron-laws.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect core with workflows for multi-layer reasoning"
+      "from": "core/pipeline-phases.md",
+      "to": "core/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "core/pipeline-phases.md",
@@ -1846,9 +2080,9 @@ const graph = {
     },
     {
       "from": "core/pipeline-phases.md",
-      "to": "core/iron-laws.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "core/pipeline-phases.md",
@@ -1858,9 +2092,9 @@ const graph = {
     },
     {
       "from": "core/pipeline-phases.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect core with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect core with quality-safety for multi-layer reasoning"
     },
     {
       "from": "core/pipeline-phases.md",
@@ -1870,9 +2104,9 @@ const graph = {
     },
     {
       "from": "core/pipeline-phases.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect core with quality-safety for multi-layer reasoning"
+      "purpose": "connect core with workflows for multi-layer reasoning"
     },
     {
       "from": "core/pipeline-phases.md",
@@ -1881,10 +2115,58 @@ const graph = {
       "purpose": "connect core with workflows for multi-layer reasoning"
     },
     {
-      "from": "core/pipeline-phases.md",
-      "to": "workflows/architecture.md",
+      "from": "knowledge-bases/INDEX.md",
+      "to": "knowledge-bases/anti-patterns.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "knowledge-bases/INDEX.md",
+      "to": "knowledge-bases/decision-tree.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "knowledge-bases/INDEX.md",
+      "to": "core/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect core with workflows for multi-layer reasoning"
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/INDEX.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/INDEX.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/INDEX.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/INDEX.md",
+      "to": "workflows/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/INDEX.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "knowledge-bases/anti-patterns.md",
+      "to": "knowledge-bases/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "knowledge-bases/anti-patterns.md",
@@ -1894,9 +2176,9 @@ const graph = {
     },
     {
       "from": "knowledge-bases/anti-patterns.md",
-      "to": "knowledge-bases/mental-models.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
     },
     {
       "from": "knowledge-bases/anti-patterns.md",
@@ -1906,9 +2188,9 @@ const graph = {
     },
     {
       "from": "knowledge-bases/anti-patterns.md",
-      "to": "core/iron-laws.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "knowledge-bases/anti-patterns.md",
@@ -1918,9 +2200,9 @@ const graph = {
     },
     {
       "from": "knowledge-bases/anti-patterns.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
     },
     {
       "from": "knowledge-bases/anti-patterns.md",
@@ -1929,10 +2211,10 @@ const graph = {
       "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
     },
     {
-      "from": "knowledge-bases/anti-patterns.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
+      "from": "knowledge-bases/decision-tree.md",
+      "to": "knowledge-bases/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "knowledge-bases/decision-tree.md",
@@ -1942,9 +2224,9 @@ const graph = {
     },
     {
       "from": "knowledge-bases/decision-tree.md",
-      "to": "knowledge-bases/mental-models.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
     },
     {
       "from": "knowledge-bases/decision-tree.md",
@@ -1954,9 +2236,9 @@ const graph = {
     },
     {
       "from": "knowledge-bases/decision-tree.md",
-      "to": "core/iron-laws.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "knowledge-bases/decision-tree.md",
@@ -1966,19 +2248,13 @@ const graph = {
     },
     {
       "from": "knowledge-bases/decision-tree.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "cross-layer",
-      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
-    },
-    {
-      "from": "knowledge-bases/decision-tree.md",
-      "to": "workflows/api-design.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
     },
     {
       "from": "knowledge-bases/decision-tree.md",
-      "to": "workflows/architecture.md",
+      "to": "workflows/api-design.md",
       "type": "cross-layer",
       "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
     },
@@ -1998,15 +2274,21 @@ const graph = {
     },
     {
       "from": "knowledge-bases/mental-models.md",
+      "to": "knowledge-bases/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "knowledge-bases/mental-models.md",
       "to": "knowledge-bases/anti-patterns.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "knowledge-bases/mental-models.md",
-      "to": "knowledge-bases/decision-tree.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
     },
     {
       "from": "knowledge-bases/mental-models.md",
@@ -2016,9 +2298,9 @@ const graph = {
     },
     {
       "from": "knowledge-bases/mental-models.md",
-      "to": "core/iron-laws.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "knowledge-bases/mental-models.md",
@@ -2028,9 +2310,9 @@ const graph = {
     },
     {
       "from": "knowledge-bases/mental-models.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
     },
     {
       "from": "knowledge-bases/mental-models.md",
@@ -2039,10 +2321,10 @@ const graph = {
       "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
     },
     {
-      "from": "knowledge-bases/mental-models.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
+      "from": "knowledge-bases/reference.md",
+      "to": "knowledge-bases/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "knowledge-bases/reference.md",
@@ -2052,9 +2334,9 @@ const graph = {
     },
     {
       "from": "knowledge-bases/reference.md",
-      "to": "knowledge-bases/decision-tree.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
     },
     {
       "from": "knowledge-bases/reference.md",
@@ -2064,9 +2346,9 @@ const graph = {
     },
     {
       "from": "knowledge-bases/reference.md",
-      "to": "core/iron-laws.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect knowledge-bases with core for multi-layer reasoning"
+      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "knowledge-bases/reference.md",
@@ -2076,9 +2358,9 @@ const graph = {
     },
     {
       "from": "knowledge-bases/reference.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect knowledge-bases with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
     },
     {
       "from": "knowledge-bases/reference.md",
@@ -2087,10 +2369,58 @@ const graph = {
       "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
     },
     {
-      "from": "knowledge-bases/reference.md",
-      "to": "workflows/architecture.md",
+      "from": "quality-safety/INDEX.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "quality-safety/INDEX.md",
+      "to": "quality-safety/ethical-framework.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "quality-safety/INDEX.md",
+      "to": "core/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect knowledge-bases with workflows for multi-layer reasoning"
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/INDEX.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/INDEX.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/INDEX.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/INDEX.md",
+      "to": "workflows/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/INDEX.md",
+      "to": "workflows/api-design.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+    },
+    {
+      "from": "quality-safety/error-recovery.md",
+      "to": "quality-safety/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "quality-safety/error-recovery.md",
@@ -2100,9 +2430,9 @@ const graph = {
     },
     {
       "from": "quality-safety/error-recovery.md",
-      "to": "quality-safety/meta-learning.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
     },
     {
       "from": "quality-safety/error-recovery.md",
@@ -2112,9 +2442,9 @@ const graph = {
     },
     {
       "from": "quality-safety/error-recovery.md",
-      "to": "core/iron-laws.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect quality-safety with core for multi-layer reasoning"
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "quality-safety/error-recovery.md",
@@ -2124,9 +2454,9 @@ const graph = {
     },
     {
       "from": "quality-safety/error-recovery.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
     },
     {
       "from": "quality-safety/error-recovery.md",
@@ -2135,10 +2465,10 @@ const graph = {
       "purpose": "connect quality-safety with workflows for multi-layer reasoning"
     },
     {
-      "from": "quality-safety/error-recovery.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+      "from": "quality-safety/ethical-framework.md",
+      "to": "quality-safety/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "quality-safety/ethical-framework.md",
@@ -2148,9 +2478,9 @@ const graph = {
     },
     {
       "from": "quality-safety/ethical-framework.md",
-      "to": "quality-safety/meta-learning.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
     },
     {
       "from": "quality-safety/ethical-framework.md",
@@ -2160,9 +2490,9 @@ const graph = {
     },
     {
       "from": "quality-safety/ethical-framework.md",
-      "to": "core/iron-laws.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect quality-safety with core for multi-layer reasoning"
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "quality-safety/ethical-framework.md",
@@ -2172,9 +2502,9 @@ const graph = {
     },
     {
       "from": "quality-safety/ethical-framework.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
     },
     {
       "from": "quality-safety/ethical-framework.md",
@@ -2183,10 +2513,10 @@ const graph = {
       "purpose": "connect quality-safety with workflows for multi-layer reasoning"
     },
     {
-      "from": "quality-safety/ethical-framework.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+      "from": "quality-safety/meta-learning.md",
+      "to": "quality-safety/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "quality-safety/meta-learning.md",
@@ -2196,9 +2526,9 @@ const graph = {
     },
     {
       "from": "quality-safety/meta-learning.md",
-      "to": "quality-safety/ethical-framework.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
     },
     {
       "from": "quality-safety/meta-learning.md",
@@ -2208,9 +2538,9 @@ const graph = {
     },
     {
       "from": "quality-safety/meta-learning.md",
-      "to": "core/iron-laws.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect quality-safety with core for multi-layer reasoning"
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "quality-safety/meta-learning.md",
@@ -2220,9 +2550,9 @@ const graph = {
     },
     {
       "from": "quality-safety/meta-learning.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
     },
     {
       "from": "quality-safety/meta-learning.md",
@@ -2231,10 +2561,10 @@ const graph = {
       "purpose": "connect quality-safety with workflows for multi-layer reasoning"
     },
     {
-      "from": "quality-safety/meta-learning.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+      "from": "quality-safety/quality-gates.md",
+      "to": "quality-safety/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "quality-safety/quality-gates.md",
@@ -2244,9 +2574,9 @@ const graph = {
     },
     {
       "from": "quality-safety/quality-gates.md",
-      "to": "quality-safety/ethical-framework.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
     },
     {
       "from": "quality-safety/quality-gates.md",
@@ -2256,9 +2586,9 @@ const graph = {
     },
     {
       "from": "quality-safety/quality-gates.md",
-      "to": "core/iron-laws.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect quality-safety with core for multi-layer reasoning"
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "quality-safety/quality-gates.md",
@@ -2268,9 +2598,9 @@ const graph = {
     },
     {
       "from": "quality-safety/quality-gates.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
     },
     {
       "from": "quality-safety/quality-gates.md",
@@ -2279,10 +2609,10 @@ const graph = {
       "purpose": "connect quality-safety with workflows for multi-layer reasoning"
     },
     {
-      "from": "quality-safety/quality-gates.md",
-      "to": "workflows/architecture.md",
-      "type": "cross-layer",
-      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+      "from": "quality-safety/verification-checklist.md",
+      "to": "quality-safety/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "quality-safety/verification-checklist.md",
@@ -2292,9 +2622,9 @@ const graph = {
     },
     {
       "from": "quality-safety/verification-checklist.md",
-      "to": "quality-safety/ethical-framework.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect quality-safety with core for multi-layer reasoning"
     },
     {
       "from": "quality-safety/verification-checklist.md",
@@ -2304,9 +2634,9 @@ const graph = {
     },
     {
       "from": "quality-safety/verification-checklist.md",
-      "to": "core/iron-laws.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect quality-safety with core for multi-layer reasoning"
+      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "quality-safety/verification-checklist.md",
@@ -2316,9 +2646,9 @@ const graph = {
     },
     {
       "from": "quality-safety/verification-checklist.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "workflows/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect quality-safety with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
     },
     {
       "from": "quality-safety/verification-checklist.md",
@@ -2327,68 +2657,122 @@ const graph = {
       "purpose": "connect quality-safety with workflows for multi-layer reasoning"
     },
     {
-      "from": "quality-safety/verification-checklist.md",
+      "from": "workflows/INDEX.md",
+      "to": "workflows/api-design.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/INDEX.md",
       "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/INDEX.md",
+      "to": "core/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect quality-safety with workflows for multi-layer reasoning"
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
-      "from": "workflows/api-design.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
-    },
-    {
-      "from": "workflows/api-design.md",
-      "to": "workflows/bug-fix.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
-    },
-    {
-      "from": "workflows/api-design.md",
+      "from": "workflows/INDEX.md",
       "to": "core/adaptive-depth.md",
       "type": "cross-layer",
       "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
-      "from": "workflows/api-design.md",
-      "to": "core/iron-laws.md",
+      "from": "workflows/INDEX.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
-      "from": "workflows/api-design.md",
+      "from": "workflows/INDEX.md",
       "to": "quality-safety/error-recovery.md",
       "type": "cross-layer",
       "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
-      "from": "workflows/api-design.md",
-      "to": "quality-safety/ethical-framework.md",
+      "from": "workflows/INDEX.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
-      "from": "workflows/api-design.md",
+      "from": "workflows/INDEX.md",
       "to": "cognitive-engines/adversarial-reasoning.md",
       "type": "cross-layer",
       "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
-      "from": "workflows/api-design.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "from": "workflows/INDEX.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
-      "from": "workflows/api-design.md",
+      "from": "workflows/INDEX.md",
       "to": "knowledge-bases/anti-patterns.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/api-design.md",
-      "to": "knowledge-bases/decision-tree.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "workflows/architecture.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "core/adaptive-depth.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "quality-safety/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "quality-safety/error-recovery.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "cognitive-engines/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "cognitive-engines/adversarial-reasoning.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "knowledge-bases/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+    },
+    {
+      "from": "workflows/api-design.md",
+      "to": "knowledge-bases/anti-patterns.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
@@ -2408,15 +2792,21 @@ const graph = {
     },
     {
       "from": "workflows/architecture.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/architecture.md",
       "to": "workflows/api-design.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/architecture.md",
-      "to": "workflows/bug-fix.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/architecture.md",
@@ -2426,9 +2816,9 @@ const graph = {
     },
     {
       "from": "workflows/architecture.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/architecture.md",
@@ -2438,9 +2828,9 @@ const graph = {
     },
     {
       "from": "workflows/architecture.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/architecture.md",
@@ -2450,19 +2840,13 @@ const graph = {
     },
     {
       "from": "workflows/architecture.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
-    },
-    {
-      "from": "workflows/architecture.md",
-      "to": "knowledge-bases/anti-patterns.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/architecture.md",
-      "to": "knowledge-bases/decision-tree.md",
+      "to": "knowledge-bases/anti-patterns.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
@@ -2482,15 +2866,21 @@ const graph = {
     },
     {
       "from": "workflows/bug-fix.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/bug-fix.md",
       "to": "workflows/api-design.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/bug-fix.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/bug-fix.md",
@@ -2500,9 +2890,9 @@ const graph = {
     },
     {
       "from": "workflows/bug-fix.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/bug-fix.md",
@@ -2512,9 +2902,9 @@ const graph = {
     },
     {
       "from": "workflows/bug-fix.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/bug-fix.md",
@@ -2524,9 +2914,9 @@ const graph = {
     },
     {
       "from": "workflows/bug-fix.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/bug-fix.md",
@@ -2535,10 +2925,10 @@ const graph = {
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
-      "from": "workflows/bug-fix.md",
-      "to": "knowledge-bases/decision-tree.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+      "from": "workflows/code-review.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/code-review.md",
@@ -2548,9 +2938,9 @@ const graph = {
     },
     {
       "from": "workflows/code-review.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/code-review.md",
@@ -2560,9 +2950,9 @@ const graph = {
     },
     {
       "from": "workflows/code-review.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/code-review.md",
@@ -2572,9 +2962,9 @@ const graph = {
     },
     {
       "from": "workflows/code-review.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/code-review.md",
@@ -2584,19 +2974,13 @@ const graph = {
     },
     {
       "from": "workflows/code-review.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
-    },
-    {
-      "from": "workflows/code-review.md",
-      "to": "knowledge-bases/anti-patterns.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/code-review.md",
-      "to": "knowledge-bases/decision-tree.md",
+      "to": "knowledge-bases/anti-patterns.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
@@ -2616,15 +3000,21 @@ const graph = {
     },
     {
       "from": "workflows/debugging-unknown.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/debugging-unknown.md",
       "to": "workflows/api-design.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/debugging-unknown.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/debugging-unknown.md",
@@ -2634,9 +3024,9 @@ const graph = {
     },
     {
       "from": "workflows/debugging-unknown.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/debugging-unknown.md",
@@ -2646,9 +3036,9 @@ const graph = {
     },
     {
       "from": "workflows/debugging-unknown.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/debugging-unknown.md",
@@ -2658,19 +3048,13 @@ const graph = {
     },
     {
       "from": "workflows/debugging-unknown.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
-    },
-    {
-      "from": "workflows/debugging-unknown.md",
-      "to": "knowledge-bases/anti-patterns.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/debugging-unknown.md",
-      "to": "knowledge-bases/decision-tree.md",
+      "to": "knowledge-bases/anti-patterns.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
@@ -2690,15 +3074,21 @@ const graph = {
     },
     {
       "from": "workflows/greenfield.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/greenfield.md",
       "to": "workflows/api-design.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/greenfield.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/greenfield.md",
@@ -2708,9 +3098,9 @@ const graph = {
     },
     {
       "from": "workflows/greenfield.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/greenfield.md",
@@ -2720,9 +3110,9 @@ const graph = {
     },
     {
       "from": "workflows/greenfield.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/greenfield.md",
@@ -2732,9 +3122,9 @@ const graph = {
     },
     {
       "from": "workflows/greenfield.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/greenfield.md",
@@ -2743,10 +3133,10 @@ const graph = {
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
-      "from": "workflows/greenfield.md",
-      "to": "knowledge-bases/decision-tree.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+      "from": "workflows/incident-response.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/incident-response.md",
@@ -2756,9 +3146,9 @@ const graph = {
     },
     {
       "from": "workflows/incident-response.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/incident-response.md",
@@ -2768,9 +3158,9 @@ const graph = {
     },
     {
       "from": "workflows/incident-response.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/incident-response.md",
@@ -2780,9 +3170,9 @@ const graph = {
     },
     {
       "from": "workflows/incident-response.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/incident-response.md",
@@ -2792,9 +3182,9 @@ const graph = {
     },
     {
       "from": "workflows/incident-response.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/incident-response.md",
@@ -2803,10 +3193,10 @@ const graph = {
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
-      "from": "workflows/incident-response.md",
-      "to": "knowledge-bases/decision-tree.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+      "from": "workflows/legacy-rescue.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/legacy-rescue.md",
@@ -2816,9 +3206,9 @@ const graph = {
     },
     {
       "from": "workflows/legacy-rescue.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/legacy-rescue.md",
@@ -2828,9 +3218,9 @@ const graph = {
     },
     {
       "from": "workflows/legacy-rescue.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/legacy-rescue.md",
@@ -2840,9 +3230,9 @@ const graph = {
     },
     {
       "from": "workflows/legacy-rescue.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/legacy-rescue.md",
@@ -2852,9 +3242,9 @@ const graph = {
     },
     {
       "from": "workflows/legacy-rescue.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/legacy-rescue.md",
@@ -2863,10 +3253,10 @@ const graph = {
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
-      "from": "workflows/legacy-rescue.md",
-      "to": "knowledge-bases/decision-tree.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+      "from": "workflows/migration.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/migration.md",
@@ -2876,9 +3266,9 @@ const graph = {
     },
     {
       "from": "workflows/migration.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/migration.md",
@@ -2888,9 +3278,9 @@ const graph = {
     },
     {
       "from": "workflows/migration.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/migration.md",
@@ -2900,9 +3290,9 @@ const graph = {
     },
     {
       "from": "workflows/migration.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/migration.md",
@@ -2912,19 +3302,13 @@ const graph = {
     },
     {
       "from": "workflows/migration.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
-    },
-    {
-      "from": "workflows/migration.md",
-      "to": "knowledge-bases/anti-patterns.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/migration.md",
-      "to": "knowledge-bases/decision-tree.md",
+      "to": "knowledge-bases/anti-patterns.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
@@ -2944,15 +3328,21 @@ const graph = {
     },
     {
       "from": "workflows/new-feature.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/new-feature.md",
       "to": "workflows/api-design.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/new-feature.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/new-feature.md",
@@ -2962,9 +3352,9 @@ const graph = {
     },
     {
       "from": "workflows/new-feature.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/new-feature.md",
@@ -2974,9 +3364,9 @@ const graph = {
     },
     {
       "from": "workflows/new-feature.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/new-feature.md",
@@ -2986,9 +3376,9 @@ const graph = {
     },
     {
       "from": "workflows/new-feature.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/new-feature.md",
@@ -2997,10 +3387,10 @@ const graph = {
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
-      "from": "workflows/new-feature.md",
-      "to": "knowledge-bases/decision-tree.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+      "from": "workflows/performance.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/performance.md",
@@ -3010,9 +3400,9 @@ const graph = {
     },
     {
       "from": "workflows/performance.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/performance.md",
@@ -3022,9 +3412,9 @@ const graph = {
     },
     {
       "from": "workflows/performance.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/performance.md",
@@ -3034,9 +3424,9 @@ const graph = {
     },
     {
       "from": "workflows/performance.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/performance.md",
@@ -3046,19 +3436,13 @@ const graph = {
     },
     {
       "from": "workflows/performance.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
-    },
-    {
-      "from": "workflows/performance.md",
-      "to": "knowledge-bases/anti-patterns.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/performance.md",
-      "to": "knowledge-bases/decision-tree.md",
+      "to": "knowledge-bases/anti-patterns.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
@@ -3078,15 +3462,21 @@ const graph = {
     },
     {
       "from": "workflows/refactoring.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/refactoring.md",
       "to": "workflows/api-design.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/refactoring.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/refactoring.md",
@@ -3096,9 +3486,9 @@ const graph = {
     },
     {
       "from": "workflows/refactoring.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/refactoring.md",
@@ -3108,9 +3498,9 @@ const graph = {
     },
     {
       "from": "workflows/refactoring.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/refactoring.md",
@@ -3120,9 +3510,9 @@ const graph = {
     },
     {
       "from": "workflows/refactoring.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/refactoring.md",
@@ -3131,10 +3521,10 @@ const graph = {
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
-      "from": "workflows/refactoring.md",
-      "to": "knowledge-bases/decision-tree.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+      "from": "workflows/research-spike.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/research-spike.md",
@@ -3144,9 +3534,9 @@ const graph = {
     },
     {
       "from": "workflows/research-spike.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/research-spike.md",
@@ -3156,9 +3546,9 @@ const graph = {
     },
     {
       "from": "workflows/research-spike.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/research-spike.md",
@@ -3168,9 +3558,9 @@ const graph = {
     },
     {
       "from": "workflows/research-spike.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/research-spike.md",
@@ -3180,9 +3570,9 @@ const graph = {
     },
     {
       "from": "workflows/research-spike.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/research-spike.md",
@@ -3191,10 +3581,10 @@ const graph = {
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
-      "from": "workflows/research-spike.md",
-      "to": "knowledge-bases/decision-tree.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+      "from": "workflows/security-audit.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/security-audit.md",
@@ -3204,9 +3594,9 @@ const graph = {
     },
     {
       "from": "workflows/security-audit.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/security-audit.md",
@@ -3216,9 +3606,9 @@ const graph = {
     },
     {
       "from": "workflows/security-audit.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/security-audit.md",
@@ -3228,9 +3618,9 @@ const graph = {
     },
     {
       "from": "workflows/security-audit.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/security-audit.md",
@@ -3240,19 +3630,13 @@ const graph = {
     },
     {
       "from": "workflows/security-audit.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
-    },
-    {
-      "from": "workflows/security-audit.md",
-      "to": "knowledge-bases/anti-patterns.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/security-audit.md",
-      "to": "knowledge-bases/decision-tree.md",
+      "to": "knowledge-bases/anti-patterns.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
@@ -3272,15 +3656,21 @@ const graph = {
     },
     {
       "from": "workflows/technical-writing.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
+    },
+    {
+      "from": "workflows/technical-writing.md",
       "to": "workflows/api-design.md",
       "type": "same-folder-peer",
       "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/technical-writing.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/technical-writing.md",
@@ -3290,9 +3680,9 @@ const graph = {
     },
     {
       "from": "workflows/technical-writing.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/technical-writing.md",
@@ -3302,9 +3692,9 @@ const graph = {
     },
     {
       "from": "workflows/technical-writing.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/technical-writing.md",
@@ -3314,9 +3704,9 @@ const graph = {
     },
     {
       "from": "workflows/technical-writing.md",
-      "to": "cognitive-engines/analogical-transfer.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
+      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/technical-writing.md",
@@ -3325,10 +3715,10 @@ const graph = {
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
-      "from": "workflows/technical-writing.md",
-      "to": "knowledge-bases/decision-tree.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
+      "from": "workflows/workflow-index.md",
+      "to": "workflows/INDEX.md",
+      "type": "same-folder-peer",
+      "purpose": "preserve local continuity inside the same DCI subsystem"
     },
     {
       "from": "workflows/workflow-index.md",
@@ -3338,9 +3728,9 @@ const graph = {
     },
     {
       "from": "workflows/workflow-index.md",
-      "to": "workflows/architecture.md",
-      "type": "same-folder-peer",
-      "purpose": "preserve local continuity inside the same DCI subsystem"
+      "to": "core/INDEX.md",
+      "type": "cross-layer",
+      "purpose": "connect workflows with core for multi-layer reasoning"
     },
     {
       "from": "workflows/workflow-index.md",
@@ -3350,9 +3740,9 @@ const graph = {
     },
     {
       "from": "workflows/workflow-index.md",
-      "to": "core/iron-laws.md",
+      "to": "quality-safety/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with core for multi-layer reasoning"
+      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
     },
     {
       "from": "workflows/workflow-index.md",
@@ -3362,9 +3752,9 @@ const graph = {
     },
     {
       "from": "workflows/workflow-index.md",
-      "to": "quality-safety/ethical-framework.md",
+      "to": "cognitive-engines/INDEX.md",
       "type": "cross-layer",
-      "purpose": "connect workflows with quality-safety for multi-layer reasoning"
+      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
     },
     {
       "from": "workflows/workflow-index.md",
@@ -3374,19 +3764,13 @@ const graph = {
     },
     {
       "from": "workflows/workflow-index.md",
-      "to": "cognitive-engines/analogical-transfer.md",
-      "type": "cross-layer",
-      "purpose": "connect workflows with cognitive-engines for multi-layer reasoning"
-    },
-    {
-      "from": "workflows/workflow-index.md",
-      "to": "knowledge-bases/anti-patterns.md",
+      "to": "knowledge-bases/INDEX.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     },
     {
       "from": "workflows/workflow-index.md",
-      "to": "knowledge-bases/decision-tree.md",
+      "to": "knowledge-bases/anti-patterns.md",
       "type": "cross-layer",
       "purpose": "connect workflows with knowledge-bases for multi-layer reasoning"
     }

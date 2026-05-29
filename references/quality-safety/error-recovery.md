@@ -286,13 +286,13 @@ Git errors induce panic. Panic induces catastrophic data loss.
 
 ## Related DCI references
 
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
 - [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
-- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Core Reference Index](../core/INDEX.md)
 - [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
-- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
 - [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
-- [Meta-Learning System — Deterministic-Cognitive-Infrastructure](../quality-safety/meta-learning.md)
+- [Workflows Reference Index](../workflows/INDEX.md)
 - [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
-- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
 
 <!-- DCI-RELATED-END -->

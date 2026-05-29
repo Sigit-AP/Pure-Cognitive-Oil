@@ -313,13 +313,13 @@ Shortcuts are not inherently wrong — sometimes speed matters more than perfect
 
 ## Related DCI references
 
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
 - [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
-- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Core Reference Index](../core/INDEX.md)
 - [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
-- [The 10-Phase Execution Pipeline — Deterministic-Cognitive-Infrastructure](../core/pipeline-phases.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
 - [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
-- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+- [Workflows Reference Index](../workflows/INDEX.md)
 - [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
-- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
 
 <!-- DCI-RELATED-END -->

@@ -55,6 +55,19 @@ Reasoned conclusions, ranked hypotheses, decision criteria, and verification ste
 
 <!-- DCI-DOC-STANDARD-END -->
 
+## Runnable Tooling
+
+Use the folder-local toolkit for fast operational extraction:
+
+```bash
+node references/cognitive-engines/tools/cognitive-engines-toolkit.mjs list
+node references/cognitive-engines/tools/cognitive-engines-toolkit.mjs brief "<task>"
+node references/cognitive-engines/tools/cognitive-engines-toolkit.mjs gate "<task>"
+```
+
+Keep executable logic in `tools/`; keep this markdown as the operational reference and command map. Long scripts belong in versioned files, not embedded inside reference prose.
+
+
 ## Part 1: The 6 Context Layers (Detailed)
 
 ### Layer 1: Project Context — The World You're Operating In
@@ -378,13 +391,13 @@ WHEN CONTEXT GROWS TOO LARGE:
 
 ## Related DCI references
 
+- [Advanced Reference Index](../advanced/INDEX.md)
 - [Agentic Auto Runtime — Deterministic-Cognitive-Infrastructure](../advanced/agentic-auto-runtime.md)
-- [Cognitive Load Management — Deterministic-Cognitive-Infrastructure](../advanced/cognitive-load.md)
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
 - [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
-- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Core Reference Index](../core/INDEX.md)
 - [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
-- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
 - [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
-- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
 
 <!-- DCI-RELATED-END -->

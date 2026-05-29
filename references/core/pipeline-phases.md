@@ -53,6 +53,19 @@ A disciplined execution mode, explicit gates, and evidence-backed completion cri
 
 <!-- DCI-DOC-STANDARD-END -->
 
+## Runnable Tooling
+
+Use the folder-local toolkit for fast operational extraction:
+
+```bash
+node references/core/tools/core-toolkit.mjs list
+node references/core/tools/core-toolkit.mjs brief "<task>"
+node references/core/tools/core-toolkit.mjs gate "<task>"
+```
+
+Keep executable logic in `tools/`; keep this markdown as the operational reference and command map. Long scripts belong in versioned files, not embedded inside reference prose.
+
+
 ## CRITICAL: This Pipeline is NON-LINEAR
 
 ```
@@ -439,13 +452,13 @@ EVOLUTION CRITERIA:
 
 ## Related DCI references
 
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
 - [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
-- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Core Reference Index](../core/INDEX.md)
 - [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
-- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
 - [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
-- [Ethical Framework — Deterministic-Cognitive-Infrastructure](../quality-safety/ethical-framework.md)
+- [Workflows Reference Index](../workflows/INDEX.md)
 - [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
-- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
 
 <!-- DCI-RELATED-END -->

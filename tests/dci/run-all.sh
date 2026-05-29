@@ -8,6 +8,7 @@ bash tests/dci/test-routing.sh
 bash tests/dci/test-validation.sh
 bash tests/dci/test-skill-triggering.sh
 bash tests/dci/test-reference-runtime.sh
+bash tests/dci/test-reference-toolkits.sh
 bash tests/dci/test-agentic-auto.sh
 bash tests/dci/test-opencode-plugin.sh
 bash tests/dci/test-runtime-audit.sh

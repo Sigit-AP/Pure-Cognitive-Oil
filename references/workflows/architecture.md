@@ -185,12 +185,12 @@ When an AI operating under the Deterministic-Cognitive-Infrastructure framework 
 ## Related DCI references
 
 - [Emergent Complexity Engine — Deterministic-Cognitive-Infrastructure](../advanced/emergent-complexity.md)
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
 - [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
-- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Core Reference Index](../core/INDEX.md)
 - [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
-- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
 - [The 10-Phase Execution Pipeline — Deterministic-Cognitive-Infrastructure](../core/pipeline-phases.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
 - [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
-- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
 
 <!-- DCI-RELATED-END -->

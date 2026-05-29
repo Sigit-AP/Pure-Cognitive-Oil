@@ -598,13 +598,13 @@ Selected model, recommended path, known traps, and review questions.
 
 ## Related DCI references
 
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
 - [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
-- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
+- [Core Reference Index](../core/INDEX.md)
 - [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
-- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
 - [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
-- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+- [Workflows Reference Index](../workflows/INDEX.md)
 - [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
-- [Software Architecture Workflow — Deterministic-Cognitive-Infrastructure](../workflows/architecture.md)
 
 <!-- DCI-RELATED-END -->

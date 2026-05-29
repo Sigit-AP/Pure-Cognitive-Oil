@@ -55,6 +55,19 @@ Selected model, recommended path, known traps, and review questions.
 
 <!-- DCI-DOC-STANDARD-END -->
 
+## Runnable Tooling
+
+Use the folder-local toolkit for fast operational extraction:
+
+```bash
+node references/knowledge-bases/tools/knowledge-bases-toolkit.mjs list
+node references/knowledge-bases/tools/knowledge-bases-toolkit.mjs brief "<task>"
+node references/knowledge-bases/tools/knowledge-bases-toolkit.mjs gate "<task>"
+```
+
+Keep executable logic in `tools/`; keep this markdown as the operational reference and command map. Long scripts belong in versioned files, not embedded inside reference prose.
+
+
 ## Part 1: Decision Classification Matrix
 
 ```
@@ -326,13 +339,13 @@ IRREVERSIBLE:
 
 ## Related DCI references
 
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
 - [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
-- [Analogical Transfer System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/analogical-transfer.md)
 - [Causal Inference Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/causal-inference.md)
 - [First Principles Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/first-principles.md)
+- [Core Reference Index](../core/INDEX.md)
 - [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
-- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
 - [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
-- [150+ Mental Models — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/mental-models.md)
 
 <!-- DCI-RELATED-END -->

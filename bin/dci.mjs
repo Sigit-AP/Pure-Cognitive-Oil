@@ -35,6 +35,7 @@ Usage:
   dci validate             Run DCI validation
   dci readiness            Run DCI readiness gate
   dci references [cmd]     Run executable reference runtime (route/search/context/capsule/folders)
+  dci tools [cmd]          Run reference toolkit dispatcher (list/domain/brief/gate)
   dci agentic-auto TASK    Print adaptive DCI route-plan-build-audit runtime plan
   dci lifecycle            Generate sustained lifecycle certificate
   dci lifecycle [phase]    Print start/checkpoint/finish lifecycle protocol
@@ -79,6 +80,9 @@ switch (command) {
   case "references":
   case "reference-runtime":
     run("node", ["references/runtime/dci-reference-runtime.mjs", ...rest], { cwd: root });
+    break;
+  case "tools":
+    run("node", ["references/tools/reference-toolkit.mjs", ...rest], { cwd: root });
     break;
   case "agentic-auto":
     run("node", ["scripts/dci/agentic-auto.mjs", ...rest], { cwd: root });
