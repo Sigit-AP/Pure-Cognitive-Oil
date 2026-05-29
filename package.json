@@ -71,5 +71,17 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "author": {
+    "name": "Sigit-AP",
+    "url": "https://github.com/Sigit-AP"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sigit-AP/pure-cognitive-oil.git"
+  },
+  "homepage": "https://github.com/Sigit-AP/pure-cognitive-oil#readme",
+  "bugs": {
+    "url": "https://github.com/Sigit-AP/pure-cognitive-oil/issues"
   }
 }
