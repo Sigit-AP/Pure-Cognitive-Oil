@@ -1,22 +1,22 @@
-# API Design Workflow — Deterministic-Cognitive-Infrastructure
+# API Design Workflow — Pure Cognitive Oil
 
 > **"An API is a promise. It is a legally binding contract written in code and published to the world. Once you publish it, you can never take it back, change its structure, or rename a field without inflicting catastrophic pain on your users. Designing an API is an exercise in predicting the future while maintaining absolute, mathematical backwards compatibility. A bad database schema can be migrated in an hour; a bad public API will haunt your company for a decade."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** API Design Workflow — Deterministic-Cognitive-Infrastructure
+- **Title:** API Design Workflow — Pure Cognitive Oil
 - **Path:** `references/workflows/api-design.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Philosophy of the Boundary Layer
 
@@ -129,7 +129,7 @@ STRATEGY 1: OFFSET PAGINATION
 ├─ Pros: Easy to implement with SQL `LIMIT` and `OFFSET`. Allows clients to jump directly to "Page 5".
 └─ Cons: Terribly inefficient on massive datasets (to get offset 1,000,000, the database must physically scan and discard 1,000,000 rows). Highly susceptible to data drift (if items are added/deleted while paging, the user will see duplicates or miss items).
 
-STRATEGY 2: CURSOR PAGINATION (The Deterministic-Cognitive-Infrastructure Choice for Scale)
+STRATEGY 2: CURSOR PAGINATION (The Pure Cognitive Oil Choice for Scale)
 ├─ Concept: `GET /users?limit=50&after=eyJpZCI6MTIzfQ==` (Cursor is an opaque, base64-encoded pointer to the exact last item seen).
 ├─ Pros: O(1) performance regardless of depth. Mathematically immune to data drift. Essential for infinite-scroll feeds.
 └─ Cons: Harder to implement. The client cannot jump to "Page 5" directly; they must traverse sequentially. Requires a deterministic sort order (usually by ID or CreatedAt).
@@ -197,17 +197,32 @@ Before writing a single line of backend logic, write the OpenAPI (Swagger) speci
 Use code generation tools (like `openapi-generator` or `tsoa`) to generate the server interfaces, the request validation middleware, and the client SDKs directly from the OpenAPI spec. This mathematically guarantees that the server implementation exactly matches the published documentation.
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
-- [Communication Optimization System — Deterministic-Cognitive-Infrastructure](../advanced/communication-optimization.md)
+- [Communication Optimization System — Pure Cognitive Oil](../advanced/communication-optimization.md)
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Communication Optimization System — Pure Cognitive Oil](../advanced/communication-optimization.md)
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+
+<!-- PCO-RELATED-END -->

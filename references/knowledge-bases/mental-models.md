@@ -1,15 +1,15 @@
-# 150+ Mental Models — Deterministic-Cognitive-Infrastructure Framework
+# 150+ Mental Models — Pure Cognitive Oil Framework
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** 150+ Mental Models — Deterministic-Cognitive-Infrastructure Framework
+- **Title:** 150+ Mental Models — Pure Cognitive Oil Framework
 - **Path:** `references/knowledge-bases/mental-models.md`
 - **Folder:** `knowledge-bases`
 - **Document type:** Knowledge base reference
@@ -34,7 +34,7 @@ Selected model, recommended path, known traps, and review questions.
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -48,10 +48,10 @@ Selected model, recommended path, known traps, and review questions.
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Domain 1: Core Reasoning (1-15)
 
@@ -594,17 +594,32 @@ Selected model, recommended path, known traps, and review questions.
 ### 155. Fail Fast
 **What:** Detect and report errors at the earliest possible point. Don't let invalid state propagate.
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 - [Workflows Reference Index](../workflows/INDEX.md)
-- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Workflows Reference Index](../workflows/INDEX.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
+
+<!-- PCO-RELATED-END -->

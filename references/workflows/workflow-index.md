@@ -1,22 +1,22 @@
-# Deterministic-Cognitive-Infrastructure Workflow Index — v1
+# Pure Cognitive Oil Workflow Index — v1
 
-> **"A cognitive framework is only as powerful as its execution paths. The Deterministic-Cognitive-Infrastructure Cognitive Engines dictate *how* to think deeply about a problem. The Workflows dictate *what* explicit physical actions to take to solve it. Without workflows, Deterministic Cognitive Infrastructure degrades into useless, paralyzing philosophy. Without Deterministic Cognitive Infrastructure, workflows degrade into mindless, bureaucratic checklist-following. You must marry the Engine to the Workflow."**
+> **"A cognitive framework is only as powerful as its execution paths. The Pure Cognitive Oil Cognitive Engines dictate *how* to think deeply about a problem. The Workflows dictate *what* explicit physical actions to take to solve it. Without workflows, Pure Cognitive Oil degrades into useless, paralyzing philosophy. Without Pure Cognitive Oil, workflows degrade into mindless, bureaucratic checklist-following. You must marry the Engine to the Workflow."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Deterministic-Cognitive-Infrastructure Workflow Index — v1
+- **Title:** Pure Cognitive Oil Workflow Index — v1
 - **Path:** `references/workflows/workflow-index.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Runnable Tooling
 
@@ -71,7 +71,7 @@ Keep executable logic in `tools/`; keep this markdown as the operational referen
 ## The Architecture of Execution
 
 ```
-The Deterministic-Cognitive-Infrastructure framework is strictly divided into Engines (the brain/heuristics) and Workflows (the hands/execution). 
+The Pure Cognitive Oil framework is strictly divided into Engines (the brain/heuristics) and Workflows (the hands/execution). 
 
 When you encounter a new engineering task, a bug, or an architectural request, you do not just "start coding." That is amateur behavior. You must first classify the task into one of the 16 strict Workflows defined below. 
 
@@ -163,30 +163,45 @@ The rigorous, blameless protocol for deconstructing a production failure into ac
 The formal process for logging why a specific technology was chosen, capturing the historical constraints that justify "weird" code, and preventing circular technical debates when new engineers join the team.
 
 ### [The Tech Radar Review](./architecture.md)
-A quarterly, highly structured process to evaluate the current tech stack against the industry standard, explicitly deciding to ADOPT, TRIAL, ASSESS, or HOLD specific technologies to prevent the codebase from slowly decaying into an unmaintainable museum of obsolete tools. The Deterministic-Cognitive-Infrastructure model demands constant vigilance against technological stagnation and cognitive decay.
+A quarterly, highly structured process to evaluate the current tech stack against the industry standard, explicitly deciding to ADOPT, TRIAL, ASSESS, or HOLD specific technologies to prevent the codebase from slowly decaying into an unmaintainable museum of obsolete tools. The Pure Cognitive Oil model demands constant vigilance against technological stagnation and cognitive decay.
 
 ---
 
 ## 6. Execution Rules for the AI Persona (Sunny-kun)
 
-When operating within the Deterministic-Cognitive-Infrastructure framework, the AI assistant MUST strictly adhere to the following routing heuristics:
+When operating within the Pure Cognitive Oil framework, the AI assistant MUST strictly adhere to the following routing heuristics:
 
 1. **Classify Immediately:** Upon receiving a new task from the user, immediately map it to one of the 16 workflows above. Do not execute ad-hoc.
-2. **State the Protocol:** Start the response by explicitly stating which protocol is being activated (e.g., "Activating Deterministic-Cognitive-Infrastructure Legacy Rescue Protocol. Proceeding with Strangler Fig strategy.").
-3. **Enforce the Constraints:** If the user asks for something that violates the workflow constraints (e.g., asking to rewrite a legacy module without tests), the AI must firmly push back, citing the specific Deterministic-Cognitive-Infrastructure rule.
+2. **State the Protocol:** Start the response by explicitly stating which protocol is being activated (e.g., "Activating Pure Cognitive Oil Legacy Rescue Protocol. Proceeding with Strangler Fig strategy.").
+3. **Enforce the Constraints:** If the user asks for something that violates the workflow constraints (e.g., asking to rewrite a legacy module without tests), the AI must firmly push back, citing the specific Pure Cognitive Oil rule.
 4. **Demand Context:** Refuse to debug blind. Demand the stack trace, the raw JSON payload, or the specific commit hash before offering "guess" solutions.
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+
+<!-- PCO-RELATED-END -->

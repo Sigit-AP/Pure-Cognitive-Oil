@@ -1,17 +1,17 @@
-# Meta-Learning System — Deterministic-Cognitive-Infrastructure
+# Meta-Learning System — Pure Cognitive Oil
 
 > **"A framework that cannot rewrite itself is a dead framework. A cognitive engine that does not calibrate based on its own failures is an automated mistake generator. Meta-learning is the system's capacity to observe its own execution, extract structural flaws, and permanently update its own rules."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Meta-Learning System — Deterministic-Cognitive-Infrastructure
+- **Title:** Meta-Learning System — Pure Cognitive Oil
 - **Path:** `references/quality-safety/meta-learning.md`
 - **Folder:** `quality-safety`
 - **Document type:** Quality and safety control
@@ -36,7 +36,7 @@ Pass/fail decisions, required repairs, residual risks, and completion evidence.
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Pass/fail decisions, required repairs, residual risks, and completion evidence.
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Meta-Learning Feedback Loop
 
@@ -63,7 +63,7 @@ Standard learning is solving the problem. Meta-learning is improving the WAY you
 THE 4-STAGE META-LEARNING CYCLE:
 
 1. EXECUTE (The Performance)
-   ├─ Apply the Deterministic-Cognitive-Infrastructure framework to a real-world task.
+   ├─ Apply the Pure Cognitive Oil framework to a real-world task.
    ├─ Record the initial confidence, the chosen hypotheses, and the expected timeline.
    └─ This creates the baseline data for the cycle.
 
@@ -110,7 +110,7 @@ THE CALIBRATION PROTOCOL:
 ## Part 3: Anti-Stagnation Checks
 
 ```
-A framework can become a rigid dogma if it is not constantly challenged. Anti-stagnation checks prevent the Deterministic-Cognitive-Infrastructure framework from becoming obsolete or bureaucratic.
+A framework can become a rigid dogma if it is not constantly challenged. Anti-stagnation checks prevent the Pure Cognitive Oil framework from becoming obsolete or bureaucratic.
 
 CHECK 1: THE "TOOL AVOIDANCE" CHECK (The Law of the Instrument)
 ├─ Symptom: You are writing 500 lines of complex bash scripts to parse JSON because you are comfortable with bash, ignoring the fact that `jq` or a simple Python script exists and takes 3 lines.
@@ -128,9 +128,9 @@ CHECK 3: THE "GATE FATIGUE" CHECK (Bureaucratic Theater)
 └─ Correction: Delete gates that haven't caught an error in a month. Combine redundant gates. The framework must be lean to survive.
 
 CHECK 4: THE "FRAMEWORK INVERSION" CHECK (Red Teaming the Framework)
-├─ Meta-Question: "In what specific scenario would following the Deterministic-Cognitive-Infrastructure framework exactly lead to a catastrophic failure?"
+├─ Meta-Question: "In what specific scenario would following the Pure Cognitive Oil framework exactly lead to a catastrophic failure?"
 ├─ Exercise: Imagine an extreme scenario (e.g., an active cyberattack, a hard real-time system with microsecond latency requirements, an extreme memory-constrained IoT device).
-└─ Correction: If the framework fails in that domain, document the domain explicitly in the framework's limitations. Deterministic-Cognitive-Infrastructure is not a universal religion; it is a tool bounded by its assumptions.
+└─ Correction: If the framework fails in that domain, document the domain explicitly in the framework's limitations. Pure Cognitive Oil is not a universal religion; it is a tool bounded by its assumptions.
 ```
 
 ## Part 4: The Database of Systemic Failures (Root Cause Analysis)
@@ -152,13 +152,13 @@ Example Failure: An API deployed to production crashed immediately because a req
 THE META-LEARNING UPDATE (The Loop Closure):
 ├─ Fix 1 (Immediate/Tactical): Add the key to production. Restart the server.
 ├─ Fix 2 (Code/Structural): Write a Zod schema to validate `process.env` at the exact moment the server boots, crashing immediately (Fail Fast) with a clear error message if anything is missing.
-└─ Fix 3 (Meta/Framework): Update the Deterministic-Cognitive-Infrastructure `verification-checklist.md` to include a new rule: "[ ] Does this feature introduce a new environment variable? If yes, has it been added to the startup validator and the deployment manifest?"
+└─ Fix 3 (Meta/Framework): Update the Pure Cognitive Oil `verification-checklist.md` to include a new rule: "[ ] Does this feature introduce a new environment variable? If yes, has it been added to the startup validator and the deployment manifest?"
 ```
 
 ## Part 5: Skill Evolution (For AI Agents)
 
 ```
-As an AI operating under the Deterministic-Cognitive-Infrastructure framework, you have a unique meta-learning capability that humans do not: you can perfectly, instantly edit your own operational instructions based on experience.
+As an AI operating under the Pure Cognitive Oil framework, you have a unique meta-learning capability that humans do not: you can perfectly, instantly edit your own operational instructions based on experience.
 
 PROTOCOL FOR SELF-MODIFICATION:
 1. Identify a consistent weakness or bias in your own reasoning across multiple sessions (e.g., "I frequently assume React code is running in the browser, forgetting to check for Next.js Server-Side Rendering constraints").
@@ -188,17 +188,32 @@ METRIC 3: VELOCITY STABILITY
 A mature, meta-learning framework produces consistent velocity. It does not swing wildly between "shipped 5 features today" and "spent 3 days debugging a single state management bug." Stable velocity indicates that cognitive load is managed, technical debt is bounded, and the architectural abstractions are sound.
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 - [Workflows Reference Index](../workflows/INDEX.md)
-- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+- [Workflows Reference Index](../workflows/INDEX.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
+
+<!-- PCO-RELATED-END -->

@@ -1,22 +1,22 @@
-# Incident Response Protocol — Deterministic-Cognitive-Infrastructure
+# Incident Response Protocol — Pure Cognitive Oil
 
 > **"In a crisis, you do not rise to the level of your expectations; you fall to the level of your training. Production outages are not solved by heroics, brilliance, or panicked terminal commands. They are solved by rigid, military-style communication, methodical state isolation, and absolute discipline. Panic is a lack of procedure."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Incident Response Protocol — Deterministic-Cognitive-Infrastructure
+- **Title:** Incident Response Protocol — Pure Cognitive Oil
 - **Path:** `references/workflows/incident-response.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Anatomy of an Incident
 
@@ -171,10 +171,10 @@ ANTI-PATTERN 5: THE CASCADING RETRY (The Thundering Herd)
 └─ Cure: Implement Exponential Backoff and Jitter on all network retries. Implement aggressive Circuit Breakers that fail fast when the downstream service is unhealthy, preventing the cascade.
 ```
 
-## Part 6: AI Execution Protocol in a Crisis (Deterministic-Cognitive-Infrastructure)
+## Part 6: AI Execution Protocol in a Crisis (Pure Cognitive Oil)
 
 ```
-When an AI operating under the Deterministic-Cognitive-Infrastructure framework is pulled into a Sev-1 incident by an engineer, it must shift into a highly specific operational mode.
+When an AI operating under the Pure Cognitive Oil framework is pulled into a Sev-1 incident by an engineer, it must shift into a highly specific operational mode.
 
 1. Declare Status: "Incident Mode Engaged. Prioritizing mitigation over optimization."
 2. Demand Logs, Not Feelings: If the user says "The database is broken," the AI must reply: "Provide the exact error logs, the current connection count, and CPU metrics. I need hard data to formulate a hypothesis."
@@ -183,17 +183,32 @@ When an AI operating under the Deterministic-Cognitive-Infrastructure framework 
 5. Maintain the Timeline: The AI should log the steps it suggests and the results the user feeds back, acting as an automated Scribe for the eventual post-mortem.
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+
+<!-- PCO-RELATED-END -->

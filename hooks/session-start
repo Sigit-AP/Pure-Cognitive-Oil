@@ -5,7 +5,7 @@ ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 cd "$ROOT"
 
 if command -v node >/dev/null 2>&1; then
-  node scripts/dci/bootstrap.mjs --json
+  node scripts/pco/bootstrap.mjs --json
 else
-  printf '{"additionalContext":"DCI bootstrap requires Node.js >=18. Install Node, then run dci bootstrap --json."}\n'
+  printf '{"additionalContext":"PCO bootstrap requires Node.js >=18. Install Node, then run pco bootstrap --json."}\n'
 fi

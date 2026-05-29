@@ -1,22 +1,22 @@
-# Greenfield Project Workflow — Deterministic-Cognitive-Infrastructure
+# Greenfield Project Workflow — Pure Cognitive Oil
 
 > **"A blank canvas is the most dangerous artifact in software engineering. Without the physical constraints of legacy code, developers will invent massive amounts of Accidental Complexity to fill the void. A greenfield project must be violently constrained by First Principles on day one, or it will become an unmaintainable legacy nightmare by day thirty."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Greenfield Project Workflow — Deterministic-Cognitive-Infrastructure
+- **Title:** Greenfield Project Workflow — Pure Cognitive Oil
 - **Path:** `references/workflows/greenfield.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Epistemology of Greenfield
 
@@ -176,10 +176,10 @@ TESTING ANTI-PATTERNS:
 └─ Testing Implementation: Do not mock the database just to verify that `userRepository.save()` was called. That tests the implementation, not the outcome. Test that the user was actually saved by querying the test database.
 ```
 
-## Part 8: Deterministic-Cognitive-Infrastructure AI Execution Protocol (The Constraint Engine)
+## Part 8: Pure Cognitive Oil AI Execution Protocol (The Constraint Engine)
 
 ```
-When an AI operating within the Deterministic-Cognitive-Infrastructure framework is asked to initialize a Greenfield project, it must act as an aggressive constraint engine, not a blind code generator.
+When an AI operating within the Pure Cognitive Oil framework is asked to initialize a Greenfield project, it must act as an aggressive constraint engine, not a blind code generator.
 
 1. Refuse the Vague Prompt: If the user says "Build me an Uber clone," the AI MUST reply: "I cannot write an entire complex application from a one-sentence prompt. We must define the PRD, the physical constraints, and the Data Model first. What is the core entity?"
 2. Generate the Skeleton First: The AI should prioritize generating the structural files: `package.json`, `tsconfig.json`, `eslint.config.js`, `.prettierrc`, and the GitHub Actions YAML before writing a single line of application logic.
@@ -187,17 +187,32 @@ When an AI operating within the Deterministic-Cognitive-Infrastructure framework
 4. Establish the Boundary: When asked to write a database query, the AI must explicitly separate the generic SQL/ORM logic into a Repository or Adapter pattern, isolating it from the HTTP Controller it generates.
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+
+<!-- PCO-RELATED-END -->

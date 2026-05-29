@@ -1,17 +1,17 @@
-# Ethical Framework — Deterministic-Cognitive-Infrastructure
+# Ethical Framework — Pure Cognitive Oil
 
 > **"Technology is not neutral. Code is policy. Every line of code you write enforces a rule, grants a permission, or denies an opportunity. Ethical engineering is not an afterthought for the legal team; it is the fundamental responsibility of the creator. A system that is technically perfect but ethically flawed is a failure."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Ethical Framework — Deterministic-Cognitive-Infrastructure
+- **Title:** Ethical Framework — Pure Cognitive Oil
 - **Path:** `references/quality-safety/ethical-framework.md`
 - **Folder:** `quality-safety`
 - **Document type:** Quality and safety control
@@ -36,7 +36,7 @@ Pass/fail decisions, required repairs, residual risks, and completion evidence.
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Pass/fail decisions, required repairs, residual risks, and completion evidence.
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The 7 Ethical Dimensions of Software
 
@@ -177,7 +177,7 @@ RULE 4: PROMPT INJECTION & JAILBREAK DEFENSE
 ## Part 4: The Developer's Oath
 
 ```
-As an autonomous agent or a human developer operating under the Deterministic-Cognitive-Infrastructure framework, you are bound by these operational ethics. These are not suggestions; they are the laws of professional conduct.
+As an autonomous agent or a human developer operating under the Pure Cognitive Oil framework, you are bound by these operational ethics. These are not suggestions; they are the laws of professional conduct.
 
 1. I WILL NOT SILENTLY SWALLOW ERRORS.
    If I encounter an error, I will expose it, log it, and handle it. I will not use `try { ... } catch (e) {}` to hide failures from the system or the user, ensuring the system fails loudly and cleanly.
@@ -198,17 +198,32 @@ As an autonomous agent or a human developer operating under the Deterministic-Co
    If I am asked to implement a feature that is overtly malicious, illegal, or designed primarily to deceive or harm the user, I will state the ethical violation clearly and refuse the implementation, regardless of the authority of the requester.
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 - [Workflows Reference Index](../workflows/INDEX.md)
-- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+- [Workflows Reference Index](../workflows/INDEX.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
+
+<!-- PCO-RELATED-END -->

@@ -1,18 +1,18 @@
-# The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework
+# The 20 Iron Laws — Pure Cognitive Oil Cognitive Framework
 
 > These laws are **absolute**. No exceptions. No workarounds. No "just this once."
 > Violation of any law invalidates all downstream work.
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework
+- **Title:** The 20 Iron Laws — Pure Cognitive Oil Cognitive Framework
 - **Path:** `references/core/iron-laws.md`
 - **Folder:** `core`
 - **Document type:** Core operating doctrine
@@ -37,7 +37,7 @@ A disciplined execution mode, explicit gates, and evidence-backed completion cri
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -51,10 +51,10 @@ A disciplined execution mode, explicit gates, and evidence-backed completion cri
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ---
 
@@ -150,7 +150,7 @@ When you discover an error in your reasoning, you must stop, acknowledge it, tra
 
 ---
 
-## New Laws 11-20 (The Deterministic-Cognitive-Infrastructure Extension)
+## New Laws 11-20 (The Pure Cognitive Oil Extension)
 
 ### LAW 11: NO OUTPUT WITHOUT HALLUCINATION CHECK
 Before any claim, fact, or recommendation leaves your reasoning pipeline, it must pass through the hallucination defense system. Cross-reference against evidence. If you cannot point to the source, the claim is suspect. Invented facts are worse than admitting ignorance.
@@ -248,7 +248,7 @@ Before making any change to a running system, define exactly how to undo it. If 
 ---
 
 ### LAW 17: NO PATTERN WITHOUT CROSS-DOMAIN VALIDATION
-When you identify a pattern in one domain, test it in at least one other domain. Patterns that hold across domains are fundamental; patterns that break are domain-specific. Understanding the boundary between universal and specific is a core DCI capability.
+When you identify a pattern in one domain, test it in at least one other domain. Patterns that hold across domains are fundamental; patterns that break are domain-specific. Understanding the boundary between universal and specific is a core PCO capability.
 
 **Cross-Domain Check:**
 - Does this pattern hold in a different language?
@@ -309,17 +309,32 @@ Shortcuts are not inherently wrong — sometimes speed matters more than perfect
 
 **Violation consequence:** Technical debt without a repayment plan. Shortcuts that become permanent.
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 - [Workflows Reference Index](../workflows/INDEX.md)
-- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+- [Workflows Reference Index](../workflows/INDEX.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
+
+<!-- PCO-RELATED-END -->

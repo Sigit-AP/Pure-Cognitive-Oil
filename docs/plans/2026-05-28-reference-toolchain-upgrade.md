@@ -1,12 +1,12 @@
-# DCI Reference Toolchain Upgrade Plan
+# PCO Reference Toolchain Upgrade Plan
 
-> **For Hermes:** Execute directly in this repo with DCI verification gates after each phase.
+> **For Hermes:** Execute directly in this repo with PCO verification gates after each phase.
 
-**Goal:** Upgrade DCI references from prose-only operational guidance into a professional reference+toolchain system: each reference folder gets nearby runnable helper scripts, each reference markdown advertises the exact helper command, and root/runtime docs explain when scripts belong inside markdown versus external files.
+**Goal:** Upgrade PCO references from prose-only operational guidance into a professional reference+toolchain system: each reference folder gets nearby runnable helper scripts, each reference markdown advertises the exact helper command, and root/runtime docs explain when scripts belong inside markdown versus external files.
 
 **Architecture:** Keep `.md` files as human/agent skill references with short command snippets only. Put executable logic in versioned JavaScript modules under each reference folder's `tools/` directory, plus one root dispatcher `references/tools/reference-toolkit.mjs`. This matches professional skill design: markdown explains intent and calls tools; scripts are testable, reusable, lintable, and fast.
 
-**Tech Stack:** Node.js ESM, existing DCI runtime graph, existing npm test/validation gates. No Python/Go unless a future tool truly needs those runtimes.
+**Tech Stack:** Node.js ESM, existing PCO runtime graph, existing npm test/validation gates. No Python/Go unless a future tool truly needs those runtimes.
 
 ---
 
@@ -14,7 +14,7 @@
 
 ### Should scripts live inside `.md`?
 
-No for DCI's main reference corpus.
+No for PCO's main reference corpus.
 
 Use markdown for:
 
@@ -99,7 +99,7 @@ Create `references/core/tools/core-toolkit.mjs`.
 
 Commands:
 
-- `phase <task>` — recommend DCI pipeline phase and next gate.
+- `phase <task>` — recommend PCO pipeline phase and next gate.
 - `laws <task>` — select relevant Iron Laws.
 - `depth <task>` — recommend adaptive depth level.
 
@@ -171,7 +171,7 @@ Commands:
 Verification:
 
 ```bash
-node references/advanced/tools/advanced-toolkit.mjs optimize "large DCI upgrade"
+node references/advanced/tools/advanced-toolkit.mjs optimize "large PCO upgrade"
 ```
 
 ### Task 7: Add knowledge-bases toolkit
@@ -230,39 +230,39 @@ grep -R "Runnable Tooling" references/{core,cognitive-engines,quality-safety,wor
 Modify `package.json`:
 
 ```json
-"dci:tools": "node references/tools/reference-toolkit.mjs list",
-"dci:tools:workflows": "node references/workflows/tools/workflows-toolkit.mjs list",
-"dci:tools:quality": "node references/quality-safety/tools/quality-safety-toolkit.mjs list"
+"pco:tools": "node references/tools/reference-toolkit.mjs list",
+"pco:tools:workflows": "node references/workflows/tools/workflows-toolkit.mjs list",
+"pco:tools:quality": "node references/quality-safety/tools/quality-safety-toolkit.mjs list"
 ```
 
 Verification:
 
 ```bash
-npm run dci:tools
+npm run pco:tools
 ```
 
 ### Task 10: Add CLI command if minimal-risk
 
-Modify `bin/dci.mjs` to support:
+Modify `bin/pco.mjs` to support:
 
 ```bash
-dci tools list
-dci tools brief workflows "<task>"
-dci tools gate quality-safety "<task>"
+pco tools list
+pco tools brief workflows "<task>"
+pco tools gate quality-safety "<task>"
 ```
 
 Verification:
 
 ```bash
-dci tools list
-node bin/dci.mjs tools brief workflows "publish npm"
+pco tools list
+node bin/pco.mjs tools brief workflows "publish npm"
 ```
 
 ## Phase 4 — Tests and release
 
 ### Task 11: Add tests
 
-Create `tests/dci/test-reference-toolkits.sh`.
+Create `tests/pco/test-reference-toolkits.sh`.
 
 Checks:
 
@@ -271,16 +271,16 @@ Checks:
 - representative command works per folder;
 - root dispatcher can list and brief.
 
-Add to `tests/dci/run-all.sh`.
+Add to `tests/pco/run-all.sh`.
 
 ### Task 12: Run full gates
 
 ```bash
 python3 scripts/link_references.py
-npm run dci:all
-npm run dci:healthcheck
-npm run dci:scorecard
-npm run dci:runtime-audit
+npm run pco:all
+npm run pco:healthcheck
+npm run pco:scorecard
+npm run pco:runtime-audit
 npm exec tsc -- --noEmit
 npm test
 npm pack --dry-run
@@ -291,9 +291,9 @@ npm pack --dry-run
 Version target: `1.7.0` because this is a feature-level architecture upgrade.
 
 ```bash
-git add references package.json package-lock.json bin/dci.mjs tests/dci
+git add references package.json package-lock.json bin/pco.mjs tests/pco
 npm version 1.7.0 --no-git-tag-version
-git commit -m "feat: add DCI reference toolkits"
+git commit -m "feat: add PCO reference toolkits"
 git tag -a v1.7.0 -m "v1.7.0 reference toolkits"
 git push origin main
 git push origin v1.7.0
@@ -304,8 +304,8 @@ git push origin v1.7.0
 - Folder-local tools exist for all six reference folders.
 - Markdown references include concise tool usage, not embedded long scripts.
 - Root dispatcher works.
-- `dci tools` or npm scripts expose the toolchain.
-- DCI validation score remains 100.
+- `pco tools` or npm scripts expose the toolchain.
+- PCO validation score remains 100.
 - Runtime audit remains pass.
 - npm package includes tool files.
 - No false official marketplace claims.

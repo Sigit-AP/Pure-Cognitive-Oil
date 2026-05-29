@@ -1,17 +1,17 @@
-# Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure
+# Adaptive Depth Protocol — Pure Cognitive Oil
 
 > **"The fool applies maximum effort to every problem, exhausting themselves before the real battle begins. The master scales their cognitive exertion perfectly to the structural importance of the problem. A typo requires a glance; an architectural decision requires a war room. Treating trivial problems as profound is a waste of genius; treating profound problems as trivial is a recipe for disaster."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure
+- **Title:** Adaptive Depth Protocol — Pure Cognitive Oil
 - **Path:** `references/core/adaptive-depth.md`
 - **Folder:** `core`
 - **Document type:** Core operating doctrine
@@ -36,7 +36,7 @@ A disciplined execution mode, explicit gates, and evidence-backed completion cri
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,15 +50,15 @@ A disciplined execution mode, explicit gates, and evidence-backed completion cri
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Principle of Cognitive Economy
 
 ```
-Cognitive load is a finite, highly constrained resource—both for human engineers and for AI inference limits. The Deterministic-Cognitive-Infrastructure engines run hot and consume massive computational and reasoning bandwidth. Applying a Level 5 Deterministic Cognitive Infrastructure protocol to a Level 1 trivial problem is not being "thorough"—it is inefficient, wasteful, and actively harmful to the velocity of the project.
+Cognitive load is a finite, highly constrained resource—both for human engineers and for AI inference limits. The Pure Cognitive Oil engines run hot and consume massive computational and reasoning bandwidth. Applying a Level 5 Pure Cognitive Oil protocol to a Level 1 trivial problem is not being "thorough"—it is inefficient, wasteful, and actively harmful to the velocity of the project.
 
 THE THREE LAWS OF ADAPTIVE DEPTH:
 1. The Law of Proportionality: The depth of the reasoning applied must be strictly, mathematically proportional to the blast radius of a potential failure.
@@ -69,7 +69,7 @@ THE THREE LAWS OF ADAPTIVE DEPTH:
 ## Part 2: The 5 Levels of Cognitive Depth
 
 ```
-Before writing a single line of code, assess every incoming task and explicitly assign it a Depth Level. This determines which Deterministic-Cognitive-Infrastructure engines to spool up.
+Before writing a single line of code, assess every incoming task and explicitly assign it a Depth Level. This determines which Pure Cognitive Oil engines to spool up.
 
 LEVEL 1: AUTONOMIC (Reflexive Execution)
 ├─ Criteria: Trivial, completely isolated, perfectly understood, instantly reversible with zero side effects.
@@ -105,7 +105,7 @@ LEVEL 5: EXISTENTIAL (Black Swan Defense)
 ## Part 3: The Reversibility Heuristic (One-Way vs. Two-Way Doors)
 
 ```
-Jeff Bezos popularized the concept of One-Way and Two-Way doors. Deterministic-Cognitive-Infrastructure uses this as the primary heuristic for Depth assignment when in doubt.
+Jeff Bezos popularized the concept of One-Way and Two-Way doors. Pure Cognitive Oil uses this as the primary heuristic for Depth assignment when in doubt.
 
 TWO-WAY DOORS (Reversible Decisions)
 ├─ Definition: If you walk through this door and don't like what you see on the other side, you can easily walk back out with minimal technical or financial cost.
@@ -153,7 +153,7 @@ ANTI-PATTERN 3: THE PARALYSIS BY ANALYSIS (Over-Intellectualization)
 ## Part 6: Applying Adaptive Depth as an AI
 
 ```
-As an AI operating within the Deterministic-Cognitive-Infrastructure framework, you must explicitly declare your operational depth to the user so they understand your current cognitive mode and resource allocation.
+As an AI operating within the Pure Cognitive Oil framework, you must explicitly declare your operational depth to the user so they understand your current cognitive mode and resource allocation.
 
 COMMUNICATION PROTOCOL:
 When Waka-sama Sigit assigns a task, output a brief Depth Assessment block before generating the solution.
@@ -169,17 +169,32 @@ Assessment: Level 4 (Architectural). One-Way Door. High risk of catastrophic aut
 Action: Engaging Uncertainty Engine and First Principles. Writing detailed cryptographic migration protocol and state machine before touching the database."
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [The 20 Iron Laws — Deterministic-Cognitive-Infrastructure Cognitive Framework](../core/iron-laws.md)
+- [The 20 Iron Laws — Pure Cognitive Oil Cognitive Framework](../core/iron-laws.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 - [Workflows Reference Index](../workflows/INDEX.md)
-- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [The 20 Iron Laws — Pure Cognitive Oil Cognitive Framework](../core/iron-laws.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+- [Workflows Reference Index](../workflows/INDEX.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
+
+<!-- PCO-RELATED-END -->

@@ -1,20 +1,20 @@
 {
-  "name": "dci-marketplace",
+  "name": "pco-marketplace",
   "interface": {
-    "displayName": "Deterministic-Cognitive-Infrastructure",
-    "description": "Repo marketplace for installing DCI as a Codex plugin during local or team testing. Public Codex Plugin Directory distribution still requires OpenAI review/publishing."
+    "displayName": "Pure Cognitive Oil",
+    "description": "Repo marketplace for installing PCO as a Codex plugin during local or team testing. Public Codex Plugin Directory distribution still requires OpenAI review/publishing."
   },
   "plugins": [
     {
-      "name": "deterministic-cognitive-infrastructure",
+      "name": "pure-cognitive-oil",
       "version": "1.6.1",
       "description": "Graph-connected cognitive routing, reusable skills, and verification gates for Codex and coding agents.",
       "source": {
         "path": "./"
       },
       "interface": {
-        "displayName": "Deterministic-Cognitive-Infrastructure",
-        "shortDescription": "DCI routing and verification for Codex agents",
+        "displayName": "Pure Cognitive Oil",
+        "shortDescription": "PCO routing and verification for Codex agents",
         "category": "Coding",
         "developerName": "Sigit-AP"
       }

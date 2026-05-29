@@ -1,14 +1,14 @@
 {
-  "name": "dci-marketplace",
+  "name": "pco-marketplace",
   "owner": {
     "name": "Sigit-AP"
   },
   "metadata": {
-    "description": "Deterministic-Cognitive-Infrastructure plugin for Cursor: rules, skills, routing, and verification gates. Official listing requires Cursor manual review."
+    "description": "Pure Cognitive Oil plugin for Cursor: rules, skills, routing, and verification gates. Official listing requires Cursor manual review."
   },
   "plugins": [
     {
-      "name": "deterministic-cognitive-infrastructure",
+      "name": "pure-cognitive-oil",
       "source": ".",
       "description": "Graph-connected cognitive infrastructure and verification gates for AI coding agents.",
       "version": "1.6.1",

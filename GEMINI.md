@@ -1,11 +1,11 @@
-# Deterministic-Cognitive-Infrastructure — Gemini Context
+# Pure Cognitive Oil — Gemini Context
 
 ## Loaded Files
 
 @./SKILL.md
 @./references/REFERENCE_GRAPH.md
-@./skills/using-dci/SKILL.md
+@./skills/using-pco/SKILL.md
 
 ## Runtime Rule
 
-Use DCI graph context before deep reasoning, reference changes, or verification work.
+Use PCO graph context before deep reasoning, reference changes, or verification work.

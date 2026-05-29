@@ -1,22 +1,22 @@
-# Performance Optimization Workflow — Deterministic-Cognitive-Infrastructure
+# Performance Optimization Workflow — Pure Cognitive Oil
 
 > **"Premature optimization is the root of all evil. But delayed optimization is the root of all churn. You cannot optimize what you do not measure. Guessing where the system is slow is a guaranteed way to make the code unreadable without actually making it faster. Performance is a feature, and like any feature, it must be specified, measured, and mathematically proven."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Performance Optimization Workflow — Deterministic-Cognitive-Infrastructure
+- **Title:** Performance Optimization Workflow — Pure Cognitive Oil
 - **Path:** `references/workflows/performance.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Epistemology of Speed
 
@@ -177,10 +177,10 @@ THE "THUNDERING HERD" PROBLEM:
 └─ Cure: Implement Cache Stampede protection (Promise caching, Mutex locks, or Probabilistic Early Expiration) so only ONE request hits the database while the other 999 wait for the cache to be repopulated.
 ```
 
-## Part 7: Deterministic-Cognitive-Infrastructure AI Execution Protocol
+## Part 7: Pure Cognitive Oil AI Execution Protocol
 
 ```
-When an AI within the Deterministic-Cognitive-Infrastructure framework is asked to "optimize this code," it must follow strict guidelines to avoid generating false optimizations.
+When an AI within the Pure Cognitive Oil framework is asked to "optimize this code," it must follow strict guidelines to avoid generating false optimizations.
 
 1. Demand Context: "What is the current metric, what is the bottleneck, and what is the target? I cannot optimize blindly."
 2. Analyze Big O: The AI must immediately identify the Big-O time and space complexity of the provided algorithm.
@@ -188,17 +188,32 @@ When an AI within the Deterministic-Cognitive-Infrastructure framework is asked 
 4. Explain the Trade-off: Every optimization has a cost (usually increased code complexity or memory usage). The AI must explicitly state this cost. "By caching this result in a Map, we reduce CPU time from O(N) to O(1), but we increase memory consumption significantly. Ensure the Map is cleared or bounded."
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
-- [Cognitive Load Management — Deterministic-Cognitive-Infrastructure](../advanced/cognitive-load.md)
-- [Resource Optimization System — Deterministic-Cognitive-Infrastructure](../advanced/resource-optimization.md)
+- [Cognitive Load Management — Pure Cognitive Oil](../advanced/cognitive-load.md)
+- [Resource Optimization System — Pure Cognitive Oil](../advanced/resource-optimization.md)
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Load Management — Pure Cognitive Oil](../advanced/cognitive-load.md)
+- [Resource Optimization System — Pure Cognitive Oil](../advanced/resource-optimization.md)
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+
+<!-- PCO-RELATED-END -->

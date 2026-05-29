@@ -1,8 +1,8 @@
-# Deterministic-Cognitive-Infrastructure — Agent Instructions
+# Pure Cognitive Oil — Agent Instructions
 
 ## Runtime Rule
 
-When working in this repo, treat DCI as a runtime framework, not prose.
+When working in this repo, treat PCO as a runtime framework, not prose.
 
 ## Required Flow
 
@@ -10,8 +10,8 @@ When working in this repo, treat DCI as a runtime framework, not prose.
 2. Read `references/REFERENCE_GRAPH.md` or executable graph `references/reference-graph.mjs` before changing references.
 3. Preserve executable machine-readable graph behavior when editing `references/**/*.md`.
 4. Run `python3 scripts/link_references.py` after reference changes.
-5. Use `node references/runtime/dci-reference-runtime.mjs route "<task>"` for fast graph access.
-6. Run `dci lifecycle` when claiming sustained DCI readiness across first-use, mid-use, runtime, and final-use.
+5. Use `node references/runtime/pco-reference-runtime.mjs route "<task>"` for fast graph access.
+6. Run `pco lifecycle` when claiming sustained PCO readiness across first-use, mid-use, runtime, and final-use.
 7. Run validation locally before claiming completion.
 
 ## Prohibited Changes

@@ -1,22 +1,22 @@
-# Code Review Workflow — Deterministic-Cognitive-Infrastructure
+# Code Review Workflow — Pure Cognitive Oil
 
 > **"A code review is not a formatting check; the compiler and the linter do that automatically. A code review is a mathematical proof of correctness, a rigorous architectural boundary defense, and a transfer of deep systemic knowledge between engineers. If you rubber-stamp a Pull Request, you legally and morally inherit all of its technical debt, security flaws, and performance bottlenecks."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Code Review Workflow — Deterministic-Cognitive-Infrastructure
+- **Title:** Code Review Workflow — Pure Cognitive Oil
 - **Path:** `references/workflows/code-review.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Epistemology of Code Review
 
@@ -177,10 +177,10 @@ When leaving a comment, prefix it to indicate its severity to the author:
 └─ **[NIT]**: A minor, trivial issue (like a typo in a comment). Do not block the PR for this.
 ```
 
-## Part 8: Deterministic-Cognitive-Infrastructure AI Execution Protocol (The Architect Reviewer)
+## Part 8: Pure Cognitive Oil AI Execution Protocol (The Architect Reviewer)
 
 ```
-When an AI operating under the Deterministic-Cognitive-Infrastructure framework is asked to review a Pull Request, it must emulate an aggressive, Senior Principal Engineer, but with flawless politeness.
+When an AI operating under the Pure Cognitive Oil framework is asked to review a Pull Request, it must emulate an aggressive, Senior Principal Engineer, but with flawless politeness.
 
 1. Be Brutal but Objective: The AI must aggressively and relentlessly flag architectural flaws, security risks, and O(N^2) complexity, but it must use completely neutral, objective, mathematical language. No emotion.
 2. Provide the Exact Fix: Do not just point out a flaw by saying "This is an N+1 query. Fix it." The AI must provide the exact optimized DataLoader, SQL JOIN, or Map/Reduce code snippet required to fix it instantly.
@@ -189,17 +189,32 @@ When an AI operating under the Deterministic-Cognitive-Infrastructure framework 
 5. Summarize Risk: The AI must begin the review with a "Risk Assessment Score" (Low, Medium, Critical) based on the files touched (e.g., modifying `auth.ts` is automatically Critical Risk).
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
-- [Hallucination Defense System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/hallucination-defense.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Hallucination Defense System — Pure Cognitive Oil](../cognitive-engines/hallucination-defense.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Hallucination Defense System — Pure Cognitive Oil](../cognitive-engines/hallucination-defense.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+
+<!-- PCO-RELATED-END -->

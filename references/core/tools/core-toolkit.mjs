@@ -30,7 +30,7 @@ function score(items) {
 function list() {
   console.log(`Core Toolkit Commands:
   list                 Show commands
-  phase "<task>"       Recommend active DCI phase
+  phase "<task>"       Recommend active PCO phase
   laws "<task>"        Select relevant Iron Laws
   depth "<task>"       Recommend adaptive depth
   brief "<task>"       Compact core operating brief

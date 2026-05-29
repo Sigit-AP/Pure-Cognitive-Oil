@@ -1,17 +1,17 @@
-# Decision Engine — Deterministic-Cognitive-Infrastructure Framework
+# Decision Engine — Pure Cognitive Oil Framework
 
 > **"A decision without a framework is a coin flip with extra steps."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Decision Engine — Deterministic-Cognitive-Infrastructure Framework
+- **Title:** Decision Engine — Pure Cognitive Oil Framework
 - **Path:** `references/knowledge-bases/decision-tree.md`
 - **Folder:** `knowledge-bases`
 - **Document type:** Knowledge base reference
@@ -36,7 +36,7 @@ Selected model, recommended path, known traps, and review questions.
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Selected model, recommended path, known traps, and review questions.
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Runnable Tooling
 
@@ -83,7 +83,7 @@ Keep executable logic in `tools/`; keep this markdown as the operational referen
 │                      │ • Test approach         │ • DB schema draft    │
 ├──────────────────────┼───────────────────────┼──────────────────────┤
 │ IRREVERSIBLE         │ TYPE 3: Careful        │ TYPE 4: Full Process │
-│                      │ Decide in <1 hour      │ Full Deterministic-Cognitive-Infrastructure pipeline   │
+│                      │ Decide in <1 hour      │ Full Pure Cognitive Oil pipeline   │
 │                      │ Document rationale     │ Multi-hypothesis     │
 │                      │ Examples:              │ Examples:            │
 │                      │ • Delete old data      │ • Architecture shift │
@@ -213,7 +213,7 @@ FOR TYPE 3 DECISIONS (Low impact, irreversible):
 └─ Timebox: 1 hour
 
 FOR TYPE 4 DECISIONS (High impact, irreversible):
-├─ Full Deterministic-Cognitive-Infrastructure pipeline (all 10 phases)
+├─ Full Pure Cognitive Oil pipeline (all 10 phases)
 ├─ Multiple hypotheses, adversarial review, pre-mortem
 ├─ Sleep on it (if timeline allows)
 └─ Get external review before committing
@@ -335,17 +335,32 @@ IRREVERSIBLE:
 [When should this decision be revisited?]
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
-- [Causal Inference Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/causal-inference.md)
-- [First Principles Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/first-principles.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Causal Inference Engine — Pure Cognitive Oil](../cognitive-engines/causal-inference.md)
+- [First Principles Engine — Pure Cognitive Oil](../cognitive-engines/first-principles.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Causal Inference Engine — Pure Cognitive Oil](../cognitive-engines/causal-inference.md)
+- [First Principles Engine — Pure Cognitive Oil](../cognitive-engines/first-principles.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+
+<!-- PCO-RELATED-END -->

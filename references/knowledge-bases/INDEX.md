@@ -12,10 +12,10 @@ node references/knowledge-bases/tools/knowledge-bases-toolkit.mjs gate "<task>"
 
 ## Files
 
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](./anti-patterns.md)
-- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](./decision-tree.md)
-- [150+ Mental Models — Deterministic-Cognitive-Infrastructure Framework](./mental-models.md)
-- [Extended Reference — Deterministic-Cognitive-Infrastructure Framework](./reference.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](./anti-patterns.md)
+- [Decision Engine — Pure Cognitive Oil Framework](./decision-tree.md)
+- [150+ Mental Models — Pure Cognitive Oil Framework](./mental-models.md)
+- [Extended Reference — Pure Cognitive Oil Framework](./reference.md)
 
 ## Maintenance Rule
 
@@ -23,17 +23,32 @@ node references/knowledge-bases/tools/knowledge-bases-toolkit.mjs gate "<task>"
 - Keep markdown focused on intent, operating rules, examples, and links.
 - Regenerate reference graph after adding, moving, or renaming files.
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
-- [Decision Engine — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/decision-tree.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Pure Cognitive Oil Framework](../knowledge-bases/decision-tree.md)
 - [Workflows Reference Index](../workflows/INDEX.md)
-- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Decision Engine — Pure Cognitive Oil Framework](../knowledge-bases/decision-tree.md)
+- [Workflows Reference Index](../workflows/INDEX.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
+
+<!-- PCO-RELATED-END -->

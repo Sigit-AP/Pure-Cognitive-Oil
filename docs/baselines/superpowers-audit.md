@@ -1,6 +1,6 @@
 # Superpowers Baseline Audit
 
-This file records the baseline used by `scripts/dci/scorecard.mjs`.
+This file records the baseline used by `scripts/pco/scorecard.mjs`.
 
 ## Inspected baseline features
 
@@ -23,9 +23,9 @@ The baseline is counted as 16 infrastructure features:
 15. first-message injection
 16. skill ecosystem documentation
 
-## DCI extension principle
+## PCO extension principle
 
-DCI does not copy Superpowers content. It uses AMT:
+PCO does not copy Superpowers content. It uses AMT:
 
 - Amati: inspect the first-use reliability pattern.
 - Tiru: keep boot, hook, cache, and dedupe discipline.
@@ -35,8 +35,8 @@ DCI does not copy Superpowers content. It uses AMT:
 
 The valid claim is:
 
-> DCI has at least 2x audited infrastructure coverage against this Superpowers baseline across first-use, runtime, and finish stages.
+> PCO has at least 2x audited infrastructure coverage against this Superpowers baseline across first-use, runtime, and finish stages.
 
 The invalid claim is:
 
-> DCI is universally 2x better for every model output or every possible user task.
+> PCO is universally 2x better for every model output or every possible user task.

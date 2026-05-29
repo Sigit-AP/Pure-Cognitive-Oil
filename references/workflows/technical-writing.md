@@ -1,22 +1,22 @@
-# Technical Writing Workflow — Deterministic-Cognitive-Infrastructure
+# Technical Writing Workflow — Pure Cognitive Oil
 
 > **"Code is read ten times more than it is written. Documentation is the critical interface between the machine's absolute complexity and the human's finite, easily overwhelmed working memory. If the documentation is wrong, missing, or misleading, the system is effectively unusable, regardless of how mathematically elegant the underlying code is. Documentation is code."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Technical Writing Workflow — Deterministic-Cognitive-Infrastructure
+- **Title:** Technical Writing Workflow — Pure Cognitive Oil
 - **Path:** `references/workflows/technical-writing.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Epistemology of Documentation
 
@@ -134,7 +134,7 @@ THE DOCS-AS-CODE PHILOSOPHY:
 ├─ Define the API strictly using the OpenAPI (Swagger) specification in YAML or JSON.
 ├─ Store the OpenAPI file directly in the git repository right next to the backend code. It must go through the exact same PR review process as the code.
 ├─ Generate the beautiful, interactive HTML documentation automatically via the CI/CD pipeline (using tools like Redoc or Swagger UI) and host it on a static site.
-└─ The Deterministic-Cognitive-Infrastructure Move: Generate the server-side TypeScript interfaces and the client-side SDKs directly from the OpenAPI spec. This mathematically guarantees that the executing code physically cannot drift from the published documentation. If they drift, the compiler fails.
+└─ The Pure Cognitive Oil Move: Generate the server-side TypeScript interfaces and the client-side SDKs directly from the OpenAPI spec. This mathematically guarantees that the executing code physically cannot drift from the published documentation. If they drift, the compiler fails.
 ```
 
 ## Part 6: Incident Post-Mortems (The Most Valuable Documents)
@@ -177,7 +177,7 @@ THE RUNBOOK LAWS:
 ## Part 9: AI Prompt Engineering (Writing for the Machine)
 
 ```
-Writing technical documentation for AI consumption (like Deterministic-Cognitive-Infrastructure) is slightly different than writing for humans.
+Writing technical documentation for AI consumption (like Pure Cognitive Oil) is slightly different than writing for humans.
 
 THE AI-OPTIMIZED DOC FORMAT:
 ├─ High Density: AI models have token limits. Remove all filler words, marketing fluff, and pleasantries.
@@ -186,10 +186,10 @@ THE AI-OPTIMIZED DOC FORMAT:
 └─ Declarative Intent: Start files with a clear system prompt override: `> You are an expert in Rust. Follow these rules...`
 ```
 
-## Part 10: Deterministic-Cognitive-Infrastructure AI Execution Protocol (The Scribe)
+## Part 10: Pure Cognitive Oil AI Execution Protocol (The Scribe)
 
 ```
-When an AI operating under the Deterministic-Cognitive-Infrastructure framework is asked to generate documentation, it must elevate the request from mere text generation to architectural structuring.
+When an AI operating under the Pure Cognitive Oil framework is asked to generate documentation, it must elevate the request from mere text generation to architectural structuring.
 
 1. Identify the Audience: The AI must immediately adjust its tone. A highly technical architectural ADR (Architecture Decision Record) should be dense, precise, and adversarial. A user-facing tutorial should be simple, encouraging, and linear.
 2. Structure Over Prose: The AI must use markdown headers, bolding, bullet points, and syntax-highlighted code blocks aggressively. Avoid massive walls of text. Engineers skim; they do not read.
@@ -197,17 +197,32 @@ When an AI operating under the Deterministic-Cognitive-Infrastructure framework 
 4. Enforce the "Why": If the user asks the AI to comment a block of code, the AI must deduce the *business logic* or the *architectural constraint* and write a comment explaining the WHY, explicitly refusing to write redundant comments about the WHAT.
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+
+<!-- PCO-RELATED-END -->

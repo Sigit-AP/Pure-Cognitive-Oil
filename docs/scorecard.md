@@ -1,6 +1,6 @@
-# DCI 2x Infrastructure Scorecard
+# PCO 2x Infrastructure Scorecard
 
-This scorecard measures DCI against the inspected Superpowers baseline for infrastructure coverage, not universal answer quality.
+This scorecard measures PCO against the inspected Superpowers baseline for infrastructure coverage, not universal answer quality.
 
 ## Baseline
 
@@ -23,9 +23,9 @@ The Superpowers baseline is represented as 16 first-use/runtime infrastructure f
 15. first-message injection
 16. skill ecosystem documentation
 
-## DCI Target
+## PCO Target
 
-DCI must pass at least 32 audited infrastructure checks, giving `>=2.0x` coverage against the 16-feature baseline.
+PCO must pass at least 32 audited infrastructure checks, giving `>=2.0x` coverage against the 16-feature baseline.
 
 The target spans the full lifecycle:
 
@@ -36,8 +36,8 @@ The target spans the full lifecycle:
 ## Command
 
 ```bash
-node scripts/dci/scorecard.mjs
-npm run dci:scorecard
+node scripts/pco/scorecard.mjs
+npm run pco:scorecard
 ```
 
 Expected pass condition:

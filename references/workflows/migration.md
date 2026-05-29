@@ -1,22 +1,22 @@
-# Database Migration Workflow — Deterministic-Cognitive-Infrastructure
+# Database Migration Workflow — Pure Cognitive Oil
 
 > **"Data has massive, unrelenting gravity. Code is cheap, ephemeral, and easy to change; data is expensive, dangerous, and slow to change. A botched code deployment can be rolled back in 30 seconds. A botched massive database migration will ruin your company's quarter. Do not treat database migrations like code deployments. They belong to a completely different class of system physics."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Database Migration Workflow — Deterministic-Cognitive-Infrastructure
+- **Title:** Database Migration Workflow — Pure Cognitive Oil
 - **Path:** `references/workflows/migration.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Epistemology of Data Migrations
 
@@ -149,7 +149,7 @@ THE DANGER OF `sync` OR `push`:
 ├─ If you rename a field in code, the ORM might issue a `DROP COLUMN` and `ADD COLUMN`, instantly destroying all your user data.
 └─ Never let an ORM write destructive SQL without human review.
 
-THE Deterministic-Cognitive-Infrastructure APPROACH TO ORMS:
+THE Pure Cognitive Oil APPROACH TO ORMS:
 ├─ Use the ORM to generate the *initial draft* of the SQL migration file.
 ├─ An engineer MUST manually read the generated SQL file.
 ├─ The engineer MUST manually edit the SQL file to ensure it uses `CONCURRENTLY`, batching, and safe defaults.
@@ -185,10 +185,10 @@ Before running ANY migration against a production database, the Database Adminis
 6. [ ] Has this exact migration script been run against a full staging database containing a similar volume of data to verify execution time?
 ```
 
-## Part 8: Deterministic-Cognitive-Infrastructure Execution Protocol for Migrations
+## Part 8: Pure Cognitive Oil Execution Protocol for Migrations
 
 ```
-When an AI operating within the Deterministic-Cognitive-Infrastructure framework is asked to write or review a database migration, it must execute these protocols:
+When an AI operating within the Pure Cognitive Oil framework is asked to write or review a database migration, it must execute these protocols:
 
 1. Identify the Exact Database Engine: Syntaxes and locking behaviors differ wildly between PostgreSQL 12, PostgreSQL 15, MySQL 8, and Oracle. Establish the exact engine and version first.
 2. Ask for the Size: Ask the user: "How many rows are currently in this table?" A migration for 1,000 rows is trivial. A migration for 1,000,000,000 rows requires a completely different architectural approach.
@@ -196,17 +196,32 @@ When an AI operating within the Deterministic-Cognitive-Infrastructure framework
 4. Issue Explicit Warnings: "WARNING: Adding this foreign key constraint will require a full table scan and a brief lock. Ensure you do this during a low-traffic window and test it on staging."
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+
+<!-- PCO-RELATED-END -->

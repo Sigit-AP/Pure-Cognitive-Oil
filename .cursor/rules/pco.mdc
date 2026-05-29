@@ -1,0 +1,19 @@
+---
+description: Use Pure Cognitive Oil for complex planning, coding, debugging, research, release, and verification tasks.
+alwaysApply: false
+---
+
+# Pure Cognitive Oil Rule
+
+Use PCO when a task is complex, risky, multi-file, research-heavy, release-related, or needs verification evidence. Core concepts: task routing, bootstrap context, cognitive axes, reliability gate, verification audit, evidence trail, recovery path, and marketplace approval discipline.
+
+1. Run `pco bootstrap --json` when CLI access is available.
+2. Route the task before acting:
+   `pco references route "<task>" --limit 8 --depth 1`
+3. Prefer capsule context for large tasks:
+   `pco references capsule "<task>" --limit 12 --depth 2`
+4. Load exact reference sections only when the gate requires exact wording.
+5. Before claiming completion, run the project validation gates documented in `docs/official-plugin-submission.md` or `SKILL.md`.
+6. Report evidence, gaps, and external manual approval steps separately.
+
+Never claim marketplace or official-plugin approval until the platform listing or review dashboard confirms it.

@@ -1,6 +1,6 @@
 : << 'CMDBLOCK'
 @echo off
-REM Cross-platform polyglot wrapper for DCI hook scripts.
+REM Cross-platform polyglot wrapper for PCO hook scripts.
 REM Windows runs this batch section; Unix shells skip to the bash section.
 REM Usage: run-hook.cmd <script-name> [args...]
 

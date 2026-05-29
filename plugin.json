@@ -1,22 +1,22 @@
 {
   "schemaVersion": "1.0",
-  "name": "deterministic-cognitive-infrastructure",
-  "displayName": "Deterministic-Cognitive-Infrastructure",
+  "name": "pure-cognitive-oil",
+  "displayName": "Pure Cognitive Oil",
   "version": "1.6.1",
   "description": "Portable cognitive infrastructure plugin for AI agent harnesses. Provides bootstrap context, skills, routing, validation, readiness gates, and six-axis cognition.",
   "entrypoints": {
-    "cli": "bin/dci.mjs",
-    "bootstrapText": "dci bootstrap",
-    "bootstrapJson": "dci bootstrap --json",
+    "cli": "bin/pco.mjs",
+    "bootstrapText": "pco bootstrap",
+    "bootstrapJson": "pco bootstrap --json",
     "sessionStartHook": "hooks/session-start",
     "claudeHooks": "hooks/hooks.json",
     "cursorHooks": "hooks/hooks-cursor.json"
   },
   "skills": [
     "SKILL.md",
-    "skills/using-dci/SKILL.md",
-    "skills/dci-routing/SKILL.md",
-    "skills/dci-verification/SKILL.md"
+    "skills/using-pco/SKILL.md",
+    "skills/pco-routing/SKILL.md",
+    "skills/pco-verification/SKILL.md"
   ],
   "resources": {
     "references": "references/",
@@ -25,13 +25,13 @@
     "qualitySafety": "references/quality-safety/"
   },
   "commands": {
-    "bootstrap": "dci bootstrap",
-    "bootstrapJson": "dci bootstrap --json",
-    "route": "dci references route \"<task>\"",
-    "capsule": "dci references capsule \"<task>\"",
-    "agenticAuto": "dci agentic-auto \"<task>\"",
-    "validate": "dci validate",
-    "readiness": "dci readiness"
+    "bootstrap": "pco bootstrap",
+    "bootstrapJson": "pco bootstrap --json",
+    "route": "pco references route \"<task>\"",
+    "capsule": "pco references capsule \"<task>\"",
+    "agenticAuto": "pco agentic-auto \"<task>\"",
+    "validate": "pco validate",
+    "readiness": "pco readiness"
   },
   "compatibility": {
     "node": ">=18.0.0",
@@ -45,8 +45,8 @@
     ]
   },
   "install": {
-    "github": "git clone https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure.git && cd Deterministic-Cognitive-Infrastructure && npm install && npm test",
-    "npmGlobal": "npm install -g github:Sigit-AP/Deterministic-Cognitive-Infrastructure",
+    "github": "git clone https://github.com/Sigit-AP/Pure-Cognitive-Oil.git && cd Pure-Cognitive-Oil && npm install && npm test",
+    "npmGlobal": "npm install -g github:Sigit-AP/Pure-Cognitive-Oil",
     "download": "Download ZIP, extract, run npm install, then npm test."
   }
 }

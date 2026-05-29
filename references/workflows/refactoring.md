@@ -1,22 +1,22 @@
-# Refactoring Workflow — Deterministic-Cognitive-Infrastructure
+# Refactoring Workflow — Pure Cognitive Oil
 
 > **"Refactoring is a controlled, mathematical operation. It is not 'rewriting.' It is not 'cleaning up.' It is a strict series of behavior-preserving transformations. If the external behavior changes, even slightly, you are not refactoring; you are rewriting, and you have lost control of the system. Refactoring without tests is just changing code and praying."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Refactoring Workflow — Deterministic-Cognitive-Infrastructure
+- **Title:** Refactoring Workflow — Pure Cognitive Oil
 - **Path:** `references/workflows/refactoring.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Definition of Refactoring
 
@@ -177,10 +177,10 @@ METRIC 3: DEPENDENCY COUPLING (Fan-In / Fan-Out)
 └─ Goal: Decrease Fan-Out by introducing Dependency Injection and Interfaces.
 ```
 
-## Part 6: AI Refactoring Protocol (Deterministic-Cognitive-Infrastructure Execution)
+## Part 6: AI Refactoring Protocol (Pure Cognitive Oil Execution)
 
 ```
-As an AI, your capacity to refactor is immense, but your capacity to break things is equally immense because you lack the physical context of the running application. Follow this Deterministic-Cognitive-Infrastructure protocol.
+As an AI, your capacity to refactor is immense, but your capacity to break things is equally immense because you lack the physical context of the running application. Follow this Pure Cognitive Oil protocol.
 
 1. Acknowledge the Hat: When asked to refactor, explicitly state: "Engaging Refactoring Protocol. I will not add new features or fix bugs in this pass. I will only alter structure to improve cleanliness."
 2. Request Tests: If the user provides code without tests, warn them: "Refactoring without tests is highly dangerous. I will provide the refactored code, but you must manually verify the behavior via regression testing."
@@ -188,17 +188,32 @@ As an AI, your capacity to refactor is immense, but your capacity to break thing
 4. One Step at a Time: If the user pastes a 1000-line file and asks for a refactor, do NOT rewrite the whole file. Pick the biggest bottleneck, refactor that one specific piece, explain it, and return it. Small, verifiable steps.
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+
+<!-- PCO-RELATED-END -->

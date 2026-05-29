@@ -20,7 +20,7 @@ function runNode(script, args) {
 }
 
 function help() {
-  console.log(`DCI Reference Toolkit
+  console.log(`PCO Reference Toolkit
 
 Usage:
   node references/tools/reference-toolkit.mjs list

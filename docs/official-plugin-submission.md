@@ -1,15 +1,15 @@
 # Official Plugin Submission Pack
 
-This document tracks what DCI needs for public/official plugin distribution across Claude Code, Codex, Cursor, and OpenCode. It separates verified official paths from aspirational status. Do not claim DCI is official on any platform until the relevant marketplace or review team has approved and listed it.
+This document tracks what PCO needs for public/official plugin distribution across Claude Code, Codex, Cursor, and OpenCode. It separates verified official paths from aspirational status. Do not claim PCO is official on any platform until the relevant marketplace or review team has approved and listed it.
 
 ## Current Package Identity
 
-- Name: `deterministic-cognitive-infrastructure`
-- Display name: `Deterministic-Cognitive-Infrastructure`
+- Name: `pure-cognitive-oil`
+- Display name: `Pure Cognitive Oil`
 - Version: `1.6.1`
-- Repository: `https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure`
+- Repository: `https://github.com/Sigit-AP/Pure-Cognitive-Oil`
 - License: MIT
-- Main CLI: `dci`
+- Main CLI: `pco`
 - Node requirement: `>=18.0.0`
 
 ## Claude Code
@@ -37,12 +37,12 @@ Official docs checked:
   - `claude plugin validate .` validates plugin manifests and components.
   - `claude plugin tag` creates plugin release tags.
 
-### DCI readiness
+### PCO readiness
 
 Present:
 
 - `.claude-plugin/plugin.json`
-- `.claude-plugin/commands/DCI-agentic-auto.md`
+- `.claude-plugin/commands/PCO-agentic-auto.md`
 - `skills/`
 - `hooks/`
 - `SKILL.md`
@@ -84,7 +84,7 @@ Official docs checked:
 - `https://developers.openai.com/codex/skills.md`
   - Skills are the authoring format; plugins are installable distribution units.
 
-### DCI readiness
+### PCO readiness
 
 Present:
 
@@ -99,7 +99,7 @@ Added for Codex marketplace readiness:
 
 Needs before official/public submission:
 
-- Test in Codex CLI/App: `codex /plugins` and `codex plugin marketplace add Sigit-AP/Deterministic-Cognitive-Infrastructure`.
+- Test in Codex CLI/App: `codex /plugins` and `codex plugin marketplace add Sigit-AP/Pure Cognitive Oil`.
 - If targeting public Codex Plugin Directory now, submit through OpenAI Platform Dashboard app review. This may require an app surface, not only a local plugin package.
 
 ### Approval/status notification
@@ -130,7 +130,7 @@ Official docs checked:
 - `https://cursor.com/docs/skills.md`
   - Skills can be discovered from `.cursor/skills/`, `.agents/skills/`, `.claude/skills/`, and `.codex/skills/`.
 
-### DCI readiness
+### PCO readiness
 
 Present:
 
@@ -141,10 +141,10 @@ Present:
 Added for Cursor marketplace readiness:
 
 - `.cursor-plugin/marketplace.json`
-- `.cursor/rules/dci.mdc`
-- `.cursor/skills/dci-using-dci/SKILL.md`
-- `.cursor/skills/dci-routing/SKILL.md`
-- `.cursor/skills/dci-verification/SKILL.md`
+- `.cursor/rules/pco.mdc`
+- `.cursor/skills/pco-using-pco/SKILL.md`
+- `.cursor/skills/pco-routing/SKILL.md`
+- `.cursor/skills/pco-verification/SKILL.md`
 
 Needs before official submission:
 
@@ -172,12 +172,12 @@ Official docs checked:
   - npm packages are installed automatically using Bun at startup.
   - Available plugins are browsed in ecosystem docs.
 
-### DCI readiness
+### PCO readiness
 
 Present:
 
-- `.opencode/plugins/dci.js`
-- `package.json` has `main` pointing to `.opencode/plugins/dci.js`
+- `.opencode/plugins/pco.js`
+- `package.json` has `main` pointing to `.opencode/plugins/pco.js`
 - npm package metadata is present
 
 Needs for public ecosystem distribution:
@@ -196,13 +196,13 @@ Needs for public ecosystem distribution:
 Before tagging/publishing a release:
 
 ```bash
-npm run dci:all
-npm run dci:healthcheck
-npm run dci:scorecard
-npm run dci:runtime-audit
+npm run pco:all
+npm run pco:healthcheck
+npm run pco:scorecard
+npm run pco:runtime-audit
 npm exec tsc -- --noEmit
-node scripts/dci/bootstrap.mjs --json >/tmp/dci-bootstrap.json
-python -m json.tool /tmp/dci-bootstrap.json >/dev/null
+node scripts/pco/bootstrap.mjs --json >/tmp/pco-bootstrap.json
+python -m json.tool /tmp/pco-bootstrap.json >/dev/null
 npm test
 npm pack --dry-run
 ```
@@ -211,7 +211,7 @@ If platform CLIs are available:
 
 ```bash
 claude plugin validate .
-codex plugin marketplace add Sigit-AP/Deterministic-Cognitive-Infrastructure --ref main
+codex plugin marketplace add Sigit-AP/Pure Cognitive Oil --ref main
 ```
 
 Do not block repository release on unavailable local platform CLIs; report those as external manual validation gates.

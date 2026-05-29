@@ -1,13 +1,13 @@
 {
-  "name": "deterministic-cognitive-infrastructure",
-  "displayName": "Deterministic-Cognitive-Infrastructure",
+  "name": "pure-cognitive-oil",
+  "displayName": "Pure Cognitive Oil",
   "description": "Graph-connected cognitive infrastructure, routing, and verification gates for coding agents.",
   "version": "1.6.1",
   "author": {
     "name": "Sigit-AP"
   },
-  "homepage": "https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure",
-  "repository": "https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure",
+  "homepage": "https://github.com/Sigit-AP/Pure-Cognitive-Oil",
+  "repository": "https://github.com/Sigit-AP/Pure-Cognitive-Oil",
   "license": "MIT",
   "keywords": [
     "skills",
@@ -19,10 +19,10 @@
   "skills": "./skills/",
   "hooks": "./hooks/hooks-cursor.json",
   "commands": {
-    "bootstrap": "dci bootstrap --json",
-    "route": "dci references route \"<task>\"",
-    "capsule": "dci references capsule \"<task>\"",
-    "context": "dci references context \"<task>\" --limit 8 --depth 1",
-    "agenticAuto": "dci agentic-auto \"<task>\""
+    "bootstrap": "pco bootstrap --json",
+    "route": "pco references route \"<task>\"",
+    "capsule": "pco references capsule \"<task>\"",
+    "context": "pco references context \"<task>\" --limit 8 --depth 1",
+    "agenticAuto": "pco agentic-auto \"<task>\""
   }
 }

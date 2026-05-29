@@ -1,22 +1,22 @@
-# New Feature Development Workflow — Deterministic-Cognitive-Infrastructure
+# New Feature Development Workflow — Pure Cognitive Oil
 
 > **"A new feature is a hypothesis. It is an assumption that building X will cause user behavior Y, which will generate revenue Z. Until verified, code is just liability. The goal of this workflow is not to 'write code fast.' The goal is to mathematically verify the business hypothesis using the absolute minimum amount of new physical code possible, and to deploy it without breaking the existing Citadel."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** New Feature Development Workflow — Deterministic-Cognitive-Infrastructure
+- **Title:** New Feature Development Workflow — Pure Cognitive Oil
 - **Path:** `references/workflows/new-feature.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Epistemology of New Code
 
@@ -121,7 +121,7 @@ THE VERTICAL SLICE PROTOCOL:
 ## Part 4: Phase 3 - Quality Gates (The Defense)
 
 ```
-Before the feature flag is turned on for real users, the code must pass the Deterministic-Cognitive-Infrastructure Quality Gates.
+Before the feature flag is turned on for real users, the code must pass the Pure Cognitive Oil Quality Gates.
 
 GATE 1: THE TEST PYRAMID ENFORCEMENT
 ├─ Unit Tests (70%): Test the pure Domain Logic (the rules defined in Phase 1) extensively. These must run in milliseconds and require no database.
@@ -190,10 +190,10 @@ To safely integrate new code without rewriting everything, you must find "Seams"
 - Network Seams: Using an API gateway to route specific endpoints to a new microservice while keeping the rest on the monolith.
 ```
 
-## Part 8: Deterministic-Cognitive-Infrastructure Execution Protocol
+## Part 8: Pure Cognitive Oil Execution Protocol
 
 ```
-When an Deterministic-Cognitive-Infrastructure AI is tasked with building a new feature:
+When an Pure Cognitive Oil AI is tasked with building a new feature:
 
 1. HALT AND VERIFY: Do not write implementation code immediately. First, output the exact Schema (Types/Interfaces) and ask the human to confirm it matches their mental model.
 2. THINK IN SLICES: Propose a Vertical Slice plan. "I will build the API route and the DB query first to prove the connection, then we will wire the React component."
@@ -201,17 +201,32 @@ When an Deterministic-Cognitive-Infrastructure AI is tasked with building a new 
 4. MANDATE THE FLAG: Always ask the user, "What is the name of the feature flag we will use to deploy this?" If they don't have one, suggest a basic configuration toggle to protect the deployment.
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+
+<!-- PCO-RELATED-END -->

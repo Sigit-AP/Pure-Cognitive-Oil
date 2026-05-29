@@ -1,22 +1,22 @@
-# Legacy System Rescue Workflow — Deterministic-Cognitive-Infrastructure
+# Legacy System Rescue Workflow — Pure Cognitive Oil
 
 > **"A legacy system is not 'bad code.' A legacy system is simply code that generates revenue but lacks automated tests. Rewriting it from scratch is the fastest way to bankrupt a company. You do not rewrite a legacy system; you strangulate it, refactor it safely, and meticulously map its alien physics."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Legacy System Rescue Workflow — Deterministic-Cognitive-Infrastructure
+- **Title:** Legacy System Rescue Workflow — Pure Cognitive Oil
 - **Path:** `references/workflows/legacy-rescue.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Epistemology of Legacy Code (Chesterton's Fence)
 
@@ -170,10 +170,10 @@ The code is often just the surface; the real legacy nightmare lives in the datab
 4. The Zombie Data: Run queries to find records that have not been accessed in 5 years. Archive them to cold storage (S3) to reduce the active table size and speed up queries.
 ```
 
-## Part 9: Deterministic-Cognitive-Infrastructure AI Execution Protocol
+## Part 9: Pure Cognitive Oil AI Execution Protocol
 
 ```
-When an AI operating under the Deterministic-Cognitive-Infrastructure framework is asked to modify a legacy file, it must strictly adhere to preservation protocols.
+When an AI operating under the Pure Cognitive Oil framework is asked to modify a legacy file, it must strictly adhere to preservation protocols.
 
 1. Refuse the Rewrite: If the user pastes a 2000-line file and asks "make this clean," the AI MUST warn against massive rewrites, explain the risk of losing undocumented business rules, and suggest extracting one specific method instead using the Sprout technique.
 2. Generate Characterization Tests: The AI should proactively offer to generate a test suite that mathematically locks down the current input/output pairs before attempting any refactoring.
@@ -181,17 +181,32 @@ When an AI operating under the Deterministic-Cognitive-Infrastructure framework 
 4. Highlight Chesterton's Fence: If the AI sees a confusing, massive block of code, it should warn the user: "This block appears illogical, but it likely handles an edge case. Do not remove it without verifying its exact purpose in production logs."
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+
+<!-- PCO-RELATED-END -->

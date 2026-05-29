@@ -1,17 +1,17 @@
-# Bayesian Uncertainty Engine — Deterministic-Cognitive-Infrastructure
+# Bayesian Uncertainty Engine — Pure Cognitive Oil
 
 > **"Certainty is an illusion of the uninformed. The master engineer operates entirely in probabilities. The goal of software architecture is not to eliminate uncertainty—which is mathematically and physically impossible—but to quantify it, bound it, and make optimal decisions within it. Engineering is the art of making the right trade-off under incomplete information."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Bayesian Uncertainty Engine — Deterministic-Cognitive-Infrastructure
+- **Title:** Bayesian Uncertainty Engine — Pure Cognitive Oil
 - **Path:** `references/cognitive-engines/uncertainty-engine.md`
 - **Folder:** `cognitive-engines`
 - **Document type:** Reasoning engine reference
@@ -36,7 +36,7 @@ Reasoned conclusions, ranked hypotheses, decision criteria, and verification ste
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Reasoned conclusions, ranked hypotheses, decision criteria, and verification ste
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Bayesian Mindset
 
@@ -192,17 +192,32 @@ ESTIMATION PROTOCOL:
 4. Propose a spike: "Give me 4 hours to write a throwaway prototype to test the auth API. After that, I can narrow the estimate to 3-4 days."
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Advanced Reference Index](../advanced/INDEX.md)
-- [Agentic Auto Runtime — Deterministic-Cognitive-Infrastructure](../advanced/agentic-auto-runtime.md)
+- [Agentic Auto Runtime — Pure Cognitive Oil](../advanced/agentic-auto-runtime.md)
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
-- [Meta-Cognitive Framework — Deterministic-Cognitive-Infrastructure](../cognitive-engines/meta-cognition.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Meta-Cognitive Framework — Pure Cognitive Oil](../cognitive-engines/meta-cognition.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Advanced Reference Index](../advanced/INDEX.md)
+- [Agentic Auto Runtime — Pure Cognitive Oil](../advanced/agentic-auto-runtime.md)
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Meta-Cognitive Framework — Pure Cognitive Oil](../cognitive-engines/meta-cognition.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+
+<!-- PCO-RELATED-END -->

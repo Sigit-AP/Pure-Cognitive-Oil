@@ -1,22 +1,22 @@
-# Debugging the Unknown Workflow — Deterministic-Cognitive-Infrastructure
+# Debugging the Unknown Workflow — Pure Cognitive Oil
 
 > **"When you have eliminated the impossible, whatever remains, however improbable, must be the truth. When debugging an alien, undocumented system, trust absolutely nothing. Measure absolutely everything. Reading code is guessing. Running code is knowing."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Debugging the Unknown Workflow — Deterministic-Cognitive-Infrastructure
+- **Title:** Debugging the Unknown Workflow — Pure Cognitive Oil
 - **Path:** `references/workflows/debugging-unknown.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Epistemology of the Unknown
 
@@ -177,10 +177,10 @@ THE HEAP DUMP PROTOCOL:
 └─ Diff the two heap dumps using a profiler (like Chrome DevTools for V8). The delta will point exactly to the retained objects (e.g., an un-cleared array of websocket connections or event listeners that were never unmounted).
 ```
 
-## Part 9: Deterministic-Cognitive-Infrastructure AI Execution Protocol (The Alien Interface)
+## Part 9: Pure Cognitive Oil AI Execution Protocol (The Alien Interface)
 
 ```
-When an AI operating within the Deterministic-Cognitive-Infrastructure framework is asked to debug a massive, alien codebase provided piecemeal by a human:
+When an AI operating within the Pure Cognitive Oil framework is asked to debug a massive, alien codebase provided piecemeal by a human:
 
 1. Demand the Stack Trace: Do not attempt to guess what is wrong based on a 50-line code snippet. Demand the exact error log and stack trace.
 2. Demand the Trigger: Ask the user: "What exact input or curl command triggers this? Provide the JSON."
@@ -188,17 +188,32 @@ When an AI operating within the Deterministic-Cognitive-Infrastructure framework
 4. Declare Ignorance: If the context is missing, the AI MUST explicitly say: "I do not have enough context to mathematically guarantee a fix. Based on the snippet, my hypothesis is X, but you MUST log the value of `variable_Y` at line 42 to prove it before applying my patch."
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
-- [Self-Correction Protocol — Deterministic-Cognitive-Infrastructure](../cognitive-engines/self-correction.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Self-Correction Protocol — Pure Cognitive Oil](../cognitive-engines/self-correction.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Self-Correction Protocol — Pure Cognitive Oil](../cognitive-engines/self-correction.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+
+<!-- PCO-RELATED-END -->

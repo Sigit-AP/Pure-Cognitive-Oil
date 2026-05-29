@@ -1,12 +1,12 @@
 {
-  "name": "deterministic-cognitive-infrastructure",
-  "description": "Portable cognitive infrastructure for agent harnesses: graph-connected references, bootstrap context, routing, verification gates, and DCI skills.",
+  "name": "pure-cognitive-oil",
+  "description": "Portable cognitive infrastructure for agent harnesses: graph-connected references, bootstrap context, routing, verification gates, and PCO skills.",
   "version": "1.6.1",
   "author": {
     "name": "Sigit-AP"
   },
-  "homepage": "https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure",
-  "repository": "https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure",
+  "homepage": "https://github.com/Sigit-AP/Pure-Cognitive-Oil",
+  "repository": "https://github.com/Sigit-AP/Pure-Cognitive-Oil",
   "license": "MIT",
   "keywords": [
     "skills",

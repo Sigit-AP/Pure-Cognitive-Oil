@@ -1,22 +1,22 @@
-# Software Architecture Workflow — Deterministic-Cognitive-Infrastructure
+# Software Architecture Workflow — Pure Cognitive Oil
 
 > **"Architecture is about the important stuff. Whatever that is. It is the set of decisions that are exceptionally hard to change later. If a decision is easy to change, it is not architecture; it is just implementation design. Good architecture maximizes the number of decisions not made."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Software Architecture Workflow — Deterministic-Cognitive-Infrastructure
+- **Title:** Software Architecture Workflow — Pure Cognitive Oil
 - **Path:** `references/workflows/architecture.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Epistemology of Architecture
 
@@ -169,10 +169,10 @@ THE BULKHEAD PATTERN:
 └─ Value: A heavy, unoptimized reporting query can exhaust the reporting pool, but the checkout process continues unaffected because it has its own dedicated connection pool.
 ```
 
-## Part 7: Deterministic-Cognitive-Infrastructure AI Execution Protocol for Architecture
+## Part 7: Pure Cognitive Oil AI Execution Protocol for Architecture
 
 ```
-When an AI operating under the Deterministic-Cognitive-Infrastructure framework is asked to "design the architecture" for a new system, it must follow these rigid steps:
+When an AI operating under the Pure Cognitive Oil framework is asked to "design the architecture" for a new system, it must follow these rigid steps:
 
 1. Refuse Premature Microservices: If a user asks to design a microservice architecture for a new, unproven startup idea, the AI MUST strongly recommend a Modular Monolith first, explaining the cost of distributed systems.
 2. Ask for the Non-Functional Requirements (NFRs): The AI must ask: "What is the expected read/write ratio? What is the peak RPS? What is the maximum acceptable latency? What is the budget?" Architecture cannot be designed without physical constraints.
@@ -180,17 +180,32 @@ When an AI operating under the Deterministic-Cognitive-Infrastructure framework 
 4. Define the Interfaces: Before generating any implementation code, the AI must output the exact Interfaces (Ports) that define the boundaries between the layers.
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
-- [Emergent Complexity Engine — Deterministic-Cognitive-Infrastructure](../advanced/emergent-complexity.md)
+- [Emergent Complexity Engine — Pure Cognitive Oil](../advanced/emergent-complexity.md)
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
-- [The 10-Phase Execution Pipeline — Deterministic-Cognitive-Infrastructure](../core/pipeline-phases.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [The 10-Phase Execution Pipeline — Pure Cognitive Oil](../core/pipeline-phases.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Emergent Complexity Engine — Pure Cognitive Oil](../advanced/emergent-complexity.md)
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [The 10-Phase Execution Pipeline — Pure Cognitive Oil](../core/pipeline-phases.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+
+<!-- PCO-RELATED-END -->

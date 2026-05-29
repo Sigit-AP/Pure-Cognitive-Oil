@@ -1,11 +1,11 @@
-# Deterministic-Cognitive-Infrastructure Plugin
+# Pure Cognitive Oil Plugin
 
-DCI is a portable plugin-style cognitive infrastructure package for AI agent harnesses. It is not limited to Claude Code. Any harness that can read files, run a CLI command, or inject bootstrap context can use it.
+PCO is a portable plugin-style cognitive infrastructure package for AI agent harnesses. It is not limited to Claude Code. Any harness that can read files, run a CLI command, or inject bootstrap context can use it.
 
 ## What This Provides
 
 - `plugin.json` manifest for generic plugin discovery.
-- `dci` CLI entrypoint.
+- `pco` CLI entrypoint.
 - `SKILL.md` master skill.
 - Modular skills in `skills/`.
 - Session-start hook in `hooks/session-start`.
@@ -17,8 +17,8 @@ DCI is a portable plugin-style cognitive infrastructure package for AI agent har
 ## Install From GitHub
 
 ```bash
-git clone https://github.com/Sigit-AP/Deterministic-Cognitive-Infrastructure.git
-cd Deterministic-Cognitive-Infrastructure
+git clone https://github.com/Sigit-AP/Pure-Cognitive-Oil.git
+cd Pure-Cognitive-Oil
 npm install
 npm test
 ```
@@ -26,28 +26,28 @@ npm test
 Use directly:
 
 ```bash
-npm run dci:bootstrap
-npm run dci:bootstrap:json
-npm run dci:validate
-npm run dci:readiness
+npm run pco:bootstrap
+npm run pco:bootstrap:json
+npm run pco:validate
+npm run pco:readiness
 ```
 
 Use as CLI:
 
 ```bash
 npm link
-dci help
-dci bootstrap --json
-dci validate
-dci readiness
+pco help
+pco bootstrap --json
+pco validate
+pco readiness
 ```
 
 ## Install Globally From GitHub
 
 ```bash
-npm install -g github:Sigit-AP/Deterministic-Cognitive-Infrastructure
-dci help
-dci bootstrap --json
+npm install -g github:Sigit-AP/Pure-Cognitive-Oil
+pco help
+pco bootstrap --json
 ```
 
 ## Install From Downloaded ZIP
@@ -61,35 +61,35 @@ dci bootstrap --json
 npm install
 npm test
 npm link
-dci bootstrap --json
+pco bootstrap --json
 ```
 
 ## Generic Harness Integration
 
-A harness should load DCI in this order:
+A harness should load PCO in this order:
 
 1. Read `plugin.json`.
-2. Run `dci bootstrap --json` or `npm run dci:bootstrap:json`.
+2. Run `pco bootstrap --json` or `npm run pco:bootstrap:json`.
 3. Inject the returned `additionalContext` into the agent session.
 4. Load `SKILL.md` and the modular skills in `skills/`.
-5. Use `dci validate` and `dci readiness` as preflight checks.
+5. Use `pco validate` and `pco readiness` as preflight checks.
 
 ## Hermes Integration
 
 ```bash
-dci install-hermes ~/.hermes/skills/dci
+pco install-hermes ~/.hermes/skills/pco
 ```
 
 Then configure Hermes or the host agent to load the copied skills.
 
 ## Cursor / IDE Integration
 
-DCI ships Cursor-ready plugin metadata and project guidance:
+PCO ships Cursor-ready plugin metadata and project guidance:
 
 - `.cursor-plugin/plugin.json` — Cursor plugin manifest.
 - `.cursor-plugin/marketplace.json` — multi-plugin repository manifest for Cursor review.
-- `.cursor/rules/dci.mdc` — focused project rule for when to activate DCI.
-- `.cursor/skills/` — Cursor skill mirrors for DCI usage, routing, and verification.
+- `.cursor/rules/pco.mdc` — focused project rule for when to activate PCO.
+- `.cursor/skills/` — Cursor skill mirrors for PCO usage, routing, and verification.
 
 Local use:
 
@@ -105,9 +105,9 @@ Do not claim Cursor official status until the marketplace review is approved and
 Use the CLI from any orchestrator:
 
 ```bash
-dci bootstrap --json > dci-context.json
-dci validate
-dci readiness
+pco bootstrap --json > pco-context.json
+pco validate
+pco readiness
 ```
 
 Then pass `additionalContext` to the model or agent runtime.
@@ -118,18 +118,18 @@ A valid plugin install must pass:
 
 ```bash
 npm test
-dci validate
-dci readiness
+pco validate
+pco readiness
 ```
 
 Expected result:
 
 ```text
-PASS: all DCI ecosystem tests
-DCI validation pass
-DCI parity/readiness pass
+PASS: all PCO ecosystem tests
+PCO validation pass
+PCO parity/readiness pass
 ```
 
 ## Limits
 
-This is a portable plugin framework, not a marketplace-specific package. Some harnesses may need a small adapter to map `plugin.json`, `SKILL.md`, and `dci bootstrap --json` into their native plugin format.
+This is a portable plugin framework, not a marketplace-specific package. Some harnesses may need a small adapter to map `plugin.json`, `SKILL.md`, and `pco bootstrap --json` into their native plugin format.

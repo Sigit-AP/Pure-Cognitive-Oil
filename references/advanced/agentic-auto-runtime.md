@@ -1,15 +1,15 @@
-# Agentic Auto Runtime — Deterministic-Cognitive-Infrastructure
+# Agentic Auto Runtime — Pure Cognitive Oil
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Agentic Auto Runtime — Deterministic-Cognitive-Infrastructure
+- **Title:** Agentic Auto Runtime — Pure Cognitive Oil
 - **Path:** `references/advanced/agentic-auto-runtime.md`
 - **Folder:** `advanced`
 - **Document type:** Advanced operating system reference
@@ -34,7 +34,7 @@ Operating strategy, coordination model, risk controls, and optimization prioriti
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -48,26 +48,26 @@ Operating strategy, coordination model, risk controls, and optimization prioriti
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Purpose
 
-`/DCI-agentic-auto` is the full autonomous DCI operating mode. It is not a normal prompt shortcut and not a planning-only wrapper. It is a runtime contract for selecting context, eliciting missing intent, planning, building, delegating, auditing, repairing, optimizing, and finalizing with evidence.
+`/PCO-agentic-auto` is the full autonomous PCO operating mode. It is not a normal prompt shortcut and not a planning-only wrapper. It is a runtime contract for selecting context, eliciting missing intent, planning, building, delegating, auditing, repairing, optimizing, and finalizing with evidence.
 
 ## Scope
 
-The mode applies only when explicitly invoked through `/DCI-agentic-auto` or `dci agentic-auto "<task>"`.
+The mode applies only when explicitly invoked through `/PCO-agentic-auto` or `pco agentic-auto "<task>"`.
 
-The interview skill in this document is command-scoped. It must not become the default behavior for every DCI invocation because many tasks are already clear enough to execute directly.
+The interview skill in this document is command-scoped. It must not become the default behavior for every PCO invocation because many tasks are already clear enough to execute directly.
 
 ## Operating Loop
 
 1. INTERVIEW — activate only when missing information materially changes the plan, risk, verification, or output.
 2. SENSE — identify true goal, constraints, success evidence, risk, and bad outcomes.
-3. ROUTE — select DCI workflows, cognitive engines, knowledge bases, advanced systems, gates, and context depth.
+3. ROUTE — select PCO workflows, cognitive engines, knowledge bases, advanced systems, gates, and context depth.
 4. PLAN — produce atomic units with verification and rollback notes.
 5. PARALLELIZE — delegate independent architecture, implementation, audit, and verification work when complexity justifies overhead.
 6. BUILD — execute safe changes directly in minimal coherent patches.
@@ -92,7 +92,7 @@ Activate interview when the missing answer would change one of these decisions:
 - user-facing behavior,
 - acceptance threshold.
 
-Do not activate interview for information that can be discovered safely through files, tests, commands, documentation, or current DCI context.
+Do not activate interview for information that can be discovered safely through files, tests, commands, documentation, or current PCO context.
 
 ### Interview Quality Gate
 
@@ -160,25 +160,40 @@ Ask first before destructive changes, production deploys, external sends, creden
 
 ## Verification
 
-A completed `/DCI-agentic-auto` implementation must prove:
+A completed `/PCO-agentic-auto` implementation must prove:
 
 - CLI runtime emits full autonomous contract,
 - slash command prompt contains interview, delegation, build, audit, repair, and optimization loops,
 - manifest exposes command surface,
 - tests cover runtime and command file,
-- DCI validation and ecosystem tests pass.
+- PCO validation and ecosystem tests pass.
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Advanced Reference Index](../advanced/INDEX.md)
-- [Cognitive Load Management — Deterministic-Cognitive-Infrastructure](../advanced/cognitive-load.md)
+- [Cognitive Load Management — Pure Cognitive Oil](../advanced/cognitive-load.md)
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 - [Workflows Reference Index](../workflows/INDEX.md)
-- [API Design Workflow — Deterministic-Cognitive-Infrastructure](../workflows/api-design.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Advanced Reference Index](../advanced/INDEX.md)
+- [Cognitive Load Management — Pure Cognitive Oil](../advanced/cognitive-load.md)
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+- [Workflows Reference Index](../workflows/INDEX.md)
+- [API Design Workflow — Pure Cognitive Oil](../workflows/api-design.md)
+
+<!-- PCO-RELATED-END -->

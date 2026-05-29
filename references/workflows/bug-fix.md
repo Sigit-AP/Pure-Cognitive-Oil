@@ -1,22 +1,22 @@
-# Bug Fix Protocol — Deterministic-Cognitive-Infrastructure
+# Bug Fix Protocol — Pure Cognitive Oil
 
 > **"A bug is not an anomaly; it is a perfectly logical execution of flawed instructions. The machine is not broken. Your mental model of the machine is broken. You cannot fix the code until you first fix your mental model. Guessing is for amateurs. Isolation is for professionals. If you fix a bug without understanding exactly WHY it works, you have merely masked the symptom, and it will return with a vengeance under load."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** Bug Fix Protocol — Deterministic-Cognitive-Infrastructure
+- **Title:** Bug Fix Protocol — Pure Cognitive Oil
 - **Path:** `references/workflows/bug-fix.md`
 - **Folder:** `workflows`
 - **Document type:** Workflow runbook
 - **Primary audience:** Agents executing software engineering tasks and reviewers auditing their work.
-- **Purpose:** Translate DCI principles into step-by-step execution for a specific task class.
+- **Purpose:** Translate PCO principles into step-by-step execution for a specific task class.
 - **Standard used:** Runbook/SOP format with task, procedure, verification, and handoff sections.
 
 ## When to Use
@@ -36,7 +36,7 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Plan, implementation path, validation evidence, rollback notes, and final report
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Epistemology of a Bug
 
@@ -188,10 +188,10 @@ THE DEADLOCK:
 └─ Cure: Always acquire locks in a globally strictly defined, alphabetical or numerical order. If every thread must lock Resource 1 before Resource 2, deadlocks are mathematically impossible.
 ```
 
-## Part 9: AI Execution Protocol for Bug Fixing (Deterministic-Cognitive-Infrastructure)
+## Part 9: AI Execution Protocol for Bug Fixing (Pure Cognitive Oil)
 
 ```
-When an AI operating under the Deterministic-Cognitive-Infrastructure framework is asked to fix a bug, it must strictly follow this sequence to avoid hallucinating false fixes.
+When an AI operating under the Pure Cognitive Oil framework is asked to fix a bug, it must strictly follow this sequence to avoid hallucinating false fixes.
 
 1. Demand Context: If the user says "The login is broken," reply: "Provide the exact error message, the stack trace, and the input payload that caused it. I cannot debug without physical evidence."
 2. Analyze the Trace: Locate the exact file, line number, and function in the provided stack trace.
@@ -200,17 +200,32 @@ When an AI operating under the Deterministic-Cognitive-Infrastructure framework 
 5. Explain the Mechanism: Explain WHY the fix works in terms of system physics. "I added an explicit null check and an early return because the database driver returns `undefined` if the user is not found, rather than an empty object. Proceeding without this check causes the V8 engine to throw a TypeError."
 ```
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
-- [150+ Anti-Patterns — Deterministic-Cognitive-Infrastructure Framework](../knowledge-bases/anti-patterns.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
-- [Error Recovery Protocol — Deterministic-Cognitive-Infrastructure](../quality-safety/error-recovery.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Knowledge Bases Reference Index](../knowledge-bases/INDEX.md)
+- [150+ Anti-Patterns — Pure Cognitive Oil Framework](../knowledge-bases/anti-patterns.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+- [Error Recovery Protocol — Pure Cognitive Oil](../quality-safety/error-recovery.md)
+
+<!-- PCO-RELATED-END -->

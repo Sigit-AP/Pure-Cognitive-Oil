@@ -1,17 +1,17 @@
-# 🦾✨ DRAFT: Deterministic-Cognitive-Infrastructure - Context Integrity & Zero-Hallucination Protocol
+# 🦾✨ DRAFT: Pure Cognitive Oil - Context Integrity & Zero-Hallucination Protocol
 
 > **"Intelligence is not the ability to generate words; it is the ability to filter them. Hallucination is the exact mathematical consequence of a cognitive engine attempting to satisfy a query using probabilistic interpolation rather than deterministic retrieval. Compression without comprehension is destruction. Comprehension without compression is noise."**
 
 
-<!-- DCI-DOC-STANDARD-START -->
+<!-- PCO-DOC-STANDARD-START -->
 
 ## Overview
 
-This document is part of the Deterministic-Cognitive-Infrastructure reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
+This document is part of the Pure Cognitive Oil reference corpus. It is structured as a professional operational reference so humans and agent runtimes can understand when to use it, what inputs it expects, what outputs it should produce, and how to verify correct use.
 
 ## Document Profile
 
-- **Title:** 🦾✨ DRAFT: Deterministic-Cognitive-Infrastructure - Context Integrity & Zero-Hallucination Protocol
+- **Title:** 🦾✨ DRAFT: Pure Cognitive Oil - Context Integrity & Zero-Hallucination Protocol
 - **Path:** `references/cognitive-engines/zero-hallucination.md`
 - **Folder:** `cognitive-engines`
 - **Document type:** Reasoning engine reference
@@ -36,7 +36,7 @@ Reasoned conclusions, ranked hypotheses, decision criteria, and verification ste
 1. Start with the overview and document profile.
 2. Identify the trigger condition or task class that makes this reference relevant.
 3. Apply the procedure, rules, models, or checklist in order.
-4. Cross-check related DCI references before finalizing a high-risk decision.
+4. Cross-check related PCO references before finalizing a high-risk decision.
 5. Preserve evidence for every completion, correctness, or safety claim.
 
 ## Professional Checklist
@@ -50,10 +50,10 @@ Reasoned conclusions, ranked hypotheses, decision criteria, and verification ste
 
 - Keep headings descriptive and stable so runtime section extraction remains reliable.
 - Prefer ordered procedures, explicit decision criteria, and verifiable outputs over prose-only guidance.
-- Preserve DCI-specific terminology while keeping examples readable for non-DCI maintainers.
+- Preserve PCO-specific terminology while keeping examples readable for non-PCO maintainers.
 - Update related references and runtime graph metadata when changing conceptual relationships.
 
-<!-- DCI-DOC-STANDARD-END -->
+<!-- PCO-DOC-STANDARD-END -->
 
 ## Part 1: The Physics of Token Compression & RTK
 
@@ -78,7 +78,7 @@ To achieve Zero-Hallucination, you must forcibly override the model's probabilis
 THE DEFENSE MECHANISMS:
 
 1. THE EPISTEMIC WALL (Declaring Ignorance)
-├─ An AI operating at the Deterministic-Cognitive-Infrastructure level must completely eradicate the human-pleasing desire to "always have an answer."
+├─ An AI operating at the Pure Cognitive Oil level must completely eradicate the human-pleasing desire to "always have an answer."
 ├─ If a user asks "Why is the API failing?" and the stack trace is not provided, the AI is mathematically forbidden from guessing (e.g., "It might be a CORS issue or a database timeout.").
 └─ The required response: "Context insufficient. Execution halted. Provide the raw HTTP 500 payload or the exact stack trace from the server logs to proceed deterministically."
 
@@ -100,7 +100,7 @@ ANTI-PATTERNS OF AI COMMUNICATION:
 ❌ "I completely understand what you are trying to do, Waka-sama! That is a very interesting problem. Let me think about the best way to solve this for you." (40 tokens of pure garbage).
 ❌ "Here is the code you requested. Let me explain line by line what a `for` loop does in JavaScript." (Condescending and wasteful).
 
-THE Deterministic-Cognitive-Infrastructure COMMUNICATION STANDARD:
+THE Pure Cognitive Oil COMMUNICATION STANDARD:
 ✅ "Understood. The failure is on line 42 of `api.ts`. The payload expects an integer, but received a string. Applying type cast. See patch below."
 
 THE RULES OF DENSITY:
@@ -202,17 +202,32 @@ In this state, the AI receives a complex task and, rather than explaining its pl
 
 The user's cognitive load drops to zero. The token cost drops by 90%. The hallucination rate drops to zero because there is no narrative text for the AI to hallucinate within.
 
-<!-- DCI-RELATED-START -->
+<!-- PCO-RELATED-START -->
 
-## Related DCI references
+## Related PCO references
 
 - [Advanced Reference Index](../advanced/INDEX.md)
-- [Agentic Auto Runtime — Deterministic-Cognitive-Infrastructure](../advanced/agentic-auto-runtime.md)
+- [Agentic Auto Runtime — Pure Cognitive Oil](../advanced/agentic-auto-runtime.md)
 - [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
-- [Adversarial Reasoning Engine — Deterministic-Cognitive-Infrastructure](../cognitive-engines/adversarial-reasoning.md)
-- [Hallucination Defense System — Deterministic-Cognitive-Infrastructure](../cognitive-engines/hallucination-defense.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Hallucination Defense System — Pure Cognitive Oil](../cognitive-engines/hallucination-defense.md)
 - [Core Reference Index](../core/INDEX.md)
-- [Adaptive Depth Protocol — Deterministic-Cognitive-Infrastructure](../core/adaptive-depth.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
 - [Quality Safety Reference Index](../quality-safety/INDEX.md)
 
-<!-- DCI-RELATED-END -->
+<!-- PCO-RELATED-END -->
+
+<!-- PCO-RELATED-START -->
+
+## Related PCO references
+
+- [Advanced Reference Index](../advanced/INDEX.md)
+- [Agentic Auto Runtime — Pure Cognitive Oil](../advanced/agentic-auto-runtime.md)
+- [Cognitive Engines Reference Index](../cognitive-engines/INDEX.md)
+- [Adversarial Reasoning Engine — Pure Cognitive Oil](../cognitive-engines/adversarial-reasoning.md)
+- [Hallucination Defense System — Pure Cognitive Oil](../cognitive-engines/hallucination-defense.md)
+- [Core Reference Index](../core/INDEX.md)
+- [Adaptive Depth Protocol — Pure Cognitive Oil](../core/adaptive-depth.md)
+- [Quality Safety Reference Index](../quality-safety/INDEX.md)
+
+<!-- PCO-RELATED-END -->
