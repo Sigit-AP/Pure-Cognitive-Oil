@@ -78,10 +78,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sigit-AP/pure-cognitive-oil.git"
+    "url": "git+https://github.com/Sigit-AP/Pure-Cognitive-Oil.git"
   },
-  "homepage": "https://github.com/Sigit-AP/pure-cognitive-oil#readme",
+  "homepage": "https://github.com/Sigit-AP/Pure-Cognitive-Oil#readme",
   "bugs": {
-    "url": "https://github.com/Sigit-AP/pure-cognitive-oil/issues"
+    "url": "https://github.com/Sigit-AP/Pure-Cognitive-Oil/issues"
   }
 }
