@@ -2,15 +2,17 @@
   "schemaVersion": "1.0",
   "name": "pure-cognitive-oil",
   "displayName": "Pure Cognitive Oil",
-  "version": "1.6.1",
-  "description": "Portable cognitive infrastructure plugin for AI agent harnesses. Provides bootstrap context, skills, routing, validation, readiness gates, and six-axis cognition.",
+  "version": "1.6.1-direct-use.1",
+  "description": "Portable cognitive infrastructure plugin for AI agent harnesses with direct AI model boot support, graph routing, validation, readiness gates, and six-axis cognition.",
   "entrypoints": {
+    "directModelBoot": "AI_MODEL_BOOT.md",
     "cli": "bin/pco.mjs",
     "bootstrapText": "pco bootstrap",
     "bootstrapJson": "pco bootstrap --json",
     "sessionStartHook": "hooks/session-start",
     "claudeHooks": "hooks/hooks.json",
-    "cursorHooks": "hooks/hooks-cursor.json"
+    "cursorHooks": "hooks/hooks-cursor.json",
+    "modeSelector": "scripts/pco/mode-selector.mjs"
   },
   "skills": [
     "SKILL.md",
@@ -19,10 +21,14 @@
     "skills/pco-verification/SKILL.md"
   ],
   "resources": {
+    "directModelBoot": "AI_MODEL_BOOT.md",
     "references": "references/",
     "workflows": "references/workflows/",
     "cognitiveEngines": "references/cognitive-engines/",
-    "qualitySafety": "references/quality-safety/"
+    "qualitySafety": "references/quality-safety/",
+    "modeMatrix": "efficiency/PCO_MODE_MATRIX.md",
+    "resourceBudget": "efficiency/PCO_RESOURCE_BUDGET.md",
+    "compactIndex": "efficiency/PCO_COMPACT_INDEX.md"
   },
   "commands": {
     "bootstrap": "pco bootstrap",
@@ -31,13 +37,23 @@
     "capsule": "pco references capsule \"<task>\"",
     "agenticAuto": "pco agentic-auto \"<task>\"",
     "validate": "pco validate",
-    "readiness": "pco readiness"
+    "readiness": "pco readiness",
+    "mode": "node scripts/pco/mode-selector.mjs \"<task>\"",
+    "compactIndex": "node scripts/pco/compact-index.mjs",
+    "budget": "python3 scripts/pco/resource-budget.py",
+    "installCheck": "npm run pco:install-check"
+  },
+  "fallbacks": {
+    "noShell": "Read AI_MODEL_BOOT.md, then SKILL.md, then use file-only routing through references/REFERENCE_GRAPH.md and references/*/INDEX.md.",
+    "noNpm": "Use Node runtime commands when available; otherwise use direct file reads and exact section drilldown.",
+    "noNativePlugin": "Treat PCO as a file-readable cognitive framework and do not claim native tool/plugin installation."
   },
   "compatibility": {
     "node": ">=18.0.0",
+    "directFileRead": true,
     "harnesses": [
       "Hermes",
-      "Claude Code-compatible skill loaders",
+      "Claude-compatible skill loaders",
       "Cursor or IDE rule loaders",
       "OpenAI/Codex-style CLI wrappers",
       "AutoGen or custom multi-agent orchestrators",
@@ -45,8 +61,19 @@
     ]
   },
   "install": {
+    "directModelUse": "Open AI_MODEL_BOOT.md first; no install required for file-based use.",
     "github": "git clone https://github.com/Sigit-AP/Pure-Cognitive-Oil.git && cd Pure-Cognitive-Oil && npm install && npm test",
     "npmGlobal": "npm install -g github:Sigit-AP/Pure-Cognitive-Oil",
-    "download": "Download ZIP, extract, run npm install, then npm test."
+    "download": "Download ZIP, extract, run npm install, then npm test for full developer validation."
+  },
+  "claimsBoundary": {
+    "verifiedBy": "Runtime route and bootstrap checks plus direct-use file audit in this enhanced copy.",
+    "notGuaranteed": [
+      "universal absence of all future defects",
+      "native integration in every host without adapter",
+      "marketplace approval",
+      "model compliance across all models",
+      "full npm validation unless dependencies are installed and commands are run"
+    ]
   }
 }

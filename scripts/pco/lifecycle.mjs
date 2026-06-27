@@ -148,11 +148,12 @@ export function buildLifecycleCertificate() {
   }
 
   const pkg = parsePackage();
-  const runAll = exists("tests/pco/run-all.sh") ? read("tests/pco/run-all.sh") : "";
+  const scripts = pkg.scripts || {};
+  const testScript = String(scripts.test || "");
+  const installCheckScript = String(scripts["pco:install-check"] || "");
   const validateSource = exists("scripts/pco/validate.ts") ? read("scripts/pco/validate.ts") : "";
   const gitignore = exists(".gitignore") ? read(".gitignore") : "";
   const referenceFiles = exists("references") ? listReferenceMarkdown() : [];
-  const scripts = pkg.scripts || {};
 
   const firstUse = phase("first-use", "The framework must activate as a boot contract before an agent starts acting.", [
     check("bootstrap-script", exists("scripts/pco/bootstrap.mjs"), "scripts/pco/bootstrap.mjs exists"),
@@ -195,7 +196,16 @@ export function buildLifecycleCertificate() {
     check("package-lifecycle-script", typeof scripts["pco:lifecycle"] === "string" && scripts["pco:lifecycle"].includes("lifecycle.mjs"), "package exposes pco:lifecycle"),
     check("package-claim-scripts", ["pco:healthcheck", "pco:runtime-audit", "pco:scorecard"].every((name) => typeof scripts[name] === "string"), "package exposes healthcheck, runtime-audit, and scorecard"),
     check("package-all-runs-lifecycle", typeof scripts["pco:all"] === "string" && scripts["pco:all"].includes("pco:lifecycle"), "pco:all includes lifecycle gate"),
-    check("test-suite-runs-final-gates", ["test-lifecycle.sh", "test-healthcheck.sh", "test-scorecard.sh", "test-runtime-audit.sh"].every((name) => runAll.includes(name)), "test suite runs lifecycle, healthcheck, scorecard, and runtime audit"),
+    check(
+      "install-check-runs-final-gates",
+      testScript.includes("bootstrap.mjs") &&
+        testScript.includes("pco-reference-runtime.mjs") &&
+        testScript.includes("mode-selector.mjs") &&
+        testScript.includes("compact-index.mjs") &&
+        testScript.includes("resource-budget.py") &&
+        installCheckScript === testScript,
+      "npm test and pco:install-check run the lean install/runtime smoke gates"
+    ),
     check("cache-ignored", gitignore.includes(".pco/cache/"), "generated PCO cache is ignored"),
     check("legacy-json-removed", !exists(`references/${"reference-graph"}.json`), "legacy executable graph JSON absent"),
   ]);

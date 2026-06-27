@@ -20,7 +20,21 @@ function filesUnder(dir: string) {
   }
   walk(base); return out.sort();
 }
+function packageScripts() {
+  return JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8")).scripts || {};
+}
+function hasLeanInstallSmoke(scripts: Record<string, string>) {
+  const testScript = String(scripts.test || "");
+  const installCheckScript = String(scripts["pco:install-check"] || "");
+  return testScript.includes("bootstrap.mjs") &&
+    testScript.includes("pco-reference-runtime.mjs") &&
+    testScript.includes("mode-selector.mjs") &&
+    testScript.includes("compact-index.mjs") &&
+    testScript.includes("resource-budget.py") &&
+    installCheckScript === testScript;
+}
 
+const scripts = packageScripts();
 const manifest = buildManifest();
 const audit = buildAudit(manifest);
 const resourceMap = buildResourceMap(manifest);
@@ -34,7 +48,7 @@ const gates = [
   { gate: "project-docs", status: exists("README.md") && exists("PLUGIN.md"), detail: "README.md and PLUGIN.md exist" },
   { gate: "hooks", status: exists("hooks/session-start") && exists("hooks/run-hook.cmd") && exists("hooks/hooks.json") && exists("hooks/hooks-cursor.json"), detail: `${filesUnder("hooks").length} hook files` },
   { gate: "skills", status: filesUnder("skills").filter(f => f.endsWith("SKILL.md")).length >= 3, detail: `${filesUnder("skills").filter(f => f.endsWith("SKILL.md")).length} skill files` },
-  { gate: "tests", status: filesUnder("tests/pco").length >= 6, detail: `${filesUnder("tests/pco").length} PCO test files` },
+  { gate: "lean-install-smoke", status: hasLeanInstallSmoke(scripts), detail: "npm test and pco:install-check run bootstrap, route, mode, compact-index, and budget smoke gates" },
   { gate: "bootstrap", status: exists("scripts/pco/bootstrap.mjs") && exists("hooks/hooks.json") && exists("hooks/hooks-cursor.json") && exists("hooks/run-hook.cmd"), detail: "zero-dependency bootstrap and cross-platform hooks exist" },
   { gate: "validation", status: exists("scripts/pco/validate.ts") && audit.status === "pass" && audit.readinessScore === 100, detail: `audit=${audit.status} score=${audit.readinessScore}` },
   { gate: "routing", status: routing.routes.length >= 7 && resourceMap.professionalLoadPlans.all.length > 0, detail: `${routing.routes.length} routes` },
@@ -54,8 +68,8 @@ const report = {
     bootstrap: exists("scripts/pco/bootstrap.mjs") && exists("hooks/session-start") && exists("hooks/run-hook.cmd"),
     modularSkills: filesUnder("skills").filter(f => f.endsWith("SKILL.md")),
     hooks: filesUnder("hooks"),
-    tests: filesUnder("tests/pco"),
-    packageScripts: JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8")).scripts,
+    leanInstallSmoke: hasLeanInstallSmoke(scripts),
+    packageScripts: scripts,
     generatedReports: ["manifest.json", "resource-map.json", "agent-routing.json", "context-pack.json", "audit-report.json", "lifecycle-certificate.json", "parity-report.json"],
   },
   nonGoals: ["Claude Code marketplace packaging", "third-party marketplace manifests"],

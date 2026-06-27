@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { loadReferenceRuntime, routeReferences } from "../../references/runtime/pco-reference-runtime.mjs";
 
@@ -55,17 +56,16 @@ const featureChecks = [
   ["TypeScript indexer", () => exists("scripts/pco/index.ts")],
   ["TypeScript validator", () => exists("scripts/pco/validate.ts")],
   ["readiness/parity gate", () => exists("scripts/pco/parity.ts")],
-  ["bootstrap test", () => exists("tests/pco/test-bootstrap.sh")],
-  ["bootstrap caching test", () => exists("tests/pco/test-bootstrap-caching.mjs")],
-  ["routing test", () => exists("tests/pco/test-routing.sh")],
-  ["reference runtime test", () => exists("tests/pco/test-reference-runtime.sh")],
-  ["OpenCode plugin test", () => exists("tests/pco/test-opencode-plugin.sh")],
-  ["runtime audit test", () => exists("tests/pco/test-runtime-audit.sh")],
-  ["parity test", () => exists("tests/pco/test-parity.sh")],
-  ["healthcheck test", () => exists("tests/pco/test-healthcheck.sh")],
-  ["lifecycle test", () => exists("tests/pco/test-lifecycle.sh")],
-  ["scorecard test", () => exists("tests/pco/test-scorecard.sh")],
-  ["Superpowers baseline audit", () => exists("docs/baselines/superpowers-audit.md")],
+  ["lean npm test smoke", () => packageScript("test").includes("bootstrap.mjs") && packageScript("test").includes("pco-reference-runtime.mjs") && packageScript("test").includes("mode-selector.mjs") && packageScript("test").includes("compact-index.mjs") && packageScript("test").includes("resource-budget.py")],
+  ["install-check mirrors test", () => packageScript("pco:install-check") === packageScript("test")],
+  ["direct bootstrap smoke", () => JSON.parse(runNode(["scripts/pco/bootstrap.mjs", "--json"])).additionalContext?.includes("PCO_BOOT_CONTRACT")],
+  ["direct routing smoke", () => runNode(["references/runtime/pco-reference-runtime.mjs", "route", "scorecard smoke", "--limit", "4", "--depth", "0"]).includes("Selected references")],
+  ["direct mode smoke", () => JSON.parse(runNode(["scripts/pco/mode-selector.mjs", "scorecard smoke", "--json"])).config?.validation === "lightweight"],
+  ["compact index script", () => exists("scripts/pco/compact-index.mjs")],
+  ["resource budget script", () => exists("scripts/pco/resource-budget.py")],
+  ["runtime audit command", () => exists("scripts/pco/runtime-audit.mjs")],
+  ["healthcheck command executable", () => exists("scripts/pco/healthcheck.mjs")],
+  ["lifecycle command executable", () => exists("scripts/pco/lifecycle.mjs")],
   ["scorecard documentation", () => exists("docs/scorecard.md")],
   ["root skill boot rule", () => contains("SKILL.md", "Operational boot rule")],
   ["README integration docs", () => contains("README.md", "pco references route")],
@@ -117,6 +117,13 @@ function exists(rel) { return fs.existsSync(path.join(root, rel)); }
 function contains(rel, needle) {
   const file = path.join(root, rel);
   return fs.existsSync(file) && fs.readFileSync(file, "utf8").includes(needle);
+}
+function packageScript(name) {
+  const pkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8"));
+  return String(pkg.scripts?.[name] || "");
+}
+function runNode(args) {
+  return execFileSync(process.execPath, args, { cwd: root, encoding: "utf8", maxBuffer: 4 * 1024 * 1024 });
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

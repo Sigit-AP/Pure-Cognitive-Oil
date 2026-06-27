@@ -4,6 +4,33 @@ Pure Cognitive Oil (PCO) is a portable cognitive framework for AI agent harnesse
 
 PCO is not a single prompt and not a replacement for tools. It is a set of skills, references, runtime scripts, hooks, and validation gates that tells an agent when and how to think before it acts.
 
+## Direct AI Model Use
+
+If an AI model needs to use PCO immediately without rebuilding, relinking, editing, installing dependencies, or relying on a native plugin adapter, read `AI_MODEL_BOOT.md` first, then `SKILL.md`, then route through the runtime when available or use the documented file-only fallback.
+
+This direct-use path preserves the full PCO framework. It is not PCO Lite. It keeps graph-first routing, startup references, cognitive axes, phase gates, hallucination defense, adversarial challenge, uncertainty calibration, verification, and honest residual-risk reporting active.
+
+Use evidence-bound completion language. PCO can be verified within an audit boundary, but no framework can honestly guarantee universal perfection or permanent absence of all future weaknesses.
+
+## Efficiency and High-Complexity Control Layer
+
+For complex work without unnecessary resource usage, use the efficiency layer before broad context loading:
+
+```bash
+node scripts/pco/mode-selector.mjs "<task>" --json
+node scripts/pco/compact-index.mjs
+python3 scripts/pco/resource-budget.py
+npm run pco:install-check
+```
+
+Key files:
+
+- `efficiency/PCO_MODE_MATRIX.md` chooses Quick, Standard, Deep, or Critical mode.
+- `efficiency/PCO_RESOURCE_BUDGET.md` defines file, context, depth, and validation budgets.
+- `efficiency/PCO_COMPACT_INDEX.md` gives an addressable map of all references so models can drill into exact sections instead of loading the whole corpus.
+
+This layer makes PCO more complex and professional while staying efficient: it controls when to escalate, how much context to load, and which validation tier is justified.
+
 ## Quick Start
 
 ```bash
@@ -51,7 +78,7 @@ For serious work, PCO expects the agent to:
 | `bin/pco.mjs` | CLI entrypoint. |
 | `hooks/` | Session-start hook assets for compatible harnesses. |
 | `scripts/pco/` | Indexing, audit, context, lifecycle, validation, readiness, scorecard, healthcheck. |
-| `tests/pco/` | Acceptance and regression tests. |
+| `npm test` | Lean install/runtime smoke checks for bootstrap, routing, mode selection, compact index, and resource budget. |
 
 ## Repository Layout
 
@@ -66,7 +93,6 @@ For serious work, PCO expects the agent to:
 ├── hooks/
 ├── skills/
 ├── scripts/pco/
-├── tests/pco/
 ├── docs/
 └── references/
     ├── core/
@@ -110,7 +136,7 @@ PCO resources are organized around six axes:
 | `pco runtime-audit` | Verify runtime scripts and reference coverage. |
 | `pco validate` | Run PCO validation gates. |
 | `pco readiness` | Run readiness/parity gate. |
-| `pco test` | Run full PCO test suite. |
+| `pco test` | Run lean install/runtime smoke checks. |
 | `pco install-hermes DIR` | Copy PCO skills into a Hermes skills directory. |
 
 ## Agentic Auto Runtime
@@ -149,58 +175,4 @@ The repository includes plugin surfaces for harnesses that support plugins, skil
 - Cursor rule/skill mirrors: `.cursor/rules/` and `.cursor/skills/`
 - OpenCode plugin module: `.opencode/plugins/pco.js`
 - OpenCode plugin command: `PCO-agentic-auto <task>`
-- Generic CLI command: `pco agentic-auto "<task>"`
-
-All paths route to the same PCO agentic-auto contract so behavior stays consistent across harnesses. Marketplace approval is platform-specific; see `docs/official-plugin-submission.md` for verified submission paths and manual approval gates.
-
-## Harness Integration
-
-Generic runtime:
-
-```bash
-pco bootstrap --json
-```
-
-Then inject the returned context into the agent session and load `SKILL.md` plus relevant files from `skills/` and `references/`.
-
-Hermes:
-
-```bash
-pco install-hermes ~/.hermes/skills/pco
-```
-
-OpenCode, Claude/Codex/Cursor-style hooks, and custom harnesses should use `plugin.json`, `hooks/`, `.opencode/`, or the CLI depending on what the host supports. See `PLUGIN.md` for integration details.
-
-## Validation
-
-A healthy checkout should pass:
-
-```bash
-npm test
-pco validate
-pco readiness
-pco lifecycle
-pco healthcheck
-pco scorecard
-pco runtime-audit
-```
-
-Generated outputs are written under `.pco/cache/` and are ignored by git. They are rebuildable artifacts, not source files.
-
-## Claims and Limits
-
-PCO improves agent discipline by making routing, context loading, validation, and completion gates explicit. It does not guarantee perfect answers, replace human review, or remove the need for domain expertise.
-
-The scorecard validates PCO infrastructure coverage against the inspected baseline files. It is an evidence boundary for this repository, not a universal claim that every future answer is automatically better.
-
-## Development Notes
-
-- Node.js `>=18` is required.
-- `package-lock.json` is tracked for reproducible installs.
-- `node_modules/`, `.pco/cache/`, `dist/`, `.env`, and `.DS_Store` are ignored.
-- Keep runtime behavior executable; do not add decorative or fake scripts.
-- After changing references, preserve graph behavior and rerun validation.
-
-## License
-
-MIT
+- Generic CLI command: `pco agentic-auto "

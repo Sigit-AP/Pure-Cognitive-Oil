@@ -42,7 +42,7 @@ Usage:
   pco healthcheck          Verify PCO first-use/runtime/finish infrastructure
   pco scorecard            Compare PCO infrastructure coverage against Superpowers baseline
   pco runtime-audit        Audit runtime scripts for duplication/spam/slop
-  pco test                 Run full PCO test suite
+  pco test                 Run lean install/runtime smoke checks
   pco install-hermes DIR   Copy PCO skills into a Hermes skills directory
 
 Examples:

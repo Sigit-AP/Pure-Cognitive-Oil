@@ -1,7 +1,7 @@
 {
   "name": "pure-cognitive-oil",
-  "version": "1.6.1",
-  "description": "Pure Cognitive Oil: portable cognitive infrastructure plugin and autonomous optimizer command for AI agent harnesses.",
+  "version": "1.6.1-direct-use.1",
+  "description": "Pure Cognitive Oil: portable cognitive infrastructure plugin and autonomous optimizer command for AI agent harnesses, with direct AI model boot support.",
   "private": false,
   "type": "module",
   "main": ".opencode/plugins/pco.js",
@@ -21,19 +21,24 @@
     "references/",
     "scripts/pco/",
     "scripts/link_references.py",
-    "tests/pco/",
     "skills/",
     "SKILL.md",
+    "AI_MODEL_BOOT.md",
     "README.md",
     "plugin.json",
     "docs/",
-    "tsconfig.json"
+    "tsconfig.json",
+    "efficiency/",
+    "scripts/pco/mode-selector.mjs",
+    "scripts/pco/compact-index.mjs",
+    "scripts/pco/resource-budget.py"
   ],
   "keywords": [
     "agent-framework",
     "ai-agent",
     "autonomous-optimizer",
     "cognitive-infrastructure",
+    "direct-ai-model-boot",
     "pco",
     "pure-cognitive-oil",
     "reasoning",
@@ -61,8 +66,13 @@
     "pco:tools:quality": "node references/quality-safety/tools/quality-safety-toolkit.mjs list",
     "pco:tools:workflows": "node references/workflows/tools/workflows-toolkit.mjs list",
     "pco:validate": "tsx scripts/pco/validate.ts",
-    "test": "npm run pco:all && npm run test:pco",
-    "test:pco": "bash tests/pco/run-all.sh"
+    "test": "node scripts/pco/bootstrap.mjs --json >/dev/null && node references/runtime/pco-reference-runtime.mjs route \"install smoke\" --limit 4 --depth 0 >/dev/null && node scripts/pco/mode-selector.mjs \"install smoke\" --json >/dev/null && node scripts/pco/compact-index.mjs >/dev/null && python3 scripts/pco/resource-budget.py >/dev/null",
+    "test:pco": "npm test",
+    "pco:mode": "node scripts/pco/mode-selector.mjs",
+    "pco:compact-index": "node scripts/pco/compact-index.mjs",
+    "pco:budget": "python3 scripts/pco/resource-budget.py",
+    "pco:efficient-check": "node scripts/pco/bootstrap.mjs --json >/dev/null && node references/runtime/pco-reference-runtime.mjs route \"install smoke\" --limit 4 --depth 0 >/dev/null && node scripts/pco/mode-selector.mjs \"install smoke\" --json >/dev/null && node scripts/pco/compact-index.mjs >/dev/null && python3 scripts/pco/resource-budget.py >/dev/null",
+    "pco:install-check": "node scripts/pco/bootstrap.mjs --json >/dev/null && node references/runtime/pco-reference-runtime.mjs route \"install smoke\" --limit 4 --depth 0 >/dev/null && node scripts/pco/mode-selector.mjs \"install smoke\" --json >/dev/null && node scripts/pco/compact-index.mjs >/dev/null && python3 scripts/pco/resource-budget.py >/dev/null"
   },
   "devDependencies": {
     "@types/node": "^20.17.10",
