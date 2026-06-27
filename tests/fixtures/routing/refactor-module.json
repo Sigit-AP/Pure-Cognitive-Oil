@@ -1,0 +1,6 @@
+{
+  "task": "refactor module preserve behavior",
+  "expectedMinimumFiles": 4,
+  "expectedConcepts": ["refactor", "verification", "minimality"],
+  "claimBoundary": "fixture validates route shape, not refactor success"
+}

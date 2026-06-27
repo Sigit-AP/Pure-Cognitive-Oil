@@ -72,7 +72,7 @@ Do not finish until:
 
 - `npm run pco:validate` passes,
 - `npm run pco:healthcheck` passes for infrastructure changes,
-- `npm run pco:scorecard` passes before any 2x infrastructure claim,
+- `npm run pco:scorecard` passes before any expanded infrastructure claim,
 - evidence exists for all claims,
 - quality/safety resources were considered,
 - the selected route and loaded resources are known.

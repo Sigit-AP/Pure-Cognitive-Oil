@@ -26,7 +26,7 @@ python -m json.tool /tmp/pco-bootstrap.json >/dev/null
 - professional load plans exist,
 - bootstrap JSON parses,
 - healthcheck passes,
-- 2x scorecard passes before any 2x infrastructure claim,
+- professional scorecard passes before any expanded infrastructure claim,
 - runtime audit passes,
 - TypeScript passes,
 - no generated cache is accidentally required as committed source.

@@ -7,7 +7,7 @@ import { loadReferenceRuntime, routeReferences } from "../../references/runtime/
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 
-const superpowersBaseline = [
+const baselineFeatures = [
   "session-start hook",
   "bootstrap skill loaded at first use",
   "platform-specific JSON envelopes",
@@ -56,7 +56,7 @@ const featureChecks = [
   ["TypeScript indexer", () => exists("scripts/pco/index.ts")],
   ["TypeScript validator", () => exists("scripts/pco/validate.ts")],
   ["readiness/parity gate", () => exists("scripts/pco/parity.ts")],
-  ["lean npm test smoke", () => packageScript("test").includes("bootstrap.mjs") && packageScript("test").includes("pco-reference-runtime.mjs") && packageScript("test").includes("mode-selector.mjs") && packageScript("test").includes("compact-index.mjs") && packageScript("test").includes("resource-budget.py")],
+  ["lean npm test smoke", () => packageScript("test").includes("install-smoke.mjs")],
   ["install-check mirrors test", () => packageScript("pco:install-check") === packageScript("test")],
   ["direct bootstrap smoke", () => JSON.parse(runNode(["scripts/pco/bootstrap.mjs", "--json"])).additionalContext?.includes("PCO_BOOT_CONTRACT")],
   ["direct routing smoke", () => runNode(["references/runtime/pco-reference-runtime.mjs", "route", "scorecard smoke", "--limit", "4", "--depth", "0"]).includes("Selected references")],
@@ -83,16 +83,16 @@ export function buildScorecard() {
     return { name, ok, error };
   });
   const passed = results.filter((r) => r.ok).length;
-  const ratio = Number((passed / superpowersBaseline.length).toFixed(2));
+  const coverageScore = Number((passed / Math.max(featureChecks.length, 1)).toFixed(2));
   return {
     method: "audited repository infrastructure coverage across first-use, runtime, and finish stages",
-    superpowersBaseline: { features: superpowersBaseline.length, items: superpowersBaseline },
+    baseline: { features: baselineFeatures.length, items: baselineFeatures },
     pco: { passed, total: results.length, results },
     claim: {
-      target: "PCO >= 2.0x the inspected Superpowers baseline for infrastructure coverage",
-      ratio,
-      valid: ratio >= 2 && passed >= 32,
-      caveat: "This validates PCO infrastructure coverage. It does not prove every task or answer is universally 2x smarter, faster, or better.",
+      target: "PCO professional infrastructure coverage is complete for the audited checklist",
+      coverageScore,
+      valid: coverageScore >= 0.9 && passed >= 32,
+      caveat: "This validates repository infrastructure coverage. It does not prove every future task or answer is universally better.",
     },
   };
 }
@@ -101,9 +101,9 @@ export function formatScorecard(card) {
   const lines = [
     "PCO_SCORECARD",
     `method: ${card.method}`,
-    `superpowersBaselineFeatures: ${card.superpowersBaseline.features}`,
+    `baselineFeatures: ${card.baseline.features}`,
     `pcoPassedFeatures: ${card.pco.passed}/${card.pco.total}`,
-    `ratio: ${card.claim.ratio}x`,
+    `coverageScore: ${card.claim.coverageScore}`,
     `claimValid: ${card.claim.valid}`,
     "",
     "## Checks",

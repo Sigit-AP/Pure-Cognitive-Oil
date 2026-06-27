@@ -131,7 +131,7 @@ STUCK DETECTION RULES:
 ├─ Same file opened 5+ times → missing something, read more carefully
 ├─ Same question asked differently → need to decompose further
 ├─ Confidence oscillating (high→low→high→low) → evidence is contradictory
-└─ Time on one sub-task exceeds estimate by 2x → scope or complexity wrong
+└─ Time on one sub-task exceeds estimate by professional evolution → scope or complexity wrong
 ```
 
 ### 2.2 Reasoning Quality Monitor

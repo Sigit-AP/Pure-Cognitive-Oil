@@ -1,49 +1,62 @@
 # Pure Cognitive Oil
 
-Pure Cognitive Oil (PCO) is a portable cognitive framework for AI agent harnesses. It gives agents a repeatable operating layer for task routing, context loading, planning, execution, verification, and final audit.
+[![CI](https://github.com/Sigit-AP/Pure-Cognitive-Oil/actions/workflows/ci.yml/badge.svg)](https://github.com/Sigit-AP/Pure-Cognitive-Oil/actions/workflows/ci.yml)
 
-PCO is not a single prompt and not a replacement for tools. It is a set of skills, references, runtime scripts, hooks, and validation gates that tells an agent when and how to think before it acts.
+Pure Cognitive Oil is a portable operating layer that helps AI coding agents route complex tasks, load bounded context, plan execution, verify work, and report evidence honestly.
 
-## Direct AI Model Use
+## Why PCO Exists
 
-If an AI model needs to use PCO immediately without rebuilding, relinking, editing, installing dependencies, or relying on a native plugin adapter, read `AI_MODEL_BOOT.md` first, then `SKILL.md`, then route through the runtime when available or use the documented file-only fallback.
+AI agents often skip context, overclaim, or finish without verification. PCO gives them a repeatable loop:
 
-This direct-use path preserves the full PCO framework. It is not PCO Lite. It keeps graph-first routing, startup references, cognitive axes, phase gates, hallucination defense, adversarial challenge, uncertainty calibration, verification, and honest residual-risk reporting active.
-
-Use evidence-bound completion language. PCO can be verified within an audit boundary, but no framework can honestly guarantee universal perfection or permanent absence of all future weaknesses.
-
-## Efficiency and High-Complexity Control Layer
-
-For complex work without unnecessary resource usage, use the efficiency layer before broad context loading:
-
-```bash
-node scripts/pco/mode-selector.mjs "<task>" --json
-node scripts/pco/compact-index.mjs
-python3 scripts/pco/resource-budget.py
-npm run pco:install-check
+```text
+Understand → Route → Load Context → Plan → Execute → Verify → Audit → Finalize
 ```
 
-Key files:
-
-- `efficiency/PCO_MODE_MATRIX.md` chooses Quick, Standard, Deep, or Critical mode.
-- `efficiency/PCO_RESOURCE_BUDGET.md` defines file, context, depth, and validation budgets.
-- `efficiency/PCO_COMPACT_INDEX.md` gives an addressable map of all references so models can drill into exact sections instead of loading the whole corpus.
-
-This layer makes PCO more complex and professional while staying efficient: it controls when to escalate, how much context to load, and which validation tier is justified.
+PCO is not a guarantee of correctness. It is an evidence-first operating layer with bounded claims, explicit validation gates, and documented limitations.
 
 ## Quick Start
 
 ```bash
 git clone https://github.com/Sigit-AP/Pure-Cognitive-Oil.git
 cd Pure-Cognitive-Oil
-npm install
+npm ci
 npm test
 ```
 
-Use the CLI:
+## 60-Second Demo
 
 ```bash
-npm link
+npm run pco:bootstrap -- --json
+node references/runtime/pco-reference-runtime.mjs route "debug a failing test" --limit 4 --depth 0
+node scripts/pco/mode-selector.mjs "debug a failing test" --json
+npm run pco:healthcheck
+```
+
+## Golden Path
+
+1. Read `AI_MODEL_BOOT.md` for direct model use.
+2. Read `SKILL.md` for master operating discipline.
+3. Route task through `pco references route` or runtime fallback.
+4. Pick a task skill from `skills/`.
+5. Execute with evidence.
+6. Run validation before completion claims.
+
+## Core Workflow
+
+| Phase | Purpose | Evidence |
+|---|---|---|
+| Understand | Clarify task, scope, risk. | task summary |
+| Route | Select references and skills. | route output |
+| Load Context | Keep context bounded. | compact index/resource budget |
+| Plan | Make steps verifiable. | plan or TODO |
+| Execute | Change only needed files. | diff |
+| Verify | Run gates. | command output |
+| Audit | Check claims and residual risk. | report |
+| Finalize | State result honestly. | evidence links |
+
+## Main Commands
+
+```bash
 pco help
 pco bootstrap --json
 pco references route "debug a failing test"
@@ -51,128 +64,70 @@ pco references capsule "debug a failing test"
 pco agentic-auto "ship a verified feature safely"
 pco validate
 pco readiness
+npm run validate:release
 ```
 
-## Operating Loop
+## Integrations
 
-```text
-Understand → Route → Load Context → Plan → Execute → Verify → Audit → Finalize
-```
+PCO includes OpenCode, Claude-style, Codex-style, Cursor-style, and direct model surfaces. See `docs/integrations.md` and `docs/harness-compatibility.md` for status and limits.
 
-For serious work, PCO expects the agent to:
+## Validation
 
-1. identify the real task and risk level;
-2. route the task through the reference runtime;
-3. load the relevant skill/reference/workflow files;
-4. execute with evidence, assumptions, and recovery paths visible;
-5. run validation before claiming completion.
-
-## What PCO Provides
-
-| Area | Purpose |
-|---|---|
-| `SKILL.md` | Master boot discipline for using PCO. |
-| `skills/` | Small runtime skills: using PCO, routing, verification. |
-| `references/` | Core laws, cognitive engines, workflows, knowledge bases, quality gates, advanced systems. |
-| `references/runtime/pco-reference-runtime.mjs` | Executable router/search/context builder over the reference corpus. |
-| `bin/pco.mjs` | CLI entrypoint. |
-| `hooks/` | Session-start hook assets for compatible harnesses. |
-| `scripts/pco/` | Indexing, audit, context, lifecycle, validation, readiness, scorecard, healthcheck. |
-| `npm test` | Lean install/runtime smoke checks for bootstrap, routing, mode selection, compact index, and resource budget. |
-
-## Repository Layout
-
-```text
-.
-├── SKILL.md
-├── README.md
-├── PLUGIN.md
-├── package.json
-├── plugin.json
-├── bin/pco.mjs
-├── hooks/
-├── skills/
-├── scripts/pco/
-├── docs/
-└── references/
-    ├── core/
-    ├── cognitive-engines/
-    ├── workflows/
-    ├── knowledge-bases/
-    ├── quality-safety/
-    ├── advanced/
-    └── runtime/
-```
-
-## Cognitive Axes
-
-PCO resources are organized around six axes:
-
-| Axis | Focus |
-|---|---|
-| Thinking | framing, decomposition, depth control |
-| Reasoning | evidence, inference, uncertainty, adversarial checks |
-| Agentic | planning, tool use, execution loops, fallback handling |
-| Knowledge | references, mental models, anti-patterns, decisions |
-| Reliability | verification, quality gates, hallucination defense, recovery |
-| Intelligence | synthesis, adaptation, creativity, meta-cognition |
-
-## Main Commands
-
-| Command | Use |
-|---|---|
-| `pco help` | Show CLI help. |
-| `pco bootstrap --json` | Emit session bootstrap context for harness injection. |
-| `pco references route "<task>"` | Select relevant PCO references for a task. |
-| `pco references capsule "<task>"` | Build a full-depth professional map that preserves graph coverage while avoiding repeated prose dumps. |
-| `pco references context "<task>"` | Build a bounded context pack from selected references. |
-| `pco agentic-auto "<task>"` | Generate a full autonomous PCO contract: interview, route, plan, delegate/parallelize, build, audit, repair, optimize, and finalize. |
-| `pco index` | Generate manifest/resource-map cache. |
-| `pco audit` | Generate repository audit report. |
-| `pco context` | Generate context pack cache. |
-| `pco lifecycle` | Check first-use, mid-use, runtime, and final-use lifecycle gates. |
-| `pco healthcheck` | Check hook/runtime/readiness infrastructure. |
-| `pco scorecard` | Validate audited coverage claims. |
-| `pco runtime-audit` | Verify runtime scripts and reference coverage. |
-| `pco validate` | Run PCO validation gates. |
-| `pco readiness` | Run readiness/parity gate. |
-| `pco test` | Run lean install/runtime smoke checks. |
-| `pco install-hermes DIR` | Copy PCO skills into a Hermes skills directory. |
-
-## Agentic Auto Runtime
-
-`pco agentic-auto "<task>"` turns a raw user request into an executable autonomous work contract. It is designed for agent harnesses that need a deterministic plan before touching tools or files.
-
-The command emits:
-
-- task classification, risk level, and assumptions;
-- interview questions for missing requirements;
-- routed PCO references and graph neighbors;
-- execution phases from understanding to finalization;
-- delegation and parallelization candidates;
-- verification commands and evidence requirements;
-- repair, self-correction, and optimization loops;
-- a final response contract for completion reporting.
-
-Example:
+Release gate:
 
 ```bash
-pco agentic-auto "debug failing checkout tests and ship the fix"
+npm test
+npm run pco:validate
+npm run pco:readiness
+npm run pco:runtime-audit
+npm run pco:healthcheck
+npm run pco:scorecard
+npm run validate:release
+npm pack --dry-run
 ```
 
-Use it when the request is complex, risky, ambiguous, multi-file, or likely to need planning, testing, and audit. For simple lookups, use `pco references route` or `pco bootstrap --json` instead.
+## Current Verified Status
 
-## Claude Code, Codex, Cursor, and OpenCode Integration
+Latest local verification before this release:
 
-The repository includes plugin surfaces for harnesses that support plugins, skills, slash commands, rules, or command plugins:
+```text
+npm run validate:release
+PASS: test, validate, readiness, runtime-audit, healthcheck, scorecard, skill-check, package-check, reference-quality, professional-parity-check
 
-- Claude Code plugin manifest: `.claude-plugin/plugin.json`
-- Claude Code command: `/PCO-agentic-auto <task>`
-- Codex plugin manifest: `.codex-plugin/plugin.json`
-- Codex repo marketplace manifest: `.agents/plugins/marketplace.json`
-- Cursor plugin manifest: `.cursor-plugin/plugin.json`
-- Cursor marketplace manifest: `.cursor-plugin/marketplace.json`
-- Cursor rule/skill mirrors: `.cursor/rules/` and `.cursor/skills/`
-- OpenCode plugin module: `.opencode/plugins/pco.js`
-- OpenCode plugin command: `PCO-agentic-auto <task>`
-- Generic CLI command: `pco agentic-auto "
+npm run pco:evidence-graph
+PASS: evidence graph check passed
+
+npm run pack:dry
+PASS: package dry-run produced pure-cognitive-oil-1.6.1-direct-use.1.tgz
+
+npm exec tsc -- --noEmit
+PASS: ok
+
+npm audit --audit-level=low
+PASS: found 0 vulnerabilities
+```
+
+This evidence proves repository validation, packaging, runtime checks, skill checks, and documentation checks inside the current audit boundary. It does not prove universal correctness for every future task.
+
+## Status and Limitations
+
+- Local scripts and docs provide professional-grade scaffolding.
+- GitHub Actions badge reflects remote CI only after workflow runs on GitHub.
+- AI-assisted benchmarks are supporting evidence only, not real-user adoption proof.
+- Public claims must stay tied to command output, repository evidence, and documented limitations.
+
+## Documentation
+
+- `docs/architecture.md`
+- `docs/runtime-data-model.md`
+- `docs/script-responsibility-matrix.md`
+- `docs/claims-and-evidence.md`
+- `docs/validation.md`
+- `docs/cli.md`
+- `docs/integrations.md`
+- `docs/harness-compatibility.md`
+- `docs/testing-methodology.md`
+- `docs/traceability-matrix.md`
+- `docs/release-checklist.md`
+- `examples/`
+- `skills/`

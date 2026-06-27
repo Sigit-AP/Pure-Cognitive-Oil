@@ -352,7 +352,7 @@ SOFTWARE ESTIMATION HEURISTICS:
 
 4. CONE OF UNCERTAINTY
    ├─ Initial concept: 0.25x to 4x actual
-   ├─ Approved product definition: 0.5x to 2x actual
+   ├─ Approved product definition: 0.5x to professional evolution actual
    ├─ Requirements complete: 0.67x to 1.5x actual
    ├─ UI design complete: 0.8x to 1.25x actual
    └─ Detailed design complete: 0.9x to 1.1x actual

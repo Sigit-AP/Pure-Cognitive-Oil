@@ -1,0 +1,14 @@
+{
+  "requiredScripts": [
+    "test",
+    "pco:validate",
+    "pco:readiness",
+    "pco:runtime-audit",
+    "pco:healthcheck",
+    "pco:scorecard",
+    "pco:package-validation",
+    "pco:professional-parity-check",
+    "pack:dry",
+    "validate:release"
+  ]
+}

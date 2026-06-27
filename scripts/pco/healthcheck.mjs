@@ -24,13 +24,13 @@ export function checkDciHealth() {
   add(checks, "reference runtime loads >=800 sections", rt.totals.sections >= 800, `${rt.totals.sections} sections`);
   add(checks, "reference graph has >=800 edges", rt.totals.edges >= 800, `${rt.totals.edges} edges`);
   add(checks, "route returns selected files", route.files.length >= 6, `${route.files.length} selected`);
-  add(checks, "scorecard claim valid", scorecard.claim.valid, `${scorecard.claim.ratio}x`);
+  add(checks, "scorecard claim valid", scorecard.claim.valid, `coverageScore=${scorecard.claim.coverageScore}`);
   const failures = checks.filter((c) => !c.ok);
   return { ok: failures.length === 0, checks, failures, runtime: rt.totals, scorecard: scorecard.claim };
 }
 
 export function formatHealthReport(report) {
-  const lines = ["PCO_HEALTHCHECK", `ok: ${report.ok}`, `runtime: files=${report.runtime.files}, sections=${report.runtime.sections}, edges=${report.runtime.edges}`, `scorecard: ${report.scorecard.ratio}x valid=${report.scorecard.valid}`, ""];
+  const lines = ["PCO_HEALTHCHECK", `ok: ${report.ok}`, `runtime: files=${report.runtime.files}, sections=${report.runtime.sections}, edges=${report.runtime.edges}`, `scorecard: coverageScore=${report.scorecard.coverageScore} valid=${report.scorecard.valid}`, ""];
   for (const check of report.checks) lines.push(`${check.ok ? "PASS" : "FAIL"} ${check.name}${check.evidence ? ` — ${check.evidence}` : ""}`);
   return lines.join("\n");
 }

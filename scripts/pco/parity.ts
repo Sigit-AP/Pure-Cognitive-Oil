@@ -26,11 +26,7 @@ function packageScripts() {
 function hasLeanInstallSmoke(scripts: Record<string, string>) {
   const testScript = String(scripts.test || "");
   const installCheckScript = String(scripts["pco:install-check"] || "");
-  return testScript.includes("bootstrap.mjs") &&
-    testScript.includes("pco-reference-runtime.mjs") &&
-    testScript.includes("mode-selector.mjs") &&
-    testScript.includes("compact-index.mjs") &&
-    testScript.includes("resource-budget.py") &&
+  return testScript.includes("install-smoke.mjs") &&
     installCheckScript === testScript;
 }
 

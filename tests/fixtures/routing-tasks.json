@@ -1,0 +1,5 @@
+[
+  { "task": "debug a failing test", "expectedAxis": "Reliability" },
+  { "task": "write an implementation plan", "expectedAxis": "Agentic" },
+  { "task": "review code before release", "expectedAxis": "Reliability" }
+]

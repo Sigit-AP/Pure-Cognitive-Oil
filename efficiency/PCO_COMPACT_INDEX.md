@@ -2,7 +2,7 @@
 
 Purpose: preserve full PCO graph coverage while avoiding full-corpus loading. Use this file to find the exact reference to drill into, then read only the needed section or file.
 
-Runtime totals: files=55, sections=1248, words=107256, edges=981.
+Runtime totals: files=55, sections=1248, words=107259, edges=981.
 
 ## Startup kernel
 - references/core/iron-laws.md — The 20 Iron Laws — Pure Cognitive Oil Cognitive Framework

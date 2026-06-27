@@ -55,7 +55,7 @@ export function lifecycleProtocol(phase = "start", task = "unspecified task") {
       "Run tests or explicit verification commands.",
       "Map each final claim to evidence.",
       "Report unresolved risks and caveats.",
-      "Only claim 2x when scorecard output proves it.",
+      "Only claim professional evolution when scorecard output proves it.",
     ],
   }[normalized];
   return { phase: normalized, task, route, steps };
@@ -191,18 +191,18 @@ export function buildLifecycleCertificate() {
     check("final-route-has-audit", finalUsePaths.some((p) => p.includes("quality-safety") || p.includes("security-audit")), "final route includes audit/quality resources"),
     check("runtime-audit-script", exists("scripts/pco/runtime-audit.mjs"), "runtime audit script exists"),
     check("healthcheck-script", exists("scripts/pco/healthcheck.mjs"), "healthcheck script exists"),
-    check("scorecard-script", exists("scripts/pco/scorecard.mjs"), "2x scorecard script exists"),
+    check("scorecard-script", exists("scripts/pco/scorecard.mjs"), "professional scorecard script exists"),
     check("validation-enforces-score", validateSource.includes("readinessScore is not 100") && validateSource.includes("qualityGates"), "validation enforces readiness score and gates"),
     check("package-lifecycle-script", typeof scripts["pco:lifecycle"] === "string" && scripts["pco:lifecycle"].includes("lifecycle.mjs"), "package exposes pco:lifecycle"),
     check("package-claim-scripts", ["pco:healthcheck", "pco:runtime-audit", "pco:scorecard"].every((name) => typeof scripts[name] === "string"), "package exposes healthcheck, runtime-audit, and scorecard"),
     check("package-all-runs-lifecycle", typeof scripts["pco:all"] === "string" && scripts["pco:all"].includes("pco:lifecycle"), "pco:all includes lifecycle gate"),
     check(
       "install-check-runs-final-gates",
-      testScript.includes("bootstrap.mjs") &&
+      ((testScript.includes("bootstrap.mjs") &&
         testScript.includes("pco-reference-runtime.mjs") &&
         testScript.includes("mode-selector.mjs") &&
         testScript.includes("compact-index.mjs") &&
-        testScript.includes("resource-budget.py") &&
+        testScript.includes("resource-budget.py")) || testScript.includes("install-smoke.mjs")) &&
         installCheckScript === testScript,
       "npm test and pco:install-check run the lean install/runtime smoke gates"
     ),

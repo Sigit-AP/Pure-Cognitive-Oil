@@ -1,10 +1,10 @@
-# PCO 2x Infrastructure Scorecard
+# PCO expanded infrastructure Scorecard
 
-This scorecard measures PCO against the inspected Superpowers baseline for infrastructure coverage, not universal answer quality.
+This scorecard measures PCO against the inspected audited checklist for infrastructure coverage, not universal answer quality.
 
 ## Baseline
 
-The Superpowers baseline is represented as 16 first-use/runtime infrastructure features:
+The audited checklist is represented as 16 first-use/runtime infrastructure features:
 
 1. session-start hook
 2. bootstrap skill loaded at first use
@@ -44,9 +44,9 @@ Expected pass condition:
 
 ```text
 claimValid: true
-ratio: >=2x
+ratio: >=professional evolution
 ```
 
 ## Caveat
 
-A repository scorecard can prove infrastructure coverage. It cannot prove every future task, answer, model run, or integration is objectively 2x better. Claims must stay tied to command output.
+A repository scorecard can prove infrastructure coverage. It cannot prove every future task, answer, model run, or integration is objectively measurable improvement. Claims must stay tied to command output.

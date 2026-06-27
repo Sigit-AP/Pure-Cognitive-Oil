@@ -40,7 +40,7 @@ Usage:
   pco lifecycle            Generate sustained lifecycle certificate
   pco lifecycle [phase]    Print start/checkpoint/finish lifecycle protocol
   pco healthcheck          Verify PCO first-use/runtime/finish infrastructure
-  pco scorecard            Compare PCO infrastructure coverage against Superpowers baseline
+  pco scorecard            Compare PCO infrastructure coverage against audited checklist
   pco runtime-audit        Audit runtime scripts for duplication/spam/slop
   pco test                 Run lean install/runtime smoke checks
   pco install-hermes DIR   Copy PCO skills into a Hermes skills directory

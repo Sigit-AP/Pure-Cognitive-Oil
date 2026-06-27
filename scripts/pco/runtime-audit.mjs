@@ -164,10 +164,10 @@ try {
 
 try {
   const scorecard = JSON.parse(run(["scripts/pco/scorecard.mjs", "--json"]));
-  if (scorecard.claim?.valid && scorecard.claim?.ratio >= 2) pass("scorecard-2x-coverage", `ratio=${scorecard.claim.ratio}x, passed=${scorecard.pco.passed}/${scorecard.pco.total}`);
-  else fail("scorecard-2x-coverage", `invalid scorecard: ${JSON.stringify(scorecard.claim || {})}`);
+  if (scorecard.claim?.valid && scorecard.claim?.coverageScore >= 0.9) pass("scorecard-professional-coverage", `coverageScore=${scorecard.claim.coverageScore}, passed=${scorecard.pco.passed}/${scorecard.pco.total}`);
+  else fail("scorecard-professional-coverage", `invalid scorecard: ${JSON.stringify(scorecard.claim || {})}`);
 } catch (err) {
-  fail("scorecard-2x-coverage", err instanceof Error ? err.message : String(err));
+  fail("scorecard-professional-coverage", err instanceof Error ? err.message : String(err));
 }
 
 const sessionHook = exists("hooks/session-start") ? fs.readFileSync(path.join(root, "hooks/session-start"), "utf8") : "";
@@ -207,7 +207,7 @@ try {
 const spamPatterns = [
   ["debug-console", "console\\.log\\((['\"]debug|`debug)"],
   ["todo-placeholder", "PLACEHOLDER|lorem ipsum|FIXME\\s*:|TODO\\s*:([\\s`]|$)"],
-  ["ai-slop-claim", "guaranteed perfect|100% universal|godmode|superpower-level"]
+  ["ai-slop-claim", "guaranteed perfect|100% universal|godmode|unsupported-professional-claim"]
 ];
 for (const [name, pattern] of spamPatterns) {
   const matches = contentSearch(pattern).filter((file) => !file.startsWith(".pco/") && !file.startsWith("tests/"));

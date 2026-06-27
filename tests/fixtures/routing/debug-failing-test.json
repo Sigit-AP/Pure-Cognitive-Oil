@@ -1,0 +1,6 @@
+{
+  "task": "debug failing test checkout discount",
+  "expectedMinimumFiles": 4,
+  "expectedConcepts": ["verification", "debugging", "evidence"],
+  "claimBoundary": "fixture validates route shape, not answer quality"
+}

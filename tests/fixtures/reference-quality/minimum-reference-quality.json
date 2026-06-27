@@ -1,0 +1,11 @@
+{
+  "minimumFiles": 48,
+  "minimumSections": 800,
+  "minimumEdges": 800,
+  "requiredStartupReferences": [
+    "core/iron-laws.md",
+    "core/pipeline-phases.md",
+    "quality-safety/quality-gates.md",
+    "quality-safety/verification-checklist.md"
+  ]
+}

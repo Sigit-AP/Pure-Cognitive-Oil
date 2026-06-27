@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18, 20, 22]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run pco:validate
+      - run: npm run pco:readiness
+      - run: npm run pco:runtime-audit
+      - run: npm run pco:healthcheck
+      - run: npm run pco:scorecard
+      - run: npm run validate:release
+      - run: npm pack --dry-run

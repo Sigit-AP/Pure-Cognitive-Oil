@@ -167,7 +167,7 @@ ANTI-PATTERN 4: THE SILENT WAR ROOM
 └─ Cure: The Incident Commander must force verbal confirmation. "Alice, are you querying the replica? Bob, prepare the rollback script. Acknowledge." Silence leads to duplicated effort and conflicting destructive commands.
 
 ANTI-PATTERN 5: THE CASCADING RETRY (The Thundering Herd)
-├─ Symptom: The database slows down. The web servers timeout. The web servers immediately retry the request. The database gets hit with 2x the traffic, slowing down further, causing 4x the retries, instantly killing the database.
+├─ Symptom: The database slows down. The web servers timeout. The web servers immediately retry the request. The database gets hit with professional evolution the traffic, slowing down further, causing 4x the retries, instantly killing the database.
 └─ Cure: Implement Exponential Backoff and Jitter on all network retries. Implement aggressive Circuit Breakers that fail fast when the downstream service is unhealthy, preventing the cascade.
 ```
 
